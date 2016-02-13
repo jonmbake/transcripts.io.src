@@ -6,10 +6,10 @@ Source transcripts for transcripts.io.
 
 Transcribing audio is hard work.  Like most things in life, when done as a group it becomes much easier.  The idea behind [transcripts.io](http://transcripts.io) is that, by working together, we can create **quality** transcriptions that can be enjoyed by many.
 
-Right now this idea is being tested out on a single Pod cast, [The Tim Ferriss Show]() (one of my personal favorites).  If you would like to contribute, there are a couple of ways:
+Right now this idea is being tested out on a single Podcast, [The Tim Ferriss Show](http://fourhourworkweek.com/podcast/) (one of my personal favorites).  If you would like to contribute, there are a couple of ways:
 
 1. Transcribing new content.
-2. Making corrections to an existing transcript.  Next to each blurb is a make correction link, which when clicked will jump to position within the transcript source:
+2. Making corrections to an existing transcript.  (Next to each blurb is a make correction link, which when clicked will jump to position within the transcript source):
 
 ![Contribute Link](https://raw.githubusercontent.com/jonmbake/screenshots/master/transcript_io/contribute_example.png)
 
