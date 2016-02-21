@@ -5,10 +5,12 @@ transcriber: "<a href='http://www.joelalain.com/'>Joel Alain</a>"
 audio_url: "https://www.youtube.com/watch?v=LYaMtGuCgm8"
 source_url: "https://github.com/jonmbake/transcripts.io.src/blob/master/tim_ferriss_show/2014-04-22-josh-waitzkin.transcript"
 speakers:
-  - name: 'Tim'
-    image_url: 'tim-ferriss.jpg'
-  - name: 'Josh'
-    image_url: 'josh-waitzkin.jpg'
+  - first_name: 'Tim'
+    last_name: 'Ferriss'
+    role: 'host'
+  - first_name: 'Josh'
+    last_name: 'Waitzkin'
+    role: 'guest'
 ---
 
 !# Tim @ 0:00
