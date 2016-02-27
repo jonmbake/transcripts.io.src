@@ -1,0 +1,903 @@
+---
+layout: post
+title: 'Derek Sivers on Developing Confidence, Finding Happiness, and Saying “No” to Millions'
+transcriber: "<a href='https://sivers.org/'>Derek Sivers</a>"
+audio_url: "https://www.youtube.com/watch?v=gnk4sgOFjBQ"
+source_url: "https://github.com/jonmbake/transcripts.io.src/blob/master/tim_ferriss_show/2015-12-14-derek-sivers.transcript"
+transcript_start_line_no: 17
+speakers:
+  - first_name: 'Tim'
+    last_name: 'Ferriss'
+    role: 'host'
+  - first_name: 'Derek'
+    last_name: 'Sivers'
+    role: 'guest'
+---
+
+!# Tim @ 4:51
+Derek, welcome to the show.
+
+!# Derek @ 4:53
+Thank you!
+
+!# Tim @ 4:54
+I am so excited to have you on, this has been in the works for many months. Now, of course, the timing is such, and I am going to read a bio, a short intro for you for folks in a second, but we’re gonna come back to the subject of fasting. Because I’m eight days into a 10 day fast and I’m astonished to hear, as were chatting a day or two ago, that you have done something very similar, if not the same.
+
+!# Derek @  5:20
+Yeah.
+
+!# Tim @ 5:21
+So before we get to that though, for everybody listening, Derek Sivers, one of my favorite humans, so excited to have him on the phone and here is a sketch of his background: originally a professional musician and circus clown, Derek Sivers, you should say hi to him @sivers on the Twitter, created CD Baby in 1998, became the largest seller of independent music online with 100 million in sales for 150,000 musicians. In 2008 Derek sold CD Baby for 22 million, giving the proceeds to a charitable trusts for music education. He is and has been a frequent speaker on the TED conference circuit with more than 5 million views of his talks. And since 2011 he’s published 24 books, including Anything You Want, which shot to number one on all of its Amazon categories. It is also one of the few business books, which I think are categorically are generally terrible, that I have not only read multiple times but listened to multiple times. The last of which was in Sweden about a month and a half ago before deciding to take my startup vacation, effectively my retirement from start of investing. So Derek, thank you for putting out such a good work, first before we even jump into it.
+
+!# Derek @ 6:36
+Thanks! Good to finally, well you know, officially talk to you. We always talk off the record, which is kind of funny sometimes because every now and then people ask me about “hey do you know what Tim’s investing in?” And I think every time you and I talk we just talk about women. We talk about life. So here we are having an official conversation finally.
+
+!# Tim @ 6:57
+We are. I should also underscore for people, number one: I’m eight days into fasting so if I sound like an idiot I’m gonna blame it on that. Second is that I consider you a reality check for me. And we first met, I want to say it was at a music and tech, or tech and music event, in 2007 perhaps.
+
+!# Derek @ 7:20
+Yep.
+
+!# Tim @ 7:21
+And I was familiar with some of your work, you had to read the 4-Hour Workweek and the prompt for me to call you often times it is, number one: if I just need a sanity check where, for instance, if people around me seemed to be asking the question “how should you best grow your company?” And then there is an ABC multiple-choice list, I don’t necessarily go to you to get a D and an E, I go to you because you will say “well why do you want to grow your company in the first place?”
+
+!# Derek @ 7:55
+Exactly! People ask the wrong questions a lot, yeah.
+
+!# Tim @ 7:59
+And secondly: is you're very good at simplifying and break things down. I recall, and I might be getting the location wrong but I seem to place in Times Square, sitting on the bleachers, talking about, I think it was SQL and databases...
+
+!# Derek @ 8:16
+Yep!
+
+!# Tim @ 8:17
+... and I was saying that I was extremely uncomfortable, felt out of my depth when talking to engineers and you were like “oh it’s not that hard” and you sat down and on a single piece of paper sketched out databases and SQL and how it worked. And admire the, not only the capability which is not that common, but the willingness to simplify something where I think, we live in a world where many people complicate to profit, right?
+
+!# Derek @ 8:42
+Right!
+
+!# Tim @ 8:43
+If we are too simple, then you feel like you’re dispensable. If that makes sense.
+
+!# Derek @ 8:47
+Yes!
+
+!# Tim @ 8:48
+But I want to stop talking and ask you, because I’m not sure I actually ever heard the full story, originally a professional musician and circus clown. What is the circus clown story?
+
+!# Derek @ 9:01
+OK. There is actually a good lesson inside the story.
+
+I was 18 years old and all I wanted in my whole life was to be a professional musician. Ideally a rockstar, yeah, but if I was just making my living doing music, that was the goal. So I’m 18 years old, I’m living in Boston, I’m going to Berklee College of Music.
+
+I’m in this band where the bass player one day in rehearsal says “hey man, my agent just offered me a gig that’s like $75 to play at a pig show in Vermont.” And he rolls his eyes and he’s like “I’m not gonna to do it, do you want the gig?” I’m like “fuck yeah, a paying gig? Oh my God, yes!”
+
+So I did the gig to up go to Burlington, Vermont and I think it was like a $58 round-trip bus ticket, and I get to this pig show in Vermont, I strapped my acoustic guitar around and walk around a pig show playing music. And did that for like three hours, got on the bus home.
+
+And the next day the booking agent called me up and said “hey, so you did a really good job at the pig show, we got good reports there, wondering if you can come play at an art opening in Western Massachusetts. I’ll pay you 75 bucks again.” I said “yeah, sure.” So the same thing, as did the $60 bus out to Western Massachusetts, got 75 bucks for playing at an art opening.
+
+And the agent was there and he was impressed and so he said “hey look, I’ve got this circus and the previous musician just quit so we really need somebody new and I really like what you’re doing. So there is about three gigs a week, I can pay you 75 bucks a gig, they’re usually Friday, Saturday, Sunday. Do you want the gig?” And I said “hell yeah! I’m a professional musician now, this is amazing!”
+
+So I said yes to everything, which is gonna come up later with the “hell yeah or no” thing, but I think it’s a really smart to switch strategies. When you’re earlier in your career I think the best strategy is you just say yes to everything, every piddly little gig, you just never know what are the lottery tickets. So this one ended up being a real lottery ticket for me, because as soon as I joined the circus, again I’m 18, I had no stage experience…
+
+After a few gigs they said “hey, so the previous musician used to go out and opened the show with this big theme song and get everybody up and dancing, could you do that?” I said “yeah sure.” And then another gig or two later they said “hey, the previous musician used to close the show also with that theme song, could you do that?” I said “yeah sure.” And that it was “the previous musician used to go out in between every act and like get the audience to applaud and thank them and introduce the next act, do you think you could do that?” I said “yeah sure.” And I was really bad at it at first but I got good eventually, I became like the ringleader MC of this whole circus and I was 18 years old. So if you would go to the circus, it would’ve looked like my show.
+
+I did that for 10 years, from the age of 18 to 28, I did over 1000 shows and eventually by the way, got paid more than 75 bucks, eventually I was getting like 300 bucks a show and it became my full-time living. I even bought the house with the money I made playing with the circus. And then that led to all kinds of other things. So many huge opportunities and ten years of stage experience came from that one in piddly little pig show, that I said yes to this little thing. So yeah, the only reason I stopped doing the circus is when CD Baby started taking over my life and I had to start turning down circus gigs. But yeah, that was my life for 10 years.
+
+!# Tim @ 12:37
+What did you learn that made you better? What were the lessons learned that made the biggest difference in your performance as this MC?
+
+!# Derek @ 12:49
+Good question! It was…
+
+!# Tim @ 12:51
+Or what were the biggest mistakes that you made early on that you corrected, either one is fine.
+
+!# Derek @ 12:55
+OK, all right. Yeah, it’s kind of the same answer. At first I was too self-conscious because I thought it was about me. Like, I was going up on stage thinking that the audience was somehow judging me, Derek Sivers, as if I mattered, you know? So I would get self-conscious about what they thought of me. And I think it took like maybe 10 or 20 gigs…
+
+The circus is was run by a husband and wife team. Tarleton was the name of the wife, she was the one who really out on the gigs and leading the circus. The husband was more the booking agent. And she’s the one that single-handedly gave me my confidence that I have today. Sometimes people ask me why am I so confident, it’s because of Tarleton. That’s a longer story we can get into.
+
+But anyway, Tarleton, she just kept pushing me from backstage like “come on you’re up there acting like David Letterman! Don’t do this whole kind of ’eh eh yeah I’m so cool, all right everybody here is the next act’.” I think I was trying to be cool because I thought people were judging, right? And she said “these people came here for a show, go give them what they came here for.” And so one time I decided to go out there and just be over-the-top ridiculous. I went on stage and I said “Ladies and gentlemen! What you’re about to see is one of the most amazing... we have an elephant that is going to be coming from the backstage…!” And I did this whole thing in the fast talking voice and the real, like pizazz to it. And the audience loved it! And I came backstage and she said “there you go! That’s what people come to the circus for.”
+
+So, now that I’ve been on stage thousands of times, this really sunk in, that you get on stage to give the audience what they came there for.
+
+Or even things like this, this interview we’re doing, this isn’t necessarily for you or me, we could just hang up the phone and talk. We’re doing this for the listeners, so we’re going to give them something that’s useful to them. This isn’t about me, this isn’t about you, this is about them.
+
+So that was the biggest lesson learned. Luckily I learned that early on when I was eighteen-nineteen.
+
+!# Tim @ 15:13
+I know we can come back to it, but I don’t want to forget, since I have a low glucose brain, so how do you get your confidence? Or if you prefer to answer in a different way, because I get this question a lot from fans on Twitter for instance, how did you get so confident, and there are things I can point to from athletic training with specific wrestling coaches and so on, but what did that woman do to help makes you more confident, or if you were trying to coach somebody who’s going to get out and gave their first TED talk, what would you say to them? I don’t know if the answers are similar.
+
+!# Derek @ 15:54
+Completely different answer, so we’ll just do the confidence one. I can give TED talk advice later if you want.
+
+In my case, you’ve got to understand Tarleton was hot. I was 18, she was 33 and even the first time I ever saw her, I told you she was the booking agent’s wife, so when I took that bus out to Western Massachusetts the first time, I’m sitting in the Worcester Mass. bus station, it’s nasty, it’s the dregs of the earth which fluids dripping, and it’s gross and I’m sitting there waiting for somebody to pick me up. And then like, the door opens to the bus station and it’s like that scene in the movie with the back-lit woman and, you know, the fan blowing her hair. And that moment, this gorgeous woman walks in the bus station. And I’m like “… who is that?” And she walks towards me and she says “Derek?” So that was Tarleton. So it’s important to know that Tarleton is hot. She still is.
+
+So I was 18 and I was dating girls in Boston and of course just everybody broke my heart and this one girl from Texas just dumped me and I was sad. And at that point Tarleton and I had been traveling together on the circus for a year or so, so she knew me very well. And when I told her about the girl from Texas that dumped me, she just said “Derek, you don’t understand, I’ve met a lot of guys in my life. A lot of guys. You are one of the smartest, most brilliant, considerate, like you’ve got a future, you’ve got your shit together. If some woman doesn’t see that, that’s her problem.” So the first hundred times she said this I just thought she was just being nice, you know? I was like “well thank you, but I’m still sad.” And I think it took about a year where she just kept telling me this and kept telling me this.
+
+And after about a year it’s kind of sunk in, I just noticed that I had kind of internalized this, like “yeah.” I’m sorry, you can see me right now but I just like changed my posture, I’m like “yeah, I’m pretty fuckin’ awesome!” I really internalized that, so I just carried that with me ever since.
+
+There is this beautiful Kurt Vonnegut quote, that’s just a throwaway line in the middle of one of his books that says, “You are whatever you pretend to be.”
+
+!# Tim @ 18:25
+That’s such a good line.
+
+!# Derek @ 18:26
+And I took that to heart. I’d also been reading Tony Robbins and stuff by then. Actually, oh God, Tarleton, that same woman, she’s the one that told me to read Tony Robbins’ Awaken the Giant Within when I was 19 and that changed my life. So yeah, she’s one of like the big three influences on my life.
+
+!# Tim @ 18:43
+That’s probably the exact same age when I read the exact same book. Just as a sidenote.
+
+!# Derek @ 18:47
+That is a good time to read it, those formative years. Yeah. I think that you are whatever you pretend to be. I think I just realized somewhere in there that you can just choose to be confident. She helped kind of started for me, but then I kept it up myself. Even when everything is going terribly, and I have no reason to be confident, I just decide to be.
+
+!# Tim @ 19:12
+It seems like most of my friends who are what most people would consider successful in various respects can trace their confidence back to either or both and, a specific woman and a specific coach or mentor of some type. It comes down to one or both of those.
+
+!# Derek @ 19:38
+Oh Tim! I never told you about Kimo Williams!
+
+!# Tim @ 19:43
+That’s a great name, and I wanna learn more. No I don’t know anything about.
+
+!# Derek @ 19:46
+Oh! This is so up your alley, I can’t believe I never told you this. OK, thanks for prodding me. I mean, you prompted me with that, because you’re right, it was a gorgeous woman, Tarleton, and it was a music teacher: Kimo Williams. He changed my life a year or two before I met her.
+
+OK, so imagine this: I’m 17 years old now, I’m living in suburban Chicago and I decide to go to Berklee College of Music, because I want to be a famous musician. And just like two or three months before I’m supposed to go, I see an ad in the local Chicago Tribune for music typesetting and I’m wondering how much sheet music I’m going to have to be writing.
+
+So I call up this classified ad in the paper and I say “can I ask you some questions about music typesetting?” He said “sure, why do you want to know?” I said “because I’m about to go off to Berklee College of Music in a couple months.” And he said “oh really? I used to teach at Berklee College of Music.” I said “you did? Do you think you can give me some tips?” He said “yeah, here is my address, come to my studio at 9 AM Thursday morning. See you then.” And he lived like way downtown Chicago, in an area I’ve never been to.
+
+And I’m going to do a little foreshadowing of the story right now, because when I got married years later to the woman I met when I was sitting in Times Square with you, he was one of only three people I invited to the wedding. It was Tarleton from the circus, Kimo Williams, my music teacher and my first girlfriend Camille. Those were my only three guests to my wedding. And Kimo Williams told the story to my family, he said “you know, I tell people all the time, I get all these kids that want to be famous, and I say show up at my studio at 9 AM. Nobody ever does. Nobody has their shit together to show up when I tell them to. So I had honestly forgotten that there was this kid that called from a classified ad.”
+
+!# Tim @ 21:44
+I’m sure that was his way of saying no.
+
+!# Derek @ 21:46
+Yeah, in a way it was like “uh-huh”.
+
+!# Tim @ 21:48
+Not no, it’s just his hurdle. He was like “yeah alright kid, here is a 7 foot hurdle, let’s see how you do.”
+
+!# Derek @ 21:52
+Exactly. So he said “my doorbell rings some Thursday morning at 8:59 AM, and I opened the door and there was some long-haired teenager sitting there…”
+
+So now, flipping back to first-person point of view, Kimo Williams is this tall black man from Hawaii that was a musician that attended Berklee School of Music and then stayed there to teach for a while. And so what he taught to me in four lessons got me to graduate Berklee College of Music in half the time it would take.
+
+And here was his thing: he said “the reason I wanted you to study with me for a bit, I know you only have eight weeks before you go to school, I think you can graduate Berklee School of Music in two years instead of four. The standard pace is for chumps.”
+
+!# Tim @ 22:48
+I should get a t-shirt made.
+
+!# Derek @ 22:50
+Yes! I know, this is like totally Tim Ferriss stuff. I can’t believe we had to talked about this before. He’s the one that, at the age of 17-18 got me into this mentality.
+
+He said the standard pace is for chumps. The school has to organize its curricula around the lowest common denominator, so that almost nobody is left out. So they have to slow down so that everybody can catch up. But he said “you’re smarter than that. Anybody can be smarter than that if they wanted to be. So you can go as fast as you want. And here is how.”
+
+And so he sat me down at the piano, he said “okay, what do you know about music theory?” I said “well, I don’t know, let’s find out.” And he just asked me a few of these music questions, like “okay, how does a major scale go? Show me the tritone, do you know when the tritone is? OK, play me a tritone in the C major scale. OK, B and F. what other chord can you make from B and F? OK, that’s called the substitute chord. Now, what is a resolution?” And he would just like boom boom boom at this kind of pace, it was doing all this music theory stuff with me. It was so intense! And I had all this adrenaline, like a videogame. I was like “this is amazing!” OK, keep going. OK, now that! And this! And this! And that was like a two-hour lesson that went and that kind of pace, and then he dumped a bunch of homework on me. He said “okay, now go home tonight and take this big book of jazz standards, find me all the 2-5 substitutions, or 2-5 closures, now substitute chords for that and then come back next Thursday, and will do this again.”
+
+So we did that for like four Thursdays in a row. And sure enough, what he taught me in four two-hours sessions was basically like two years of Berklee College of Music, he compressed it into four lessons. So that’s when I showed up at my first day of Berklee I tested out of the first few years of classes, just thanks to him.
+
+And then he even taught me a strategy he offhand mentioned, he said “you know, I think they might still have a rule in place where those other required courses that you have to take to graduate, I think you could pretty much just buy the books for those and then contact the department head and just think the final exam to get credit.” So I did that too. So when I got there, all those required classes like Bach counterpoint classes, I wasn’t so interested in it, so I bought the book, did all the homework, approached the department head, said “can I take the final exam for this?” And he looked at me weird and said “okay.” The final exam and got credit without ever having to attend the class. And yeah, that’s how I graduated Berklee College of Music in two years.
+
+!# Tim @ 25:22
+That’s incredible. What a gift!
+
+!# Derek @ 25:25
+Yes!
+
+!# Tim @ 25:26
+Did he ever, aside from showing up, which is, of course, half the battle if not more than half the battle, did he ever explain to you why he adopted you that’s way? Were you the first person student he’d done that for? Or is this something he’d done before?
+
+!# Derek @ 25:40
+I think he’s definitely done it before, and since. So, as far as I know, last time we spoke he still teaching at Columbia College in downtown Chicago in the music department. So I think he’s done this for many people since, he’s just an amazing guy that is just a great teacher. A very strict teacher, he calls everybody to a really high standard. If he said show up at my studio at 9 AM, if I would have rang the doorbell at 9:10 he would have said “hmm, I guess you’re not serious.” And he probably would have turned me away, you know? So he does that with his students. He’s done that for many people before and since, I think.
+
+!# Tim @ 26:18
+What would he say to you, if you recall, when you did something incorrectly? How did he provide feedback?
+
+!# Derek @ 26:26
+Hmmm... Well, I think for specific things he just kind of gave me that raised eyebrows look like “really? You think that that’s… Is that…?” But you know what? It’s kind of the answer to your question, is he would question things, kind of like you’re talking about, calling me when wondering if people are asking the right question.
+
+So that very first phone call, where I said I’m going to go to Berklee College of Music in eight weeks, and he said “really? Why do you want to go to Berklee?” And I said “well because I want to be a famous, successful singer-songwriter performer.” He said “well, four years and $100,000 in tuition. That’s a lot of money to learn to write a verse and the chorus.”
+
+You know, like that kind of thing, like “oh really? Is that you really do reason you’re doing this?” Like just constantly questioning.
+
+!# Tim @ 27:25
+That’s so incredibly… especially at that age, I mean what an incredible molding that he provided.
+
+!# Derek @ 27:35
+Ever since then, I mean… You and I have often the same approach to life, like looking for the shortcuts, or more like looking at the way that most people do things and saying like “you know, you don’t have to do it that way, that’s very inefficient. You could just do it this.” So he just gave me that approach to life. It’s great.
+
+!# Tim @ 27:52
+And on a related note could you talk about, we’ve talked about this but I never tire of it, relaxing for the same results. Because I think this is such a huge observation that, it’s incredibly important for type A personalities, or at least for me, because I have the tendency to almost want to burn the candle at both ends to prove to myself that I’m putting forth the maximum effort, leaving as little as possible to chance.
+
+!# Derek @ 28:24
+You? No! Really?
+
+!# Tim @ 28:25
+With certain things. But tell everybody about the bicycle experience.
+
+!# Derek @ 28:34
+Yeah, this was kind of profound. Now granted, I didn’t learn this until later, but yet I’ve been very very very type A my whole life. Even before I met Kimo Williams, you know? I mean, age 14, my friends would call me the robot because they would never see me sleep or eat or relax or hang out, I just was so focused on being the best musician I could be, that I would just practice every waking minute. If I’d begrudgingly go to a party, I’d bring my guitar with me and I’d be sitting in the corner practicing my scales and arpeggios while everybody was hanging out and getting high. So yeah, I’ve always been very type A.
+
+A friend of mine got me into cycling when I was living in LA and I lived right on the beach in Santa Monica where there is this great bike path in the sand that goes for, I think it’s 25 miles in the sand. What I would do is, I would go on to the bike path and I would go head down and push it as hard as I could, I would go and where to one end of the bike path and back and then back home and I set my little timer when doing this
+
+!# Tim @ 29:46
+Huffing and puffing, red-faced.
+
+!# Derek @ 29:48
+Yeah, just red-faced, but like just pushing it as hard as I can every single thrust of the leg. Of course that made me quite fun if somebody was in my way on the bike path.
+
+!# Tim @ 30:01
+That guy has got places to go.
+
+!# Derek @ 30:04
+But I noticed it was always 43 minutes. If you know Santa Monica, California you know the weather is about exactly the same all year round, unless it was a surprisingly windy day, it was always 43 minutes is what it took me it took me to go as fast as I could on that bike path.
+
+But I noticed that over time I was starting to feel less psyched about going out on the bike path. Just mentally when I would think of it it would feel like paying and hard work, right?
+
+!# Tim @ 30:36
+It sounds like pain and hard work.
+
+!# Derek @ 30:38
+Yeah, it was. I guess at first that was okay, and after a while I just felt like “eh I don’t know, riding a bike, why don’t I just hang out…”
+
+So I said you know, that’s not cool for me to start to associate negative stuff with going on the bike ride, why don’t I just chilled for once. I’m just going to go on the same bike ride, I’m not going to be a complete snail but good at like half of my normal pace.
+
+So yeah, I got on my bike and it was just pleasant. I just went on the same bike ride that I was more like standing up, and I just noticed that I was looking around more and I looked out at the ocean and I noticed that that though there were these dolphins jumping in the ocean. And I went down to Marina del Rey to my turnaround point. You know, it was actually at the breakers at Marina del Rey there was penguin that was flying above me. I was like “no way, hey look, a penguin!” And he shit in my mouth.
+
+!# Tim @ 31:37
+Was it a penguin or a pelican?
+
+!# Derek @ 31:40
+Oh that’s right, pelican. Did I say penguin? Oh yes, flying penguin above my head, that would be more amazing.
+
+!# Tim @ 31:46
+I was like what did you take before your ride? So you had a pelican shit in your mouth. That’s incredible accuracy, how far away was it?
+
+!# Derek @ 31:56
+Like 20 feet up. I don’t know if he was accurate or I was.
+
+Anyway point is I had such a nice time, it was just purely pleasant. There was no red face, and there was no huffing and puffing, I was just cycling. It was nice. And when I got back to my usual stopping place I looked at my watch, and it said 45 minutes.
+
+And I was like “no way!” How the hell could that have been 45 minutes as compared to my usual 43? There is no way! But it was right, 45 minutes.
+
+And that was like a profound lesson that I think change the way I’ve approached my life ever since. It’s because I realized that, what percentage of that huffing and puffing then, we could do the math or whatever, 93 point something percent of my huffing and puffing and all that red face and all that stress was only for an extra two minutes. It was basically for nothing. I mean, you know, of course we are not talking about me competing in something, where the huffing and puffing might have been worth it.
+
+But for life I think all of this optimization and getting the maximum dollar out of everything and the maximum out of every second and the maximum out of every minute, and I think I just take this approach now of going… Or you could take most that lesson and apply it and be effective and be happy, but you don’t need to stress about any of that stuff. Honestly, that’s been my approach ever since. I do things that I stop before everything gets stressful.
+
+!# Tim @ 33:30
+Is there any particular way that you remind yourself that, given a lifetime of hard charging? I would find, I do find, that I sometimes lose track of that type of truth, which I think is that truth it almost every aspect of the endeavors that I partake in at least. Are there any particular ways that you remind yourself of that or keep it present for you?
+
+!# Derek @ 33:59
+I think it’s just noticing the pain. Luckily I live in a world where there is more psychic pain than physical pain. So you have to notice the psychic pain that you’re feeling of whether it’s doing things you don’t want to be doing and feeling the pain and regret of that or the frustration. When you notice in this internal “grrr” that’s my cue.
+
+I treat that like physical pain. Like “what am I doing? I need to stop doing that thing that hurts, what is that?” Usually means that that I’m just pushing too hard or doing things that I don’t really want to be doing because I was asking the wrong questions and following the wrong path, the wrong outcome.
+
+!# Tim @ 34:44
+Now, rewinding the clock a little bit, 1998. How did CD Baby come to be?
+
+!# Derek @ 34:51
+I was really just selling my own CD on my band’s website. I had a band called Hit Me and I had this CD that was being played on radio stations across the country, I think I was on 350 college radio stations across America.
+
+But the only way to buy it was to mail a check or money order to my address. This is before the average person could get any e-commerce online because there was no PayPal. I guess I could have put it up on eBay or something right? But that was like the only way you could sell your CD online as an independent musician. There was just nobody anywhere that would sell it for you. There were a couple big online record stores at the time, there was musicboulevard.com and CDNow.com, I think Amazon bought them both. But the only way to get into their system was to go through the major labels. Basically to get a major-label record deal and then be in the major-label distribution system and then you would appear on CDNow.com.
+
+So I thought this is just a horrible convoluted thing, it should be dead simple to just put your stuff online, have a “buy now” button and ship it to the person that buys it. It shouldn’t need to be that complicated.
+
+So I did the research and I did the work and I went and got myself a credit card merchant account, which is like a thousand dollars in setup fees, they actually had to send an inspector out to my location to make sure I was a valid business. I think I even had to incorporate to make them happy, I set up a separate bank accounts, did all of this red tape, a lot of paperwork, thousand dollar incentive fees, but after three months I had a credit card merchant account.
+
+And then I had to figure out how to make a buy now button on my websites, and that was also hard. I had to buy a book on cgi-bin Perl scripts and copy the example from the book on how to make a “buy now” button.
+
+But after three month of hard work I did it. My band’s website had a “buy now” button. That was like “wow, look at that.”
+
+And so my friends in the New York City music scene, like my fellow musicians, said “whoa dude, do you think you could sell my CD through that thing?” I said “you mean, my band’s website?” They said “yeah, if you don’t mind.” I said “yeah sure, why not?” So it’s like a favor to my friend Marko.
+
+Actually, here is a little tidbit of information: Marko, who I just knew as a musician, Marko Ahtisaari, I knew him as a cool musician in New York City, he was technically the guy who gave me the idea for CD Baby. Later I found out that he’s the son of the president of Finland. It was all in the news and I had no idea. But Marko, thank you.
+
+He is the one that asked me if I could sell his CD to my band’s website. And so I did, and I started getting calls like “hey man, my friend Marko said you could sell my CD through your website.” I said “yeah, no problem, a friend of Marko’s is a friend of mine.”
+
+And it just grew by request, which kind of led me to the belief that when people ask me “how do I grow my business? I’ve got this business idea, basically I’m trying to push it onto the world. How do I push my idea into the world?” I have no idea. I have no advice for those people because I only ever worked on the pull method where people asked me to do things for them and I say yes. So CD Baby just happened because all of my musician friends were asking me to sell their CD on my band’s website. Eventually there were so many that I just took them off of my band’s site and put them onto their own site, and that was CDBaby.com.
+
+!# Tim @ 38:36
+Of your projects that have done well what percentage have come from scratching your own itch à la CD Baby? Have any or are any of the projects that have gained traction projects that you’ve thought sending to a market that didn’t include you?
+
+!# Derek @ 38:57
+Actually, after that first one, I mean yes I built that thing to sell my own CD, but actually all of them were scratching other people’s itches. I don’t want to picture that.
+
+Like for example, shortly after that I already had a UPC barcode thing, the way it used to work, to get a bar code on your album you have to pay like $400 to the Universal Code Council in order to get a six digit prefix which then lets you assign the next five digits, which meant 100,000 products underneath your barcode product ID or something like that. So a lot of musicians in the independent music world wanted to have a UPC barcode for their album, that would let them sell it in physical retail stores and a lot of physical retail stores wouldn’t let you sell something unless it had a UPC barcode. But they didn’t all want to have to pay the $400 to get a company accounts, but I already had a company account and I just let a lot of musicians know like “if you ever need a barcode, let me know, I can get one for you.” So enough people started taking me up on this that I decided to charge 20 bucks for it, because it would take me some time to assign them and ID and then generate the EPS or TIFF graphic file to be included in their album artwork. And eventually I automated it. The point is, hundreds of thousands barcodes were assigned at $20 each, that’s what I charged for the service, it was like $2 million I made for this $400 setup fee for getting a Universal Code Council account. So you could say that I was scratching my itch, but really it was more... I think of it as the co-op business model.
+
+!# Tim @ 40:42
+It was responding to a demand instead of trying to create demand.
+
+!# Derek @ 40:45
+Yes. I’ve never tried to create demand, I’ve never done that, I don’t know how. I’ve only basically answered the calls for help.
+
+And it’s usually using this what I call the co-op business model which is: I’ve already got something, other people could use it, I’m happy to share it, I’ll just charge a little something to help pay for my time and resources so that we can all share this resource that I’ve already got.
+
+!# Tim @ 41:10
+So I love that this is a great example of spotting something small, perhaps looking at a situation that many many have been presented with, and spotting something interesting, in this case an opportunity. I want to highlight one other example, which is an email that you wrote and I’m gonna just read a little bit here. This is some of your writing:
+
+When you make a business you’re making a little world where you control the laws, it doesn’t matter how things are done everywhere else. In your little world, you can make it like it should be. When I first built CD Baby, every order had an automated email that let the customer know that the CD was actually shipped. At first it was just a normal ’your order shipped today, please let us know if it doesn’t arrive. Thank you for your business.’ A few months later I felt it was very incongruent with my mission to help people smile. I knew I could do better, so I took 20 minutes and wrote this goofy little thing: ‘Your CD has been gently taken from our CD Baby shelves with sterilized contamination-free gloves and placed onto a satin pillow. A team of 50 employees inspected your CD and polished it to make sure it was in the best possible condition before mailing. Our packing specialist from Japan lit a candle and a hush fell over the crowd as he put your CD into the finest gold-lined box that money can buy. We all had a wonderful celebration afterwards and the whole party marched down the street to the post office where the entire town of Portland waved “Bon Voyage!” to your package, on its way to you, in our private CD Baby jet on this day, Friday, June 6th. I hope you had a wonderful time shopping at CD Baby. We sure did. Your picture is on our wall as “Customer of the Year”. We’re all exhausted but can’t wait for you to come back to cdbaby.com!» So that... 20 minutes. What happened after you put that together?
+
+!# Derek @ 43:12
+People would get it and reply back! Like who ever replies back to an automated shipping email, right? Who ever replies back to Amazon saying “wow guys, thank you so much”? But the fact that this little quirky email had so much personality let them know there is real people here. So customers would often reply back saying “you guys are hilarious, that was the weirdest thing ever, that’s awesome!”
+
+But more importantly, people started sharing it. They would forward it to all of their friends, like “you guys had to see this.” And people who had blogs would post it on their blogs. Even just a little blogspot, or wordpress or whatever blog. Now if you take any of those sentences from that email and you put it into quotation marks and search for it on Google you find literally thousands of blogs has pasted my confirmation email onto their blogs.
+
+I think about this when young entrepreneurs ask me like “how can I get traction for my idea, how can I get word of mouth and buzz happening?” I think you can read business books and try to do this very serious, you know, furrowed brow, analytical approache to this. Or sometimes it’s just these cute little colorful things that you do that set you apart from the rest that make you remarkable. That make people remark on you about you. So yeah, I think thousands of people heard about CD Baby because of that one little silly email.
+
+!# Tim @ 44:45
+And I think, comparable might be Zappos for instance and their customer service. What was the anecdote that got spread around? The anecdote was you can call up Zappos for anything, even if it was unrelated to the product. You can call them up and say “yes I’m looking at the website, but I’d actually really like a pizza delivered to my house” and they would figure out how to do it. And on the serious analytical side you say oh my God, that such a waste of human and capital resources. Can you imagine if everybody called to order pizza, which off course…
+
+!# Derek @ 45:15
+“It doesn’t scale!”
+
+!# Tim @ 45:16
+... is never gonna happen ever! Probably millions of dollars of free publicity just by making that okay. And like how long did that take? Not long at all.
+
+!# Derek @ 45:31
+Plus, you know what man, I don’t mean to sound new age-y or whatever, but it’s the right thing to do for the world, right? Just put aside the numbers for a bit, it’s the right thing to do. It’s cool! It makes people happier. It makes the people working there happier, which makes them more into the whole feeling of what they’re doing. There is so much more to a business than just the money. Yeah, you could get me going on that rant.
+
+!# Tim @ 45:54
+So tell me about, I remember reading about this, but I think we might have talked about it at one point, which was when people would call CD Baby trying to offer you financing. How did those go?
+
+!# Derek @ 46:07
+So remember, I started CD Baby like the end of 97, beginning of 98. So it was the first dot-com boom and so much money was flying around and everybody was trying to push money at everyone who had a .com on their domain name, or had anything going on. So of course me with an actual, profitable running business… that was really the only game in town.
+
+By the way, back when I started it, if you were a musician that wanted to sell your music online, there was a guy named Derek in New York that could do it for you and that was it. There were no other businesses that would do it. Some showed up like a year or two later, but at first I had no competition at all. I was it.
+
+So yeah, tons of money was shoved my direction. I entertained the first few calls and they said “we want to invest in your company” and I said “why?”, and they said “so you can grow it faster” and I said “but I don’t want to grow it faster”, and they said “well don’t you want to scale it get more resources?”, I said “no, I have all the resources I need. I’m good.”
+
+I was profitable, since the first month in business because my startup costs were $495. That’s what it cost me to start the business and get it running. It took me six days to build the site and get it up and running and it was profitable in the second month of business, when I sold over $400 of CDs that second month business. I was profitable ever since. I just didn’t need the money.
+
+And so people kept offering and they would waive these big dreams in my face thinking it was going to entice me, but it just didn’t. MP3.com was a big deal in like 1999 through 2002 are so, they were like the big daddy of independence streaming music online and downloads. They had the IPO, they were public and MP3.com was interested in buying CD Baby and they asked what my price would be. And I said “I’m just not interested in selling”, and they said “come on, everybody’s got their price.” I said “no, I’m not interested, I’m having fun.” And they said “come on, even billions of dollars?” And I said “what are you, Carl Sagan? No! I don’t want to sell! There’s just nothing in it for me, I’m enjoying what I’m doing, I don’t need the money.”
+
+So after that point, like after the first year or two, I just taught my customer service people: if you get any call from investors or VC firms or any of that, please just tell them know, don’t even send them my way. We’re just not interested. So yeah, that lasted for 10 years.
+
+!# Tim @ 48:42
+How did you develop that relationship with money? Was it something from your parents? And I’m gonna ask you a very personal question so, so feel free to not answer it, why were none of your family members at your wedding?
+
+!# Derek @ 49:02
+Oh sorry, they were there too. Sorry, when I said three guests I meant except from my immediate family. Sorry about that.
+
+!# Tim @ 49:10
+No no no, now that I’ve checked that. OK, it was on the back of my mind.
+
+!# Derek @ 49:13
+“I hate them!” [laughs]
+
+!# Tim @ 49:16
+How did you develop this relationship with money where you would say no like that for 10 years? Because that’s not what most people would do.
+
+!# Derek @ 49:26
+Because I had enough. Actually, you know what? It’s a bit of a trick reason, because in the early days I still considered CD Baby to be a bit of a distraction. Because remember, I was making my living as a professional musician which was my original goal and dream. So I was living my dream: I was touring, playing on people’s records, producing people’s records, I played about 500 colleges in the Northeast, I was making good money as a professional musician. That’s what I really wanted to do. And this little CD Baby thing was just like a favor I was doing for my friends, to kind of get back to the community, right? So as it grew, well I didn’t want it to grow, because it was taking me away from my music, which is my real love. Making the music not selling other people’s music.
+
+So there was this moment when I kind of sadly realized I think I’ve created a business, oh well, I might as well make it something awesome. Meaning, I want to make it like a utopian dream come true from a musician’s point of view. And I spent the night brainstorming. Like what would a real dream come true from a musician’s point of view look like? And, I don’t know if this will make sense to your listeners that led just find out, it’s that it was going against everything that was the unfortunate way that the music distribution world worked at the time.
+
+1. I want to be paid every week.
+2. I want to know the full name and address of everybody that buys my music.
+3. You’ll never kick me out for not selling enough, because that was a big problem in the traditional music distribution world, you are given a window of time. Kind of like physical books still are, you have to prove yourself in a window of time, they’ll put you into the bookstore, if it doesn’t sell well your yanked out to make room on the shelf for other stuff.
+4. No paid placement, because it never felt fair that people could come in and buy up the front page to get unequal footing.
+
+So that was like my utopian ideal for how this would work. The reason I’m telling you this is to set the tone that I wasn’t trying to make money. I already had enough money that I had made gigging and touring and all that stuff. I already had money so this was a thing I was doing to give back to the community, to create something that needed to exist. Kind of artistically, or just almost like a community service kind of thing.
+
+So that was the original DNA of this thing. And you know, from what we know about DNA, it helps decide what things grow into, right? So this was the DNA, so then as it grew, and then he became really profitable.
+
+And I was making, I don’t know, $100,000 a month doing this thing. And I had all my bills paid off, there was nothing I wanted to buy. So if somebody from California contacted me saying they wanted to give me lots of money to take a big chunk of my business and help turn that, you know, big big big, you know “we think you could do an IPO”, I would just sneer like “oh no, that sounds awful. I don’t want that life, I’m enjoying being fully in control here and doing things for the right reasons, doing things for my musician friends to make them happy, make customers happy, make the musicians happy. All is good.”
+
+!# Tim @ 52:55
+What was the business model in the very beginning?
+
+!# Derek @ 52:59
+It was only two numbers. Actually there is a cute story. Most of us when we start charging money for the first time for our services or our goods, we don’t know what to charge, right? So for Marko, my first friends that asked me to do this, and maybe the next 10 or 15 friends that came after, I was charging nothing. I was just doing this as a free favor. This was my community service. And then once I realized that total strangers were sending me their music I said alright I better charge something, but I don’t know what the charge.
+
+So I was living in Woodstock, New York at the time, and there was a cute tiny little record store in town that sold consignment CDs on the counter, with local musicians. So I walked in there one day and I said “hey, how does it work if I want to sell my CD here?”, And she said “well, you set the selling price at whatever you want, we just keep a flat four dollars per CD sold, and then just come by every week and will pay you.” So I went home do my new website that night and I wrote “you set your selling price at whatever you want, we just keep a flat four dollars per CD sold and will pay you every week.”
+
+And then I realized that it took about 45 minutes of time for me to set up a new album into the system, because I had to lay the album art on the scanner and Photoshop it and crop it and then fix the musicians spelling mistakes in their own bio and all that kind of stuff. That took about 45 minutes of work for all of them. So it shows you what I was valuing my time at those days that I thought 45 minutes of my time, that’s worth about 25 bucks. So I’ll charge a $25 setup fee to sign up for this thing.
+
+And then at the last minute I thought, wait a second, in my mind 25 and 35, they’re in the same brain cell. In my head 25 and 35, those numbers don’t feel very different when it comes to cost, you know? $10 is different and $50 is different, but $25 – $35, that occupies the same space in the mind. So you know what? I’m going to make it $35, that will let me give anyone in discounts anytime they ask. Even if somebody is on the phone and upset all say “you know what? Let me give you discount.” So I added in that little buffer so I could give people a discount, which they love.
+
+So yeah, 35 dollars setup fee, 4 dollars per CD sold. And Tim, for the next 10 years, that was it. That was my entire business model. It was generated in five minutes by walking down to the local record store and ask them what they do.
+
+!# Tim @ 55:25
+I love that story and simplicity, because I think there is an infatuation of fetishizing of pivoting in the tech startup world that has infected many other types of entrepreneurship. People think “oh if I’m not pivoting I’m not doing something correctly, I should change my business model and my entire customer base every two months.” And I don’t view that as a virtue. Yes, there are times to change if something isn’t working, but if you don’t think time up front to think about that and then you’re constantly chasing the latest fad or whatever that appears on the cover of TechCrunch or Inc. magazine or something like that, it’s a recipe for failure. I mean, there is a huge survivorship bias, I’m just gonna rant for a second, that I think is important to realize if you’re hoping to become an entrepreneur or are an entrepreneur, if you’re only reading cover stories, if you’re only getting the happy success stories and for that reason also is dangerous to idolize people who bet the farm and just happen to pull it off. Those are the people who you are going to be written about. Much like if you open a Barron’s and you look at all these mutual funds with these spectacular records, well maybe they just got lucky and all the others just can’t afford to buy ads because they’re no longer in existence and so I think that it’s a very similar.
+
+One of the essays that you’re best known for is “Hell yeah or no”, and this has been extremely important for me to consistently reread, or listen to. How did it come about and what is the gist of that?
+
+!# Derek @ 57:13
+There was a music conference in Australia that I had told my friend that I would go with her to. It wasn’t even like the conference themselves were really expecting me, it was my friend Ariel Hyatt, one of the best publicists I know and she was speaking at that conference and asked if I would come with her as like a co-presenter in her mentor session or something. So I had said yes like six months before. Like yeah sure, Australia!
+
+I’m living in New York City. And once it came close and it was time to book the tickets I was like “eh, I don’t really want to go to Australia right now, I’m busy with other stuff.” And it was actually my friends Amber Rubarth, who is a brilliant musician, I was on the phone with her and kind of lamenting about this and she’s the one that pointed out, she said “it sounds like your decision is not between yes and no, you need to figure out whether you’re feeling like fuck yeah or no.” And I said “yeah, that’s really what it comes down to.”
+
+The idea is if you’re feeling anything less than like “oh hell yeah I would love to do that! Oh my God, that would be amazing!”, if you’re feeling anything less than that then just say no.
+
+Because most of us say yes to too much stuff, and then we let these little mediocre things fill our lives. So the problem is when that occasional big oh-my-god-hell-yeah thing comes along, you don’t have enough time to give it the attention that you should because you said yes to too much other little half-ass kind of stuff, right?
+
+So once I started applying this my life just opened up because it just meant I just said no, no, no, no, no to almost everything. But then, when the occasional thing came up that I was really like “you know what, that would be awesome”, then suddenly I had all the time in the world.
+
+Every time people contact you, every time people contact me they say “I know you must be incredibly busy”, and I always think “No, I’m not.” Because I’m in control of my time. I’m on top of it. Busy, to me, seems to imply out of control, you know? Like “Oh my God, I’m so busy! I don’t have any time for this shit!” To me that sounds like a person who’s got no control of their life.
+
+!# Tim @ 59:51
+No control and unclear priorities.
+
+!# Derek @ 59:55
+Yes! Exactly. So you asked how it’s applying in my life: on the little tiny day-to-day level, even personal things, even people you meet, even as I’m dating, you have to do the hell yeah or no approach. People ask you to go to events or even people asking to do a phone call or anything. I think “Am I really excited about that?” Almost every time the answer is no. So I say no to almost everything.
+
+And then occasionally something will come up. Even a little surprise will be dropped in my lap like this thing that happened two months ago called the Nownownow project, which we don’t even really need to talk about, the details don’t matter so much, but it was just something that popped up that seems really interesting and people really wanted, and luckily because I say no to almost everything, I had the time in my life to make it flourish. So for the last six weeks all I did full-time, like 12 hours a day, was suddenly working on this brand-new thing that show that. Because I could. So that’s, to me, the lovely result of taking the hell yeah or no approach to life.
+
+!# Tim @ 1:01:04
+Where can people learn more and check out the Nownownow project? And also, I should note in advance for folks listening, we will also include links to anything we’ve mentioned in the show notes, which will be at fourhourworkweek.com/derek, all spelled out. But where can people find more about Nownownow?
+
+!# Derek @ 1:01:26
+If you go to [nownownow.com](http://nownownow.com/) you’ll find more about that. In short, I noticed that everybody has an about page on their site and people have a contact page on their site, but usually whenever I’m looking at somebody’s personal site, even yours, the big thing I often wonder is: I wonder what he’s up to right now? Like, working on, kind of stuff.
+
+Twitter and Facebook don’t answer that. You can see somebody’s stream of stuff, but it just kind of says like: okay, here is what I had for dinner last night, here something in the news I’m mad about, or here is a cute thing and sharing, but it doesn’t really tell me like “how are you?” Like if you and I haven’t talked for a year, like “what’s up? How are you doing, what are you working on?” So, to me the whole idea of a now page on your site, it’s just a general “here’s what’s up with me now.”
+
+I had one of those on my site. I had a now page. Then a guy named Gregory Brown saw it, liked it, he put one on his site. All I did was just retweet him when he told me. I said “cool, I wish everybody had the now page”. Within a few hours, eight more people had a now page. And then within a month 550 people have been now page on their website.
+
+So I just put together nownownow.com. Just a cute collection of people who have a now page on their website. The point is, the details don't matter, but I’m so glad I had the time to do that. And it was only because I say no to almost everything, that I was able to just throw myself into this project and build this new thing on the whim and catch the momentum.
+
+!# Tim @ 1:03:04
+So I’m reading a section of this blog post that I wrote about you and the best email you ever wrote which the Japanese boxing specialist and so on, and one of the paragraphs that I put here, for those people interested is just the most successful email I ever wrote, but it’s everywhere online. And it reads: “stranger still, at its largest, Derek spent roughly 4 hours on CD Baby every six months. He had systematized everything to run without him.” And feel free to correct that if it needs to be corrected, but assuming that’s roughly true, what were some of the most important decisions or realizations that made that possible?
+
+!# Derek @ 1:03:51
+I love the timing for when I read The 4-Hour Workweek, because it was actually just after I had done this complete delegation of everything. I was feeling the pain from everything having to go through me. It was my business, the hundred percent, no investors, no nothing, it was me. And so I hired people to help me, it was all me me me. So four years into it, it was growing, it was really taking off. I had 20 employees, but still almost everything went through me. And it made my day kind of miserable, because I’m a real introverted kind of focused person, I love to just sit down for 12 hours and do one thing without distraction.
+
+!# Tim @ 1:04:37
+You’re an INTJ, Meyers-Briggs?
+
+!# Derek @ 1:04:38
+Uhuh, yep! Are you?
+
+!# Tim @ 1:04:41
+Also, I’m a hundred percent INTJ.
+
+!# Derek @ 1:04:43
+So I hated going to the office and being distracted every five minutes with my employees asking me questions. I felt such pain about this that, literally man, I booked a flight to Kauai, I believe. And I was going to move to Kauai and not give my employees my phone number. And literally move, I don’t you mean like take a vacation, like I’m going to be the owner of CD Baby on the little island in Hawaii and “you guys just figure out your own damn problems!” Because I was just having so much psychic pain about this.
+
+But then luckily, with lovely coincidence, that night that I booked the flight to Hawaii I watched the movie Vanilla Sky. And in Vanilla Sky Tom Cruise is like the owner of this big publishing company, but you get all caught up with these crazy women that overwhelmed his life, and focusing on his own happiness, or unhappiness, and all that. And pretty soon his company is just wrestled away from him. And I thought “oh, I don’t want that to happen”, I don’t want to just plug my ears, close my eyes or run away and have my company taken away from me. I need to deal with my problems instead of running from them.
+
+So I canceled the trip to Hawaii. And went into work the next day, and decided to fix this thing.
+
+So then next time somebody asked me a question I gathered everybody around, I said “okay, everybody, Tracy just asked me: Derek, what do we do when a guy on the phone said he wants a refund?” I said “okay, stop working everybody, gather around, Tracy asked what we do if somebody wants a refund. Here is not only what we do, but here is why, here is my philosophy: whenever somebody once a refund we should always give it to them…” And I would just explain, not just the what to do, but the why. It was constantly communicating the philosophy.
+
+To get to the core of it, and I think you mentioned this back in The 4-Hour Workweek, there’s almost nothing that really has to be you, you can almost get kind of AI and figure out how your brain works, how your decision-making process works, and just teach it to other people, so that other people can do it.
+
+And yeah, that’s what I did for every single thing that ever came my way, I would gather everybody around, explain the philosophy behind that why we do things this way, why I’m about to say what I’m about to say and here is what I think you should do, do you understand why? Now please write it down. But it was also important that I thought that to multiple people, not just one and had them write it down. And then the cool thing is, I wasn’t doing the hiring anymore. I had taught other people how to do the hiring. So soon my employees were doing the hiring and then they were teaching the new people how to do this thing from the book.
+
+So that really started four years into the company. It was six months of difficult work, to really make myself unnecessary. But then my girlfriend at the time decided to go to film school in LA, so I decided to follow her down there. So I moved down to LA to be with her, which is a nice symbolic way to let the company know: you’re on your own, I’m still the owner. And in fact, there is one little caveat to the thing where you said that I was working on CD Baby for four hours a year, or whatever you said.
+
+!# Tim @ 1:08:19
+Yeah, four hours every six months.
+
+!# Derek @ 1:08:20
+That’s how much time I spend doing the stuff I didn’t want to be doing, right? The monotony, this bureaucracy stuff, that I had reduced down to almost nothing, like a few minutes a week. That’s what I was doing from 7 AM to midnight every single day was programming the future of CD Baby. And that’s just the stuff that I loved doing. So it was about making my life the way I wanted it to be working on the stuff that I wanted to be working on, and not doing the stuff I didn’t.
+
+!# Tim @ 1:08:50
+I’m glad you brought that up, because I want to clarify something that is a common misconception related, understandably, to the title of The 4-Hour Workweek. It’s like the single largest blessing and curse that is gonna follow me for the rest of my life. It’s a catchy title, yes, I tested it on Google Adwords, yes! Had a great conversion rate, that’s why it’s that, instead of something stupid like Lifestyle Hustling or the The Cameleon blablablah, I had a bunch of terrible titles, but that’s one performed best. But the objective is not to be idle, the objective is to control this nonrenewable resource called time, so you can allocate it to the things you most want to be doing. I don’t have a problem with hard work, as long as it’s applied to the right things that are determined with some degree of self-awareness and forethought or planning. So that’s sort of a PSA, not for you Derek, because you’ve read the book, but for every dick who stands up in a public Q&A and goes “well Tim, I just wanted to ask: do you work for hours a week? Ha ha ha!” I just want to like turn into one of the Fantastic Four and punch him in the neck from 300 feet away. But for everybody who’s may be inclined to stand up and ask that question: there is the answer, read the book. And I bumped into somebody recently, you mentioned this book with the, I guess frequently asked questions and he was like you should just make... because I told him I was like, you know, I try to be really patient, I tried to spend a lot of time answering peoples questions when they have them, but it’s so clear that so many people asking questions have not read the fucking book! And they’ll be like “can I eat bananas on the slow-carb diet? Can I eat quinoa after chocolate custard on the slow-carb diet?” And just like “fuck, if you have to ask, the answer is no!” And you clearly didn’t read it. And he is like: you should just have T-shirts that say “RTFM: read the fucking manual.” But alas, I’ll cut that scree a little short.
+
+The book itself, I want to dig into some specifics with this manual, this role book. When you had multiple people write it down, how did you then put together a resource that could be shared with new hires and so on?
+
+!# Derek @ 1:11:13
+Actually, I think we put it on a wiki inside, but honestly, most of it was just word of mouth, kind of legend inside. Like there were a few internal stories, kind of like the Zappos pizza stories you just told. The one I always heard was Nordstrom, that there is some legend about the guy buys a shirt from Sears and gets like burnt up in a fire, and he goes to Nordstrom to return it and they give him his money back. They have such a liberal return policy that they’ll even lets you return burnt stuff from another store. So a legend like that will travel down and it carries the philosophy inside of it. So it’s almost like a little story like that can replace 20 pages of a employee handbook.
+
+!# Tim @ 1:12:04
+Totally agree, yeah. It’s an aphorism or it’s a story. Exactly.
+
+!# Derek @ 1:12:09
+Yeah. Fable. So there were quite a few of those inside CD Baby, especially for the early people would see the decisions that I have made and the people that I had given all their money back in case anything went wrong, or just talking to me in conversations and getting my philosophies. The early employees in CD Baby really got it, and then they would spread it to the new people.
+
+!# Tim @ 1:12:32
+Let’s flip from the book writing to book reading. You have a page on your site - [sivers.org/book](http://sivers.org/book), I’ll link to it in the show notes. You have notes on more than 200 books. You appear to be a voracious reader. How do you select the books you read and how do you read them?
+
+!# Derek @ 1:12:59
+OK. Usually large numbers of people decide, meaning lots and lots of five-star reviews on Amazon, right? Occasionally somebody that I really respect and that knows me will tell me “you need to read this book”, and even if it has no reviews on Amazon I’ll just trust them. But for the most part I tend to go for things that I’ve seen lots of rave reviews, then I browse through the description on Amazon, then I actually read the reviews people have said and this really sounds like something “okay, this sounds worth my time.”
+
+Because I don’t read fast, and I don’t try to read fast. I like to sit and ponder as I’m reading. When I’m committing to a book, that’s 20 or 30 hours often. So I don’t take it lightly. So yeah, I tend to go with lots of Amazon reviews.
+
+But then I also give up quickly. So if by chapter 3 I’m not really into it, I’ll just ditch it. And you don’t even see those on my site. So I have ditched almost as many as you see there, I just don’t write them up, I just delete them on the Kindle and move on.
+
+But here is the interesting thing… okay, there is a couple of interesting things: years ago, actually it was around 2007, when I first read The 4-Hour Workweek, I was living in London, even though CD Baby was still up and running back in Portland, Oregon, just because I wanted to experience the world I was living in London at the time and… Actually, you know what’s funny, I don’t know if I ever told you this cute story, it was my friend Ariel Hyatt, who I mentioned earlier, that told me about you and The 4-Hour Workweek, but she told me a little fable about you.
+
+!# Tim @ 1:14:40
+Uh-oh!
+
+!# Derek @ 1:14:41
+So I can’t remember if I ever confirmed this with you. I think at the time she was going to some kind of mastermind seminar by one of those “how to be a millionaire” kind of guys. And apparently, like five or six of those “how to be a millionaire” kind of guys held some big mastermind thing in Hawaii or something. And you were supposed to be there. And I think like Robert Kiyosaki and people like that where there. And you were supposed to be there, but you didn’t show up until the third day, when you showed up covered in mud because you just had on a whim decided like sleeping in a tree or something like that. The legend goes. And she told me about The 4-Hour Workweek, but basically in this context of this guy Tim that doesn’t give a fuck about convention, and it totally sounds like your kind of guy that is doing things the way you do it, because you don’t give a fuck about convention either and you should read his book. It wasn’t even available in England at the time. I think the first time I got The 4-Hour Workweek was something like illegal PDF download of it off of bittorrent kind of thing.
+
+!# Tim @ 1:15:51
+That’s how it happened a lot. And so that story, I believe is true. So I remember this particular event in Hawaii around the time that the book came out, or maybe a year afterwards, within the year following publication. I remember going to Hawaii and realizing that I wanted to explore Hawaii as opposed to sitting in a conference room. So I rented a car and ended up finding a bed and breakfast where this house was built in the trees. But it wasn’t available, or it wasn’t on the market, and the caretaker ended up being this very attractive woman and I said well is there anything that I can do to be able to sleep in this treehouse, because I’m really obsessed with this idea, and it looks like Jurassic Park here with these prehistoric looking plants. She had some ditch that needed to be dug or something, so I did that. So I did all this manual labor and that ended up being able to stay in the treehouse. And it was on the Hana Highway, if I’m getting that right, just spectacular, I think it was in Maui. And so I did show up to the events late, like a tank top and these absurdly, and now even to me, embarrassing European short shorts, I don’t know why. And yeah, that’s a true story.
+
+!# Derek @ 1:17:20
+The legend is true!
+
+!# Tim @ 1:17:22
+And so yeah, confirmed. It’s so funny.
+
+!# Derek @ 1:17:27
+I forget what tangent we were on.
+
+!# Tim @ 1:17:29
+Oh, we were talking about how you read books.
+
+!# Derek @ 1:17:32
+Aah okay! So, right around that time, I’ve been reading book voraciously for years and people often ask about like mentorship, and did you have any mentors. And I say well books are my mentors. Books guide almost everything I do. Like the stuff I’ve learned from books totally guides my life.
+
+So I realized that I would love a book while reading it, and maybe it would still go with me for a few weeks after. But two years later I couldn’t even remember if I had to read it or not. And I thought that’s really a shame, I remember at the time that book meant a lot to me, why is it that now two years later I’ve forgotten everything? I said no no no that’s not good.
+
+So what I started doing in 2007 is every book I read, I would keep the pen in hand and I would underline my favorite sentences, circle my favorite paragraphs, write notes in the margins and then after I was done reading the book I would put aside two hours to open up a blank text file and type out everything into a plain text file. Knowing that plain text files are among the most permanent, long-lasting format, they will work on everything, you can read them on phones or new devices we haven’t even thought of yet will always be able to read plain text files. So I started doing this for every book I read, and then I would review my notes later.
+
+So every time I’m just eating breakfast or something for 10 minutes, I’ll pull up one of the notes from a previous book I read and just kind of a re-review it, sometimes kind of stop, take a sentence that means a lot to me right now, open of my diary and write about this for a while. It’s like a really internalized, basically I wanted to memorize every lesson I had learned in every one of these books. So that’s what I started doing, I even started putting them into spaced repetition systems, that didn’t really work out too well, because I wasn’t sure how to formulate that knowledge into a Q&A flash card kind of format.
+
+!# Tim @ 1:19:26
+Using a SuperMemo or something like that?
+
+!# Derek @ 1:19:28
+Exactly, Anki.
+
+!# Tim @ 1:19:31
+Anki, side note for people, means rote memorization in Japanese.
+
+!# Derek @ 1:19:35
+Really?
+
+!# Tim @ 1:19:36
+Anki. Sorry to interrupt.
+
+!# Derek @ 1:19:39
+So it wasn’t until, say, 2010 that I realize that I had all these lovely book notes hidden on my hard drive, just for my eyes only. And I thought you know, why don’t I just put them on my website. If the publishers tell me to take them down I will, but maybe it’s of use to people. So yeah, sivers.org/book, what you’re seeing is all of my detailed book notes I’ve taken since 2007.
+
+!# Tim @ 1:20:04
+If you were to, and this may be a very difficult question to answer, suggest five to start with for so. I’m just throwing out a random number, but if you would suggest some books to start with at sivers.org/book. And by the way, this is not a setup for my own book, this is just…
+
+!# Derek @ 1:20:25
+Oh no no no. Wouldn’t that be cheesy?
+
+!# Tim @ 1:20:31
+First, The 4-Hour Workweek. Second, see rule number one.
+
+!# Derek @ 1:20:35
+I’ve actually already answered the question for you, because once I posted them on my site, I realized I should give them a 1 to 10 rating because I knew this was the next question that people are going to ask. So I get every book a 1 to 10 rating and when you go to sivers.org/book its already sorted for you with my top recommendations up top. And, you know what? I haven’t told you this either: back in 2008 or 9 you and I were sitting down the hill from your house, that the local coffee shop, and we were talking about the Charlie Munger book, that big thick black one, I forgot what it’s called.
+
+!# Tim @ 1:21:23
+[Seeking Wisdom: from Munger to Darwin](http://www.amazon.com/Seeking-Wisdom-Darwin-Munger-Edition/dp/1578644283) or maybe the other way around. By Peter Bevelin.
+
+!# Derek @ 1:21:29
+That’s it, yes!
+
+!# Tim @ 1:21:32
+That’s a fascinating book.
+
+!# Derek @ 1:21:33
+Well I’m glad to have turned you onto it.
+
+!# Tim @ 1:21:35
+Ah yes, I appreciate it.
+
+!# Derek @ 1:21:37
+So after turning on to that book I remember we were talking about the books that changed our lives. And you told me, I think, was it The Magic of Thinking Big?
+
+!# Tim @ 1:21:46
+Yeah, that’s right. David Schwartz, I have it faced out on my shelf in my living room so that I can see it constantly.
+
+!# Derek @ 1:21:54
+OK, when you told me that The Magic of Thinking Big made such a big difference to you made, I think the next week I picked it up and read it. And it did nothing for me.
+
+!# Tim @ 1:22:04
+Yeah, it has to catch you at the right time.
+
+!# Derek @ 1:22:07
+Exactly! And so that’s why…
+
+!# Tim @ 1:22:09
+And it’s also one of those books, sorry I’m getting defensive, it’s one of those books that I read in around 2000, maybe a year or two after college, when I was in a shitty 100+ hours a week job where I’m sleeping under my desk and sitting in the fire exit because that’s the only place where they can fit me. But yeah, it has to find you at the right time.
+
+!# Derek @ 1:22:30
+Exactly. And so there have been people that I tell about how Tony Robbins’ Awaken the Giant within totally changed my life and I gave it to friends and they go like “eh, I don’t know, it did nothing for me.” So, you’re right, it does matter when you read a book.
+
+Even, I noticed, on a specific subject, I read and loved Stumbling on Happiness. Loved that book! And so I read like two or three more books on the subject of the study of happiness. And by the time I got to the third one, I forget what it’s called right now, maybe Happiness Project or something like that, whatever the third one I read was, I remember flipping through the book quickly like “yeah yeah yeah yeah, I know, I know, I know, I got it.” And so I gave it a really bad rating on my website. And somebody emailed me later going “hey! That book changed my life, I can’t believe you gave it a 2 out of 10 rating!” And I looked again at my notes and I thought you know, it’s probably a really good book, I just read it at the wrong time because I had just read two other books on that subject.
+
+!# Tim @ 1:23:29
+Exactly, just in a different order it might have been a 10.
+
+!# Derek @ 1:23:33
+Exactly! If I would have read that one before Stumbling on Happiness, which I gave it a 10 to, then I would advocate that one and Stumbling on Happiness might have been like “yeah yeah yeah, I know this stuff already.”
+
+!# Tim @ 1:23:40
+Stumbling on Happiness is a great book. For those people who are familiar with the term that I used in The 4-Hour Workweek, the deferred life plan. So in other words saving and working in order to retire at some points in the future, maybe 10, 20 years down the road, 30 perhaps, to redeem all of that toil for some reward, like sailing around the world in a sailboat. Stumbling on Happiness, by Daniel Gilbert, is that right?
+
+!# Derek @ 1:24:18
+Yeah.
+
+!# Tim @ 1:24:19
+Is a great reality check for that type of, I think, extremely risky, prone to failure deferred life planning.
+
+!# Derek @ 1:24:30
+Yeah. So, I gotta tell you! we haven’t really talked about this yet, but this is so up your alley or your listeners’ alley, people who are into books will appreciate this. So a lot of my friends, actually any of my friends are as into reading as I am, okay couple are, but most aren’t, and so whenever I tell them about some amazing book I’ve read, the gist I get from my friends is like “well, just tell me what to do.”
+
+!# Tim @ 1:24:58
+Give me the index card.
+
+!# Derek @ 1:25:00
+Yeah. Like they don’t want to read the book. And so my friend Jeff is a smart guy, and he’s a lawyer, he’s smart. But he just looks at me with his tired eyes and he just says “I’m not going to read the book dude”, like you can stop pushing it on me, it’s just never got a happen. He says “just tell me what to do. I trust you. I like you, you know me. So, tell me what to do.”
+
+And I realized that if you trust the source, you don’t need the arguments. So much of a book is arguing its point. But often, you don’t need the arguments, if you trust the source, you can just get the point.
+
+So after taking detailed notes on 220 books on my site, I realized that distilling wisdom into directives is so valuable, but it’s so rarely done. In fact the only time I can think of that was done was Michael Pollan with his three books in a row about food, each one getting shorter and shorter. I think the first one was Omnivore’s Dilemma, which was big. So I know that you’re the kind of guy that would…
+
+!# Tim @ 1:26:09
+It’s a great book, but also, that I like 70 pages on corn production in the US, and most people just drop out. Then I was like God, my eyes glazing over here, but I know there is some good stuff coming so I’ll slog through it. But yes, a very great book but a very big book.
+
+!# Derek @ 1:26:28
+And they did, one year later, that basically took the best of Omnivore’s Dilemma and made it into a shorter, more pop market, two to three hundred page book I believe, I forget the name of that one.
+
+!# Tim @ 1:26:41
+It may have been In Defense of Food, maybe.
+
+!# Derek @ 1:26:44
+That sounds right, yes. Thank you. So even that one, I remember somebody telling me I should read it and looking at is going like “I don’t know if I really want to read 300 pages about food.” But then, a year later, he put out a teeny tiny little book called Food Rules, I think that’s what it’s called. You basically can read the whole thing while just standing in the bookstore.
+
+He took the energy and the effort to compress everything he has learned into very succinct directives, sentences that tell you what to do: do this, do that or don’t do that. “If your grandmother wouldn’t recognize it as food, don’t eat it”. And his tag line for that book, the popular phrase was: eat food, mostly plants, not too much.
+
+And I so admired that. I got inspired by the effort it takes to distill the blah blah blah blah blah down into the specific sentences for the people that just aren’t going to read that 900 page book, right? Probably all of that same information is in the 900 page book, but we just have to realistically admit that most people will never read the 900 page book.
+
+So as I’m reading these 300 page books, 220 of them, very often there will be some brilliant, amazing, important point on page 290. And I feel a little sad that almost nobody is going to read that. Like, I wish that these little tiny points were extracted, without all the surrounding arguments. So especially…
+
+OK I’ll admit that this was also sparked by the idea of when I had a kid, and I thought I might not be alive when he’s my age or even when he’s 19. I might die before he gets older. How could I compress everything I’ve learned that I think he should know into a real succinct format that he will definitely read? And then of course I thought other people too.
+
+So I got onto this idea of the Do This project, which is project instead of talking around the subject, just giving directives saying do this, do that, don’t do this, don’t do that. Which is kind of funny because it feels very presumptuous, right? Like who am I to tell others what to do? But then I think, who am I not to? Right? It’s useful. So get over myself.
+
+Kind of like you asked about me on stage when I was 18, what was the biggest lesson learned. This isn’t about me. People aren’t here about me, they’re here for their own gain. Oh, you asked my advice to TED speakers, that’s my main advised to TED speakers: people aren’t here to see you and your life story, people come to TED or watch TED videos to learn something. So just speak only about what is surprising and skip everything else.
+
+!# Tim @ 1:29:42
+If people could start with one of your talks, I know I’m interrupting for second, but which talk would you suggest as a starter?
+
+!# Derek @ 1:29:51
+My favorite one is the one I think on the TED site is called Weird, or just different? I call it the Japanese address system.
+
+!# Tim @ 1:30:02
+And I actually know what that means, yeah. It can be so confusing, but yeah.
+
+!# Derek @ 1:30:09
+Until somebody explains it to you and then you realize “oh, it’s just a different way of thinking.” And here, I’ll just give you a little teaser, the talk is only three minutes long, so you go to ted.com and you search for Derek Sivers and it’s called Weird, or just different? but the little teaser is:
+
+It blew my mind when I found out that in Japan the reason that streets don’t have names is because they think of the streets as the empty unnamed spaces, because the blocks are the things that have names, the blocks are the piece of land with houses on, that’s what’s important. Whereas in America, and most in the world, if you say what is the name of that block people will look at you weird like “well, this is Oak Street, this is Third Avenue, what you mean?”, and they say “well, what is that block called?” And they say “that doesn’t have a name, we don’t name our blocks, we name our streets. And blocks are just the unnamed spaces in between named streets.” So in Japan it’s the opposite. The streets are the empty unnamed spaces in between named blocks.
+
+So I realized that how many things in life actually or just as well the complete opposite way were used to thinking of them. Both ways are correct. So anyway, that’s the idea.
+
+!# Tim @ 1:31:21
+We were talking about directives. And the advice you give TED speakers is how I took us off track. Where can people find the directives?
+
+!# Derek @ 1:31:38
+Only in this podcast. No, it’s true, I haven’t done anything with it publicly. At first I thought I was going to make this into a big keynote speech I was doing at a conference, the World Domination Summit conference in Portland. I spent four months of full-time work, from like 7 AM to midnight, seven days a week for four months in a row, just re-reading all 220 book notes, trying to turn all of this advice, or this knowledge, this wisdom, trying to turn it into directives. Because a lot of it, almost never is in the directive format already. People talk around the subject, they talk about findings and research. But it takes some real effort.
+
+Kind of like the old philosophers, you’ve read the stoicism book The Guide to the Good Life?
+
+!# Tim @ 1:32:34
+Yes I have. I have that upon my living room wall as well.
+
+!# Derek @ 1:32:37
+So in that book he says right in the intro, if you ask a modern person who calls himself a philosopher “what should I do with my life?”, sit down and get comfortable because they will tell you “well it depends what you mean by what, and it depends what you mean by do, and really depends what you mean by life, or really it depends what you mean by my life…” He said that people are talking around the issue so much these days. But back in 600 BC if you would’ve asked one of these philosophers “what should I do with my life?”, they would sit down and tell you exactly what to do with your life. Do this, don’t do that, pursue this, don’t pursue that.
+
+I was really inspired by that intro too. The idea was how can I go back to all of these amazing books I’ve read and compress all of this wisdom into specific directives. It took me four months of work to come up with the following 18 sentences, do you want to hear them?
+
+!# Tim @ 1:33:41
+I do want to hear them. I’m super excited about this.
+
+!# Derek @ 1:33:44
+So this was going to be a 35 minute long keynote speech and it turned out to be a horrible 35 minutes long talk. But it’s entertaining for about three minutes. So here’s the three-minute version. OK so first I had fun categorizing them. So this is the category called how to be useful to others. Ready?
+
+!# Tim @ 1:34:08
+I’m ready.
+
+!# Derek @ 1:34:10
+1. How to be useful to others: get famous.
+  - Do everything in public and for the public.
+  - The more people you reach, the more useful you are.
+  - The opposite is hiding, which is of no use to anyone.
+2. How to be useful to others: get rich.
+  - Money is neutral proof that you are adding value to people’s lives.
+  - So by getting rich you’re being useful as a side effect.
+  - Once rich, spend the money in ways that are even more useful to others. Then getting rich is double useful.
+3. How to be useful to others: share strong opinions.
+  - Strong opinions are very useful to others.
+  - Those who are undecided or ambivalent can just adopt your stance.
+  - But those who disagree can solidify their stands by arguing against yours.
+  - So even if you invent an opinion for the sole sake of argument, boldly sharing a strong opinion is very useful to others.
+4. How to be useful to others: be expensive.
+  - People given a placebo pill were twice as likely to have their pain disappear when told that that pill was expensive.
+  - People who paid more for tickets were more likely to attend the performance.
+  - So people who spend more for a product or service value it more, and get more use out of it. So be expensive.
+
+!# Tim @ 1:35:26
+OK, this is good stuff.
+
+!# Derek @ 1:35:28
+So that’s how can be useful to others. That’s just one category. I’ve got a few more if you want to hear them later.
+
+!# Tim @ 1:35:32
+Well yeah. What is your favorite of the remaining categories? Maybe we could do one more.
+
+!# Derek @ 1:35:39
+OK good. If you imagine that I’ve got a few more that are done in that format, like I’ve got, and this is very stoicism, how to thrive in an unknowable future. It’s like prepare for the worst, expect disaster. Own as little as possible. Choose opportunity not loyalty.
+
+!# Tim @  1:35:54
+Let’s do that one. I mean, you know I’m a sucker of stoicism.
+
+!# Derek @ 1:35:58
+Alright!
+
+!# Tim @ 1:36:00
+Let’s talk about that one.
+
+!# Derek @ 1:36:02
+1. How to thrive in an unknowable future. Prepare for the worst.
+  - Since you have no idea what the future may bring, be open to the best and the worst.
+  - But the best case scenario doesn’t need your preparation or your attention, so mentally and financially just prepare for the worst case instead.
+  - And, like insurance, don’t obsess on it, just prepare and then carry on appreciating the good times.
+2. How to thrive in an unknowable future. Expect disaster.
+  - If you ever watched the VH1 Behind the Music, you know that like every single success story had that moment where the narrator would come in and say “and then, things took a turn for the worse”, so fully expect that the disaster to come to you at any time.
+  - You have to completely assume that it is going to happen, and make your plans accordingly. Not just money, but health, and family, and freedom. You have to expect it to all disappear.
+  - Besides, you appreciate things more when you know this may be your last time seeing them.
+3. How to thrive in an unknowable future: own as little as possible.
+  - Depend on even less.
+  - The less you own the less you’re affected by disaster.
+4. How to thrive in an unknowable future: choose opportunity, not loyalty.
+  - Have no loyalty to location, corporation, or your last public statements.
+  - Be an absolute opportunist. Doing whatever is best for the future in the current situation, unbound by the past.
+  - Have loyalty for only your most important human relationships.
+5. How to thrive in an unknowable future: choose the plan with the most options.
+  - The best plans are the ones that lets you change your plans.
+  - For example: renting a house is actually buying the option to move at any time, without losing money in a changing market.
+6. How to thrive in an unknowable future: avoid planning.
+  - For maximum options don’t plan at all.
+  - Since you have no idea how the situation or your mood may change in the future, wait until the last moment to make each decision.
+
+!# Tim @ 1:38:02
+Which of these have few most concretely implemented in your life? From this category.
+
+!# Derek @ 1:38:11
+Oh God, I really internalize this category. It’s the whole way I see the world. If you look inside my head you’d think I was a little nuts in that I’m just always expecting everything to disappear.
+
+I’m living in New Zealand now, and I step outside, it’s just gorgeous, I’m surrounded by nature and blue skies and I just inhale and I think yeah, this is all going to disappear. It’s all going to go to shit. Pollution is going to wreck this all.
+
+But I don’t think like that in an awful doom and gloom way, you can tell I’m not depressed, but it’s just part of my appreciation for everything now. And every person I know.
+
+And even just my health. Even when I stand up in the morning, I wake up full of energy and I think yep, in a couple decades, that’s not going to happen anymore. I really appreciate this. So yeah it’s more just a deep mindset.
+
+!# Tim @ 1:39:11
+What’s a practical, I give a short five minute talk on practical pessimism. Stoicism as a productivity system, I talked about this. Because I think it’s so important that not to be brainwashed into looking at everything with rose-colored glasses, because it’s not always a constructive exercise. In fact, it can very much be the opposite. And one of the primary reasons that I’m fasting right now, I’m eight days into a target of ten, I’m getting a little woozy to the, but all things mostly manageable, is, and I’m also, and this is what I haven’t mentioned to you, also unshaven, also wearing mostly the same clothing, pants, jacket, etc. all week long. And the reason for that is actually, what you just said reminded me a lot of Marcus Aurelius’s Meditations, which were the Emperor of Rome’s wartime journal, never intended for publication. But it was always start with like “today, you are going to meet rude, ungrateful, arrogant people and this is how you’re going to contend with it”. And it seems very depressing until you realize that he was setting, creating a mindset that could deal with those worst-case scenarios, if they presented themselves. And similarly, Seneca, who was a very controversial stoic but nonetheless my favorite to read, and I have a huge, like 30 hours of audio coming out related to Seneca shortly, but one of my favorite passages from Seneca is one that reads, and I’m going to massacre this but it’s paraphrased: “set aside some time each month where you subsists on the scantest of fare, that sheep the roughest of dress, etc. etc. etc. asking yourself all the while is this the condition I so feared?” And so not only are you mentally preparing yourself by visualizing the worst-case scenario, you’re actually practicing, you’re rehearsing poverty. Or lack of variation, or in my case, no food. I’ve done this before with, say, rice and beans for five days. And you’re like okay, it cost me two dollars a day, or less, to eat and I feel fucking fine. And in fact, not having the paradox of choice having to go to a Thai restaurant and having to pick from under 150 items that all have the same six fucking ingredients, that’s been really relaxing. And so on and so forth. And so that’s maybe a slight digression, but I’ve always appreciated that about how you had designed your life.
+
+!# Derek @ 1:41:59
+Actually, before we close out this subject I have to just give you the one little punch line ending to these directives. Because there were some that didn’t fit into this do-this format, and I didn’t want to start making lists of what not to do, because I like the idea that every single sentence should be actionable. And so don’t do this, don’t do that didn’t feel actionable enough to me. So I had fun kind of like our mutual hero Charlie Munger, had the speech once that I think he gave at the USC about how to be a failure. So I made a category that was called how to stop being rich and happy.
+
+So this is like after your rich and happy, how to stop being rich and happy. And I thought you’d appreciate this first one: prioritize lifestyle design. You’ve made it, so it’s all about you now. Make your dreams come true. Shape your surroundings to please your every desire. Make your immediate gratification the most important thing. How to stop being rich and happy: chase that comparison moments. You have the old, you want the new thing. Yes! Do it! Be happy for a week! Ignore the fact that happiness comes only from the moment of comparison between the old and new. Once you had the new thing for a week and it becomes your new normal then just go seek happiness from another new thing. Yeah, you get the idea.
+
+!# Tim @ 1:43:21
+No, I do and I agree with the first point. People might think that I wouldn’t, but doing a lot of reading and practice with meditation and so on, but if you read Tara Brach, she has a fantastic book called Radical Acceptance which I highly recommend to people who are type A in particular. Actually Tony Robbins would say this to, I attended my first life events a few weeks ago, which was very fascinating a lot of fun, that most suffering comes from a focus on me, on the self. I received the these of advice five years ago from someone, they say if you’re having trouble making yourself happy, just make someone else happy. And it sounds so cliché but it’s actually a really pragmatic. And it makes me think of this something really simple that I’ve been doing.
+
+Gabrielle Reece, who was this podcast with Laird Hamilton, both very famous athletes and they’re married, and she said “go first.” And all she meant by that was, during your day, be first. Be the first to look at someone and smile, be the first when you walk up to the barista, asked them how they’re doing. Be the first to initiate that. And it’s such a simple way to put a smile on people’s faces, not always, but a good portion of the time and that can change your own state.
+
+Two things on books. Because you’re sharing your methods, all share a couple that I’ve enjoyed. One is on Amazon, I will look at the four-star... if it has a critical mass of five stars to be worth looking into, if that’s how I’m filtering, then I will look at the most helpful critical reviews that are four and three stars. In addition to that I will go to, I think it’s just kindle.amazon.com and I will read the public highlights. So I’ll take maybe five minutes to look at the most critical three and four-star reviews. Because the five-star and the one-star and two-star then to be worthless in a way, because they’re so one sided. So I look at the three and four-star most helpful critical reviews. And then I will look at the Kindle highlights, and that is in effect seeing the movie trailer. It’s like if you don’t like the highlights from the movie trailer, you’re definitely not going to like the full feature film. Especially if it takes 30 hours instead of just one and a half. And the reason I started using a Kindle was specifically so that I could export my notes as text files. So that’s one of the ways that I filter books these days.
+
+But the question that I always ask, and that I like to ask you, and I think we might have to do a round to sometime because we probably have to hop off in maybe 10 minutes or so, but what… oh there is so many questions I want to ask you. What is the book you’ve given most as a gift?
+
+!# Derek @ 1:46:20
+Geek in Japan by Héctor García.
+
+I’m fascinated with understanding the mindset of a place. I’d love to really understand the philosophy of Brazil, India, China, Finland, France, Japan, Thailand. Each place seems to have its own cultural norms in its approach to time, long-term vs short-term thinking, what’s precious and should be protected, human interactions, relationships, dealing with obstacles, conformity vs rebellion, the approach to the unfortunate.
+
+We think of philosophies like Existentialism, Stoicism, Nihilism, etc. But I’d love to study Brazilism, Japanism, Thaism. I really do think that each country’s culture this kind of like a working, modern, applied philosophy.
+
+Geek in Japan is written by a Spanish guy who’s been living in Japan for 10 years. While much of the book is just “check this out” and “look at that”, it has a section in the middle that explains the Japanese mindset better than anything I’d heard before. And I’d spent months in Japan over the last 20 years. I’ve gone there five or six times and I used to play guitar for a Japanese popstar and toured the country, but somehow Geek in Japan made me understand it more. So I give it to everyone who’s going to Japan.
+
+An even better book at describing the mindset of a country is called Au Contraire - Figuring out the French. I wish there was a book like this about each country. I highly recommend it so you listeners out there, if you know of other books like this that like explain the mindset of the country, please email me to let me know.
+
+!# Tim @ 1:48:34
+There is a book, and I’m going to rely on the readers as well… What is your email address Derek? If you want to give it out.
+
+!# Derek @ 1:48:20
+Yeah. derek@sivers.org
+
+!# Tim @ 1:48:44
+And in the comments guys, so the show notes that these things, links to these books will be at [fourhourworkweek.com/derek](http://fourhourworkweek.com/derek). But there is a book out there, I want to say Enrico or something is the author, built in Italian, I’m pretty sure it’s Italian, he effectively writes “Geek in America”, but from the standpoint of an Italian traveling through the US, including the heartland. So that’s one.
+
+What $100 or less purchase has most positively impacted your life in the last six months, or recently?
+
+!# Derek @ 1:49:22
+I’m such a minimalist that I always avoid letting any new possession into my life. But I took my 3-year-old kid to a cafe that had a huge box of toys, little figurines, cars, dolls, monsters, and he was in the zone for 2-3 hours, completely engrossed. So I was like yeah, I can’t push my minimalism on him, so that night I went onto eBay and found someone selling a huge box of old used toys, just like that. You know, figurines and cars and stuff. 20 bucks. Endless hours of entertainment since, best $20 I spent in a long time.
+
+!# Tim @ 1:50:03
+That’s awesome. Do you have a favorite documentary or movie?
+
+!# Derek @ 1:50:09
+No, I really don’t watch hardly anything. I mean relative to the norm, right? I watch movies for the artistry, the cinematography. I listen to music of course. But I don’t watch TED talks or documentaries or TV shows. I don’t read blogs or articles. I don’t listen to podcasts, in fact I listened to my very first podcast two weeks ago. That was the one with you and Tony Robbins, that was like the first time I’ve ever listen to a podcast.
+
+I have this lovely optimized life where I wake up and just write write write all day long. No commute, so no down-time like that. If I’m outside, I want to hear the birds and trees. If I’m working out, I’ll crank the hip hop, or sometimes just enjoy the total silence except for the hardcore sound of the clanking metal plates. So I really prefer books as my medium of learning and input.
+
+!# Tim @ 1:51:11
+Of information intake. What are you listening to now or recently for working out? What music?
+
+!# Derek @ 1:51:18
+I’ve started realizing that I don’t know my American history of hip-hop. I’ve always been loosely aware of it, but I recently saw the Chris Rock movie Top Five. And the running punchline in that movie as like he goes around like “what are your top five?”, people kind of name their top five hip-hop artists, or the one they feel that were the most important. And they were some in there, and I realized, I know who these people are, of course we all heard of KRS-One and Rakim, but I don’t think I actually know their music well, so I started getting myself in education in the history of hip-hop. And so lately I’ve been listening to nothing but hip-hop, going back to the very beginning, the Wild Style movie, kind of early stuff, and giving myself the kind of chronological history of hip-hop. It’s been fun.
+
+!# Tim @ 1:52:03
+Any favorites so far? I would say it’d be Eric B. or Rakim our way up at the top for me.
+
+!# Derek @ 1:52:08
+Yes! Especially when I understood the context, when you hear the before and after. Like right now you can take Rakim for granted the way that now if you listen to Jimi Hendrix, you could take what he was doing for granted, because people have expanded on that. But if you think of like what people were doing with guitars before Jimi Hendrix and after it was just mind blowing. And so I think Rakim is like that for hip-hop. Listen to what was going on before him and then he came along was such a whole new approach that changed everybody’s since.
+
+!# Tim @ 1:52:43
+If you could have one billboard anywhere with anything on it, what would it say?
+
+!# Derek @ 1:52:49
+My real answer, if I was taking that literally, is that I wish I could remove all billboards in the world, and ensure they were never replaced. Have you ever driven through India?
+
+!# Tim @  1:53:02
+Yeah. Well I haven’t driven, but on my way to the Calcutta ER where I spent a week I was briefly looking out the windows.
+
+!# Derek @ 1:53:11
+You know, even in those small towns, almost no space that is left without advertising. I really admire the places, I think Vermont and Sao Paolo Brazil, that ban billboards.
+
+But I know that that wasn’t really what you’re asking, so my better answer is : I think I would make a billboard that would say, “IT WON’T MAKE YOU HAPPY”, and I would place it outside any big shopping mall or car dealer. Ideally actually, you know what would be a fun project? Is to buy and train thousands of parrots to say, “IT WON’T MAKE YOU HAPPY, IT WON’T MAKE YOU HAPPY”, then you let them loose in shopping malls and superstores around the world. That’s my life mission. Anybody in? Anybody with me? Let’s do it!
+
+!# Tim @ 1:54:02
+Yeah, we’ll make you happy. Very stoic, very stoic. Which does not mean you can’t have joy in your life. But I think Stumbling on Happiness is a great one for people to peruse. Do you have notes on Stumbling on Happiness?
+
+!# Derek @ 1:54:18
+Yeah, that’s on there.
+
+!# Tim @ 1:54:19
+Alright, great. So we will link to that. OK, last, effectively last question, I’ll give you one or two more and then I might have to sometime soon talk about a round two if people are interested. So if you’d like to hear more with Derek, please let me know @tferriss on the twitter.
+
+What advice would you give your 30 year old self? And place us, if you would, for where you were at 30 and what you are doing.
+
+!# Derek @ 1:54:48
+At 30, well let’s see, I had just started CD Baby, that I think the biggest advice I would give to my younger self or more likely knowledge learned like “hey younger self, you should know this now”, is that women like sex. I didn’t know that until I was 40. I think I didn’t get that. I think through teenage movies or whatever, what kind of taught the opposite. That’s like men always one sex and women don’t. I don’t know why the media portrays it like that. But later I found out that’s not.
+
+But I think the more interesting answer is that my advise to my 30-year-old self would be don’t be a donkey.
+
+!# Tim @ 1:55:31
+What does that mean?
+
+!# Derek @ 1:55:34
+Well, I meet a lot of 30-year-olds that are trying to pursue many different directions at once. But not making progress in any, right? Or they get frustrated that the world wants them to pick one thing, because they want to do them all, and I gets a lot of this frustration like “but I want to do this AND that AND this AND that, why do I have to choose? I don’t know what to choose?”
+
+But the problem is if you’re thinking short-term then you’re acting as if you don’t do them all this week that they won’t happen. But I think the solution is to think long-term, to realize that you can do one of these things for a few years and then do another one for a few years and then another.
+
+So what I mean about don’t be a donkey is, you’ve probably heard the fable about Buridan’s donkey. It’s a fable about a donkey that is standing halfway in between the pile of hay and a bucket of water. And he just keeps looking left to the hay or right to the water, trying to decide hay or water, hay or water, he’s unable to decide. So he eventually falls over and dies of both hunger and thirst.
+
+So the point is that a donkey can’t think of the future. If he did he’d clearly realize that she could just go first drink the water and then go eat the hay.
+
+So my advice to my 30 year old self is don’t be a donkey. You can do everything you want to do, you just need foresight and patience.
+
+Say, for somebody listening, you're 30 years old now and say you have like five different things you want to pursue, right? Well then, you can do each one of those for 10 years, and you have them all done by the time you’re 80. You’re probably going to live to be 80. It sounds ridiculous to plan to the age of 80 when you’re 30, right? But it’s a fact that’s probably coming, so you might as well take advantage of it.
+
+Use the future. That way you can fully focus on one direction at the time without feeling conflicted or distracted, because you know that you’ll get to the others in the future.
+
+!# Tim @ 1:57:42
+And I think you’d also, just to build on that, I agree, and I think that most people, and this is not something I’ve thought up on my own, that they overestimate what they can achieve in a day or week that they underestimate what they can achieve in a year or even two years. And the way that for instance if you look at a lot of what I’ve done, much of which ended up being a results accidental discoveries, but yet the book career, but then you had the angel investing, started around 2007 2008 and I treated that as a two-year self-imposed MBA. And it was like okay, I want to try it, I really focused on it for two years and I’m not going to expect to have any financial return, just as an MBA, I’m going to sink in this amount of cost into it, which was identical to Stanford graduate school of business at the time and assume that the network and relationships and lessons I would learn would be worse that two years. And just viewing them as two-year experiments, which I did with the TV also, which did not turn out as ideal as I would’ve liked, although I’m very proud of the Tim Ferriss Experiment. Podcast, same thing, it wasn’t a three-year commitment, but it was also not a one day or one week commitment. It was like okay, I’m going to do this for at least six episodes, maybe it takes me six months and then I’ll correct course at that point. I think a lot of 30-year-olds feel pressured, or younger or older for that matter, to pursue many many things in parallel when, if you were just to tweak that slightly and make them serial, the results would be much better.
+
+!# Derek @ 1:59:29
+Yeah. That’s a really hard lesson to learn, we can even say is right now, but it’s a really tough. I even find that now.
+
+!# Tim @ 1:59:36
+Yeah, it’s a constant challenge. The 5-minute Journal find really helpful. I’ve mentioned this before to people so I won’t belabor the point, so they can check that out if they want to. Or the Pomodoro technique, also really helpful. OK, we’re going to wrap this first conversation up for our dear public, but do you have any asks or requests of my audience before we close up?
+
+!# Derek @ 2:00:02
+Not really. I mean, honestly the main reason I do interviews like this, like public ones instead of you and I just sitting on the phone and shooting the shit, is that I really like the people that I meet through them. Like the kind of people that would listen two hours into this conversation are my kind of people. So I usually just tell people just email me, derek@sivers.org, I read them all. I kind of enjoy putting aside a little time each day to read emails and I answer every single one. Because I said hell yeah or no to the rest of my life, so I got time to do it! So yeah, that’s it. Just feel free to email me if you have any questions or anything. Or just to say hi.
+
+!# Tim @ 2:00:37
+Awesome. And for those people who do not want to wait for round two, Derek you’re hilarious, I put out a tweet recently which was “what would you like me to ask @sivers, I’m going to be and interviewing him soon”, and I couldn’t ask any of them because you went online and basically answered all them, all on Twitter. So if you search @tferriss and @sivers, you’ll see, or you can just look at my tweet and the various responses, you can get an encore performance.
+
+!# Derek @  2:01:18
+I had the feeling we probably weren’t going to get all of those questions so better to answer them with a tiny punchline.
+
+!# Tim @ 2:01:27
+Oh yeah, yeah I know. No, fantastic. Well Derek, as always so much fun to jam. We need to spend more time in person soon. And thanks so much for taking the time.
+
+!# Derek @ 2:01:40
+Of course! Thanks!
+
+!# Tim @ 2:01:42
+Alright, and everybody listening, thank you all for listening, redundancy of department redundancy. And the show notes, as always, you can find for all episodes on fourhourworkweek.com/podcast, for this episode specifically at fourhourworkweek.com/derek.
