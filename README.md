@@ -4,9 +4,13 @@
 
 For example, [tim_ferriss_show/2015-12-14-derek-sivers.transcript](https://github.com/jonmbake/transcripts.io.src/blob/master/tim_ferriss_show/2015-12-14-derek-sivers.transcript) was auto-generated into  https://www.transcripts.io/transcripts/tim_ferriss_show/2015/12/14/derek-sivers.html on commit.
 
+Feel free to contribute!
+
 ## Why transcripts.io
 
 Transcribing audio is hard work.  Like most things in life, when done as a group it becomes much easier.  The idea behind [transcripts.io](http://transcripts.io) is that, by working together, we can create **quality** transcriptions that can be enjoyed by many.
+
+The value of transcribed audio is immense. For example, you can do things like search for something you previously heard and jump right to that position within the audio.
 
 ## How to Contribute
 
