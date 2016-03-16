@@ -21,6 +21,6 @@ Right now this idea is being tested out on a single Podcast, [The Tim Ferriss Sh
 
 ## Contribution Details
 
-Transcription are formatted using a slightly "enhanced" version of [Markdown](https://daringfireball.net/projects/markdown/).  The only enhancement is the `!#` element is added to indicate change of speaker.
+Transcripts are formatted using a slightly "enhanced" version of [Markdown](https://daringfireball.net/projects/markdown/).  The only enhancement is the `!#` element is added to indicate change of speaker.
 
 *transcripts.io* uses [Jekyll](https://jekyllrb.com/) to generate the transcript HTML so a bit of [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/) is also necessary.  There is also some metadata data needed by the transcript generator, such as speaker information. Check out [2014-04-22-josh-waitzkin.transcript](https://github.com/jonmbake/transcripts.io.src/blob/master/tim_ferriss_show/2014-04-22-josh-waitzkin.transcript) for an example transcript.
