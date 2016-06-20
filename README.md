@@ -20,4 +20,6 @@ Using the [Transcribe Tool](https://www.transcripts.io/transcribe/) makes transc
 
 ## Transcript Status
 
-Check out sub-folder Readme's for transcript status.
+Check out sub-folder Readme's for transcript status:
+
+- [tim_ferriss_show](tim_ferriss_show)

@@ -1,4 +1,4 @@
-
+<h1>Transcript Status</h1>
 <table>
   <thead>
     <tr>
@@ -10,6 +10,56 @@
   </thead>
   <tbody>
     
+      
+        <tr>
+					<td><a href="2016-06-18-jamie-foxx.transcript">2016-06-18-jamie-foxx.transcript</a></td>
+          <td>Jamie Foxx Part 2 - Bringing the Thunder</td>
+          <td>Jun 18, 2016</td>
+					
+          <td class="alert-error">0% Complete</td>
+        </tr>
+      
+    
+      
+    
+      
+        <tr>
+					<td><a href="2016-06-05-kevin-kelly.transcript">2016-06-05-kevin-kelly.transcript</a></td>
+          <td>Kevin Kelly - AI, Virtual Reality, and The Inevitable</td>
+          <td>Jun 5, 2016</td>
+					
+          <td class="alert-error">0% Complete</td>
+        </tr>
+      
+    
+      
+        <tr>
+					<td><a href="2016-05-28-marc-andreessen.transcript">2016-05-28-marc-andreessen.transcript</a></td>
+          <td>Marc Andreessen — Lessons, Predictions, and Recommendations from an Icon</td>
+          <td>May 28, 2016</td>
+					
+          <td class="alert-error">0% Complete</td>
+        </tr>
+      
+    
+      
+        <tr>
+					<td><a href="2016-05-27-stephen-dubner.transcript">2016-05-27-stephen-dubner.transcript</a></td>
+          <td>How to Be Tim Ferriss - Featuring Freakonomics</td>
+          <td>May 27, 2016</td>
+					
+          <td class="alert-error">0% Complete</td>
+        </tr>
+      
+    
+      
+        <tr>
+					<td><a href="2016-05-22-sebastian-junger.transcript">2016-05-22-sebastian-junger.transcript</a></td>
+          <td>Lessons from War, Tribal Societies, and a Non-Fiction Life (Sebastian Junger)</td>
+          <td>May 22, 2016</td>
+					
+          <td class="alert-error">0% Complete</td>
+        </tr>
       
     
       
@@ -1324,3 +1374,4 @@
     
   </tbody>
 </table>
+	
