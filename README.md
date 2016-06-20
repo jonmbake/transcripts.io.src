@@ -12,7 +12,7 @@ Transcripts are in the format:
 <comments>
 ```
 
-*<comments>* are parsed as markdown.
+*comments* are parsed as markdown.
 
 ## Transcribe Tool
 
