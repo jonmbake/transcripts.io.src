@@ -7,9 +7,15 @@ Source transcripts for [transcripts.io](http://transcripts.io).
 Transcripts are in the format:
 
 ```
-!# <speaker> @ <timestemp>
+!# <speaker1> @ <timestemp>
 
 <comments>
+
+!# <speaker2> @ <timestemp>
+
+<comments>
+
+...
 ```
 
 *comments* are parsed as markdown.
@@ -20,6 +26,6 @@ Using the [Transcribe Tool](https://www.transcripts.io/transcribe/) makes transc
 
 ## Transcript Status
 
-Check out sub-folder Readme's for transcript status:
+Check out sub-folder Readmes for transcript status:
 
 - [tim_ferriss_show](tim_ferriss_show)
