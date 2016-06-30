@@ -12,6 +12,1252 @@ speakers:
     role: 'guest'
 ---
 
-!# Untranscribed @ 2:14
+!# Tim @ 00:02:14
+
+Hello, my friendly little mogwhy. This is Tim Ferriss and welcome to another episode of the Tim Ferriss Show. I am very excited about this one, folks. I have wanted to do it for a long time. It took about a year, year and a half, to set up. Of course, every episode it is my job to try and deconstruct world class performers, to tease out the perspectives, habits, routines, favorite books, etc. that make them as good at what they do as they are.
+
+This episode we have Marc Andreessen. [@pmarca](https://twitter.com/pmarca) on Twitter. He is a legendary figure here in Silicon Valley and indeed worldwide. Even in the epicenter of tech, it is hard to find a more fascinating icon. Marc co-created the highly influential [Mosaic](http://www.wired.com/2010/04/0422mosaic-web-browser/) internet browser, the first widely used graphical web browser. He also co-founded [Netscape](https://en.wikipedia.org/wiki/Netscape), which later sold to AOL for $4.2 billion. Then co-founded [LoudCloud](https://en.wikipedia.org/wiki/Opsware), which sold as Opsware, to Hewlett-Packard for $1.6 billion.
+
+He is considered one of the founding fathers of the modern internet. This all makes him one of the few humans ever to create software categories used by more than a billion people. Also, one of the few who has established multiple billion dollar companies. He is now a co-founder and general partner of the venture capital firm, [Andreessen Horowitz](http://a16z.com/), where is has quickly become one of the most dominant tech investors in the world.
+
+Now, I want to try and keep this short, but it is hard. I think you will enjoy at least what I am about to read. We refer to an email in this conversation. Our conversation took place at the Sand Hill Road offices of _Andreessen Horowitz_. We refer to an email from Marc to Ben Horowitz, an exchange. This is how it reads because we don't dig into it in the interview. This is page 13 in [The Hard Thing About Hard Things](https://www.amazon.com/Hard-Thing-About-Things-Building/dp/0062273205) by Ben Horowitz, which is a great book... This is after an interview, where Ben felt like Marc disclosed the company strategy prematurely.
+
+> To: Marc Andreessen
+> From: Ben Horowitz
+> Subject : Launch
+>
+> I guess we’re not going to wait until the 5th to launch the strategy.
+>
+> — Ben
+
+Within 15 minutes, I (this is Ben) receives the following reply:
+
+> To: Ben Horowitz
+> From: Marc Andreessen
+> Subject: Re: Launch
+>
+> Apparently you do not understand how serious the situation is. We are getting killed killed killed out there. Our current product is radically worse than the competition. We’ve  had nothing to say for months. As a result, we’ve lost over $3B in market capitalization. We are now in danger of losing the entire company and it’s all server product management’s fault.
+>
+> Next time do the fucking interview yourself.
+>
+> Fuck you,
+> Marc
+
+So, we get into to some really fun stuff in this interview that I don't think Marc has discussed in many places. We talk his epic debate versus [Peter Thiel](https://en.wikipedia.org/wiki/Peter_Thiel). We talk about all the usual questions:
+
+1. Favorite books he has gifted to other people
+2. Favorite documentaries, movies
+3. Morning rituals
+4. What he would put on a billboard, etc
+5. Rule for investing
+6. What he does in partner meetings to make people defend ideas or propose ideas
+7. AI
+8. The future of bitcoin
+9. Drones
+10. Who to watch
+11. What he would teach in a ninth or tenth grade class
+12. Advice to his younger self
+13. What he misses about the mid-90s internet and how he might re-create it
+14. How he thinks about or handles [FOMO](https://en.wikipedia.org/wiki/Fear_of_missing_out)
+
+It goes on and on. We really had an extremely detailed and rich conversation. I hope you enjoy it. Please do say "hi" to Marc. He is very active on Twitter: [@pmarca](https://twitter.com/pmarca). Without further ado, please enjoy.
+
+!# Tim @ 00:06:01
+
+Marc, welcome to the show.
+
+!# Marc @ 00:06:02
+
+Thanks, Tim.
+
+!# Tim @ 00:06:03
+
+I am so thrilled to be here. I have been hoping to make this happen for quite some time. And I figure we will just jump into it.
+
+The first question is, "strong opinions, loosely held." You are associated with that expression. Can you explain what that means?
+
+!# Marc @ 00:06:20
+
+Yes. It is kind of a mentality. It is a mentality around how to start a company for sure. It is a mentality on how to invest for sure. I think it is a mentality that is probably helpful in a lot of other areas of life.
+
+I am drawn to paradoxes... it is kind of a philosophical term. It is like a thesis, antithesis, synthesis kind of thing. A lot of people in the Valley have very strong theories. Then the problem is that they carry them too far. There is a countervailing theory, right, yin and the yang kind of thing.
+
+Strong views are very important. Most people go through life and basically never develop strong views on things or basically go along and buy into the consensus. One of the things that I think you want to look for, I think as both a founder and as an investor, is that you want to look for things that are out of consensus. Something very much opposed to the conventional wisdom. Which sounds easy, but is hard to do... But you want to try and do it.
+
+If you are going to start a company around that, if you are going to invest in that, you better have strong conviction because you are making a very big bet of time or money or both. The problem is... It is a strong view, great. What happens when the world changes, right? What happens when something else happens?
+
+Basically, the way the world works in business and investing and other places is that just when you think you have everything figured out, everything changes. The system evolves and things happen. What do you do when the world changes? What you see everywhere in the world and everywhere in business and everywhere in investing are people just hate changing their minds.... You see it in politics all the time as well. People just get locked into a point of view on things and then you get all these biases like confirmation bias... It is a thing in politics as flip-flopping is viewed as bad. Right? So take it as an example, a politician who flip-flops is viewed as bad and sort of weak and probably evil.
+
+Actually, it is interesting. If you talk to the world's best hedge fund managers, they are the exact opposite. They love changing their mind. Like, I am one of the few people that will openly admit that I love spending time with hedge fund managers. I think they are awesome.
+
+!# Tim @ 00:08:19
+
+I feel the same way.
+
+!# Marc @ 00:08:20
+
+They are fantastic people. They are the most open-minded people I know. They love when you tell them that they are wrong. They get all excited. Their eyes light up. They are like, "Why? Why do you think that?" They are genuinely interested because if you are right and they are wrong they will change their minds. And they are hedge fund managers so they will literally reverse the trade; if they were long on a company, they will flip it around and go short on it. They are totally fine with that. And that's how it works.
+
+What I carry away from that is the weakly held part. Conviction, conviction, conviction. New facts. Change. But it is a paradox, right. Or it's a tension. It's determination coupled with flexibility. They are antithetical.
+
+What you see in the start-up world is two kinds of advice then that express this. There are people that who, with a straight face, will give both of these forms of advice without every acknowledging that they are in conflict. One of which is failing fast. You know... you want to fail fast because it is great to fail to discover what is wrong. It is great to fail. You want to fail and then do something different. Then the other is that you have to be determined. You can't give up. OK, so like how do you possibly reconcile those? In my view, that is where you get the strong views weakly held.
+
+!# Tim @ 00:09:23
+
+So how do you advise in that particular example, for instance? Or assess which tact founders or companies should take potentially? Because you look at some examples, let's say Uber or something like that, where the model as it began is very similar to where it is now. Then you have other companies, like a Twitter or others, where they pivot into a gold mine effectively. Then, obviously, other things have to be laid on top of that to make it successful long term. But, having been in the Valley now for 15-16 years, you see a lot of peole who change their mind almost too frequently with inconsequential facts perhaps. How do you think about advising a company that is struggling as to whether they should stay the course or pivot as they would say?
+
+!# Marc @ 00:10:14
+
+We see both cases... both failure cases. We see companies that are... this fail fast thing is frankly completely out of hand. I am old fashioned. Where I come people like to succeed.
+
+!# Tim @ 00:10:26
+
+[Laughs] Right.
+
+!# Marc @ 00:10:28
+
+When I was a founder, when I first started out, we didn't have the word pivot. We didn't have a fancy word for it. We just called it a fuck up.
+
+!# Tim @ 00:10:36
+
+[Laughs]
+
+!# Marc @ 00:10:38
+
+So, I am old fashioned on this. I like to succeed. I think succeeding should be the goal, not failing, certainly not failing fast, or slower or any form of failing. I get really kind of cranked up about this. We do see companies that literally every time we meet them they pivoted. So, every time I meet them, they are off to something new. It's just watching a rabbit go through a maze or something. They are never going to converge on anything because they are never going to put the time into actually figuring it out and getting it right.
+
+Then you do see the other case. This is where the fail fast thing came from. You do see the case. You see people who just absolutely are determined, will just pound their head against the same wall for years and years and years. You admire them for their determination. Then at a certain point, it just becomes obstinance, right. Then at some point, it becomes self-destructiveness. It becomes Don Quixote. You are just tilting against windmills kind of arbitrarily.
+
+Those are poles. We do see behavior at the poles. The question you are asking is, of course, the key question, which is like what is the middle, how do you know. And frankly, I don't think there is an answer to that. I think that the answer is judgment. I think that's the test.
+
+I think basically there are a couple key tests for founders, or for that matter investors, in these kinds of decisions. I think that is one of the really core tests... Fundamentally, do you have the judgment to be able to make that call, knowing, by the way, that either way could be a big mistake.
+
+You are not going to get any confirmation from anybody that you made the right call. If you change and then succeed, it is all great. By the way, you might have succeeded with the old thing even better. If you change and fail, you'll never know whether the old thing would have worked. In science, ​they call it the counterfactual. You will never know the counterfactual. The way my brain works is that I am always thinking in terms of the counterfactuals. I am always thinking in terms of the way things could have been.
+
+The world evolved in a certain way kind of as a consequence of people making all these decisions on the fly. People could have very easily made a different set of decisions and the world could have ended up in a very different place. So, the idea that you are ever going to know the consequence of your decision I think is probably a fallacy... or what the alternative would have been...
+
+!# Tim @ 00:12:31
+
+Right.
+
+!# Marc @ 00:12:32
+
+... like the relative result of your decision. So, basically, I think you have to fall back onto judgment and fall back on some sense of the intangibles.
+
+!# Tim @ 00:12:40
+
+When you're looking say to stress test ideas, and if we look at in say the case of a partner meeting here... So you mentioned hedge fund managers and I've read a profile of [Ray Dalio](https://en.wikipedia.org/wiki/Ray_Dalio) at one point... of Bridgewater Capital. They talked about his meetings and how they sort of stress test ideas. And how people need to defend ideas. How does a good partner meeting go? If someone say proposes an investment, and it is a substantial investment, what then happens from that point to a yes or a no decision?
+
+!# Marc @ 00:13:19
+
+A hedge fund manager can reverse himself. A hedge fund manager with a bad trade, the next day he can turn around and take the opposite trade. We don't get to do that. Right? So, when we invest, it is with knowing that we are in for 10+ years, basically is our assumption. By the way, when we make an investment decision, it is a commitment  of dollars; it is also a commitment of somebody's time. And, by the way, the organization's time and bandwidth. There is only so much of that.
+
+The other that we have in Venture is that when we make a decision, we then become committed to that company in that category so we can't invest in their competitors. Including, by the way, their competitors that don't even exist yet. So, for example, the investors in [Friendster](https://en.wikipedia.org/wiki/Friendster) were more likely than maybe unwilling, but also unable to invest in Facebook when it came along because they were conflicted. Because the founder of Friendster would have said, "You can invest in a competitor company."
+
+So, our decisions are big decisions. They have serious consequences for the future of the firm. On one hand, it's very important to have a full discussion and get all the facts on the table and really kind of vent these things out. On the other hand, we are trying to preserve the contrarianism kind of at the core of what we do-- the strong nonconsensus view. We are trying to able to invest in the things that really are unusual and odd that other people aren't taking seriously.
+
+One of our theories of venture capital is that... So everyone thinks that in investing you either make a good investment or a bad investment. I actually think that is not the big issue. I think the issue, at least in venture capital, is that you make either a good investment or a great investment. I think good is the enemy of great.
+
+We see many companies that are just fine. Yep, the founders are good. And the market seems good. The product seems good. The customers kind of like it. They got a little revenue and it is kind of all fine. But those companies tend to never go anywhere.
+
+Then, every once in awhile, we will see these companies that just have some extremely strong strengths, some extremely special, wonderful thing going on... They may, by the way, have all kinds of problems and issues, but there is something at the core of what it is that is really special and magical. Those are the ones that we want to do.
+
+What we are trying to do is basically stock our portfolio with just investments like that. So, to capture that, you can't have... It would be very easy in a conversation about the weaknesses of something to beat the idea to death and you never invest. The rule that we have... Then you would only invest in the consensus ones, you would only invest in the very good ones, opposed to the great ones and you would fail as a firm.
+
+So, we have to kind of do both things at the same time. We have try really hard to encourage the strong nonconsensus thinking, but also have the full discussion to make sure we really stress test that thinking. So the way we do it is that basically each of our GPs has the ability to pull the trigger on a deal without a vote, or without consensus.​
+
+If the person closest to the deal has a very strong degree of positive commitment and enthusiasm about it then we should do that investment, even if everybody else in the room thinks this is the stupiest thing they have ever heard of. However, you don't get to just go do that yourself, completely on your own, without stress testing your own thinking. So it is the responsibility of everybody else in the room to stress test the thinking. If necessary, we actually create a red team. We will actually firmly create sort of the countervailing force. We will designate some set of people to counter argue the other side.
+
+!# Tim @ 00:16:15
+
+It is like a debate team.
+
+!# Marc @ 00:16:16
+
+Yes, basically, right. This is fraught with... There are all kinds of ways that this can go wrong because like what if I bring in a deal or Ben brings in a deal vs the new person bringing in a deal... whatever. What Ben and I try to do is that we do this to each other.... right. So, whenever he brings in a deal, I just beat the shit out of it. And I might think it is the best idea I have ever heard of and I'll just trash the crap of it and try to get everybody else to pile on. Then at the end of it, if he is still pounding the table saying, "No, no, this is the thing." Then we'll say, "OK, we are all in. We're all behind you." It is a disagreeing commit kind of culture. By the way, he does the same thing to me. It's the torture test.​
+
+!# Tim @ 00:16:57
+
+What are some of the keys to fighting well? It seems key to many different types of relationships, personal, business, or otherwise. The ability to sort of conflict resolve or just fight well then make up. It seems like you and Ben... not in my words... but have fought like cats and dogs. But you always kind of get over it.
+
+!# Marc @ 00:17:19
+
+We prefer "old married couple."
+
+!# Tim @ 00:17:20
+
+Old married couple.
+
+There is a story that I don't know if it is accurate about Netscape early days something related to an interview with a journalist. Do you know the story that I am talking about?
+
+!# Marc @ 00:17:31
+
+It is in Ben's book.
+
+!# Tim @ 00:17:32
+
+OK. Right. Here we go.
+
+!# Marc @ 00:17:33
+
+Including the email you are about to reference.
+
+!# Tim @ 00:17:36
+
+Could you describe this for people who are unfamiliar​?
+
+!# Marc @ 00:17:38
+
+For that, you have to read Ben's book. Let's just say that we started out our relationship with vigorous disagreement.
+
+!# Tim @ 00:17:45
+
+[Laughs]
+
+!# Marc @ 00:17:46
+
+And we've continued that to this day.
+
+!# Tim @ 00:17:48
+
+But how do you...
+
+!# Marc @ 00:17:51
+
+This is a family podcast. I don't want to use the F word.
+
+!# Tim @ 00:17:53
+
+Oh, it's not a family podcast.
+
+!# Marc @ 00:17:54
+
+If you want all the bad words, Ben's book, _The Hard Thing About Hard Things_... it is in the book.
+
+!# Tim @ 00:17:58
+
+I will put it in the show notes.
+
+You guys got off to a very aggressive start. How did you identify that Ben was someone worth having those types of disputes with? That there was a value in what he brought to the table. Opposed to just another person that you were butting heads with, who was not worth keeping at the table.​
+
+!# Marc @ 00:18:23
+
+Honestly, there were three things. One is that he would talk back to me... So he would argue right back at me.
+
+!# Tim @ 00:18:28
+
+He wouldn't just go into the fetal position.
+
+!# Marc @ 00:18:30
+
+He wouldn't just roll over. Like, he would argue right back. You see this... I mean if you just observe a lot of companies over time, or investment firms, or whatever, there is a temptation that everything must become a hierarchy. Then people always have trepidations about speaking truth to power. A lot of what I have always found that really wise and smart leaders are trying to do is that they are trying to actually find the people in the organization that will actually talk back. It's actually one of the ways to really get ahead. Put it this way, there are certain organizations where the way to get ahead is to talk back to the leadership... that is how you get noticed. By the way, there are other organizations where that doesn't work at all. I would recommend getting out of those as fast as possible.
+
+We try to be... At least, Ben and I want this organization to be one where people will actually speak truthfully to power and argue back at us just like anybody else, which is why he and I argue so much. It is because we want to set the model, set the precedent. So, that is one, that he would talk back to me.
+
+Two is that he was often if not always right. I wouldn't say always just because nobody is, but he was very smart and had very clear thinking.
+
+The third thing is is that I saw something early in him... that he was just amazing working with people, which is not something I think that has always been necessarily true with me. Watching him in front of a group of people was just routinely magical, in terms of how he could communicate with people in a very clear way. How he could be very fact based, but really make people feel, you know, in a really fundamental way. That combination made it clear that he was somebody very special.
+
+!# Tim @ 00:19:52
+
+We mentioned Ben's book, which is one of a handful of books that many, many of the best operators, founders, [people] in Silicon Valley reference. There are a handful that come to mind. Aside from that, [The Four Steps to the Epiphany](https://www.amazon.com/Four-Steps-Epiphany-Steve-Blank/dp/0989200507) I guess would be one. This one here, that was right in the lobby of your office, [High Output Management](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884) with a new forward by Ben Horowitz, is another that went out of print and then came back into print because it became a bit of a cult classic here in Silicon Valley. Are there any books that you would prescribe to, say, a would be entrepreneur coming out of college, just to increase the likely hood of them succeeding? Are there any other books that come to mind?
+
+!# Marc @ 00:20:39
+
+Yeah, so _High Output Management_ is one Any Groove's books. It's the best book on management ever written. He wrote another book called [Only the Paranoid Survive](https://www.amazon.com/Only-Paranoid-Survive-Exploit-Challenge/dp/0385483821), which is one of my favorite topics, so that is also a very good book which I would recommend. Ben's book is good. I think Peter Thiel's book is self-recommending: [Zero to One](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296).
+
+Then there are a bunch of others that are good. Really though, I think, where I got a lot of my education from was history, reading history. Rather than reading a lot more about the contemporaries, I would go back and read about Edison.  I would go back and read about Ford, Rockefeller, J.P Morgan. Maybe it's just me, but I find the period of 1870-1930 really interesting, where you have sort of the arrival of many of the technologies that kind of built the world that we live in today.
+
+!# Tim @ 00:21:27
+
+Disruptive period.
+
+!# Marc @ 00:21:28
+
+Yeah. History is... I didn't really study history in college or anything, but find history is this weird thing where the way that you are taught history, like in high school, where it is like all these legendary people and they are all kind of Olympians and founding fathers and these great generals or whatever... You got the names, you got the dates and they did all these amazing things.
+
+They feel unrelatable. At least where I come from, to even think that you could ever have anything in common with these people is just not something that ever occurred to anybody. They are kind of like the pantheon... kind of like the legendary people who lived.
+
+I just found that the really well written biographies that get you in the heads of what it was like to be Walt Disney at age 20, or what it was like to be Carnegie Mellon, or Ford. Or what it was like to be, for that matter, [William Randolph Hearst](https://en.wikipedia.org/wiki/William_Randolph_Hearst). These people we have all heard of.
+
+The good biographers are really good at getting inside  the head of what it was like to be them then, before they became the people that ultimately made it into the history books. Honestly, a lot of things have changed, but a lot of things haven't changed. Like people haven't changed a bit. I also find that in those histories you can always kind of see like that personality type. Like, yep, I know 13 people like that.  I find that there is actually a lot more to template against and a lot more to kind of think about then people give history credit for.
+
+!# Tim @ 00:22:50
+
+Oh, definitely. I had [Cyrus the Great](https://www.amazon.com/Xenophons-Cyrus-Great-Arts-Leadership/dp/0312364695) recommended to me. I guess that is _ Xenophon_. People don't change. You see the same archetypes. You are like, "Oh, that is Bob, my co-working. He does the same thing."
+
+The biography mention made me [Walter Isaacson](https://en.wikipedia.org/wiki/Walter_Isaacson)'s [book on Ben Franlkin](https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/074325807X), whose always sort of untouchable in my mind. It included all of his foibles and challenges and self-doubt. It reallly humanized it in in a way that made me aspire to do bigger things.
+
+If you wanted to get someone hooked on biographies, is there any particular book that you would recommend?
+
+!# Marc @ 00:23:24
+
+Oh, there's a bunch. The [Walt Disney biography](https://www.amazon.com/Walt-Disney-Triumph-American-Imagination/dp/0679757473). I will just mention it because it is great... One of our founders, [Brian Chesky](https://www.airbnb.com/about/founders), the founder of [Airbnb](https://www.airbnb.com), Walt Disney is sort of his hero. So he has gotten me even more deeply into that. The author, [Neal Gabler](https://en.wikipedia.org/wiki/Neal_Gabler), who has written the [best biography on Walt Disney](https://www.amazon.com/Walt-Disney-Triumph-American-Imagination/dp/0679757473) and it is a phenomenal book. Another one I really like, coming out of kind of left field, [Charles Schultz](https://www.amazon.com/Schulz-Peanuts-Biography-David-Michaelis/dp/0060937998), the creator of [Peanuts](https://en.wikipedia.org/wiki/Peanuts).
+
+The Schultz biography is amazing. Basically, the biography makes that case that _Peanuts_ was the longest continuous work of American art ever made; it was a 60-year art project with deep foundations in American history and psychology and philosophy. It was a reflection of the person who made it. Of course, _Peanuts_ was also a great entrepreneurial accomplishment. It was a very personal thing, but at the same time, it became this gigantic business success. So I think that one is great.
+
+[The Wizard of Menlo Park](https://www.amazon.com/Wizard-Menlo-Park-Thomas-Invented/dp/1400047633) is a great biography of Edison. Edison is kind of proto-Silicon Valley in a lot of way. I think that he is really interesting... His record of sustained innovation in many, many different areas and how then how he went out and tried to commercialize things...The good news is is that we are much better at the commercialization part now then people were in those days. We know how to build the companies much better now. He would just routinely invent things like the phonograph... because it was just obvious, right. And he did that for decades. He was a fountain of innovation. It is a very inspiring story.
+
+!# Tim @ 00:25:01
+
+The Netscape story, we touched on it very briefly. There are many places people can read about that so I don't want to take up too much time. But, on a related note, I wanted to ask, is there anything you miss about the mid-90's internet?
+
+!# Marc @ 00:25:16
+
+Oh, yes.
+
+!# Tim @ 00:25:17
+
+And what would it be?
+
+!# Marc @ 00:25:18
+
+Yeah, so, when I got to the Valley in 1993-1994, I thought that I had missed the whole thing because I thought the PC... I had studied the history and I used all this stuff in college... with the PC and Microsoft up in Seattle and Intel down here, and then all the big software companies at the time, Novell, Lotus, and all these companies, EA, the gaming companies... The great PC companies had gotten built in the 70s and 80s. By the time that the 90s arrived, the PC was done. It was like finished. You could go buy one and it was great. But, like, it was done. In fact, the overall mood of the Valley when I arrived was that it was done. Like, the PC was done and, by the way, the Valley was probably done because there was nothing else to do.
+
+Then there was this moment where I and various people and then more people and then more people, for whatever reason it was kind of like we really wrapped our heads around the implications of the internet, which today seems obvious, but at the time was a very contrarian. When I got to Silicon Valley, if you had said that the internet would become a mainstream consumer medium that 3 billion people are going to use worldwide for all forms of human activity, you would have been laughed at. Like, you would have been institutionalized. People would have laughed at you.
+
+As we figured that out than what happened was like OK, a new frontier, right. Part of that goes back to the history of the thing. For the longest time, the development of the United States, the new frontier was whatever was west. Then, eventually, they got all the way to California then they had the gold rush then there was... You know the sort of famous theme in America is the closing of the frontier. The theme of like every western, right. Every revisionist western that gets made is like there is no more frontier. The radicals can't go any further west; they would drown in the ocean.
+
+Instead, we have virtual frontiers. We have intellectual frontiers. Or we have creative frontiers. Or we have entrepreneurial frontiers, technological frontiers. The internet kind of represented the opening of a new frontier. Once we recognized that, it was like, "Ah ha! Brand new!" Then at that point, that is where all the enthusiasm came from because at that point it was like, "OK, if that is going to happen then what do we have to do?"
+
+At that point, the list becomes very exciting. We have to do e-commerce. We have to do online publishing. We have to do transactions. We have to do social networking. We have to do auctions. We have to do... all the big franchise companies that came out in the next 15, 20 years... We have to do search. All the ideas kind of immediately materialized. Then it was off to the races.
+
+!# Tim @ 00:27:41
+
+Is there anything comparable right now for you?
+
+!# Marc @ 00:27:44
+
+In my view, there always is. The thing is that these things look like cults and fringe activities until they break mainstream. For example, the mobile rush basically since the release of the iPhone... the mobile rush would qualify for this. The social networking rush, kind of post-Facebook, would qualify for this. Those are kind known and well understood. It is just straight entrepreneurial opportunities. Probably we are reaching some level of saturation.
+
+Slight digression, we don't foreclose the possibility that there will be another mobile killer app or another social killer app. But, it is getting harder and harder and harder because more and more people have figured out that you can do these things. The winners have now gotten very established.
+
+One of the ways to think about it is to have another... First you had Facebook then you had Twitter then you had Instagram and now you have Snapchat and all of those became big winners. OK, now what would it take to make the fifth one? Well, there are only so many icons on the home screen of the phone. The fifth one has to knock something off... It has to knock one of the other ones off. As these markets saturate, it has become a zero-sum game.
+
+Even smartphones, _smartphones_ is a giant industry, but unit volumes globally are now like expanding at single digit percentages. So the smartphone industry is becoming one with people competing directly with each other, not creating new things. So, we would say that those opportunities... those businesses are gigantic and those companies will get much bigger, but there is not as much entrepreneurial opportunity.
+
+The opportunities are more likely to be in the areas that people think are cult and fringe.
+
+!# Tim @ 00:29:10
+
+What would be some examples?
+
+!# Marc @ 00:29:11
+
+Our test for this is what do the nerds do on nights and weekends.
+
+!# Tim @ 00:29:14
+
+[Laughs]
+
+!# Marc @ 00:29:16
+
+Right? Their day job is like I work at Oracle or I work Salesforce.com or Adobe or Apple or Intel or one of these companies or not or I work at an insurance company or I work at a bank, whatever, or I am a student, whatever... that is fine. They go do whatever they need to do to make a living. The question is what is the hobby? What's the thing at night or on the weekends?
+
+Then things get really interesting, right. Then you look at things like cryptocurrency, bitcoin. You look at things like a lot of the new advances... the whole area of kind of like health-hacking. Quantified self is a very interesting new area.
+
+There is food. You've actually been a catalyst for this. There is this whole sort of area of scientific food and food hacking that is emerging.
+
+There is a revolution actually happening I think in robotics. Because robotics has finally become something tractable, where people can do it at home. There is AI. Deep learning is right at the tipping point. As a hobbyist, you can now download this thing called [TensorFlow](https://www.tensorflow.org/) from Google, which is a deep learning framework. [Oozing?] It's in the field of AI. It's for how computers can kind of deal with the real world and do things like self-driving cars or self-flying drones or all these things.
+
+This technology, five years ago, it didn't really work. Two years ago, you would have had to been an employee at one of three or four big companies to have access to this technology. Then Google just open sourced it so now anybody in the world can download it and run it on their own computer. All the sudden, AI is like a tractable thing that you can just have on your own laptop and you can build new things on top of. You want to build a bot, you can build a bot.  We backed a founder who literally built himself his own self-driving car.
+
+!# Tim @ 00:30:50
+
+I read about it.
+
+!# Marc @ 00:30:52
+
+Right, [George](https://en.wikipedia.org/wiki/George_Hotz). By the way, him you should interview. Literally, like one guy can now build a self-driving car. Ten years ago this was like a DARPA funded like a grand challenge research project. Five years ago this was a team of a thousand at Google. Now it is George. That is an example of the kind of thing where it looks like it is going to tip... There is one George today. There will a thousand Georges tomorrow.
+
+!# Tim @ 00:31:14
+
+Do you think the dangers of AI that some people talk about are overblown?
+
+!# Marc @ 00:31:21
+
+Completely. 100%. Yes.
+
+!# Tim @ 00:31:24
+
+Can you elaborate​?
+
+!# Marc @ 00:31:25
+
+All the many things that I worry about, machines rising up and killing us...
+
+!# Tim @ 00:31:27
+
+[Luddite fallacy](http://www.economicshelp.org/blog/6717/economics/the-luddite-fallacy/).
+
+!# Marc @ 00:31:28
+
+It is actually not... It is related to the luddite fallacy. It's sharply related. It's the promethean fallacy. There is something deep seated in human psychology where we are always going to invent the thing that is going to kill us. Or, fundamentally, we are going to unlock the power of the gods, right. It goes back to the [promethean myth](https://en.wikipedia.org/wiki/Prometheus). It is almost like the concept of original sin. It is like fire. The big moral of the promethean myth was that fire was the thing that enabled human civilization and it is also the thing that is going to burn everything down and kill us all.
+
+This is very deeply embedded in our psychology. Frankenstein... The subtitle of Frankenstein the novel was _The Modern Prometheus_. Frankenstein was a reinterpretation of the promethean myth. Except, in this case, it was literally the monster that was stitched together and then brought back to life through literally unholy science.
+
+Then there was even religious versions of it. In Jewish literature, there is the concept of the [golem](https://en.wikipedia.org/wiki/Golem), which is the create made out of mud that rises up out of like the ghettos of Warsaw or something to kill all the enemies and then comes back and kills all the people.
+
+This very kind of core... [John Henry](http://americanfolklore.net/folklore/2010/07/john_henry.html), the steel-driving man... right, John Henry's the famous... there is a [song with the story of the railroad worker](https://www.youtube.com/watch?v=Xaq0t9OQOd8). There is the machine that can hammer the railroad spikes faster than a human can. John Henry's famous showdown between him and the machine. Of course, he wins and then drops dead of a heart attack. It is critical in the myth that he drops dead of a heart attack, right, because technology has to get its revenge.
+
+It is just that projected forward. The reason that I am so confident on this is because every single era of technological advance this has always been the response. It has always been this line of thinking. Then it turns out that it is a tool. It is a technology. It is a tool. It is something that helps us do things in a better way. It is overwhelmingly to the benefit of mankind. Then we wonder why everybody got so worked up over it.
+
+!# Tim @ 00:33:20
+
+So if we put aside the sort existential threat piece... You know the summoning of the demon conversations. If we put that aside entirely, how would you answer someone who worries about job displacement of AI? There are some, I think, reasonably smart people who are very fearful of what will happen to society when people are massively displaced. How would encourage them to think about that?
+
+!# Marc @ 00:33:47
+
+So let's crystallize the concerns. The World Economic Forum came out with this thing last year that kind of freaked a lot of people out. They said that there would be 5 million jobs destroyed by 2020. Let's run the number. That sounds like a lot of jobs. Then you look at the American economy just this year, 2016. We don't quite have this AI thing working yet so we can't blame what I am about to say on AI. This year the American economy will destroy 21 million jobs and create about 24.5 million jobs. For a net add of about 3.5 million jobs... is about the pace we are on. That is this year, right.
+
+So we will destroy in the next 3 months more jobs than World Economic Forum projects will be destroyed by AI over the next 5 years. Why don't people know this? Why is this not obvious? Because whenever you hear news stories about job growth, the numbers quoted are always net numbers so last month 250,000 jobs got created. Those are net jobs. Nobody ever reports the gross numbers. The gross numbers are that we destroyed more than 5 million jobs a quarter and we create more than 6 million jobs a quarter, basically quarter in, quarter out.
+
+One is just that people dramatically underestimate the size and complexity and churn in the American economy as it currently exists. Another example would be, that it turns out, there is about 5 million that drive professionally in the US. So one of the questions with self-driving cars is what is going to happen to the truck drivers and the taxi drivers and everything else. Again, 5 million jobs. Every quarter we redeploy 5 million people. In the scope and scheme of the American economy, it's a total doable thing.
+
+The other thing that people don't appreciate and understand, which I find mind-blowing, which is... Would you guess, based on everything people say, that the rate of job creation/destruction is the American economy is rising over time or falling over time?
+
+!# Tim @ 00:35:36
+
+This seems like a test that I am bound to fail. I don't have an informed opinion.
+
+!# Marc @ 00:35:43
+
+I think most people would guess that it is rising. The view is that technology is having an ever greater impact and change feels like it is accelerating. The big theme in the political season is that it feels like the world is kind of getting away from us. Technology is getting away from us. Trade is getting away from us. Basically, dramatic changes are happening that are historically unprecedented is kind of the feeling. If you poll this, almost everybody believes this.
+
+!# Tim @ 00:36:06
+
+It is definitely the perception being created.
+
+!# Marc @ 00:36:08
+
+Right, almost everybody believes that change is increasing, change is accelerating. Actually, it turns out that in the American economy the reverse is happening. The rate of both job destruction and creation is falling and has been falling for decades. Like over the last 50 years, they are not dramatic lines down, but they are basically very slow lines down.
+
+So basically what has been happening is, in fact, every year the American economy gets less dynamic. You might say, "Oh, that is good because that means that you will have stability. That means people won't have to change jobs... all that stuff." I would argue that's bad because that means we are not creating enough opportunity.
+
+If we are thinking about the future, I think we want to think about opportunity. We want to think about what we are going to be able to do in the future and we want to think about what our kids are going to be able to do in the future. What will be the new fields, the new sciences, the new forms of art, the new industries, the new businesses, the new companies, the new jobs that will get created? Every job that we all have and everybody listening to this podcast has got created as a consequence of the process of change, which has been very positive to literally everybody on planet earth. Like, these have been very very positive changes in terms of increase in human welfare and opportunity.
+
+The idea of living in a world where change is becoming less rapid, which is actually happening, to me that would the problem. We should want more change. We should want more change because we should want more advances because we should want more opportunity to get created. We should want more product and services in our lives . We should want more industries created. We should want more medical advances. We should want more advances in art and science and every other field of human activity.
+
+Basically, the way I read it is that we have to fight to get that. As opposed to what everybody thinks, which is we have to fight to prevent that.
+
+!# Tim @ 00:37:41
+
+What is the smartest way to fight to get that?
+
+!# Marc @ 00:37:43
+
+If you were willing to go into politics....
+
+!# Tim @ 00:37:45
+
+Sure, I am willing.
+
+!# Marc @ 00:37:47
+
+When you run for office, I will help you put your platform together.
+
+Short of that, I think the thing to do is, the Valley view and my view is, do what can to directly contribute to it. Do what can to either try to create the new things, try to create the new products. Create the new, again, arts, science, technology, products, consumer goods. Create new things. Create businesses around those things. Create companies. Or, for that matter, by the way, non-profits... Create organizations or models that can let things scale so they can touch more people.
+
+Then, a big part of our role is to fund them. Fund them and support them and help enable them and train them and get them up and running.
+
+!# Tim @ 00:38:26
+
+You mentioned, for instance, when you first got to the Valley, there was a feeling on the part of many people that it is done... Computers are finished. You missed the boat, kid. Now in the venture capital world, there is a term used fairly often, _FOMO_, fear of missing out. How did you think about or handle _FOMO_?
+
+!# Marc @ 00:38:46
+
+Mostly we just fall right for it.
+
+!# Tim @ 00:38:49
+
+[Laughs]
+
+!# Marc @ 00:38:51
+
+[Laughs] ... Probably just total suckers for it. Where fear of missing out comes from is, it is clear and visible signs that something is happening that you are not a part of. So it is not FOMO of something that hasn't happened yet. It's FOMO of something that is clearly and obviously happening.
+
+!# Tim @ 00:39:11
+
+Which, for those people not in the tech/investment world, comes... in a concrete form just maybe as a mundane example: An email from founder, "Hey, love to squeeze you in. We are overcommitted. So and so and so and so is in. Can you get us docs by tomorrow if you are interested? Blah." Right, there is a lot of cortisol-driven emergencies. Some of which may be real. Many of which are illusions.
+
+!# Marc @ 00:39:37
+
+Yeah, yeah, yeah. So the thing is there is kind of a couple ways to handle it. One is you view that as a sign of success, like you view that as what it appears to be, which is like the train is leaving the station and do I want to be on the train or not. That strikes everybody as so clearly wrong... like that must be wrong. That must be just foolish behavior, which is why it has been encapsulated in this term called FOMO.
+
+It is designed to sound scary like that must be a stupid thing. A lot of people will at least say that what they try to do then is kind of take the cynical counter-theory, which is then by definition those are bad idea because you are probably being played, or you are probably a sucker going along with the latest scam. Or the opportunity has passed. Or if it is a good opportunity why would you be asked to participate in it.
+
+Then you go to the other cynical side of the pool, which is like... and there are certain VCs who do this by the way... I am not ever going to invest in anything high because it is going to have bad characteristics. So I am only going to ever invest in things that aren't high.
+
+!# Tim @ 00:40:33
+
+The uncrowded trade.
+
+!# Marc @ 00:40:34
+
+Yeah, the thing that nobody else is interested in. For old companies, we would call that _value investing_. For new companies, we would call that _cold sectors_, an area in which nobody is interested. By the way, I don't think in anyway that is a dumb conclusion. There are investors that do that and it works very well for them. My personal preference, what I try to get us to do around here, is just to eliminate this as a variable altogether and literally just not think about it.
+
+If it is urgent and we have to invest tomorrow and then if it's they haven't been able to raise money in 5 years, what I try to get us to do is ignore that part entirely. Basically, just take that out... on both sides, both the hot and the cold. Just take that all out and then try to get to the actual thing. Try to get to the yet. What is it really? This specific company, doing this specific thing, with a specific technology, specific people, specific time, what is that thing? Let's make our own evaluation of that thing independent of whether it is hot or cold. Then if it makes sense, we will invest in it. If it doesn't, we don't. We won't factor in if it is hot or cold.
+
+Now, the challenge, we worked on this over time, roughly on average, the things that are hot are priced somewhere between 2-4X higher than the things that are cold. At the extreme, from coldest cold to hottest hot, it's about 4X. So in investing terms, if it is super hot, it could be 40 pre. If it is super cold, it could be 10 pre. For the same quality. For the same fundamental quality level.
+
+A big part of our answer is like OK, fine. If we are going to invest, we are going to invest on market terms and if market terms are 10 because it is cold, we will invest there. If market terms are 40 because it is hot, we will invest there. We made our own decision about whether to invest. So we just try to strip it away.
+
+!# Tim @ 00:42:11
+
+Got it.
+
+!# Marc @ 00:42:12
+
+By the way, easy to say.
+
+!# Tim @ 00:42:14
+
+Easy to say, hard to do.
+
+Are there any particular investors outside of venture capital who impress you?
+
+!# Marc @ 00:42:23
+
+Yes, so when I study other investors... I study the people we compete with and collaborate with very closely. I particularly study the value investors on the completely other side of the spectrum. I have gotten to know some of them directly and it's a fascinating kind of thing. Warren Buffett is sort of the archetype, but also now there are a lot of other famous value investors... [Seth Klarman](https://en.wikipedia.org/wiki/Seth_Klarman) and a bunch of others... that have written books...
+
+!# Tim @ 00:42:47
+
+Klarman is a smart guy.
+
+!# Marc @ 00:42:48
+
+Yeah, yeah, this whole kind of theory of value investing goes back to Ben Grahm in the 1920-30s. There is this whole world of value investing. On the one hand, there is no overlap between the worlds because... I like to say, basically, anything Warren Buffett is willing to invest in, we run screaming in the other direction, and vice-versa. That is as it should be, right.
+
+He invests in things like Heintz Ketchup. The reason he invests in Heintz Ketchup is because people have been eating Heintz Ketchup on hamburgers for a 100 years. Therefore, the best guess would be that they are going to continue to eat Heintz Ketchup in the next 100 years. We run screaming for that.
+
+!# Tim @ 00:43:22
+
+You are not going to invest in [See's Candy](http://www.sees.com/)?
+
+!# Marc @ 00:43:24
+
+[Laughs] No. Absolutely, not. Furthermore, every time I hear a story like See's Candy, I want to go find the new like scientific superfood candy company that's going to blow them right out of the water, right. We are wired completely opposite in that sense. Basically, he has betting against change, we are betting for change. That is a very, very big... When he makes a mistake it is because something changes that he didn't expect. When we make a mistake it is because something doesn't change that we thought would. So they could not be more different in that way.
+
+But what both schools have in common is an orientation towards, I would say, original thinking of really being able to-- kind of going back to the previous conversation-- willing to view things as they are opposed to what everybody says about them or the way they are believed to be. Value investors are always talking about hitting the core of the truth about what is actually happening in the business.
+
+Then the other is long-term... value investing is the only other place in the market anymore where you can find long-term investors.  Buffet will invest in a company and he will hold it for 40 years. That does not happen elsewhere in the market. It is only the deep value guys who will do that.
+
+!# Tim @ 00:44:25
+
+It is funny that at the extremes, they have that in common.
+
+!# Marc @ 00:44:28
+
+That's right. Yeah.
+
+!# Tim @ 00:44:29
+
+You were talking about creating opportunity. If you decided to close a chapter on your career as a venture capitalist, a funder of ideas, a catalyst, and you had to teach a class, let's just say 9th grade or freshman year in college, 50 students, what would you teach?
+
+!# Marc @ 00:44:50
+
+I would be highly inclined towards teaching people how to build things. There is a book that I have actually never read, but I love the title. It's called [Smart People Should Build Things](https://www.amazon.com/Smart-People-Should-Build-Things/dp/0062292048).
+
+!# Tim @ 00:45:01
+
+I do like the title.
+
+!# Marc @ 00:45:02
+
+I almost don't even want to read the book because after that title almost anything it says is going to be a letdown. But the title is absolutely brilliant. It is one of my two favorite titles.
+
+!# Tim @ 00:45:10
+
+What's the second?
+
+!# Marc @ 00:45:11
+
+I have read this one. Steve Martin's autobiography is a fantastic book.
+
+!# Tim @ 00:45:14
+
+Oh, [My Life Standing Up](https://www.amazon.com/Born-Standing-Up-Comics-Life/dp/1416553657) or...
+
+!# Marc @ 00:45:16
+
+_My Life Standing Up_. Actually, sorry, it is not the title of the book. It is called _My Life Standing Up_ is the title. But the main lesson of the book, he says the key to success is to "be so good that they can't ignore you." Basically, if you just have those two principles: smart people should make things and be so good that they can't ignore you. That is pretty good way to orient.
+
+!# Tim @ 00:45:35
+
+The autobiography is amazing. Also, just as a side note, I listened to the audiobook, the Steve Martin audiobook... it is incredible.
+
+!# Marc @ 00:45:42
+
+He is a comedy genius. But more than that... It is like the Schultz thing. The level of thoughtfulness that he put into how he constructed his career. Nothing about his career is an accident, which I thought was fascinating.
+
+I think it would be how to make things. By the way, I don't necessarily even just mean new software, new computer programs, but how to make things more broadly. Again, it goes back to how to make new art. How to make new science. How to make new technology. How to make a new company.
+
+!# Tim @ 00:46:05
+
+How would you teach that?
+
+!# Marc @ 00:46:06
+
+I think projects. Hands-on projects.
+
+!# Tim @ 00:46:10
+
+So you would have, say, an art assignment. You would have a science/engineering assignment of some type.
+
+!# Marc @ 00:46:17
+
+Yeah. Or you would have an objective. You would be trying to construct something. It actually turns out that one of the reasons why computer science has advanced so fast in the last 30 years is because people can make new things on computers without anybody's permission. [Software lends itself to that.] But people can also write books without anyone's permission. They can also write music without anybody's permission. The can also start companies, mostly, without anybody's permission, in most industries. Basically, just anywhere where you can actually yourself create something new, make something new.
+
+I vary a little bit from folks like Elon Musk on this. I find making something new that for sure there is part of it is creativity so therefore you want to do something new, have an original idea. But, again, that makes people feel like it's an unattainable thing. It's like, how am I possibly going to come up with a new idea in a field where people have been working in it for 100 or 200 years. It just seems implausible.
+
+I think that the great artists and the great scientists and great business people often have this in common. It just goes back to history. Which is for whatever it is you are going to make, learn about how things got made in the past, and get inside the heads of people who made things in the past and what they were actually like. Then realize that actually they are not that different than you. At the time they got started, they were kind of just like you.
+
+Steve Jobs got it right in his, I think, famous commencement speech. He said that everything in the world around you was made by somebody who is no smarter than you are. So there is nothing stopping any of the rest of us from doing the same thing. I think that would probably be what I would try to do.
+
+!# Tim @ 00:47:48
+
+Maybe a boring left turn, but I am interested to ask, that is what are the companies or who are the people you're watching most closely in AI, drones, and cryptocurrency?
+
+!# Marc @ 00:48:02
+
+I am very proud that we have a bunch of companies that we have put... I like to say that conflict of interest or put your money where your mouth is, we have both... We have lived up to both principles. We have 2 drone companies that I think are spectacular. [Airware](https://www.airware.com/) was our first drone investment, commercial drones, which it turns out is going to be just a giant market for industries like oil and gas and insurance and all kinds of implications. The one that I think people are going to see in their day-to-day lives is going to be more of the other one which is called [skydio](https://www.skydio.com/), which is a company we backed doing autonomous consumer drones. This is going to be a very big advance in what you can do at kind of the hobbyist level.
+
+!# Tim @ 00:48:40
+
+What is an autonomous consumer drone do?
+
+!# Marc @ 00:48:44
+
+Well, whatever you tell it. [Laughs]
+
+!# Tim @ 00:48:45
+
+[Laughs] Go it. OK.
+
+!# Marc @ 00:48:47
+
+They haven't rolled out the product yet so I don't want to spoil too much of the surprise. But it is basically a drone that can fully fly itself. It doesn't require a remote control. So it can be given assignments and it will go carry out those assignments. It can fly through tree branches. It can fly through power lines. It can fly through underground parking garages. Without any collisions. It can just pilot itself. If you have tried flying any of the current drones, they don't work that way.
+
+!# Tim @ 00:49:14
+
+Hard to do.
+
+!# Marc @ 00:49:15
+
+Yes.It is an exercise in how quickly you crash it. That technology is about to tip and become very widely usable. So that is very exciting. There is that and...
+
+!# Tim @ 00:49:27
+
+I am sorry to interupt, but commercial drones for insurance. What would be an example?
+
+!# Marc @ 00:49:31
+
+In residential insurance, you get an insurance inspector. New construction, you are remodeling or building a new house and the insurance company is going to insure it. They do an inspection. The inspection involves a person climbing up on the roof and hopefully, not falling off. And taking a bunch of notes on a clipboard and writing up a bunch of stuff. It actually turns out to be a fairly dangerous job.
+
+Another example, cell tower inspection. There are all these cell towers. There's, I don't know, 30,000 or something cell towers in the US. They all need to be inspected. Inspection literally is a dude on cables, right. And some of these are big towers.
+
+Then you get to oil and gas, you get to a drilling rig. You got to inspect that thing. Try climbing up to the top of an oil and gas rig. These are very dangerous things.
+
+!# Tim @ 00:50:15
+
+Lethal professions.
+
+!# Marc @ 00:50:17
+
+Right. But what if you could just fly the drone? Like what if you could literally do the entire thing by air. What if the inspector just rolled up to the house and took the drone out of the backseat and launched it up into the air and the drone flys a pattern above the house, takes comprehensive 2-D photographs of everything, then creates a 3-D representation from the 2-D photographs, which you can now do. Then does all the recognition, elevations, everything, materials, figures everything out. Then the guy is, literally, the inspector's sitting in the driveway in the car. You know, with the air condition on in no danger.
+
+!# Tim @ 00:50:48
+
+Safe and sound.
+
+!# Marc @ 00:50:49
+
+Yeah. So that kind of thing... I will give you another...
+
+Nobody is doing this yet, but somebody is going to. If you are a cop on the beat, 2 in the morning and you get a call that there is a convenience store and somebody has broken into the convenience store, you have to go do the check. The check involves going and seeing whether the lights and all this stuff... and broken glass, but you also have to check the roof.
+
+Checking the roof is actually a very important thing because if there is a bad guy and they saw the cop coming, they might have climbed up on the roof. They might have a gun and they might shoot at you. So you got to go clear the roof. So what do you do? You get your flashlight and your gun and you climb the ladder and you poke your head up and you hope that nobody is on the roof.
+
+!# Tim @ 00:51:26
+
+Hope that no one plays wack-a-mole with your head with a revolver.
+
+!# Marc @ 00:51:29
+
+Yes. Exactly, right. So what could we do to help that? How about every police car has a drone in the back seat and you get to the thing and from a safe distance you launch the drone and the drone does an infrared camera sweep of the roof before you even walk up to the thing. By the way, if there is a bad guy on the roof, what if the drone recognizes like, "OK. There is a person on the roof." And what if the drone locks onto that person and then just basically follows that person wherever they go. Then they rabbit, they run for it, and the drone is right there 10 feet above following them the entire time.
+
+All of the sudden the job of being a cop becomes a lot safer. This, by the way, even goes back to the question you asked, which is isn't AI a threat. It's like, no, no. This is a case where the way those drones are going to work is powered by AI.
+
+!# Tim @ 00:52:10
+
+Really.
+
+!# Marc @ 00:52:11
+
+This is all based on deep learning. This new technology. It is the same technology, by the way, that was just used in the famous Go thing, where the Google AI beat the human player.
+
+!# Tim @ 00:52:22
+
+The grand master. Yeah.
+
+!# Marc @ 00:52:23
+
+It is the same technology. It is going to be used for drones. These are going to be things in our lives that we are just going to be able to rely on to be able to make our lives safer and better. We are just going to take them completely for granted. We are going to work in combination with them. We are going to be really glad we have them. And we are going to be completely unwilling to go back to a world where we didn't have them. And it is just going to be obvious. It is just we have to get it. We have to get this stuff in people's hands before they can really, I think, fully see it.
+
+!# Tim @ 00:52:47
+
+What do most people not understand about cryptocurrency?
+
+!# Marc @ 00:52:52
+
+So a couple of things. This will not come as a surprise to you. I thought I understood it and I really didn't. Money gets people really cranked up.
+
+!# Tim @ 00:53:00
+
+[Laughs] Yes, it does.
+
+!# Marc @ 00:53:01
+
+The entire concept of money is probably the single... maybe after God... it is probably the single most emotionally loaded concept that we have in humanity. Like money makes people mad, under any circumstances, on any topic related to money. I think it is just because it is something that we all rely on. And it is something where there is always this sense of unfairness. So money gets people really cranked up.
+
+There is sort of the idea of cryptocurrency and blockchain and this kind of new idea of disturbed trust on the internet. Then there is this application of that technology, which is a very fundamental application which is a new kind of money. I think most people are unable to just simply objectively, dispassionately look at the mechanics of how it works without almost getting preemptively upset... like just angry. Like how dare the nerds come up with some new form of money. Like there has got to be something wrong with this. Right? And I will now attempt to find the 30 possible things that could be wrong with this until I find one that basically proves this can't possibly work because obviously, it violates the laws of nature and government and whatever, whatever. And somehow I am going to come out on the wrong side of this. People just get mad. By the way, I am not even just talking about regular people, I am also talking about bank CEOs. They are just like furious. You bring up bitcoin and they get really upset. And I am like, "Did you get upset about your new toaster? It is just a technology. It is just a thing." You can study it. You can learn about it. And you can think about it. You'll either conclude it's good or it's not. But, like, it is not going to bite you. It's just a thing.
+
+The way I look at it is that it is just a thing. We now have this idea of cryptocurrency. It is fundamentally new and very important idea. We now have this ability to have this new kind of currency based on top... everybody has 18,000 theories why possibly it is not going to work, but bitcoin is still working today exactly the same as it worked last year and the year before that and the year before that. By all the noise and all the stuff and all the crashes and this, that and the other thing, it just continues to work. It just is. It's becoming like air and water; it just is. Like it or hate it, it just is. So, anyway, we are still very excited. We are very excited. We are going to continue to make new investments against it.
+
+!# Tim @ 00:55:05
+
+Of your current investments, or non-investments, are there particular companies that you think are breaking new ground or doing interesting things in crypto?
+
+!# Marc @ 00:55:13
+
+[Coinbase](https://www.coinbase.com/) is sort of our big bet that most people, as a company, have heard of, as kind of the easiest way to buy and sell bitcoin. They have a whole bunch of stuff that they are doing. Then we have this company, [21](https://21.co/), with a really brilliant founder, Balaji Srinivasan, who was a partner here-- very, very smart guy.
+
+He has the highest output per minute of new ideas of anybody I have ever met in my life. By the way, I mean output per minute.
+
+!# Tim @ 00:55:42
+
+I have been at a few dinners with him and it's hilarious to just watch the outpouring, especially after, you know, one or two glasses of wine. It's astonishing.
+
+!# Marc @ 00:55:52
+
+Yeah. To me, he is like an Edison kind of character. It is just like literally thousands of ideas. Then it is whatever percentage of ideas he can personally get to. And then he'll give the other ideas to everybody else and wonder why they are not pursuing them, which is often a good question. Then the next time you meet him, he will have a thousand new ideas.
+
+His company, which people can read about if they want, has done a bunch of interesting things. He has a whole bunch of additional ideas he is pursuing now. I went to this thing up north and I drove back. I was on the phone for him for 2 hours. You know the middle of the night driving on the freeway. Balaji in my ear. Idea number 38. I was like, "this is awesome."
+
+!# Tim @ 00:56:28
+
+Could be a worse use of time, you know. [Laughs] That is good food for thought.
+
+On food for thought, what advice would you give to Marc, the 20-something at Netscape?... and you can pick the time.
+
+!# Marc @ 00:56:41
+
+[Laughs] You know I have never even for a moment thought about that. The thing is I don't do replays well. The question I will never answer is what would you have done differently had you had known X. And I never ever play that game because you didn't know X. Have you ever read, what is it, the Elvis Cole novels?
+
+!# Tim @ 00:57:09
+
+No.
+
+!# Marc @ 00:57:10
+
+The great crime novelist, Michael Crais, his novel _Elvis Cole_ is a post-modern LA private detective. They are great novels. And he has this partner, Joe Pike. He is my favorite fictional character maybe of all time.
+
+!# Tim @ 00:57:20
+
+Joe Pike.
+
+!# Marc @ 00:57:21
+
+Joe Pike. He is a former marine, force recon guy... a lot like your friend, [Joco](http://fourhourworkweek.com/2015/09/25/jocko-willink/). In the novel, Joe Pike always wears the same outfit every day. He wears jeans. He wears a sweatshirt with the sleeves cut off and mirrored aviator sunglasses.
+
+!# Tim @ 00:57:38
+
+[Laughs] Love him already.
+
+!# Marc @ 00:57:39
+
+He's got bright red arrows tattooed on his deltoids pointing forward. Basically, his entire thing is forward.
+
+!# Tim @ 00:57:48
+
+So that's how you feel?
+
+!# Marc @ 00:57:50
+
+Like we don't stop. We don't slow down. We don't revisit past decisions. We don't second guess. Honestly, that question I have no idea how to answer.
+
+!# Tim @ 00:57:59
+
+I think you just did.
+
+!# Marc @ 00:58:01
+
+OK. Onward.
+
+!# Tim @ 00:58:03
+
+When you think of the word _successful_ who is the first person who comes to mind and why?
+
+!# Marc @ 00:58:07
+
+Geez, that is a great question. Honestly, my father-in-law for one, who could be the subject of a whole podcast.
+
+!# Tim @ 00:58:16
+
+Can you give us a taste us why that is?
+
+!# Marc @ 00:58:20
+
+He is an amazing guy. John Arrillaga. He is one of a small handful of people who basically built Silicon Valley. He has an amazing life story. But just to do the short version is he went to Stanford on a basketball scholarship in the 1950's. Grew up in a very poor part of the country. Went on to get a basketball scholarship. Got a bachelor's in geography from Stanford. You may not ever in your life have met a lot of people who have a bachelor's degree in geography.
+
+!# Tim @ 00:58:47
+
+I have not.
+
+!# Marc @ 00:58:48
+
+They abolished the major the year he got his degree.
+
+!# Tim @ 00:58:50
+
+[Laughs] Abolished. That's a strong word.
+
+!# Marc @ 00:58:51
+
+[Laughs] He became a commercial real estate broker in like 1958, when the Valley was all orchards. Within 2 years, he was making 10 times more money buying and developing properties as he was as a broker. His boss fired him because he was making all the other brokers feel bad.
+
+Basically, continuously from 1960 to today, he's been one of the biggest developers in Silicon Valley. Uniquely, by the way, as far as I can tell-- I've never met anyone else, he has not used debt on a project in almost 50 years. So he is a real estate developer who doesn't take on debt.
+
+!# Tim @ 00:59:28
+
+That is extremely uncommon.
+
+!# Marc @ 00:59:31
+
+Entirely on equity. Basically, he and there is a small handful of him and his contemporaries, who literally built the Valley. [Laughs] He is great. He is fantastic. I really love him. He once sat me down. He's like this tech I understand like you guys think it is a big deal. It's fine. You should go do it for now. I just want you to know that the real money is in real estate.
+
+!# Tim @ 00:59:58
+
+[Laughs] He does have a lot of street cred.
+
+!# Marc @ 01:00:02
+
+I said, "Yes, sir!" [Laughs]
+
+!# Tim @ 01:00:04
+
+[Laughs] Do you have any particular morning rituals that are important to you?
+
+!# Marc @ 01:00:10
+
+Sleep in as long as possible.
+
+!# Tim @ 01:00:11
+
+Sleep in as long as possible. When do you usually wake up?
+
+!# Marc @ 01:00:13
+
+Try not to blow through any red lights on the way to work.
+
+!# Tim @ 01:00:15
+
+When do you usually wake up?
+
+!# Marc @ 01:00:17
+
+Oh, it depends... 45 minutes before I have my first meeting. I do, what do they call it, the hot docking.
+
+!# Tim @ 01:00:23
+
+Hot docking. [Laughs]
+
+!# Marc @ 01:00:24
+
+Hot docking. It's like the controlled crash into the office.
+
+!# Tim @ 01:00:27
+
+[Laughs]
+
+!# Marc @ 01:00:30
+
+You read these little devious things, 14 things successful people do in the morning, like I can't even imagine.
+
+!# Tim @ 01:00:35
+
+Do you drink coffee?
+
+!# Marc @ 01:00:36
+
+A lot. Yes.
+
+!# Tim @ 01:00:37
+
+You do. [Laughs] That was an emphatic, "yes."
+
+!# Marc @ 01:00:39
+
+If it has caffeine in it, I drink it.
+
+I really think the perfect day is caffeine for 10 hours, alcohol​ for 4. It balances everything out really well.
+
+!# Tim @ 01:00:50
+
+[Laughs] That sounds a lot like when day.
+
+!# Marc @ 01:00:51
+
+I am not shy for a second about it.
+
+!# Tim @ 01:00:52
+
+The Silicon Valley speed ball.
+
+!# Marc @ 01:00:54
+
+Yeah. That's right.
+
+!# Tim @ 01:00:55
+
+Do you have an favorite documentaries or movies?
+
+!# Marc @ 01:00:58
+
+Lots of favorite movies. I don't know where to start.
+
+!# Tim @ 01:01:03
+
+What have you seen...
+
+!# Marc @ 01:01:04
+
+You know in the last 20 years, in the last 10 years really, it's been TV even more than movies...
+
+!# Tim @ 01:01:08
+
+OK, any favorites?
+
+!# Marc @ 01:01:10
+
+[Mr. Robot](http://www.usanetwork.com/mrrobot), which I think is just absolute genius. If you can ever get that guy, you should get him some time.
+
+!# Tim @ 01:01:19
+
+He is great.
+
+!# Marc @ 01:01:20
+
+Sam, the...
+
+!# Tim @ 01:01:21
+
+I have never met him.
+
+!# Marc @ 01:01:22
+
+You've probably read about him or heard about him?
+
+!# Tim @ 01:01:23
+
+Yeah.
+
+!# Marc @ 01:01:24
+
+He's written and is personally directing all 10 episodes of the new season. So it is going to be... He hasn't actually made a movie, but I think he is definitely going to win an Oscar or whatever it is. People win.
+
+Then, [Halt and Catch Fire](http://www.amc.com/shows/halt-and-catch-fire).
+
+!# Tim @ 01:01:39
+
+I am not familiar​ with that.
+
+!# Marc @ 01:01:40
+
+_Halt and Catch Fire_ is extraordinary. It's the best fictional portrayal of what a startup is actually like.
+
+!# Tim @ 01:01:45
+
+Halt and Catch Fire.
+
+!# Marc @ 01:01:47
+
+Halt and Catch Fire. The title is, in the IBM mainframe days, there was a mythical instruction, sort of an urban legend, that there was this specific piece of code that you could write that would cause the computer to stop and then catch on fire.
+
+!# Tim @ 01:02:00
+
+[Laughs] That's like the mission impossible command.
+
+!# Marc @ 01:02:03
+
+Yeah. I don't think it was ever really verified for sure whether or not it existed, but it kind of became this mythical thing. It is loosely the story of the birth of the PC. Particularly, it is based on how the company Compaq got built in Houston. It is set in Texas. But it is basically the birth of a new computer company.
+
+The reviews are funny. So it is a historical piece. It is very serious drama. So it gets compared to Madmen and shows like that. It set in the office, in the personal lives of everybody. It's funny because the critics reviewed it and said it all seemed super heated like the melodrama is too exaggerated of like all the stuff that happens. Everybody that I know in the Valley that has seen it are like no, no that is actually what it is like.
+
+That's actually 100% what it is like. I knew that guy and I saw that thing happen. I saw that person blow up that way.
+
+!# Tim @ 01:02:50
+
+It's like Ben's book.
+
+!# Marc @ 01:02:51
+
+Yeah, yeah, exactly. It's fictionalized, but they really caught... for anybody that really wants to know what it is actually like to go through one of these things that show is tremendous. Then, of course, [Silicon Valley](http://www.hbo.com/silicon-valley).
+
+!# Tim @ 01:03:04
+
+Yeah. Do you have a favorite scene or episode from Silicon Valley?
+
+!# Marc @ 01:03:07
+
+I have actually still only have seen the first season. I am not current. I am actually starting to become culturally irrelevant because I don't get any of the new references at all.
+
+!# Tim @ 01:03:17
+
+[Laughs] I think you'll survive. You seem to be doing just fine.
+
+!# Marc @ 01:03:20
+
+I have to binge. The [sesame seed scene](https://www.youtube.com/watch?v=KUxMY77i0q4) in the first season was probably the highlight. Let's just say loosely based on Peter Thiel.
+
+!# Tim @ 01:03:33
+
+[Laughs] Yeah. Loosely or not.
+
+!# Marc @ 01:03:38
+
+Correct. Exactly. Or not. Or maybe very precisely, very accurately. You know, who knows?
+
+!# Tim @ 01:03:42
+
+If you could have one billboard, anywhere with anything on it, would what you put on it? It could not be an advertisement for your portfolio companies.
+
+!# Marc @ 01:03:51
+
+Oh, outside of Trump Tower.
+
+!# Tim @ 01:03:53
+
+OK.
+
+!# Marc @ 01:03:54
+
+No, too tempting.
+
+!# Tim @ 01:03:55
+
+[Laughs] What would you put on it though if you wanted to convey a short message to as many people as possible?
+
+!# Marc @ 01:04:01
+
+Oh, I've got one.
+
+!# Tim @ 01:04:03
+
+Alright.
+
+!# Marc @ 01:04:04
+
+Maybe it is small scale for what you are looking for, but I've got one. I've actually thought about writing a sky writer to do this one.
+
+!# Tim @ 01:04:10
+
+Oh, let's do it. OK.
+
+!# Marc @ 01:04:12
+
+Right in the heart of San Francisco, there would be a billboard with just 2 words on it: _Raise Prices_.
+
+!# Tim @ 01:04:16
+
+Raise Prices?
+
+!# Marc @ 01:04:18
+
+Yes.
+
+!# Tim @ 01:04:19
+
+Can you explain?
+
+!# Marc @ 01:04:20
+
+The number one thing, just the theme and we see it everywhere... The number one theme our companies have when they get really struggling is they are not charging enough for their product. It has become absolutely conventional wisdom in Silicon Valley that the way to succeed is to price your product as low as possible and then enter the theory that if it is low priced everybody can buy it and that's how you get to volume. We just see over and over again people failing with that because they get into the problem called _too hungry to eat_. They don't charge enough for their product to be able to afford the sales and marketing required to actually get anybody to buy it. Right? So they can't hire the sales rep... They can't afford to go hire the sales rep to go sell the product. They can't afford to buy whatever TV commercial or whatever it is. They can't afford it. They can not afford to go acquire the customers.
+
+!# Tim @ 01:04:57
+
+Too hungry to eat.
+
+!# Marc @ 01:04:58
+
+They are too hungry to eat. Then they sit there and they don't sell anything and then they don't sell anything and they get nervous and upset and then they cut the prices.
+
+!# Tim @ 01:05:03
+
+And then it is a race to the bottom.
+
+!# Marc @ 01:05:05
+
+Which just makes the problem worse. So probably the single number one thing we try to get our companies to do is to raise​ prices.
+
+!# Tim @ 01:05:10
+
+Raise prices.
+
+!# Marc @ 01:05:12
+
+Yep. And, by the way, it's like, ok, is your product any good If people won't pay more for it.
+
+!# Tim @ 01:05:18
+
+Exactly. It's a good litmus test.
+
+!# Marc @ 01:05:19
+
+A good litmus test, right.
+
+!# Tim @ 01:05:21
+
+Last 2 questions: What have you changed your mind about in the last few years?
+
+!# Marc @ 01:05:26
+
+That's a good question. One is that we started... I will just give you a very practical one... When we started out, we didn't do any healthcare related investments here. We have now done an almost complete 180 on that. We are now very deep in health because we think of a bunch of really interesting things are happening. That was a response to the hedge fund thing I was telling you about. We had very smart founders come through here and basically telling us that we were dumb. By the way, they were right. We just hadn't figured it out yet. We got serious about it a couple of years ago.
+
+We this guy, [Vijay Pande](http://a16z.com/author/vijay-pande/), a former Stanford professor running this program now for us. It's extraordinary what is happening at the kind of intersection of healthcare and computer science. There is a lot that is happening there.
+
+The thing that I probably think about the most that I am still trying to work out in my own head is that a combination of Peter Thiel, Larry Page, and Elon Musk in different ways have provoked a fundamental conversion in the Valley around kind of the moon shots, the big challenges. Elon, you know, why can't we build self-driving cars? Why can't we have new kinds of rocket ships? Why can't we literally go to Mars? Why can't we cure cancer? Why can't we do nuclear fusion? You know a long list of things that are like big things.
+
+We talked about it earlier a little bit; Silicon Valley has always viewed itself as a little bit in the tools business, or a lot in the tools business. Silicon Valley has been getting more and more assertive, entering more and more industries directly, right. So like Uber, Lyft entering directly into transportation or Airbnb entering directly into real estate. Fin-tech companies entering directly into banking. So our companies are getting more assertive at going into markets that previously other founders may not have been willing to go into in the past. Larry, Peter, and Elon basically say in different ways like we are still not doing enough. There are still these much bigger things to be done. Why are we waiting for either governments to do them or for large industrial companies like GE to do them or for research universities to figure them out? We can't we do these things?
+
+There is one school of thought that says they are simply too hard. They are too daunting. They are too expensive. They are too different. They don't have [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law) on their side. There is a reason we haven't been doing them because they are too difficult. Then there is another school of thought that says, "That is just being a wimp and you should try and do all these things because if we are not going to do it, who is."
+
+I am trying to find if there is something in the middle... like what are the shades of gray. What's the line? Where's the line where Tesla made sense, but a Tesla that flys didn't make sense?
+
+!# Tim @ 01:08:06
+
+Right.
+
+!# Marc @ 01:08:07
+
+There is a line in there somewhere I think. Right? Or maybe Peter is right and maybe there isn't a line and maybe the next Tesla should be one that flys. To me, that is the provocative thing. It is a question about stretching the limits. [Icarus Myth](https://en.wikipedia.org/wiki/Icarus)... How far can we stretch the limits of what we can do...
+
+!# Tim @ 01:08:26
+
+Before your wings melt.
+
+!# Marc @ 01:08:27
+
+Before our wings melt. Right?
+
+!# Tim @ 01:08:30
+
+It strikes me also that, you mentioned Peter, we wanted flying cars and we got 140 characters. There were a lot of questions from fans asking how would he suggest people, entrepreneurs, be encouraged to, say, solve the big problems versus making social media networks, etc? I think you made a point actually in a debate with Peter at one point... maybe it was the Milken conference, could have been elsewhere... that Twitter... and I would agree with you... as one example, 140 characters has been world-changing in a lot of ​ways. I mean you look at political activism. You look at many different examples. When you have adoption that is that wide, that global, free... the emergent properties are just unpredictable. You get some incredible use cases.
+
+!# Marc @ 01:09:16
+
+Including political revolutions.
+
+!# Tim @ 01:09:17
+
+Exactly. Yeah. Last question... Well sorry. Go ahead.
+
+!# Marc @ 01:09:21
+
+It was a debate at the Milken conference. One of mine shining moments. I prepared for weeks for that debate, knowing Peter wasn't going to prepare at all.
+
+!# Tim @ 01:09:31
+
+[Laughs]
+
+!# Marc @ 01:09:32
+
+And I bring it up because I think I was actually able to go toe-to-toe with him. But I had to sandbag him to do it. He was absolutely shocked that I had prepared for it.
+
+!# Tim @ 01:09:39
+
+I really enjoyed the conversation.
+
+!# Marc @ 01:09:41
+
+Yeah, that was one of my great debating moments is that I could almost keep up with Peter. It is actually funny. His whole thing, the slogan of his firm, is, as you said, we were promised flying cars and instead we got 140 characters. It is actually interesting. He will immediately concede that both of those are actually not the point. First of all, he immediately concedes that flying cars probably don't make sense. And he immediately concedes that Twitter probably is more important than just being dismissed like that. He basically says that the slogan is just to provoke the conversation. To your point, it does provoke the conversation. I think you are right. It provokes the conversation from both sides, which is OK. Maybe flying cars are not practical, but why don't we have nuclear fusion? Why don't we have like all these other things? Why don't we have supersonic flight?
+
+!# Tim @ 01:10:23
+
+Right.
+
+!# Marc @ 01:10:24
+
+We had the [Concorde](https://en.wikipedia.org/wiki/Concorde). Now we don't even have the Concorde. Like, seriously, it takes 9 hours to get to London? Like, really? I think it is a very relevant question. But I also think it invokes the thing on the other side which is I think the computer stuff, communications stuff, like Twitter and all these other things... Peter flatly says that the iPhone doesn't count as innovation. I just think that's too far. I think that the iPhone absolutely counts as innovation. I think it is one of the most important products ever developed. I think the impact on the world is absolutely enormous and growing. I think there is a tendency to write off the stuff that built the Valley and I don't agree with that. I think there is a lot more to do in the core of what we do.
+
+!# Tim @ 01:11:00
+
+The last question is: Do you have any asks or requests of my audience, the people listening, anything that you would like them to consider, ponder, do?
+
+!# Marc @ 01:11:09
+
+First of all, they should all for sure work for our companies.
+
+!# Tim @ 01:11:12
+
+[Laughs]
+
+!# Marc @ 01:11:13
+
+Please come to our website [a16z.com](http://a16z.com). We have [job listings](http://a16z.com/jobs/). We would like to get everybody in our orbit. Anybody smart enough to listen to your podcast, we definitely want to work for our companies.
+
+!# Tim @ 01:11:23
+
+There are some smart ones out there.
+
+!# Marc @ 01:11:24
+
+Then I would say, "build new things." Then, if it a business that is promising that needs money, we are open for business.
+
+!# Tim @ 01:11:34
+
+Marc, any last places you would like people to check out online? Where can they say hello?
+
+!# Marc @ 01:11:39
+
+Oh, Twitter is good.
+
+!# Tim @ 01:11:40
+
+Twitter, [@pmarca](https://twitter.com/pmarca).
+
+!# Marc @ 01:11:42
+
+[@pmarca](https://twitter.com/pmarca).
+
+!# Tim @ 01:11:44
+
+Is that from your UNIX handle way back in the day?
+
+!# Marc @ 01:11:45
+
+It's an old, old joke. We had a boss one time who was so important that he had both his public email address and had _p_ with his name behind it, which was his private email address.
+
+!# Tim @ 01:11:56
+
+[Laughs]
+
+!# Marc @ 01:11:57
+
+We thought that was a little bit too much so we all gave ourselves "p" and nobody knew who we were. Then it stuck.
+
+!# Tim @ 01:12:05
+
+Perfect. Well, everybody say, "hi," and check out the [Andreessen Horowitz website](http://a16z.com/). I'll put that in the [show notes](http://fourhourworkweek.com/2016/05/29/marc-andreessen/) as well. You should also check out their podcast, which I greatly enjoyed. You can start with... One I really enjoyed was the deconstructing Amazon episode.
+
+Thank you so much for the time, Marc. This has been a blast. Really appreciate it.
+
+!# Marc @ 01:12:25
+
+Thanks, Tim.
+
+!# Tim @ 01:12:26
+
+And for everybody listening, you can find the links and everything in [the show notes](http://fourhourworkweek.com/2016/05/29/marc-andreessen/). Until next time, thank you for listening.
 
 !# End @ 1:12:35
