@@ -12,11 +12,31 @@
     
       
         <tr>
+          <td><a href="2016-06-26-shay-carl.transcript">2016-06-26-shay-carl.transcript</a></td>
+          <td>From Manual Laborer to 2.3 Billion YouTube Views</td>
+          <td>Jun 26, 2016</td>
+          
+          <td class="alert-error">0% Complete</td>
+        </tr>
+      
+    
+      
+        <tr>
+          <td><a href="2016-06-25-ryan-holiday.transcript">2016-06-25-ryan-holiday.transcript</a></td>
+          <td>Useful Lessons from Workaholics Anonymous, Corporate Implosions, and More</td>
+          <td>Jun 25, 2016</td>
+          
+          <td class="alert-error">0% Complete</td>
+        </tr>
+      
+    
+      
+        <tr>
           <td><a href="2016-06-21-malcolm-gladwell.transcript">2016-06-21-malcolm-gladwell.transcript</a></td>
           <td>Dissecting the Success of Malcolm Gladwell</td>
           <td>Jun 21, 2016</td>
           
-          <td class="alert-success">100% Complete</td>
+          <td class="alert-error">0% Complete</td>
         </tr>
       
     
@@ -45,10 +65,10 @@
       
         <tr>
           <td><a href="2016-05-28-marc-andreessen.transcript">2016-05-28-marc-andreessen.transcript</a></td>
-          <td>Marc Andreessen — Lessons, Predictions, and Recommendations from an Icon</td>
+          <td>Marc Andreessen - Lessons, Predictions, and Recommendations from an Icon</td>
           <td>May 28, 2016</td>
           
-          <td class="alert-error">0% Complete</td>
+          <td class="alert-success">100% Complete</td>
         </tr>
       
     
