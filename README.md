@@ -20,9 +20,9 @@ Transcripts are in the format:
 
 *comments* are parsed as markdown.
 
-## Transcribe Tool
+## Transcription Tool
 
-Using the [Transcribe Tool](https://www.transcripts.io/transcribe/) makes transcribing content easier.
+Using the [Transcription Tool](https://www.transcripts.io/transcription/) makes transcribing content easier.
 
 ## Transcript Status
 
