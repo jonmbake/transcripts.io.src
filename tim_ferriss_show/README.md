@@ -908,7 +908,7 @@
           <td>Ep 60: Tim Ferriss Interviews Arnold Schwarzenegger on Psychological Warfare (And Much More)</td>
           <td>Feb 2, 2015</td>
           
-          <td class="alert-error">0% Complete</td>
+          <td class="alert-success">100% Complete</td>
         </tr>
       
     
