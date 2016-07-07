@@ -1308,7 +1308,7 @@
           <td>Ep 14: Sam Harris, PhD on Spirituality, Neuroscience, Meditation, and More</td>
           <td>Jun 17, 2014</td>
           
-          <td class="alert-error">0% Complete</td>
+          <td class="alert-success">100% Complete</td>
         </tr>
       
     
