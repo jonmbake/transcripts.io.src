@@ -1298,7 +1298,7 @@
           <td>Ep 15: Neil Strauss, Author of The Game</td>
           <td>Jun 23, 2014</td>
           
-          <td class="alert-error">0% Complete</td>
+          <td class="alert-success">100% Complete</td>
         </tr>
       
     
