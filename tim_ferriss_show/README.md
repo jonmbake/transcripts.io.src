@@ -1,12 +1,13 @@
-Transcripts for [The Tim Ferriss Show](https://www.transcripts.io/tim_ferriss_show) &copy; The Tim Ferriss Show
+Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_show](https://www.transcripts.io/tim_ferriss_show). &copy; The Tim Ferriss Show
 # Transcript Status
+## Overall
 
 
 
 ### Amount Transcribed: 19 hrs 40 mins 16 secs
 ### Total Runtime: 8 days 13 hrs 44 mins 39 secs
 ### Percent Complete: 10%
-## Individual Statuses
+## Individual
 <table>
   <thead>
     <tr>
