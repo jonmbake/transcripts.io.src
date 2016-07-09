@@ -1,14 +1,12 @@
-<p>Transcripts for <a href="https://www.transcripts.io/tim_ferriss_show"></a></p>
-<h1>Transcript Status</h1>
-<p>&copy; Tim Ferriss</p>
-<h2>Overall Status</h2>
+Transcripts for [The Tim Ferriss Show](https://www.transcripts.io/tim_ferriss_show) &copy; The Tim Ferriss Show
+# Transcript Status
 
 
 
-<h3>Amount Transcribed: 19 hrs 40 mins 16 secs</h3>
-<h3>Total Runtime: 8 days 13 hrs 44 mins 39 secs/h3>
-<h3>Percent Complete: 10%</h3>
-<h2>Individual Status</h2>
+### Amount Transcribed: 19 hrs 40 mins 16 secs
+### Total Runtime: 8 days 13 hrs 44 mins 39 secs
+### Percent Complete: 10%
+## Individual Statuses
 <table>
   <thead>
     <tr>
