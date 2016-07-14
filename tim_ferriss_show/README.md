@@ -4,9 +4,9 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
 
 
 
-### Amount Transcribed: 19 hrs 40 mins 16 secs
+### Amount Transcribed: 21 hrs 51 mins 8 secs
 ### Total Runtime: 8 days 13 hrs 44 mins 39 secs
-### Percent Complete: 10%
+### Percent Complete: 11%
 ## Individual
 <table>
   <thead>
@@ -1108,10 +1108,10 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
           <td><a href="2015-02-09-matt-mullenweg.transcript">2015-02-09-matt-mullenweg.transcript</a></td>
           <td>Ep 61: The Benevolent Dictator of the Internet, Matt Mullenweg</td>
           <td>Feb 9, 2015</td>
-          <td>0 secs</td>
+          <td>2 hrs 10 mins 52 secs</td>
           <td>2 hrs 10 mins 52 secs</td>
           
-          <td class="alert-error">0%</td>
+          <td class="alert-success">100%</td>
         </tr>
       
     

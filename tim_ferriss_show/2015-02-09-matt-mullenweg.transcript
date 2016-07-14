@@ -1,7 +1,8 @@
 ---
 title: "Ep 61: The Benevolent Dictator of the Internet, Matt Mullenweg"
 keywords: 'Matt,Mullenweg'
-transcriber: "<a href='https://www.transcripts.io/'>Transcripts.io</a>"
+transcriber: "<a href='http://fourhourworkweek.com'>Tim Ferriss</a>"
+web_page: "http://fourhourworkweek.com/2015/02/09/matt-mullenweg/"
 audio_url: "https://overcast.fm/+BmGWV1ESs/%{chrono}"
 speakers:
   - first_name: 'Tim'
@@ -12,6 +13,3037 @@ speakers:
     role: 'guest'
 ---
 
-!# Untranscribed @ 0:34
+!# Tim @ 00:00:34
+
+Hello, boys and girls. This is Tim Ferriss. And welcome to another episode of the Tim Ferriss show, where I interview some of the world's top performers, whether that be in investing, sports, entrepreneurship or otherwise; film, art, you name it to extract the tools and resources and habits and routines that you can use. And in this episode, I have the pleasure, in beautiful San Francisco, to interview and icon of tech. But you do not have to be involved in tech - or even understand tech - to get a lot out of this conversation.
+
+[Matt Mullenweg](https://ma.tt/about/) is one of my close friends. He's been named one of PC World's top 50 on the web, [Inc.com's 30 under 30](http://www.inc.com/30-under-30), and [Business Week's 25 Most Influential People on the Web](http://bub.blicio.us/businessweek-the-25-most-influential-people-on-the-web/). Why, you might ask, has he received all these accolades? Well, he's a young guy but he is best known as a founding developer of [WordPress](https://wordpress.org/), the open-source software that powers more than 22 percent of the entire web. It's huge. He's also the CEO of [Automattic](https://automattic.com/), which is valued at more than $1 billion and has a fully distributed team of hundreds of employees around the world.
+
+However, [Matt](https://ma.tt/about/) started off as a barbecue shopping Texas boy. So how did this all come together? It certainly was not the grand vision from day one at all. And [Matt](https://ma.tt/about/) is an incredible human being. He's a gifted musician, he is able to eat more than 100 chicken McNuggets in one sitting - and we'll talk about why and how he did that. And we really dig into the specifics of how he hires, what he looks for in people. We get really, really nitty gritty into his favorite books, his routines, music, habits, work style. He's one of the most productive people I've ever met in my life.
+
+I think you're really going to enjoy this episode. Be prepared to take notes. But if you want all the links and resources and everything else, of course, you can find them - as always - in the show notes. Just go to [fourhourworkweek.com/podcast/](http://fourhourworkweek.com/podcast/), or just go to [fourhourworkweek.com](http://fourhourworkweek.com/), all spelled out and click on _Podcast_. That will take you to the show notes. So without further ado, please enjoy [Matt Mullenweg](https://ma.tt/about/).
+
+!# Tim @ 00:02:45
+
+Matt, sir, welcome to the show.
+
+!# Matt @ 00:02:47
+
+Howdy, howdy.
+
+!# Tim @ 00:02:48
+
+Howdy, howdy. So let's explain the howdy, howdy. Because there's some context missing. Of course, we know each other. Where's the howdy from?
+
+!# Matt @ 00:02:57
+
+I was born and raised in [Houston, Texas](https://en.wikipedia.org/wiki/Houston).
+
+!# Tim @ 00:03:00
+
+Fine state. It is a fine state.
+
+!# Matt @ 00:03:02
+
+The greatest country in the world.
+
+!# Tim @ 00:03:03
+
+[Laughs] And you've taught me a great many things related to barbecue, related to photography, so thank you for that. You got me very interested in photography. And we've traveled a lot together. But for those people who don't know who you are, when someone asks you: Matt, what do you do? How do you answer that, these days?
+
+!# Matt @ 00:03:21
+
+I'm probably best known for once eating 104 chicken McNuggets in one sitting.
+
+!# Tim @ 00:03:26
+
+Are you serious?
+
+!# Matt @ 00:03:27
+
+Yeah.
+
+!# Tim @ 00:03:28
+
+Wow. I did not know - how old were you? Was that like last week?
+
+!# Matt @ 00:03:31
+
+Now you won't forget it. [Laughs] And then on the side, I work on an open-source publishing platform called [WordPress](https://wordpress.org/), which powers such amazing sites such as the 4-Hour everything for Tim.
+
+!# Tim @ 00:03:44
+
+That's true. And others like...
+
+!# Matt @ 00:03:45
+
+[New York Times](http://www.nytimes.com/), [Wall Street Journal](http://www.wsj.com/); about 23 percent of all websites now are on [WordPress](https://wordpress.org/).
+
+!# Tim @ 00:03:53
+
+That's amazing. How did [WordPress](https://wordpress.org/) start, for people who don't know the origin story?
+
+!# Matt @ 00:03:58
+
+Sure. It's an open-source project. And it actually started as a fork, or a derivative of an already existing open-source project. So there was this thing out there called [b2](http://cafelog.com/), which I was using and blogging with myself. And the creator disappeared so the development stopped. And myself and this guy in England named [Mike Little](https://mikelittle.org/) picked it up and kept working on it.
+
+!# Tim @ 00:04:19
+
+How old were you at the time?
+
+!# Matt @ 00:04:20
+
+19.
+
+!# Tim @ 00:04:21
+
+19. And were you self-taught from the standpoint of programming?
+
+!# Matt @ 00:04:25
+
+Yeah. I had tried to take some classes in school and they were just all terrible. Programming, especially open-source programming, the web was the best place to learn it.
+
+!# Tim @ 00:04:36
+
+What made the classes terrible? I'm always curious. Why did they fail? Why did they not appeal to you?
+
+!# Matt @ 00:04:41
+
+Well, I didn't go to a great school to start with. I was at the [University of Houston](http://www.uh.edu/). I had an amazing high school experience. High School for the Performing and Visual Arts, one of the best experiences of my life. But then I stayed in Houston. [U of H](http://www.uh.edu/) was all right, but the computer classes in particular, I think like 20 or 30 years ago Microsoft basically changed the curriculums or influenced the curriculums of many of these colleges. So even though this was 2002, 2003 the web had already happened. It was the thing.
+
+But they were still teaching you like [Microsoft Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic), and like you were building like buttons on [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows) apps.
+
+!# Tim @ 00:05:18
+
+Sounds really - white knuckle stuff, exciting. And so you began working on this fork. Could you explain what open-source means?
+
+!# Matt @ 00:05:29
+
+Sure.
+
+!# Tim @ 00:05:30
+
+For people who aren't familiar with it.
+
+!# Matt @ 00:05:31
+
+Open-source is - for me, the most important idea I've been exposed to in my lifetime, actually. So think of open-source like a bill of rights for software. And I think this is incredibly important, now that more and more of our lives are influenced or governed by software. It basically says that here are four freedoms that are inalienable rights you have when you use open-source software. And the license that [WordPress](https://wordpress.org) is under, the [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License), says you have the freedom to use the software for any purpose. So that means you can make a "Matt has funny hair" blog if you want, or you can -
+
+!# Tim @ 00:06:06
+
+Oh, you found it.
+
+!# Matt @ 00:06:07
+
+[Laughs] Or whatever you like. You can see how the software works. You can modify the software. And then you can distribute those modifications to your friends. And this sounds pretty basic and trivial, but a lot of what we use, it would be the equivalent of if you opened the hood of your car and there was just a black box, and you could be fined or go to jail for trying to modify things.
+
+!# Tim @ 00:06:31
+
+For tampering with it, or trying to understand it.
+
+!# Matt @ 00:06:33
+
+Yeah.
+
+!# Tim @ 00:06:34
+
+Let's - so you're working on this fork. At what point does it become [WordPress](https://wordpress.org/)? With a capital W and a capital P, for everyone wondering. I don't see Matt get angry much, but if you want to really hit one of his pet peeves, it's the lower case P.
+
+!# Matt @ 00:06:53
+
+The lowercase P. Actually, it's not possible to write WordPress with an uppercase W and a lowercase P on [WordPress](https://wordpress.org/).
+
+!# Tim @ 00:06:59
+
+[Laughs] As it should be.
+
+!# Matt @ 00:07:01
+
+[Laughs] As it should be. It will autocorrect it.
+
+!# Tim @ 00:07:03
+
+I also feel badly for every [transcendental meditation](https://www.tm.org/) teacher, and I brought up - I was like, "Does it bother you when your TM always turns into a trademark symbol?" And they're like, "Oh, my God, how did you know?" Well, they need their own platform, evidently. So when did it become [WordPress](https://wordpress.org/)? When was it christened [WordPress](https://wordpress.org/)?
+
+!# Matt @ 00:07:23
+
+The name actually was one of the first things we came up with. A friend in Houston named Christine had the idea for the name. And she checked, the dot org was available and I registered it that day. And that really brought it together. Because [b2 slash cafe log](http://cafelog.com/), if you have a slash in your name, there's something wrong in the beginning. But [WordPress](https://wordpress.org/), I just liked it from the moment I heard it. I was like, "Oh, this feels like something that has a little bit of gravitas but still is pretty accessible." The focuses in the early days, which kind of distinguished us from what we were forked from were focused on web standards. Cleaning up the code, making sure that what we were outputting was really tight, and then installation.
+
+So we created something called the [Famous Five Minute Installation](https://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install).
+
+!# Tim @ 00:08:12
+
+So the standards would be like - and I'm using maybe a sloppy metaphor, but making sure that the grammar and everything is standard so that it can have the widest adoption and tinkering possible?
+
+!# Matt @ 00:08:24
+
+It was more, at the time, the web platforms. You would build a website for [Netscape](https://en.wikipedia.org/wiki/Netscape) and you would build a website for [Internet Explorer](https://en.wikipedia.org/wiki/Internet_Explorer). And you'd use different code for both, or sites would work with one and not the other. So web standards would create a common platform between them. And the installation ended up being the biggest thing. We called it the Famous Five Minute Installer, even though it was neither famous -
+
+!# Tim @ 00:08:46
+
+It was famous to the two of you guys.
+
+!# Matt @ 00:08:47
+
+Yeah. But it became a self-fulfilling prophecy because people said: oh, it's famous and it's only five minutes. And competitive software at the time would take 30 minutes, an hour to set up. And also that's how some of our contemporaries like [Moveable Type](https://movabletype.org/) made their money in the beginning. Because you could pay them to install it for you. So the economic incentive was not to make the installation easier. So we just came in with that from the beginning and it was really appealing to folks.
+
+!# Tim @ 00:09:13
+
+So you were simplifying to get the - it's very interesting because you were open-source at the time; you did not have a profit motive.
+
+!# Matt @ 00:09:20
+
+Nope.
+
+!# Tim @ 00:09:21
+
+And therefore, you were not incentivized to complicate the profit.
+
+!# Matt @ 00:09:24
+
+There were no golden handcuffs. Nothing to lose.
+
+!# Tim @ 00:09:27
+
+Which is true for a lot of industries - professional training for instance - is very much like that. Very few trainers are incentivized to make themselves unnecessary, right? To make themselves obsolete. So they'll have a rotating schedule and different types of mesocycles and so on that keep you tethered to an ongoing program of training.
+
+!# Matt @ 00:09:49
+
+What's a mesocycle?
+
+!# Tim @ 00:09:50
+
+You can have different types of cycling. For instance, if you're leading up to a powerlifting competition or a wedding, a trainer could -
+
+!# Matt @ 00:10:00
+
+[Laughs] Basically the same thing.
+
+!# Tim @ 00:10:01
+
+Very similar. You always want to look like a power lifter - especially if you're a lady - for your wedding. You can cycle the type of training. So you might have, let's just say arbitrarily, 70 percent of your one rep max. And you work between 70 and 75 percent of your one rep max for a four to eight week period or something like that. Then you go into a new cycle, which is - I'm making this up again - but like 90 percent of your one rep max, or between 85 and 90. That has a place.
+
+But I feel like just to bring it back to [WordPress](https://wordpress.org/), is that I feel like the number one priority of any one physical trainer or nutritionist should be to enable their client with the knowhow and tools that make them, themselves obsolete. So this complicate to profit is a real problem in a lot of industries.
+
+!# Matt @ 00:10:59
+
+It actually - so my favorite classes in college were the political science and philosophy ones. Because you think about systems instead of necessarily - and incentives versus what works or what gets you to the next thing. So again, kind of like what you said: a personal trainer is not going to be incented to put themselves out of a job; can you create a system, something you've done through your work, where people can self-enable. And from the early days of [WordPress](https://wordpress.org/), we would always think: okay, if we do X today, what does that result in tomorrow, a year from now, ten years from now?
+
+And it was kind of silly to think about ten years from now, but it's now 12 years old.
+
+!# Tim @ 00:11:44
+
+Did that long-term vision develop - what were the components that helped you to develop that long-term view? Because you're a young guy; you still are. Despite the fact that you now have a three in front - how old are you now?
+
+!# Matt @ 00:11:58
+
+31 as of last week.
+
+!# Tim @ 00:12:00
+
+I was so tired of the under 30 awards you were getting every year. I was like, "God, can this guy just turn 30 already? I feel badly about myself every year. It's awards season; here we go. Mullenweg again." But what helped you develop that long-term view, besides maybe these poli sci classes?
+
+!# Matt @ 00:12:19
+
+I think the political science really, really helps because -
+
+!# Tim @ 00:12:24
+
+Any particular aspect or figure?
+
+!# Matt @ 00:12:27
+
+I really loved [Thucydides](https://en.wikipedia.org/wiki/Thucydides). It's actually a classic. He wrote - I think it was a book about the [Peloponnesian War](https://en.wikipedia.org/wiki/Peloponnesian_War). He was one of the first of what we see now as historians. So he would go back, and writing about this series of events, would kind of look at they why and what was the environment which created these things. So rather than saying X, Y, Z happened; saying: this is what the world was like and that caused X, Y, Z to happen.
+
+But the metaphor I think of the most - because it's simple - is just like the dog chasing the car. Like what does the dog do if he catches the car? He doesn't have a plan for it. So I find it just as often on the entrepreneurial side. People don't plan for success, either. Like if we create a marketplace for plug-ins, what is the natural conclusion of that if it's really, really successful? Well, if it's really, really successful, there's not that many free plug-ins. It looks more like an app store on IOS or Android where everything's paid, because that's what the incentives will be for the developers over the long term.
+
+!# Tim @ 00:13:32
+
+Let me ask you - this is somewhat of an oblique question, or unrelated, seemingly - are there any hedge fund managers that you really get along with? You don't have to name them by name, but you could, certainly.
+
+!# Matt @ 00:13:46
+
+Our investors.
+
+!# Tim @ 00:13:47
+
+Okay. Who are some of your investors? And we'll talk about what they've invested in, since it's -
+
+!# Matt @ 00:13:51
+
+[Tiger Global](https://www.crunchbase.com/organization/tiger-global). So there's an amazing guy, [Lee Fixel](https://www.crunchbase.com/person/lee-fixel), over there. He works on the private side, not the public equity side. But it's a hedge fund, at the end of the day. [Insight](http://www.insightpartners.com/), [True Ventures](https://trueventures.com/); we have some - we've actually been blessed from the very beginning with really great investors.
+
+!# Tim @ 00:14:06
+
+I know of a handful of hedge fund managers very closely who are extremely good - a lot of them are macro - they would describe themselves as sort of macro guys, which I'll hope to go into another time. But the point being, they are very good at looking at sort of primary effects, secondary effects, tertiary effects, and trying to predict the various butterflies' effect that can then inform a trade that other people aren't thinking of or a position that other people aren't thinking of.
+
+I think you're very good at that. What - if you had to call yourself world class at something besides eating chicken McNuggets, what would you say that is?
+
+!# Matt @ 00:14:48
+
+Hmm. It might be related to that because -
+
+!# Tim @ 00:14:53
+
+The McNuggets? [Laughs]
+
+!# Matt @ 00:14:54
+
+[Laughs] No, the beginning of systems. And sort of environments and ecosystems and how things sort of cascade. Because running an open-source project, the joking term is BDFL, so benevolent dictator for life is technically my role within [WordPress](https://wordpress.org/). But it's the most powerless dictatorship ever because - well, obviously you don't have an army, you don't have the ability to tax. But you don't really have a carrot or a stick. You're not paying people to do things and you're not punishing them if they don't do things.
+
+So you really are in a position where the things you do have control over, like let's say the website or how the code works, or the license. You have to think of the implications of that. And then it's really just the power of a bully pulpit.
+
+!# Tim @ 00:15:42
+
+In what sense?
+
+!# Matt @ 00:15:43
+
+Like the State of the Union speech that's happening from Obama. Once a year I give a state of the word speech, and try to -
+
+!# Tim @ 00:15:51
+
+That's at [WordCamp](https://central.wordcamp.org/)?
+
+!# Matt @ 00:15:52
+
+At [WordCamp](https://central.wordcamp.org/), yeah. I try to think what are the things that have been influencing me, and the things that won't happen naturally in the [WordPress](https://wordpress.org/) ecosystem that might need another push, or might need to expose the community to something that they're not thinking about. So a lot of times at [WordCamp](https://central.wordcamp.org/) San Francisco, I'll bring in speakers like yourself or other folks who aren't in the day- to-day [WordPress](https://wordpress.org/) hub-abub.
+
+!# Tim @ 00:16:14
+
+Right, despite my best efforts to muck things up. I was very happy and very, very pleased that our friend Nason was so kind at the [Barbecue World Championships](http://www.memphisinmay.org/world-championship-barbecue-cooking-contest) - Matt sponsors a - do you still sponsor a team there?
+
+!# Matt @ 00:16:31
+
+I didn't last year. It was the first year I haven't been there in a couple years.
+
+!# Tim @ 00:16:34
+
+All right. And Nason, who's a tremendous developer, helped to build a plug-in called "pervasion," which allows me to whitelist someone who leaves a good comment that has aspects of questionable behavior, whether it's too much cursing, maybe attacking someone else, putting in too many links, which is a hugely helpful feature so thank you, Nason. And that ability to customize has always appealed to me about [WordPress](https://wordpress.org/). What are other - we can look at it through a different lens. What are some of the mistakes that would-be competitors to WordPress have made that prevented their wider spread adoption?
+
+!# Matt @ 00:17:17
+
+Most of our - most contemporary competitors, so the [wicks.com](https://wicks.com), [Squarespace](https://www.squarespace.com/), etc., they focus more on it being a service rather than it being something that's super extensible. So for example, that feature you just described will never be in core [WordPress](https://wordpress.org/).
+
+!# Tim @ 00:17:39
+
+It will never be what?
+
+!# Matt @ 00:17:41
+
+In core  [WordPress](https://wordpress.org/). You know, it's a relatively small audience that is gonna want that.
+
+!# Tim @ 00:17:45
+
+It's an edge case, but useful for the edge case.
+
+!# Matt @ 00:17:48
+
+Yeah. And to be honest, like other people who maybe have the same prominence as your blog, it would be useful for. So there is an audience out there. But it's not the tens of millions that use [WordPress](https://wordpress.org/). So if you're building a service like [WordPress.com](https://wordpress.com/), or like [Squarespace](https://www.squarespace.com/) or one of these others, because you essentially have one code base that everyone runs, you have to sort of design for the majority, or what you think the majority is gonna want or be. Where with [WordPress.com](https://wordpress.com/), with its sort of empanic sensibility of themes and plug-ins, there can be a million niches. And in fact, with the way plug-ins are distributed for people that run [WordPress.com](https://wordpress.com/) themselves, almost no two are alike.
+
+When you think of the theme plus the plug-ins that each blog - each one is its own, unique, beautiful snowflake.
+
+!# Tim @ 00:18:35
+
+Right, so you're not trying to decide what the average shoe size is in the world and give everyone a nine.
+
+!# Matt @ 00:18:41
+
+So our competitors will say it's this checklist of features and we're gonna do these ten things [WordPress](https://wordpress.org/) does, and maybe we'll do this one better and this one better. And honestly, like a smart team of a couple developers could probably do that in a year. But to replicate the 35,000 plus plug-ins and themes, it's a huge moat. It would take lifetimes.
+
+!# Tim @ 00:19:02
+
+At what point did you decide to create [Automattic](https://automattic.com/), [WordPress.com](https://wordpress.com/)?
+
+!# Matt @ 00:19:09
+
+Sure. I should say what  [Automattic](https://automattic.com/) is.
+
+!# Tim @ 00:19:13
+
+You should.
+
+!# Matt @ 00:19:14
+
+[Automattic](https://automattic.com/) is the company where I work. I became CEO last year. And basically it's -
+
+!# Tim @ 00:19:18
+
+They had to wait until you had a 3 in front of your name.
+
+!# Matt @ 00:19:21
+
+They had to wait until I was 30, yeah. So it was basically taking the idea that there are some services for [WordPress](https://wordpress.org/) that aren't appropriate for the open source side, this distributed, nonprofit thing. And also that I wanted to create a company that I wanted to work at. And so that became [Automattic](https://automattic.com/). What was the question?
+
+!# Tim @ 00:19:41
+
+How did you decide to create [Automattic](https://automattic.com/)?
+
+!# Matt @ 00:19:44
+
+Oh, you know what it was, is it was spam.
+
+!# Tim @ 00:19:46
+
+Okay, tell me more.
+
+!# Matt @ 00:19:48
+
+So, you know, things on the web get spammed.
+
+!# Tim @ 00:19:52
+
+Oh, yes. I'm very well aware.
+
+!# Matt @ 00:19:54
+
+Whether it's your email, or contact form, spammers will -
+
+!# Tim @ 00:19:57
+
+I think I have more than 100,000 spam comments in my spam right now.
+
+!# Matt @ 00:20:02
+
+Wow. So what's been protecting you is a plug-in called [Akismet](https://akismet.com/).
+
+!# Tim @ 00:20:04
+
+Correct.
+
+!# Matt @ 00:20:05
+
+So [Akismet](https://akismet.com/) is an anti-spam system. And what had happened was I kept writing anti-spam plug-ins that were just plug-ins. So it was just code that would run on your blog. And they would work for like an ever decreasing amount of time. So like the first ones stopped spam for like a year. And the second one stopped it for like six months. And then it got to the point where I'd release a new version, and like the next day, the spammers would work around it. I always had like an idea of like a - I apologize to anyone Russian named Ivan, but like this guy in Russia just downloaded my plug-in and is like, "Ha ha, I can work around this so easily."
+
+And so I thought: huh, this is asymmetric warfare. We're never gonna beat the spammers, because they're like the bully on the playground, unless we team up. And so [Akismet](https://akismet.com/) is sort of a system -
+
+!# Tim @ 00:20:50
+
+A pack of wolves that tear the bullies apart.
+
+!# Matt @ 00:20:52
+
+Wow, I like that. Or maybe it's like circling the wagons. It kind of protects you from -
+
+!# Tim @ 00:20:59
+
+It's visually less violent.
+
+!# Matt @ 00:21:03
+
+And it's able to adapt as quickly as the spammers were because it's a centralized service. I had built some centralized services before that were expensive to run and costing me a lot out of my own pocket. So I wanted to make it a business so it could be self-sustainable. I didn't want this something sort of running on my charity, or if I went away, this would stop. So that's why -
+
+!# Tim @ 00:21:24
+
+I assume you also need money for food and rent...
+
+!# Matt @ 00:21:27
+
+I don't need that much.
+
+!# Tim @ 00:21:28
+
+[Laughs] We'll talk more about that later. Got it. Not to interrupt. So [Akismet](https://akismet.com/), spam.
+
+!# Matt @ 00:21:34
+
+That was the first product of [Automattic](https://automattic.com/). And it made perfect sense because it was something that [WordPress](https://wordpress.org/)'s software couldn't do. It was something that was a service. It was something that I wanted to have a sustainable business model. So that was actually the first thing - I loved [CNET](http://www.cnet.com/)... so I moved out to San Francisco, got a job at [CNET](http://www.cnet.com/), it was awesome. I was there for about a year. And basically, the weekend after I left, I just hacked like the whole time and released the first version of [Akismet](https://akismet.com/).
+
+!# Tim @ 00:22:01
+
+What year was that, roughly?
+
+!# Matt @ 00:22:03
+
+I believe it was 2005.
+
+!# Tim @ 00:22:05
+
+2005. And was that the period in which you were experimenting with [polyphasic sleep](https://en.wikipedia.org/wiki/Biphasic_and_polyphasic_sleep)? Or was it before or after that?
+
+!# Matt @ 00:22:12
+
+That's a good question. No, I did the [polyphasic sleep](https://en.wikipedia.org/wiki/Biphasic_and_polyphasic_sleep) before then. So that was when I was still in Houston.
+
+!# Tim @ 00:22:20
+
+And for those people who don't know, [polyphasic sleep](https://en.wikipedia.org/wiki/Biphasic_and_polyphasic_sleep) is this very controversial concept of taking what would normally require, say, eight hours sleeping, monophasic meaning one block, and breaking it up into multiple fragments. I wrote about this in the [4-Hour Body](http://fourhourbody.com/), and man, do people get excited about that, either positively or negatively. So what was - you were experimenting with, was it [Ubermen](https://www.polyphasicsociety.com/polyphasic-sleep/overviews/uberman-2/)?
+
+!# Matt @ 00:22:44
+
+Yes.
+
+!# Tim @ 00:22:45
+
+So that's about - what is it, between two and two and a half hours, something like that?
+
+!# Matt @ 00:22:48
+
+In a 24-hour cycle.
+
+!# Tim @ 00:22:49
+
+In a 24-hour cycle. So you're -
+
+!# Matt @ 00:22:51
+
+So it's four hours on, and then 20 or 30 minutes of sleep.
+
+!# Tim @ 00:22:53
+
+What happens if you miss one of those naps?
+
+!# Matt @ 00:22:55
+
+You're wrecked. But this was probably one of the most productive periods of my life. So I wrote [WordPress](https://wordpress.org/) in that time, and also something called [BB Press](https://bbpress.org/).
+
+!# Tim @ 00:23:03
+
+And I remember your answer, but I'm curious if you remember what you told me. Why did you stop polyphasic sleep? What happened?
+
+!# Matt @ 00:23:12
+
+What did I tell you?
+
+!# Tim @ 00:23:13
+
+You got a girlfriend.
+
+!# Matt @ 00:23:16
+
+[Laughs] I know.
+
+!# Tim @ 00:23:18
+
+Turns out, girlfriends don't like that sleep cycle.
+
+!# Matt @ 00:23:20
+
+No one would have predicted it.
+
+!# Tim @ 00:23:21
+
+[Laughs] The getting of the girlfriend?
+
+!# Matt @ 00:23:23
+
+Yeah, the getting of the girlfriend. And maybe that's who I marry someday, you know, someone who will also be on polyphasic sleep.
+
+!# Tim @ 00:23:30
+
+[Laughs] It sounds like a really tense household.
+
+!# Matt @ 00:23:34
+
+[Laughs] She has to type [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) and do [polyphasic sleep](https://en.wikipedia.org/wiki/Biphasic_and_polyphasic_sleep).
+
+!# Tim @ 00:23:38
+
+Oh, yes. You know what? All right, you brought it up. Why are you obsessed with  [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard)?
+
+!# Matt @ 00:23:42
+
+Oh, yeah. So  [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) is an alternative keyboard layout. So instead of the letters going ASDF, it's AOEU, for example. And all of the letters except for A and M, actually, are in different places.
+
+!# Tim @ 00:23:53
+
+So it would be a competitor to [QWERTY](https://en.wikipedia.org/wiki/QWERTY)?
+
+!# Matt @ 00:23:56
+
+Yes. And it's more efficient. So I think I was 14 or 15 and I thought: well, I'm probably going to be typing the rest of my life. And so if there's a more efficient way to do it, I should learn that. And it took about a month. It's kind of like learning a new instrument, actually. And I just kind of went cold turkey and learned to type  [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard), and I've been doing it - yeah, over 15 years, now. Gosh, I'm old.
+
+!# Tim @ 00:24:21
+
+And do you still offer rewards to employees who pick up [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard)?
+
+!# Matt @ 00:24:25
+
+It's more like public shaming and/or highlighting. We do little hints like -
+
+!# Tim @ 00:24:30
+
+It's a dictator with a little more teeth.
+
+!# Matt @ 00:24:32
+
+We'll - you know, in our Christmas pack we send out like a  [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) keyboard cover for your laptop, or little - a [DVzine](http://www.dvzine.org/), which is a - [DVzine.org](http://www.dvzine.org/) is actually a great website that tells you all the benefits of  [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) even better than I have. There's things like in a - I'm making up the numbers, but in a year of typing on [QWERTY](https://en.wikipedia.org/wiki/QWERTY), your fingers move like 18 miles. And in  [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard), they move like two miles. Like it's almost an order of magnitude, more efficient.
+
+!# Tim @ 00:24:57
+
+I never thought of it this way, but there's the speed benefit which - I'm very - I was very impatient with the  [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard). I did play with it for awhile, and then I had to switch laptops with people and I wasn't tech savvy enough to figure out -
+
+!# Matt @ 00:25:10
+
+\- To turn it on.
+
+!# Tim @ 00:25:11
+
+I was in Europe, I think, and I was just like having trouble with the settings and I got very frustrated. But would you say there's an argument for [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) being easier on your tendons and carpel tunnel and all that?
+
+!# Matt @ 00:25:22
+
+I would say that's the most - the biggest benefit. So again, I type for a living. I've never had any problem.
+
+!# Tim @ 00:25:30
+
+What type of keyboard to you use?
+
+!# Matt @ 00:25:32
+
+I just use the keyboard on my laptop mostly, now.
+
+!# Tim @ 00:25:34
+
+You do?
+
+!# Matt @ 00:25:35
+
+Oh, yeah.
+
+!# Tim @ 00:25:36
+
+Now, you used to have this funky ergonomic keyboard that kept your palms more vertical, is that right?
+
+!# Matt @ 00:25:42
+
+Yeah, you emailed me about that the other day. What was it called?
+
+!# Tim @ 00:25:44
+
+Oh, I have no idea. That's why I'm asking.
+
+!# Matt @ 00:25:46
+
+I looked it up and I told you what it was. But yeah, it was where the keys were actually sort of slanted and -
+
+!# Tim @ 00:25:51
+
+So it's almost like you're holding joysticks, I mean in that hand position with your fingers extended.
+
+!# Matt @ 00:25:57
+
+And it is - you know, that keyboard is very comfortable and I like it. But honestly, just the - I'm not really limited when I'm on my computer by the speed I can type, unless I was transcribing something, like when you're talking. I'm limited by the -
+
+!# Tim @ 00:26:11
+
+Earning some extra dollars transcribing on [Task Rabbit](https://www.taskrabbit.com/).
+
+!# Matt @ 00:26:13
+
+Every now and then. [Inaudible] speed I can think, which is much slower than 120 words per minute or whatever I can type. So really the comfort is what does it for me. It's also kind of a cool security mechanism when someone sits down at your laptop and like they can't do anything. But it is -  [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) is built into every single modern day computer, Windows and Mac. There's a setting if you go into international keyboards and you can do it. And I'd highly recommend. You have a pretty hardcore set of listeners so -
+
+!# Tim @ 00:26:44
+
+Pretty hardcore habit of writing, too.
+
+!# Matt @ 00:26:46
+
+Check out [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard). There's also a slightly more efficient one called [Colemak](https://en.wikipedia.org/wiki/Keyboard_layout#Colemak), that if I was starting today, I might do [Colemak](https://en.wikipedia.org/wiki/Keyboard_layout#Colemak).
+
+!# Tim @ 00:26:53
+
+How do you spell [Colemak](https://en.wikipedia.org/wiki/Keyboard_layout#Colemak)?
+
+!# Matt @ 00:26:55
+
+C-O-L-E-M-A-K. The difference between [QWERTY](https://en.wikipedia.org/wiki/QWERTY) and [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) is like - let's call that 50 percent. And between like [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) and [Colemak](https://en.wikipedia.org/wiki/Keyboard_layout#Colemak) is like 2 or 3 percent. So I haven't switched again just because it's more marginal. If you're coming from [QWERTY](https://en.wikipedia.org/wiki/QWERTY), pick one of them.
+
+!# Tim @ 00:27:10
+
+Huge. Cool. All right. We will link to all of that in the show notes. [Automattic](https://automattic.com/). Is it coincidence that [Automattic](https://automattic.com/) is spelled with an M-A-T-T in the middle?
+
+!# Matt @ 00:27:23
+
+[Laughs] As a typical egotistical founder, I try to work my name into everything. You should do that.
+
+!# Tim @ 00:27:31
+
+I should. I could. Tim is short. I could stick it in the middle of a lot of stuff. [Automattic](https://automattic.com/) itself is - it's a unique company in a lot of ways. How is [Automattic](https://automattic.com/) different from the average tech startup out there?
+
+!# Matt @ 00:27:48
+
+A lot of ways. The first and foremost is that everything we put out, we're open sourced to the core. So most technology companies, the [IP](https://en.wikipedia.org/wiki/Intellectual_property) of their software is one of the chief values of it. And we - open-source released to the public the vast majority of the [IP](https://en.wikipedia.org/wiki/Intellectual_property) we create. So that's the first and foremost, and it's really the key to the philosophy of [Automattic](https://automattic.com/).
+
+The second, which I think is the future of work and the future of all companies is that we're totally distributed. So we're now over 300 people, in 37 countries, and well over 200 cities. So most people work from home or in co-working spaces, wherever they are. We have a headquarters here in San Francisco but it's only got about 20-ish people in it.
+
+!# Tim @ 00:28:29
+
+There's no one there. Every time I've been to the headquarters, I'm like, "where is everybody? Oh wait, there are tee shirts, I think. Fantastic. I'll get a new tee shirt."
+
+!# Matt @ 00:28:38
+
+We just need a place to get mail and subpoenas.
+
+!# Tim @ 00:28:40
+
+[Laughs] Do you get a lot of subpoenas?
+
+!# Matt @ 00:28:43
+
+Oh, yeah. It's like everyone who publishes - it's like if [Bill Gates](https://en.wikipedia.org/wiki/Bill_Gates) got takedown notices for people using [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word). We just get people contacting us for everything.
+
+!# Tim @ 00:28:52
+
+Every type of disagreeable content that's published on WordPress results in some type of letter.
+
+!# Matt @ 00:28:57
+
+Yep.
+
+!# Tim @ 00:28:58
+
+That sounds like fun.
+
+!# Matt @ 00:28:59
+
+The more clueless the attorney, the more likely they are to contact us.
+
+!# Tim @ 00:29:02
+
+Right. Focusing on the distributed aspect, how did you make that decision, and how early on? What was the process like? Tell me the story of how you made that decision.
+
+!# Matt @ 00:29:13
+
+It was literally from day one. It was influenced by the fact that [WordPress](https://wordpress.org) is an open-source project before I created the company [Automattic](https://automattic.com/). So the first four or five people on [Automattic](https://automattic.com/) were all in different cities. We had Vermont, Texas, I was in San Francisco. Actually, the very first guy was in [Blarney, Ireland., Cork County](https://en.wikipedia.org/wiki/Blarney), which is like the Texas of Ireland.
+
+!# Tim @ 00:29:35
+
+Is that where the [Blarney Stone](https://en.wikipedia.org/wiki/Blarney_Stone) is?
+
+!# Matt @ 00:29:36
+
+It is where the [Blarney Stone](https://en.wikipedia.org/wiki/Blarney_Stone) is.
+
+!# Tim @ 00:29:37
+
+What the hell is the [Blarney Stone](https://en.wikipedia.org/wiki/Blarney_Stone)?
+
+!# Matt @ 00:29:38
+
+So you climb to the top of this castle thing and you kind of hang off the side, and you're kind of upside down and you kiss this stone.
+
+!# Tim @ 00:29:45
+
+Jesus, that sounds dangerous.
+
+!# Matt @ 00:29:47
+
+And there's an old guy that kind of holds you. It's probably not sanitary, but yeah. I was very shy before I kissed it about ten years ago and now -
+
+!# Tim @ 00:29:55
+
+Now you're all boldness.
+
+!# Matt @ 00:29:56
+
+- now I'm talking to you.
+
+!# Tim @ 00:29:57
+
+[Laughs] Hold on. I want to talk about nervousness and boldness and shyness for a second. We are gonna come back to the distributed nature of [Automattic](https://Automattic.com). This is not, in fact, the first time that I've interviewed you. Do you remember the very first - maybe you can tell people about the very first phone call that I made to you?
+
+!# Matt @ 00:30:18
+
+Was that an interview?
+
+!# Tim @ 00:30:20
+
+No. I was calling you to ask if I could interview you.
+
+!# Matt @ 00:30:24
+
+Yes. So, Tim, this was pre 4-Hour Workweek, right?
+
+!# Tim @ 00:30:28
+
+Yeah, I think it was 2006.
+
+!# Matt @ 00:30:29
+
+So it was old school, like -
+
+!# Tim @ 00:30:31
+
+Yeah, or early, early 2007.
+
+!# Matt @ 00:30:32
+
+That was my Tim bonafide, is that was it was like?
+
+!# Tim @ 00:30:34
+
+Oh yeah, back in the day.
+
+!# Matt @ 00:30:35
+
+And I got the - my phone never rings, and I almost never answer it. But for some reason , I answer this and this weird guy who talked very fast did like a monologue for like ten minutes. I don't know if it was actually ten minutes; it felt like ten minutes.
+
+!# Tim @ 00:30:49
+
+It was bad. It was really bad.
+
+!# Matt @ 00:30:51
+
+But this was - Timbo, Tim Ferriss, and he was telling me about something. I don't know. I think it was like verbal shock and awe.
+
+!# Tim @ 00:31:00
+
+I was trying to establish my credentials. And a mutual friend, M.J. Kim had made the intro and I was worried you would hang up. Because I was aware vaguely that you did not - you weren't really a phone guy.
+
+!# Matt @ 00:31:15
+
+So you were trying to get in all the words before I hung up.
+
+!# Tim @ 00:31:18
+
+That's right, which is not the best policy in the world but we did end up -
+
+!# Matt @ 00:31:24
+
+It worked.
+
+!# Tim @ 00:31:24
+
+- getting to know each other. And I wanted that story to be told because it's easy for listeners or readers to assume that my pitches have always been great and that I was born that way. No. I've had thousands of horrible pitches, some of them just by the luck of the day you happen to contact someone work, but it's despite your technique, not because of it. So distributed from day one. What are the tools that you currently use to make that work?
+
+!# Matt @ 00:31:55
+
+So open-source projects mostly work like this. And basically what they do is they say - you use things like - well, back in the day. I'm going to say some old technologies and then we'll get to the new technologies. [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat), which is sort of an old text chat or IM system. You collaborate using distributed source control. So you use [Subversion](https://subversion.apache.org/), which a modern day equivalent would be something like [GitHub](https://github.com). So you basically have ways that you communicate: email, mailing lists, forms, all the things that people do even when they're in the same office. They IM each other. You just make that the primary way you communicate.
+
+So that's what we did from the very beginning. When [Automattic](https://automattic.com/) started, we literally - it was boot strap at the beginning. We had no money. And I thought - I was in San Francisco, but why would I move all these people to the most expensive place in America when we also have no money? And most investors - in fact, a lot of them - said: oh yeah, when you raise money, you can finally move everyone there. But Donaka in Ireland became ready to start a family. And people are at different places for different reasons. And it's true the Bay Area has some amazing talent.
+
+But you also have - well, two things. You have some incredibly talented people all over the world who for whatever reason don't want to live here, even though it's a pretty cool place. You also have, you know, some of the largest, most successful companies in the world - market caps of over a trillion dollars combined - competing for the same 20 or 30,000 engineers.
+
+!# Tim @ 00:33:24
+
+In one place.
+
+!# Matt @ 00:33:25
+
+In one place.
+
+!# Tim @ 00:33:26
+
+Right, absolutely.
+
+!# Matt @ 00:33:27
+
+So when you add up [Cisco](https://www.cisco.com), [Oracle](https://www.oracle.com), [Apple](https://www.apple.com), [Google](https://www.google.com), just go down the list -
+
+!# Tim @ 00:33:32
+
+Not to mention all the startups.
+
+!# Matt @ 00:33:33
+
+[LinkedIn](https://www.linked.com), [Facebook](https://www.facebook.com), [Twitter](https://twitter.com), plus all startups. They're all fishing in this pond which is a little bit overfished. Again, not to say there are not great people, but just that - perhaps back in the day when you had to go to one of these universities like Stanford or MIT to learn the things to create a scalable web scale startup or a service, it was important to be clustered there. But now you can learn all this stuff on Hacker News and you can read Reddit and you can learn everything you need to do to build the next WordPress from anywhere in the world, anyplace you have an internet connection. So there are some super smart people all over.
+
+So we just started to say: well, just like it's silly to discriminate on the basis of let's just say gender. Right, if we said we're not going to hire men or women. It's dumb because you just cut out half of the possible hiring pool. So by definition, people you hire will be not as good as if you looked at 100 percent. We said we're going to look at the 99.9 percent of the world that doesn't live in the San Francisco Bay Area.
+
+!# Tim @ 00:34:36
+
+So not only are you getting better talent because you have a larger pool to filter from, what can you do with the cost savings of not having to build out a huge infrastructure for a campus?
+
+!# Matt @ 00:34:47
+
+I don't know if it was actually a cost savings. Because once you start flying people around and things like that, it does add up. We give people an allowance, for example, $250.00 per month co-working allowance. They can use it at Starbucks or cafes, they can use it at a co-working space. So we invest in people's space because we want them to be productive. But I think what it really comes down to is just allowing people freedom, autonomy, and something that was actually inspired when I finally read your book is some lifestyle arbitrage.
+
+I mean you can make a San Francisco salary and live in Argentina or Alabama or wherever you want to.
+
+!# Tim @ 00:35:25
+
+It goes very, very far.
+
+!# Matt @ 00:35:27
+
+And that's kind of cool. Or like myself, like I travel most of the time.
+
+!# Tim @ 00:35:31
+
+Where is the - you're in 37 countries, you said? What are the most heavily weighted countries, or represented countries?
+
+!# Matt @ 00:35:43
+
+In order, it's probably - it's English-speaking countries in order. So the United States is about two-thirds. So again, more than the majority. We love us some Canadians. I love Canadia. UK, Australia; those are kind of the top four or five, Ireland. So because we're still - although we're totally distributed, we still speak English. And so places where - so that's like the top five. And then of the other 32 countries, many of them we just have one person in them. We only have one person in India. We have, I think, three or four people in Argentina, one person in Brazil.
+
+So it just kind of ends up being whoever the coolest, most - I was going to say bad butt -
+
+!# Tim @ 00:36:33
+
+[Laughs] For you who don't know Matt, he never curses. He has a lot of trouble. It would be like forcing [Mr. Rogers](https://en.wikipedia.org/wiki/Fred_Rogers) to say fuck on the air. It would just be the most excruciatingly painful thing to watch. So yes, they're bad butt engineers.
+
+!# Matt @ 00:36:48
+
+Tim, now I can't send this to my mom.
+
+!# Tim @ 00:36:51
+
+We can bleep the F.
+
+!# Matt @ 00:36:52
+
+It's all right. I actually don't have a problem with cursing; I just don't do it myself.
+
+!# Tim @ 00:36:55
+
+How long has that been? Has that always been the case?
+
+!# Matt @ 00:36:58
+
+You know, I don't know.
+
+!# Tim @ 00:37:00
+
+You're from Texas!
+
+!# Matt @ 00:37:01
+
+And again, I don't know - I don't have a problem with it.
+
+!# Tim @ 00:37:05
+
+Not that I'm implying that all Texans curse a lot but I'm from Long Island. It's like you can't avoid it. That's half of what we say.
+
+!# Matt @ 00:37:09
+
+There's actually a myth in the company that you can't curse around me or I'll get mad. But it's just not true at all. I have no personal problem with it.
+
+!# Tim @ 00:37:16
+
+I feel like I would have picked up on that. So how long have you not been cursing?
+
+!# Matt @ 00:37:20
+
+I feel like I must have read a book when I was younger, like a [James Bond](https://en.wikipedia.org/wiki/James_Bond) type book or something, and I - because I recall the sentence; I just don't remember the context. And someone's like - you know, the English language has more words in it than any other language in the world. And so you can find your way to express yourself in some of these other hundreds of thousands of words. Now, obviously words like the F word are so versatile, you can use them in a million different ways. But there's a lot of other really good ones. So I try to express myself in other ways.
+
+!# Tim @ 00:37:50
+
+That's something that's always struck me and I feel like such a coarse, unrefined, sort of knuckle dragger with the amount that I curse, which is - I enjoy being around you and something we've talked about on the podcast before with other folks is surrounding yourself with people you want to be the average of. And so I like - one of the reasons I enjoy being around you is you force me to become very aware of how much I curse. Which oftentimes, I think, is reflective of lazy thinking. Just in the way that if you overuse the word "interesting," like, "oh, interesting." That is a garbage word. It means nothing. Like, come up with a better word.
+
+Or my particular crutch was "pretty." Oh, that's pretty good. That's pretty expensive. That's pretty awesome. And I got so annoyed with it. The way that I tried to fix it - which worked very well, actually, for a period of time - was requiring that every time I say pretty, I add fucking after it. No matter who I was with. So I was like, "oh, that's pretty fucking expensive. Oh, that's pretty fucking pretty," or whatever, which solved it. But the - what are the current tools that you use? So you had [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) and so on, but what's the state-of-the-art within [Automattic](https://www.automattic.com) for managing - keeping that machine running with the distributed teams?
+
+!# Matt @ 00:39:03
+
+So we actually ended up creating a tool called [P2](https://p2theme.com/). So you can get it at [P2theme.com](https://p2theme.com/). And that is basically a replacement for email. So [Automattic](http://automattic.com) basically sends no emails. All the email I get is from people outside the company. And think of [P2](https://p2theme.com/) almost like a [Socialcast](http://www.socialcast.com/) or a [Yammer](http://www.yammer.com/) or kind of like an internal [Twitter](https://www.twitter.com) or [Facebook](https://www.facebook.com/), but really work oriented. Where people can post short things, long things, blog posts, embed [YouTube](https://www.youtube.com/)s, rich media, mockups, images, audio, anything. And it's a threaded asynchronous discussion. But because it's not email, I honestly don't know why people use email so much in companies. Because imagine that you're a company. You're a team of ten people, and you join that team. How do you catch up with the past two years of conversations? Do you get people to forward you all the emails they've been doing?
+
+If someone leaves, like does everything in their inbox - well, it does. Everything in their inbox disappears and all that sort of locked in knowledge is gone. So everything in Automattic is public by default. All of our stats, all of our everything.
+
+!# Tim @ 00:40:03
+
+Everything?
+
+!# Matt @ 00:40:04
+
+Everything. Like -
+
+!# Tim @ 00:40:05
+
+Salaries? Equity?
+
+!# Matt @ 00:40:06
+
+So we're not [Buffer](https://buffer.com/r), where we publish salaries and equity. But the -
+
+!# Tim @ 00:40:12
+
+So just for context for people who are not in this world of tech, [Buffer app](https://buffer.com/) is actually an app I use every day, very useful for scheduling. But [Buffer app](https://buffer.com/) allows you to schedule different types of [Facebook](https://www.facebook.com/) posts, [Twitter](https://www.twitter.com) posts, etc., among many, many other things. But they're extremely transparent with their information.
+
+!# Matt @ 00:40:32
+
+So they publish a formula, essentially.
+
+!# Tim @ 00:40:34
+
+Yes. How they determine their -
+
+!# Matt @ 00:40:35
+
+It's like a base salary, like.
+
+!# Tim @ 00:40:37
+
+- salaries.
+
+!# Matt @ 00:40:38
+
+50K for support plus a multiplier for experience plus you can get equity or more salary or things like that. So in theory, the formula is public. I think some of that stuff goes a little bit too far and it creates as many problems as it solves.
+
+!# Tim @ 00:40:52
+
+How do you draw the line? Or how do you decide where to draw the line?
+
+!# Matt @ 00:40:55
+
+It's really a judgment call, and also thinking about what is the logical conclusion of this. So how does that system work when we're 10,000 employees or 100,000 employees? And does it just sort of kick the can down the road? And so the thing I think about the [Buffer](https://Buffer.com) system isn't - it's not bad that their salaries are public. In fact, government jobs salaries are public and many companies have sort of stated titles and levels that have certain ranges. But then it just kind of kicks the can down the road that why has this guy got an experience multiplier of 1.3 and mine is 1.1? You still have the -
+
+!# Tim @ 00:41:36
+
+What does kicking the can down the road mean?
+
+!# Matt @ 00:41:37
+
+If it purports to solve the idea of compensation inequity, there's still subjective measures that have a big impact on what the formula - the output of the formula, that doesn't really help. So is it - what I think of is this going to make the company either solve a problem that we can't solve otherwise, or is it going to make it better overall? And so all of our communication being public does. It's all searchable, it's all indexed, it's all tagged. I could look you up in our system and see every meeting everyone's ever had with you.
+
+!# Tim @ 00:42:18
+
+I feel like wow, this guy really doesn't know how to use computers.
+
+!# Matt @ 00:42:20
+
+Yeah. But going back, now, almost ten years - we turn ten this year. So that's pretty powerful to have that sort of record of everything. And it's all searchable and indexed. So that's - I think makes sense. And we're very trusting internally. If we're working on an acquisition, for example, and in my status updates that I do weekly, I'll put that I worked on this acquisition. In theory, that could leak, it could whatever but I find that when you trust people, they tend to do the right thing. Versus if we try to really lock everything down, I feel like that wouldn't engender a two-way loyalty.
+
+So [P2](https://p2theme.com/), [Slack](https://Slack.com), I really love.
+
+!# Tim @ 00:42:57
+
+Now [Slack](https://slack.com) has come up a lot recently for me, including for very small teams. Can you explain [Slack](https://slack.com)?
+
+!# Matt @ 00:43:04
+
+Sure, as I pour water all over this table.
+
+!# Tim @ 00:43:07
+
+That's all right. It's wood. I would assume the tree was exposed to water. Hopefully, it'll be okay.
+
+!# Matt @ 00:43:14
+
+So at some point - so [Slack](https://slack.com) is - for us it's a replacement for [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat). So imagine a - it's a real time chat platform that actually has a lot of the benefits of [P2](https://p2theme.com/). You can embed media in it and things. But it just makes sense for IM. So we used [Skype](http://www.skype.com) before. But again, it didn't really scale for us. So if you're the 101st person to join [Automattic](http://automattic.com) and we use [Skype](http://www.skype.com) for all of our messaging each other, you have to add 100 people to your contact list and be accepted by each one of them. Rooms have limits for how many people they can have in them; just all these arbitrary things that's not suited.
+
+In [Slack](https://slack.com), you can DM anyone in the company. They also have a really great search. There's public channels anyone can join, there's private groups. It's done by some of the folks behind [Flickr](https://www.flickr.com) - [Stuart Butterfield](https://en.wikipedia.org/wiki/Stewart_Butterfield), Cal Anderson. And it's just really well done. It's pleasant to use.
+
+!# Tim @ 00:44:05
+
+Love the name. It's positive association just in the name.
+
+!# Matt @ 00:44:08
+
+It's an enterprise tool, although you can use it for - I'm on like four or five teams now, including some that are just groups of friends. But it's really pleasant to use. It's consumer-grade. And I mean consumer-grade as a compliment.
+
+!# Tim @ 00:44:20
+
+You mean the UI? Like the user experience is consumer-friendly and user-friendly.
+
+!# Matt @ 00:44:25
+
+It could compete with a [Facebook](https://www.facebook.com/) or a [Twitter](https://twitter.com) for its usability. Versus where most enterprise software just - you know, is designed by someone who is very unhappy.
+
+!# Tim @ 00:44:36
+
+Why not use [P2](https://p2theme.com/) for the [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) chat?
+
+!# Matt @ 00:44:43
+
+It's not chat.
+
+!# Tim @ 00:44:46
+
+Okay, got it.
+
+!# Matt @ 00:44:48
+
+So [P2](https://p2theme.com/) is threaded. It is real time, but you wouldn't use it like a chat client. Where [Slack](https://slack.com) is chronological, so there's no threading. And yeah, it's instantaneous, it comes to your phone. It's more like an IM application.
+
+!# Tim @ 00:45:00
+
+Got it. And would you use [P2](https://p2theme.com/) for project management type stuff as well?
+
+!# Matt @ 00:45:06
+
+We do. We have bug trackers. Different teams use different things. Some use [Fabricator](https://en.wikipedia.org/wiki/Fabricator), some use [GitHub](https://github.com/), some use Track. We allow teams a lot of autonomy in choosing their tools. But all the communication really happens on [P2](https://p2theme.com/). So I think [P2](https://p2theme.com/) replacement for email, [Slack](https://slack.com) a replacement for -
+
+!# Tim @ 00:45:21
+
+Skype, IM.
+
+!# Matt @ 00:45:23
+
+Skype, IM. Between those two, you can take over the world.
+
+!# Tim @ 00:45:27
+
+I love it. For those people who are not aware of - who are not part of the tech world - I don't know. That was a coaster. That was a very metallic, Scandinavian coaster that was stuck to the bottom of a glass. That's the downside of these coasters. We're sitting at my place chilling. We were going to do tequila sipping. I don't want to incriminate [Matt](https://ma.tt), but I have to get on the road a little bit later so I don't want to be swimming in [Casa Dragones](http://www.casadragones.com), which is my favorite sipping tequila.
+
+!# Matt @ 00:46:02
+
+It's my favorite, too. It's so good.
+
+!# Tim @ 00:46:05
+
+It is good. And just to digress - because this is worth digressing on - I was introduced to [Casa Dragones](http://www.casadragones.com) the first time because I ended up doing some military training with some active guys and some deployed guys when they were back for a brief period. And they would do a full day of shooting exercises and then they would dismantle their guns and clean their guns while slowly sipping [Casa Dragones](http://www.casadragones.com). It was like the most manly session ever. No ammo around, very safe. And I had never liked tequila. I'd always disliked tequila and it had given me a horrible hangover.
+
+And Casa Dragones is not intended to be mixed with anything. It's just amazing.
+
+!# Matt @ 00:46:49
+
+I think tequila is the most underrated alcohol, actually.
+
+!# Tim @ 00:46:51
+
+And it's very expensive. It's for special occasions, for sure.
+
+!# Matt @ 00:46:57
+
+People have a bad impression of tequila because they drink a bunch of stuff and then at the end of the night, they do a tequila shot. So they mix like 20 different alcohols. Or they drink things like margaritas that are full of sugar, that are like instant hangovers for me. But just like a - yeah, I love [Casa Dragones](http://www.casadragones.com). I was introduced to it by a friend in [New York](https://en.wikipedia.org/wiki/New_York_City) named Shantee and she was like: yeah, check this out. I was like: come on, why am I gonna pay this much? I was like: wow, this tequila is delicious!
+
+!# Tim @ 00:47:19
+
+Yeah, it's amazing. It's really amazing.
+
+!# Matt @ 00:47:21
+
+I believe this. If you stick to just tequila, and it's a good tequila like [Don Julio 1942](http://www.donjulio.com/our-tequilas) is also pretty good. If you stick to a good tequila all night long - obviously with limits - you're not hung over in the morning.
+
+!# Tim @ 00:47:33
+
+No, I agree. So if you're looking for a hangover cure, guys, you could test responsibly sipping tequila. Personal tools. I'd love to talk about some tools that you have, say, on your laptop. So one of them that you introduced me to that I love is [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca). Could you explain [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)?
+
+!# Matt @ 00:47:52
+
+Yeah. [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca) is an extension for [Chrome](https://www.google.com/chrome/) that when you launch a new tab, it shows you a beautiful picture, it says "Hi Matt," or "Hi Tim" - you put in your name. I guess you could put in my name but -
+
+!# Tim @ 00:48:06
+
+[Laughs] That would be creepy.
+
+!# Matt @ 00:48:07
+
+- and it asks you a question: what is your focus for today? It has a light to-do thing I don't use. But really for me, it shows the time and just this beautiful picture and often like a nice little quote at the bottom, weather in the corner. It's kind of a clean, fun thing that when you launch a tab - because by default on Chrome, I feel like before it was like your most recently - most frequently visited sites, which is distraction central for me. So I'd be launching a new tab and be like: oh, let me click this tech link... oh, and then 20 minutes later: oh, what am I doing?
+
+!# Tim @ 00:48:36
+
+Not only that, but if you open a new tab - I find it useful, personally - I mean the photos are just amazing. They're so gorgeous. It bugs me that the quotes have no attribution.
+
+!# Matt @ 00:48:45
+
+That's a new feature. If you hover over the quote, it will tell you who it's from.
+
+!# Tim @ 00:48:49
+
+I feel like that should just be displayed.
+
+!# Matt @ 00:48:53
+
+They removed it a little while ago. I don't know why. Now if you hover over the quote, it'll tell you who it's from.
+
+!# Tim @ 00:48:57
+
+But the photos are absolutely stunning, which catches your attention. And the reason that's important is when you - each day it'll prompt you to type an answer for what is your focus for today. And then it will display that every time you open a new tab. And for me, if I open a tab to do something unimportant, trivial, or just that is a pure distraction, I'll be like: oh. Oh, yeah. I should really get back to that.
+
+!# Matt @ 00:49:21
+
+The road to heck is paved with lots of new tabs.
+
+!# Tim @ 00:49:24
+
+[Laughs] Tone down. Language! This is a family program, Matt. So what other tweaks or tools do you have on your laptop that you find helpful?
+
+!# Matt @ 00:49:34
+
+Definitely, I'm on constantly [Simplenote](https://simplenote.com/). So that's actually - I liked it so much we acquired it. It's a company [Automattic](http://automattic.com) bought a few years ago. It's a very simple notes app that synchronizes instantly basically across web, IOS, Android, desktop. There's a great desktop client for Mac so I pretty much live in that. New additions, I've started using [Wunderlist](https://www.wunderlist.com/).
+
+!# Tim @ 00:49:59
+
+[Wunderlist](https://www.wunderlist.com/). I've heard a lot of good things about [Wunderlist](https://www.wunderlist.com/).
+
+!# Matt @ 00:50:01
+
+It's like W-U-N-D -
+
+!# Tim @ 00:50:03
+
+Yeah, [Chad Fowler](http://chadfowler.com/) works there now.
+
+!# Matt @ 00:50:05
+
+Oh, cool.
+
+!# Tim @ 00:50:06
+
+Good guy.
+
+!# Matt @ 00:50:07
+
+Really liked it. I just started doing that this year, actually. What else is on my computer? Spotify, you know, standard stuff.
+
+!# Tim @ 00:50:15
+
+What are some of your other most-used apps on your smartphone?
+
+!# Matt @ 00:50:20
+
+Obviously WordPress.
+
+!# Tim @ 00:50:23
+
+Yeah, of course.
+
+!# Matt @ 00:50:24
+
+I'll get the plugs out of the way in the beginning. So [WordPress](https://wordpress.org), [Simplenote](https://simplenote.com/).
+
+!# Tim @ 00:50:28
+
+Got it. Check.
+
+!# Matt @ 00:50:30
+
+For messaging, I've actually become really into [Telegram](https://telegram.org/).
+
+!# Tim @ 00:50:34
+
+[Telegram](https://telegram.org/)?
+
+!# Matt @ 00:50:35
+
+So [Telegram.org](https://telegram.org) is a free, fast, and encrypted optional - really good encryption, by the way - messaging app that isn't [Facebook](https://www.facebook.com/), isn't [Whatsapp](https://www.whatsapp.com/), isn't anything else and it's super good. And they have a desktop client, as well. I like [Whatsapp](https://www.whatsapp.com/), but I'm on my computer the majority of the day so I need to be able to message from there. And [iMessage](https://en.wikipedia.org/wiki/iMessage) only works with iPhone - other IOS devices, so it's pretty nice.
+
+!# Tim @ 00:51:00
+
+So [Telegram](https://telegram.org) you can use on your phone and on your laptop?
+
+!# Matt @ 00:51:04
+
+Yeah, which I love.
+
+!# Tim @ 00:51:05
+
+My [iMessage](https://en.wikipedia.org/wiki/iMessage) is broken. I won't pull you in for tech support but -
+
+!# Matt @ 00:51:08
+
+I'll do it after.
+
+!# Tim @ 00:51:09
+
+\- I could use [Telegram](https://telegram.org).
+
+!# Matt @ 00:51:10
+
+[Slack](https://slack.com). So in terms of like making myself a better person, the row is the [7-minute workout app](https://itunes.apple.com/us/app/7-minute-workout-free-daily/id650762525), [Calm.com](http://www.calm.com), which I'm an investor in, and [Kindle](https://www.amazon.com/gp/digital/fiona/kcp-landing-page/). Reading.
+
+!# Tim @ 00:51:25
+
+[Kindle](https://www.amazon.com/gp/digital/fiona/kcp-landing-page/) is a meditation app?
+
+!# Matt @ 00:51:26
+
+[Laughs] No.
+
+!# Tim @ 00:51:27
+
+No, that is not the meditation app. I need to do some more dual end back training. My God, that was terrible. [Calm](http://www.calm.com/) is a meditation app.
+
+!# Matt @ 00:51:36
+
+Yes.
+
+!# Tim @ 00:51:37
+
+How often do you meditate?
+
+!# Matt @ 00:51:38
+
+Not enough.
+
+!# Tim @ 00:51:39
+
+[Laughs] I feel like that's a dodge. Is that once a month, or what's not enough?
+
+!# Matt @ 00:51:44
+
+So where I am in this new year is I'm trying to do it for five minutes per day.
+
+!# Tim @ 00:51:50
+
+That's perfect.
+
+!# Matt @ 00:51:51
+
+That's just where I'm starting out. I'm actually inspired a lot by you talking and telling me about how meditation has become a big part of your life. I'd like to work up to where it's maybe a twice a day, more meaty session. But I struggle a little bit even at five minutes so putting [Calm](https://calm.com) on my home screen and just kind of - you know, you can do anything for five minutes. There's really no excuses for not doing five minutes a day. Kind of neat. For fitness, one of the things I did awhile back was I would just try to do like - it started with one, so just before I got in the shower I would do one pushup.
+
+And no matter how late you're running, no matter what's going on in the world, you can't argue against doing one pushup. Come on. There's no excuse. So I often find I just need to get over that initial hump with something that's almost embarrassingly small as a goal. And then that can become a habit.
+
+!# Tim @ 00:52:42
+
+I think this illustrates a really important principle, which is rigging the game so that you can win. People don't like to fail. And if you set the pass/fail mark too high for an activity, for instance, a lot of people make New Year's resolutions. They decide they're gonna go to the gym four times a week. That's too much for someone who doesn't go to the gym at all. And if that's the pass/fail mark and you go three times a week, you're going to feel like a failure. Whereas if you psychologically set the hurdle at one time per week, for instance, and you only have to spend 15 minutes in the gym, then you can earn bonus credits by doing what would have previously been viewed as a failure.
+
+!# Matt @ 00:53:21
+
+Someone should write a book on that.
+
+!# Tim @ 00:53:23
+
+Right. God. I can't do another 600-pager. The [4-Hour Body](http://fourhourbody.com/) has another point which I think is very important, which is the layering of behaviors or sequencing of behaviors. So if someone has 100 pounds to lose, or 50 pounds to lose, and I think exercise is the wrong place to start for a whole host of reasons.
+
+!# Matt @ 00:53:45
+
+Would you say diet?
+
+!# Tim @ 00:53:46
+
+Exercise is the wrong place to start. Diet is the right place to start. Because exercise is an additive behavior. It's something they don't currently do; they have to make time for. Whereas - especially if they're overweight, they're definitely eating. So they have set aside time to eat and they're just substituting in different default meals, which is very, very easy. I met my first [slow-carb](http://fourhourworkweek.com/2012/07/12/how-to-lose-100-pounds/) follower who has lost 200 pounds recently.
+
+!# Matt @ 00:54:13
+
+Wow.
+
+!# Tim @ 00:54:14
+
+Yeah, that's a lot.
+
+!# Matt @ 00:54:15
+
+That's a lot of pounds.
+
+!# Tim @ 00:54:16
+
+That's a lot of pounds.
+
+!# Matt @ 00:54:17
+
+Actually, that was a question I wanted to ask you if it's okay to turn this around.
+
+!# Tim @ 00:54:19
+
+Yeah, sure.
+
+!# Matt @ 00:54:20
+
+I've been reading a little bit more about fasting - intermittent fasting. If there was a couple of tweets' worth of advice you would give?
+
+!# Tim @ 00:54:26
+
+For fasting?
+
+!# Matt @ 00:54:27
+
+Yeah.
+
+!# Tim @ 00:54:28
+
+Definitely. All right. I think if you have incredible discipline, I think the [intermittent fasting](https://en.wikipedia.org/wiki/Intermittent_fasting) - for instance, I think his name is [Martin Berkhan](http://www.leangains.com/p/bio.html), [Leangains](http://www.leangains.com/), I think he does quite a bit here. He may or may not be a fan of my stuff. He's not a fan of a lot of people. But that's fine. I'm okay with it. Because even if he doesn't like me, I think he's a good resource for [intermittent fasting](https://en.wikipedia.org/wiki/Intermittent_fasting). A lot of people who sustain intermittent fasting - and I'm not saying Martin, I'm saying a lot of other people who are figureheads in that community - consume massive amounts of two things, on the male side. Caffeine: they consume a lot of stimulants.
+
+And some of them consume anabolic like Dianabol, which is an oral [anabolic-androgenic steroid](https://en.wikipedia.org/wiki/Anabolic_steroid) that inhibits appetite significantly. So you want to - I would encourage you to test [intermittent fasting](https://en.wikipedia.org/wiki/Intermittent_fasting), see how you feel. But I personally prefer - and I'll be writing quite a bit about this - to do a - I did a [seven day distilled water fast](http://www.gq.com/story/six-day-water-fast-diet). I think the longevity benefits, known and unknown, and health benefits, known and unknown, of doing that are very significant.
+
+!# Matt @ 00:55:44
+
+What happens if you don't distill the water?
+
+!# Tim @ 00:55:46
+
+You know, that is a great question. The doctors who supervised me did not want me to be consuming any supplemental minerals or electrolytes, which was interesting because I thought it would be the opposite. In some cases when people get very weak, they'll supplement with, say, bullion, broth, or something like that. But they don't want you to be ingesting any type of supplemental minerals, vitamins, etc. That was a tremendous experience. I actually want to do that at least once a quarter and possibly do a 14-day.
+
+!# Matt @ 00:56:16
+
+I just read where like after the third day of a water fast you start producing more - is it white blood cells? Your body starts resetting -
+
+!# Tim @ 00:56:23
+
+Oh, yeah. I mean that wouldn't surprise me at all. I'd have to look at my labs. Of course, I did tons - I did urinalysis every day and lab work -
+
+!# Matt @ 00:56:29
+
+Did you weigh your poo?
+
+!# Tim @ 00:56:30
+
+I did not weigh my poo because I gotta tell you, there's not much poo when you're not eating for seven days. But you have to be careful with the amount of water that you drink because if you're not consuming any sources of salt, you can develop - you can over consume water, just like anything else. There have been examples of people who've died as a result of, say, radio show competitions where they have competitions to see who can drink the most water. It's a terrible idea.
+
+!# Matt @ 00:56:56
+
+[Laughs] Most things on radio are a terrible idea.
+
+!# Tim @ 00:56:59
+
+I think it's called [hyponatremia](https://en.wikipedia.org/wiki/Hyponatremia), I think it is, which is an extreme lack of sodium and other things that interferes with your ability to conduct electricity in muscles like the heart. But the [intermittent fasting](https://en.wikipedia.org/wiki/Intermittent_fasting), it works for a lot of people very well. But the vast majority of people I have seen who use it end up using crutches of some type like stimulants. So you trade one problem for another. And in fact, you can also end up losing fat not because of the intermittent fasting but because you're consuming six cups of coffee a day.
+
+!# Matt @ 00:57:35
+
+I still don't drink coffee.
+
+!# Tim @ 00:57:37
+
+What's that?
+
+!# Matt @ 00:57:38
+
+I still don't drink coffee.
+
+!# Tim @ 00:57:39
+
+Why not?
+
+!# Matt @ 00:57:40
+
+You know, I figure I have enough vices in my life.
+
+!# Tim @ 00:57:43
+
+Aren't you an investor in a coffee company?
+
+!# Matt @ 00:57:45
+
+[Blue Bottle Coffee](https://bluebottlecoffee.com/). So I don't drink coffee, but when I do, [Blue Bottle](https://bluebottlecoffee.com/) is the -
+
+!# Tim @ 00:57:50
+
+Okay, you don't have to answer this but I'm curious. What are some of your other, suitable for Mr. Rogers vices?
+
+!# Matt @ 00:58:00
+
+[Laughs] Wine, women and song. It all goes back to the classics.
+
+!# Tim @ 00:58:06
+
+Those are vices?
+
+!# Matt @ 00:58:07
+
+I feel like probably the thing I struggle with the most is - because my work and what I do is connected. You know, I'm talking to people online, I'm on my computer. And especially since taking over as CEO the past year, what I've really had to do is un-schedule more of my life, create more space, read a lot more than I used to. Because I find that when I don't have that space, when I'm just in the - I'm not gonna call it a flow - when I'm in sort of like the hedonistic treadmill of pings and chats and tweets and - not even necessarily being distracted by [Facebook](https://www.facebook.com/) or by [Twitter](https:/twitter.com), but even just work stuff; you don't take that step back that allows you to have the creative inspiration or the ideas for the next big thing. Your mind works through the problem in a different way.
+
+!# Tim @ 00:59:01
+
+Right, the de-loading phase. Those blocks of time. What have you found helpful for creating that space?
+
+!# Matt @ 00:59:10
+
+Another interesting thing about [Automattic](http://automattic.com) is we have almost meetings.
+
+!# Tim @ 00:59:14
+
+Let's talk about it.
+
+!# Matt @ 00:59:16
+
+So I only have three standing meetings at [Automattic](http://automattic.com).
+
+!# Tim @ 00:59:19
+
+Standing meaning physically standing?
+
+!# Matt @ 00:59:21
+
+Oh, no. Standing like it's always standing on the calendar.
+
+!# Tim @ 00:59:24
+
+I see. Not standing.
+
+!# Matt @ 00:59:26
+
+So every other week.
+
+!# Tim @ 00:59:28
+
+What makes those meetings worth doing?
+
+!# Matt @ 00:59:30
+
+They're meetings with groups of people who are responsible for three areas at [Automattic](http://automattic.com). One for all of [WordPress.com](https://wordpress.com/) and everything related there. One for [Jetpack](https://jetpack.com) and all the plugins we make. And then one we just call business. They're called dot-com, dot-org, dot-biz. So the commission, the organization, and the biz group. And business is basically all the people who work on making money at [Automattic](http://automattic.com).
+
+!# Tim @ 00:59:58
+
+Got it. So all the VIP guys.
+
+!# Matt @ 01:00:01
+
+Yeah, VIP is on that team, ads, so the commercial side. Because to be honest, the vast majority of automaticians don't think about revenue at all. There are just a few of us that shoulder the burden for everyone else.
+
+!# Tim @ 01:00:14
+
+It's probably a good thing. What do the other people primarily focus on?
+
+!# Matt @ 01:00:19
+
+I don't know. Comics -
+
+!# Tim @ 01:00:23
+
+[Laughs] Tequila.
+
+!# Matt @ 01:00:25
+
+What they're having for lunch. I mean you think about the user. You think about the experience. You think about what is the thing - the hardest thing is spending the most time on the most important things, just in life in general, and especially in building products. It's so easy. There's a term in open-source called bikeshedding. And it's this idea - do you know it?
+
+!# Tim @ 01:00:48
+
+I do but I want you to explain it. This is a great concept.
+
+!# Matt @ 01:00:50
+
+I'm gonna butcher the story, but someone brings a proposal for a nuclear plant to a city council. And it's this 200-page thing and they kind of flip through it. But it's like too much for people to comprehend and they're not nuclear physicists or activist anyway, so they just kind of rubber stamp it. And then the next person up wants to build a bike shed off the main road. And everyone has an opinion. Like what color the bike shed should be, should it accommodate tandem bicycles, should it -
+
+!# Tim @ 01:01:19
+
+What color should it be...
+
+!# Matt @ 01:01:21
+
+Yeah. And so there's an amazing website called [bikeshed.org](http://bikeshed.org) and a cool feature of it is that you can type in as a sub domain a color. So if you [type green](http://green.bikeshed.org/). bikeshed.org, it'll give you a green background and then the text of this original meaningless post, which is like a BSD thing from like probably 13 or 14 years ago, now, that tells the story and talks about how usually proportionately the more trivial something is, the more likely it is that lots of people will have opinions and feel like they can have an impact on it.
+
+!# Tim @ 01:01:52
+
+That's so true. And I want to talk about also your auditioning process....
+
+But first we're going to hear a few words from the fine sponsors who make this show free for all of you. So please don't skip ahead. The things we have coming up with Matt, we're just getting started. We're going to talk about his auditioning process, what he has in his carryon bag - this man travels the world all the time. We're going to talk about investing, Warren Buffet, music, his rituals around productivity as it relates to music, and on and on and on. So please don't go away, and here you go, our fine sponsors.
+
+The Tim Ferriss show is brought to you by Onnit. I have used Onnit products for years. If you look in my kitchen, in my garage, you will find Alpha Brain, chewable melatonin for resetting my clock when I'm traveling. Kettlebells, battle ropes, maces, steel clubs. Sounds like a torture chamber, and it kind of is. It's a torture chamber for self improvement. And you can see all of my favorite gear at [onnit.com/tim](http://onnit.com/tim). That's O-N-N-I-T dot com, forward slash Tim. And you can also get a discount on any supplements, food products. I like hemp force, I like Alpha Brain. Check it all out: [onnit.com/tim](http://onnit.com/tim).
+
+The Tim Ferriss show is also brought to you by [99designs](https://99designs.com/). [99designs](https://99designs.com/) is your one stop shop for anything graphic design related. You need a logo, you need a website, you need a business card or anything else, you get an original design from designers around the world who submit drafts for you to review. You are happy or you get your money back. And I have used [99designs](https://99designs.com/) for book cover ideas for the [4-Hour Body](https://fourhourboy.com), which went to number one New York Times, for banner ads, and you can check out some of my actual competitions at [99designs.com/tim](https://99designs.com/tim/). You can also get a free $99.00 upgrade if you want to give it a shot. And now back to our show.
+
+!# Tim @ 01:03:54
+
+We have taken a potty break which gave us a chance to upgrade our beverage, since I've cancelled my driving plans this evening from tea to tequila. So bear with me one moment. Actually Matt, perhaps you could elucidate us, enlighten us about some of your favorite music at the moment while I very geisha-like pour us some lovely tequila.
+
+!# Matt @ 01:04:16
+
+I will be monitoring your technique. I am so late to the game, but I just discovered - I was about to say [Tila Tequila](http://tilatequila.com/) because - but I did not just discover - I discovered [Sam Smith](https://en.wikipedia.org/wiki/Sam_Smith), the opposite of [Tila Tequila](http://tilatequila.com/), who just his voice is super haunting. Been enjoying [Milky Chance](http://milkychanceofficial.com) lately. They have a cool song called -
+
+!# Tim @ 01:04:38
+
+Is that from [Tila Tequila](http://tilatequila.com/)?
+
+!# Matt @ 01:04:39
+
+No. They have a cool song called [Stolen Dance](https://www.youtube.com/watch?v=iX-QaNzd-0Y).
+
+!# Tim @ 01:04:43
+
+What type of music is that? What would you call that?
+
+!# Matt @ 01:04:46
+
+That's interesting. So they have kind of a reggae feel. But it's like a guy with a guitar who - and sings, combined with a guy who kind of plays the laptop, like more of like a beat, almost like a DJ.
+
+!# Tim @ 01:04:56
+
+Very cool.
+
+!# Matt @ 01:04:57
+
+And I saw them live in San Francisco, great show. Then other than that, I listen to a lot of hip-hop and a lot of jazz.
+
+!# Tim @ 01:05:03
+
+And you play instruments, also.
+
+!# Matt @ 01:05:06
+
+Yeah, primarily [saxophone](https://en.wikipedia.org/wiki/Saxophone).
+
+!# Tim @ 01:05:07
+
+When did you learn to play the [saxophone](https://en.wikipedia.org/wiki/Saxophone)?
+
+!# Matt @ 01:05:10
+
+I started in second or third grade.
+
+!# Tim @ 01:05:11
+
+Really?
+
+!# Matt @ 01:05:12
+
+Yeah, so I started pretty young. My dad played sax so I always wanted to do it. And I had gotten kicked out of piano class.
+
+!# Tim @ 01:05:18
+
+For doing what?
+
+!# Matt @ 01:05:19
+
+I don't know. They said I had no musical talent so I wanted to prove them wrong.
+
+!# Tim @ 01:05:23
+
+[Laughs] God, what is wrong with some teachers? Unbelievable. Cheers, by the way.
+
+!# Matt @ 01:05:28
+
+Cheers.
+
+!# Tim @ 01:05:29
+
+And so the saxophone was your transition from piano. And is there anything - are there any skills that you developed through the sax that have translated to coding or anything else you do?
+
+!# Matt @ 01:05:52
+
+Almost everything. So from how to breathe and be on stage in front of people -
+
+!# Tim @ 01:06:02
+
+For speaking gigs and whatnot.
+
+!# Matt @ 01:06:04
+
+Or just anything. You know, you're in front of a group of people. How to interact. So in [jazz](https://en.wikipedia.org/wiki/Jazz), it's all about listening and responding. You're kind of co-composing on the fly when you're improvising or in a quartet or something. How to learn new things. So sometimes for different - if I played in like a musical theater or band, or something like that, I need to double on [piccolo](https://en.wikipedia.org/wiki/Piccolo) or [flute](https://en.wikipedia.org/wiki/Flute) or clarinet or another instrument so I'd have to learn that fairly quickly.
+
+I would say most importantly, the concept of deliberate practice, which I know you're a big fan of. I had a teacher once who told me if you only practice the things where you sound good, you're never going to get better. You reach kind of a local maximum. And that was a trap I think I had fallen into.
+
+!# Tim @ 01:06:51
+
+Local maximum? I need to learn what this is because I just say a constrained maximum?
+
+!# Matt @ 01:06:58
+
+Yeah, you reach the best you're going to get within this sort of -
+
+!# Tim @ 01:07:02
+
+Limited sphere.
+
+!# Matt @ 01:07:03
+
+- limited sphere. You're not moving on to the next sphere. Especially back when I was young, I think I was more self-conscious. So when I practice, whether it be at school or at home, I want to sound good for whoever might walk by or hear me or anything. And that's not how you get better. You get really good at the ten things that you're practicing. But the people who practice the best sound terrible. They're squawking and squeaking and doing long tones and overtones.
+
+They sound like they're - it's funny. One of the best things you can do to sound better on the [saxophone](https://en.wikipedia.org/wiki/Saxophone) is what's called [long tones](http://www.saxlessons.com/embouchure-2/long-tones/), which is just playing a single note for a really long time and then going to the next note and playing that for a really long time.
+
+!# Tim @ 01:07:44
+
+Why does that make you better? Is it an endurance thing?
+
+!# Matt @ 01:07:47
+
+It helps your [embouchure](https://en.wikipedia.org/wiki/Embouchure) and your tone.
+
+!# Tim @ 01:07:49
+
+Your what?
+
+!# Matt @ 01:07:50
+
+[Embouchure](https://en.wikipedia.org/wiki/Embouchure).
+
+!# Tim @ 01:07:51
+
+What is that?
+
+!# Matt @ 01:07:52
+
+So the [embouchure](https://en.wikipedia.org/wiki/Embouchure) is basically the position and firmness of your mouth around the mouthpiece. It's basically the seal around the mouthpiece -
+
+!# Tim @ 01:08:01
+
+I'll try not to make any jokes.
+
+!# Matt @ 01:08:02
+
+Or think of like a brass instrument. When they have the sort of circular mouthpiece and they do - that sort of thing inside of it. They use an embouchure to change their pitch.
+
+!# Tim @ 01:08:14
+
+That's the position of the mouth.
+
+!# Matt @ 01:08:16
+
+Yeah. It's also the position of your throat, the way the air is flowing, the position of your tongue inside your mouth that determines where the air goes. It's different for different instruments. But ultimately that and the breath support is what determines your tone.
+
+!# Tim @ 01:08:34
+
+You listen to a lot of music. You're an avid consumer of music. Do you still listen when you work to one track or a handful of tracks on repeat?
+
+!# Matt @ 01:08:46
+
+I do.
+
+!# Tim @ 01:08:47
+
+Explain what - the last thing that you listened to in this way and why you do that.
+
+!# Matt @ 01:08:55
+
+Literally today the Sam Smith song, [I'm Not the Only One](https://www.youtube.com/watch?v=nCkpzqqog4k), which is - I actually just blogged about it. Oh, I can plug my blog. [ma.tt](https://ma.tt).
+
+!# Tim @ 01:09:04
+
+Which is a great domain name.
+
+!# Matt @ 01:09:06
+
+Thank you.
+
+!# Tim @ 01:09:07
+
+Where is TT? [Trinidad and Tobago](http://www.gotrinidadandtobago.com)?
+
+!# Matt @ 01:09:09
+
+[Trinidad and Tobago](http://www.gotrinidadandtobago.com) I actually just renewed it for another three years.
+
+!# Tim @ 01:09:12
+
+Why only three years? I'm curious.
+
+!# Matt @ 01:09:15
+
+It's a really weird - it was unregistered when I got it.
+
+!# Tim @ 01:09:19
+
+So just luck of the draw?
+
+!# Matt @ 01:09:20
+
+Yeah. I literally - well, it wasn't luck of the draw; just no one went through the junk you had to go through to register the domain [Trinidad and Tobago](http://www.gotrinidadandtobago.com).
+
+!# Tim @ 01:09:27
+
+Oh, because it's a pain in the ass in [Trinidad and Tobago](http://www.gotrinidadandtobago.com).
+
+!# Matt @ 01:09:28
+
+I had to wire money to [Trinidad](https://en.wikipedia.org/wiki/Trinidad). I was in the Bank of America on Third and Brandon or something - Fourth and Brandon - and they were like, "Sir, are you sure about this?" I was like, "Yeah, yeah, it's fine. I read it on the internet."
+
+!# Tim @ 01:09:39
+
+It's fine. The internet said it's okay.
+
+!# Matt @ 01:09:42
+
+Someone contacted me; I'm going to send them a couple grand. They were very concerned about the money I was wiring to this Trinidadian bank. But you have to - I find that -
+
+!# Tim @ 01:09:53
+
+So on your blog you put a video of -
+
+!# Matt @ 01:09:57
+
+Just a [YouTube of the music video for this song](https://ma.tt/2015/01/not-the-only-one/). That's just because [YouTube](https://www.youtube.com/) is the easiest way to share music now. The nice thing about a song on repeat is that I can really enjoy it, but something about it allows my brain to background it, as well. I have a couple albums that I can do the entire album on repeat. But what I can't do is something new or novel, so like a [Pandora](https://pandora.com) or [Spotify](https://www.spotify.com) radio. It distracts me because I'm like: oh, what's this? And next thing I know I'm on the artist's page, and on their [Wikipedia](https://en.wikipedia.org/) and really digging into it. So I really want something I've heard sometimes literally a thousand times before.
+
+!# Tim @ 01:10:33
+
+What are some of the other songs that you've heard a thousand times?
+
+!# Matt @ 01:10:35
+
+I really like [John Mayer](https://en.wikipedia.org/wiki/John_Mayer)'s [Who Says](https://www.youtube.com/watch?v=akvu1AOnUIw). Who says I can't get stoned? Which is kind of funny because I don't. What is another one? Some [Kanye](https://en.wikipedia.org/wiki/Kanye) songs, like [Gorgeous](https://www.youtube.com/watch?v=nB7BC1w3jRU), [Power](https://www.youtube.com/watch?v=L53gjP-TtGE). Just different - whatever it is at the moment. Oh, [Kendrick Lamar](http://www.kendricklamar.com) is amazing, so [Kendrick Lamar](http://www.kendricklamar.com) has a song, [Rigamortis](https://www.youtube.com/watch?v=yh6QxtRpSH8). It's actually kind upbeat. It's a pretty intense song and his lyrics are fast and furious. He is, in my opinion, the greatest lyricist of this generation.
+
+!# Tim @ 01:11:05
+
+What was the name again? I don't even recognize the name. I'm embarrassed to say it.
+
+!# Matt @ 01:11:07
+
+[Kendrick Lamar](http://www.kendricklamar.com).
+
+!# Tim @ 01:11:08
+
+[Kendrick Lamar](http://www.kendricklamar.com).
+
+!# Matt @ 01:11:09
+
+Oh, man. Yeah, he -
+
+!# Tim @ 01:11:10
+
+I remember when someone told me like a year ago who [Taylor Swift](http://taylorswift.com) was. I'm really out of the slipstream of pop culture.
+
+!# Matt @ 01:11:16
+
+[Kendrick Lamar](http://www.kendricklamar.com) is definitely in my top five favorite rappers right now. His music actually has a lot of [jazz](https://en.wikipedia.org/wiki/Jazz) influence on many things he does. And this song, [Rigamortis](https://www.youtube.com/watch?v=yh6QxtRpSH8), samples a jazz track. A lot of these tracks are shorter so the [Sam Smith](https://en.wikipedia.org/wiki/Sam_Smith) is like I think three and a half minutes. Who Says? Is like 2:56 or so. [Rigamortis](https://www.youtube.com/watch?v=yh6QxtRpSH8) is under three minutes. Just put them on the loop.
+
+!# Tim @ 01:11:45
+
+So I borrowed that habit. I remember you told me about this and I thought it was genius because I had used different albums for different books. And for those people who haven't heard this, because it does help some people a lot to write, if your writing period is best at night and you feel very isolated, which I did late at night - I generally did my best synthesis - not research, not interviewing but synthesis from about 10 p.m. to 5 a.m. And I would be alone and it was just very hermit-like, and I felt very isolated to be in the quiet and darkness by myself.
+
+So I would put in earphones, listen to music on repeat, and very often something without vocals - [Pendulum](https://en.wikipedia.org/wiki/Pendulum), for instance. And I would then watch the same movie over and over and over again. But it would just be in my peripheral vision because the images of human beings would make me feel less isolated and it was very comforting. So I had the [Bourne Identity](https://en.wikipedia.org/wiki/The_Bourne_Identity) - the first, and [Shawn of the Dead](https://en.wikipedia.org/wiki/Shaun_of_the_Dead) for the [4-Hour Workweek](https://fourhourworkweek.com).
+
+!# Matt @ 01:12:49
+
+Didn't you do one of the Bond movies, too?
+
+!# Tim @ 01:12:50
+
+I did [Casino Royale](https://en.wikipedia.org/wiki/Casino_Royale). I've seen hundreds, probably thousands of times because I would just leave it on repeat. So it might play five, six times a night if I'm really in a session. And then for the [4-Hour Chef](http://fourhourchef.com), the funny edition was the first thing that I clicked on [Amazon Prime](https://www.amazon.com/prime) - that was available on [Amazon Prime](https://www.amazon.com/prime), which was [Babe](http://www.imdb.com/title/tt0112431/). So I ended up watching -
+
+!# Matt @ 01:13:09
+
+Oh, with the pig.
+
+!# Tim @ 01:13:10
+
+With the pig.
+
+!# Matt @ 01:13:11
+
+Oh, wow.
+
+!# Tim @ 01:13:12
+
+And Farmer Hoggit. It's actually a really great movie. It's a brilliant movie. There's a lot hidden in that movie; there are a lot of subtle details. Just like Kung Fu Panda is a genius movie.
+
+!# Matt @ 01:13:22
+
+Now that I have not seen.
+
+!# Tim @ 01:13:23
+
+Oh, it's fantastic.
+
+!# Matt @ 01:13:24
+
+I love when they made these movies for kids but they put cool stuff in there for adults, too.
+
+!# Tim @ 01:13:27
+
+Like [Aladdin](https://en.wikipedia.org/wiki/Aladdin) and many other movies. Really fantastic. So all right. So that's the music trick, the repeat.
+
+!# Matt @ 01:13:33
+
+I have a colleague who does the movie thing and -
+
+!# Tim @ 01:13:36
+
+Like I do. I put the movie on mute, though.
+
+!# Matt @ 01:13:39
+
+Oh, really?
+
+!# Tim @ 01:13:40
+
+Yeah, and I listen to the music.
+
+!# Matt @ 01:13:41
+
+For him he does [Big Labowski](http://www.imdb.com/title/tt0118715/) and a few others. The only variation I've introduced in the past few years is I like this electronic EDM-type group called [The Jane Doze](http://www.thejanedoze.com/). They're also friends. And they do some mixes. And they have some - I guess it's called trap music.
+
+!# Tim @ 01:13:58
+
+Trap?
+
+!# Matt @ 01:13:59
+
+This is where I'm getting out of my element a little bit. But I find that if I'm doing things like email where I need to be a little bit more higher energy and go through a lot of things, that's really good for me.
+
+!# Tim @ 01:14:09
+
+I love it. Auditions. Tell me about auditions. What are auditions, how do they work in [Automattic](http://automattic.com)? Why auditions?
+
+!# Matt @ 01:14:20
+
+So one thing that's really important when you're a distributed company is there's no one looking over your shoulder. There's no manager walking by. There's no one even who knows whether you started work - or if you started work at all, or what time you did. So you really need to hire people who are self-motivated and can manage themselves to some extent. A ton of automaticians were formerly freelancers or CTOs at other companies or things like that because they really need a lot of ability to self-direct and have self-management, which is a tough skill. It's still something I work on every day of my life.
+
+So what we found - we've tried every hiring - especially when we started, you know? I was much younger and I thought: oh, we should do it like the other companies do it. So we tried how many manhole covers are there in Manhattan -
+
+!# Tim @ 01:15:10
+
+The [McKinsey](https://en.wikipedia.org/wiki/McKinsey) and [Google](https://en.wikipedia.org/wiki/Google) brainteasers.
+
+!# Matt @ 01:15:12
+
+The brainteasers, although [Google](https://en.wikipedia.org/wiki/Google) has stopped doing them. I think Microsoft was most famous for them. So we did brainteasers, we did coding tests, we did the thing where you ask a hard technical problem and have them write their code on the whiteboard. We did it where 20 people would interview the person - not literally 20 but you know, like interview after interview and then you sort of get a consensus. None had a great correlation with how productive and great that person was in the company later. I also started to see no correlation - I think because I dropped out of college, I was very entranced by people with masters or PhDs. Turns out it has no correlation with how effective they were in an organization.
+
+So what we started to do is we found - I looked back to the first couple people. And I said: well, I worked with these guys before. We worked together on the open-source project. And so how can we sort of set up a hiring system where you actually do the work that you're gonna do on the job, and that's all you're judging them by. You don't care about anything else. And so we tried to make the interview process as much like the actual work as possible.
+
+So we don't do voice or video. It's all text chat, because that's how we primarily communicate. It also prevents you from any subconscious bias -
+
+!# Tim @ 01:16:24
+
+Getting romanced by whatever voice or presentation the person might have.
+
+!# Matt @ 01:16:29
+
+Yeah. Or maybe they have a funny accent or something like that. That doesn't matter in our company, unless maybe they're a sales person and their ability to convince you of something, or have charisma is important for their job. There's really no benefit to these in person or even voice or video interactions. So we have a pretty good system for this, now. We get a ton of applications. I'm actually over 1,000 applications behind now.
+
+!# Tim @ 01:16:58
+
+Okay, how do you filter 1,000 applications?
+
+!# Matt @ 01:17:01
+
+So I book in the process, now. So where we've evolved to is I review all the incoming applications. I do a first-pass on them. I pass them onto a team if they seem promising or interesting.
+
+!# Tim @ 01:17:13
+
+What do you look for?
+
+!# Matt @ 01:17:14
+
+I can't tell you everything.
+
+!# Tim @ 01:17:16
+
+Okay. What do you look for or disqualify against?
+
+!# Matt @ 01:17:20
+
+I look for a passion, attention to detail, drive beyond the things that they need to do. I'm totally down with quirky.
+
+!# Tim @ 01:17:31
+
+What questions do you ask to get an indication of those things?
+
+!# Matt @ 01:17:35
+
+So at this point, all I'm doing is looking at emails. So literally there's no chat, no anything. So it's purely based on the care and effort that they put into this email. And we've tried forms and things they fill out before, and we've gone back to just a freeform email because I want to see what kind of attachment they use. I want to see who their email client is. I want to see if you can tell they've copied and pasted things because different text and different font sizes. All of those are indicators. And not any one of them.
+
+!# Tim @ 01:18:02
+
+Paste just plain text, folks. [Laughs]
+
+!# Matt @ 01:18:04
+
+[Laughs] Any one of those would not be a yea or a nay. But the combination, you get a pretty good sense. And then I pass that onto a team. The team has - for example, for engineering they have a system where everyone again looks at it. They kind of rate it. They choose a certain number of people who make it to the next stage, which is like a very simple code test. It takes about half an hour. Sometimes it's called a [fizz buzz](https://en.wikipedia.org/wiki/Fizz_buzz) test and programming.
+
+!# Tim @ 01:18:28
+
+What does that mean?
+
+!# Matt @ 01:18:29
+
+It's just a basic, super basic thing that anyone -
+
+!# Tim @ 01:18:34
+
+[Fizz buzz](https://en.wikipedia.org/wiki/Fizz_buzz)? Does that stand for something?
+
+!# Matt @ 01:18:35
+
+Yeah. You move some variables around that are fizz and buzz and you arrange them in different ways, or you repeat them, or you sort an array or something like that. But a basic thing that anyone can figure out. And that filters out a surprising number of people even who make it through these first few screens. Simple coding test. And then -
+
+!# Tim @ 01:18:52
+
+How do they screw that up?
+
+!# Matt @ 01:18:53
+
+I don't know.
+
+!# Tim @ 01:18:55
+
+Okay. All right, moving on. Fair enough. I had this application for this managing editor position and I was astonished at how people would go through 75 percent of the application - this is a [Wufoo](https://en.wikipedia.org/wiki/Wufoo) form - they'd get to a question that asked, let's say, how you would get the Rock to be on the podcast. What would your process look like. And they would say: now, on second thought I'm not interested in this job. And then they would go to the bottom and still hit submit.
+
+!# Matt @ 01:19:23
+
+[Laughs] Wow.
+
+!# Tim @ 01:19:25
+
+I was very puzzled by that. Yeah, there's a lot of odd behavior in job applications.
+
+!# Matt @ 01:19:31
+
+By the way, I don't know if you know but I'm hiring a new executive assistant, personal assistant and I referenced your managing editor hiring post. I think I block quoted the section where you say why it's terrible to work with you.
+
+!# Tim @ 01:19:42
+
+Yeah, I think it's important. I've tried to - not disguise that, but I haven't been super explicit about it in the past and I just need someone who finds that [Shackleton Expedition](https://en.wikipedia.org/wiki/Imperial_Trans-Antarctic_Expedition) type description appealing as opposed to off-putting. Someone who wants a perfectionist, someone who wants a person like me to edit the hell out of their work. So I've found that very important. So you have them go through a simple coding test.
+
+!# Matt @ 01:20:09
+
+I like that, by the way. I went to [Antarctica](https://en.wikipedia.org/wiki/Antarctica) last month, to the [South Pole](https://en.wikipedia.org/wiki/South_Pole) and so I've been reading the [Shackleton](https://en.wikipedia.org/wiki/Shackleton) - I think it's the [Endurance book](https://www.amazon.com/Endurance-Shackletons-Incredible-Alfred-Lansing/dp/0465062881). Such a fascinating story.
+
+!# Tim @ 01:20:18
+
+Fascinating. For those people who don't know, the classified ad read something like:
+> Seeking men for dangerous journey, return uncertain, glory upon success. Low pay.
+
+!# Matt @ 01:20:31
+
+Harsh conditions. I had a friend who joked she should make that her Okay Cupid listing.
+
+!# Tim @ 01:20:38
+
+[Laughs] Right, the [tinder](https://en.wikipedia.org/wiki/Tinder) description. Probably get a lot of responses. The code test and then what happens?
+
+!# Matt @ 01:20:46
+
+We do a trial project. So basically - we don't actually - we're not trying to get code out of people or anything like that. We just do something that looks like the actual work. And we're not just looking at the code they produce, but how they communicate, how they commit.
+
+!# Tim @ 01:21:01
+
+And that's a paid project?
+
+!# Matt @ 01:21:03
+
+Yeah. So we put everyone on just a flat rate, $25.00 per hour contract. Most people who apply have jobs already so it's often a nights or weekends thing. As long as the expectations are set, it doesn't matter. If you can only work one hour a week, that's okay; just let us know. Some people actually take vacation to do it. So they'll take time off from their job and kind of go at it full time. If you're applying for a happiness engineer position, you'll answer tickets or do live chats. We try to replicate the real position as much as possible. And then if they make it through all of this, they get sent back to me for a final chat. And that I'll do on [Slack](https://slack.com), now. I used to do it on [Skype](http://www.skype.com). And I just go back and forth with them, usually like three or four hours, actually.
+
+!# Tim @ 01:21:44
+
+Wow.
+
+!# Matt @ 01:21:45
+
+Well, because you're typing so it takes a little longer. For that I try to determine a cultural fit, really get to know the person. Because I have - afterwards, I - let's say we're hiring an engineer. Before I send the offer letter, I decide what team they go on. So kind of like the - what's the thing where you put on a hat in [Harry Potter](https://en.wikipedia.org/wiki/Harry_Potter) and it decides which -
+
+!# Tim @ 01:22:10
+
+Oh, I don't know. I know what you're talking about. It decides which school you're going to?
+
+!# Matt @ 01:22:13
+
+Yeah. So by talking to them, I'm partly determining like which team will they fit best with because the other 300 people in the company I've done this with. And so I know what their strengths and weaknesses are, what their personalities are, what time zones they're in. So really putting a lot of variables into deciding where someone goes.
+
+!# Tim @ 01:22:28
+
+Are there any simple questions that give you a particular amount of depth into someone's personality?
+
+!# Matt @ 01:22:35
+
+Yeah. I'm constantly iterating the question list and I'm happy to show it to you after the podcast. But every interview is different. Almost every single one, I try out something new, or vary it, or -
+
+!# Tim @ 01:22:48
+
+What is your spirit animal?
+
+!# Matt @ 01:22:49
+
+What is your spirit animal?... Obviously, it is an [alpacca](https://en.wikipedia.org/wiki/Alpaca). [Laughs]
+
+It doesn't matter. And some questions I retire, and it's totally different. It's not like a pre-typed script or anything. Sometimes things go one direction and I just go with it. But at the end of it, if I decide to make an offer, we talk about compensation and then I send out the letter.
+
+!# Tim @ 01:23:11
+
+What percentage of people fall out in that last chat with you?
+
+!# Matt @ 01:23:16
+
+Falling out in the last chat is pretty rare, especially now that the systems before it are so good. So the hiring teams have gotten quite, quite good at [Automattic](http://automattic.com). It's tough because hiring is not something that you get good at until you've done it five or ten times and you've seen people work out and not work out. So it's really just something that you need experience. I tell people, like when they go in this new role, I'm like: in the beginning you're going to make some mistakes and that's okay; we'll plan for that. But then you learn from that and you'll [triangulate](https://en.wikipedia.org/wiki/Triangulation).
+
+!# Tim @ 01:23:44
+
+Do you have an opinion of [topgrading](https://en.wikipedia.org/wiki/Topgrading)? Do you know anything about [topgrading](https://en.wikipedia.org/wiki/Topgrading)?
+
+!# Matt @ 01:23:49
+
+I find references completely useless. Including when you go outside what they give you as references and you try to contact people. I haven't found any - it takes a ton of time and I haven't found any sort of correlation with the ultimate quality of the person. I heard about topgrading and tried it for a few months. Wasn't worth it.
+
+!# Tim @ 01:24:10
+
+Didn't work out well.
+
+!# Matt @ 01:24:11
+
+I have an article we can put in the show notes -
+
+!# Tim @ 01:24:13
+
+Oh, I'd love to.
+
+!# Matt @ 01:24:14
+
+- Harvard Business Review where I wrote kind of five or ten pages on this.
+
+!# Tim @ 01:24:18
+
+That's a great piece. I would love to include that. I actually have that printed out because I'm an old man and highlighted, which is a weird thing I do. Sometimes I'll print something out, take notes, highlight and then rescan it back into Evernote to be OCR'd.
+
+!# Matt @ 01:24:31
+
+Cool.
+
+!# Tim @ 01:24:32
+
+Yeah, which I like a lot because I think better tactically. Is that a real word? I think so. What is the book that you have given as a gift most often, besides [The Year Without Pants](https://www.amazon.com/Year-Without-Pants-WordPress-com-Future/dp/1118660633), which you can feel free to mention.
+
+!# Matt @ 01:24:50
+
+There is a book about [Automattic](http://automattic.com) and [WordPress.com](https://wordpress.com/) called [The Year Without Pants](https://www.amazon.com/Year-Without-Pants-WordPress-com-Future/dp/1118660633), written by a great author, Scott Berkun. It tells the story about how we work. I give a lot of different books as gifts because everyone's different. So there's one by - and I apologize now because I can't pronounce anything because I I just read; I don't actually talk that much.
+
+!# Tim @ 01:25:09
+
+Well, you were pronouncing crayons as crowns, earlier, which I thought was amazing. I was like: crowns? What are crowns?
+
+!# Matt @ 01:25:14
+
+Yeah, you draw with the crowns.
+
+!# Tim @ 01:25:15
+
+The cute little thing that kids draw with. I was like; oh, crayons.
+
+!# Matt @ 01:25:17
+
+Maybe it's a Southern thing, I don't know. But for example, I've given a few times a book called [How Proust Can Change Your Life](https://www.amazon.com/How-Proust-Change-Your-Life/dp/0679779159), by [Alain de Botton](http://www.alaindebotton.com). [Field Guide to Getting Lost](https://www.amazon.com/Field-Guide-Getting-Lost/dp/0143037242), by [Rebecca Solnit](http://rebeccasolnit.net/) is one I've given.
+
+!# Tim @ 01:25:31
+
+That's cool. What is that about?
+
+!# Matt @ 01:25:32
+
+I don't know if I can summarize that one, actually.
+
+!# Tim @ 01:25:35
+
+[Field Guide to Getting Lost](https://www.amazon.com/Field-Guide-Getting-Lost/dp/0143037242). Is [Rebecca Solnit](http://rebeccasolnit.net/) - why do I know that name?
+
+!# Matt @ 01:25:39
+
+She's local, actually.
+
+!# Tim @ 01:25:40
+
+She is. That's why I know that name.
+
+!# Matt @ 01:25:42
+
+She writes for [The New Yorker,](http://newyorker.com) a little bit of everything. [The Effective Executive](https://www.amazon.com/Effective-Executive-Definitive-Harperbusiness-Essentials/dp/0060833459).
+
+!# Tim @ 01:25:47
+
+That's a great one. That's Peter Drucker, right?
+
+!# Matt @ 01:25:49
+
+Anything by Peter Drucker is gold.
+
+!# Tim @ 01:25:52
+
+So good.
+
+!# Matt @ 01:25:53
+
+And so I recommend that a lot in the company. [Words that Work](https://www.amazon.com/Words-That-Work-What-People/dp/1401309291), by [Frank Luntz](http://www.luntzglobal.com/).
+
+!# Tim @ 01:25:57
+
+I read that on your recommendation.
+
+!# Matt @ 01:25:59
+
+Oh. Did you like it?
+
+!# Tim @ 01:26:00
+
+I did. How would you describe that? That's a former - or current -
+
+!# Matt @ 01:26:07
+
+He's like the linguistic head of the [Republican Party](https://en.wikipedia.org/wiki/Republican_Party).
+
+!# Tim @ 01:26:11
+
+Right. So inheritance tax to death tax, or controlling the labels of the conversation and understanding what language works well for certain purposes. Really fascinating.
+
+!# Matt @ 01:26:20
+
+And depending on how - if someone likes that book, then I might point them to [George Lakoff](http://georgelakoff.com/), like he has a great seminole work from the '70s called [Women, Fire, and Dangerous Things](https://www.amazon.com/Women-Fire-Dangerous-Things-Categories/dp/0226468046). Or just other books about framing and language. There's a book for every purpose and I find myself finding new ones. So for example, last year I just started reading fiction again. I hadn't read fiction for about 15 years.
+
+!# Tim @ 01:26:43
+
+I did the same thing. Any favorites so far?
+
+!# Matt @ 01:26:45
+
+Really?
+
+!# Tim @ 01:26:46
+
+Yeah, I didn't read fiction for probably 15 to 20 years.
+
+!# Matt @ 01:26:48
+
+There's one called [The Hard-boiled Wonderland at the End of the Universe](https://www.amazon.com/Hard-Boiled-Wonderland-End-World-International/dp/0679743464).
+
+!# Tim @ 01:26:52
+
+Murakami?
+
+!# Matt @ 01:26:53
+
+Yeah. I really liked that.
+
+!# Tim @ 01:26:54
+
+That's a quirky one.
+
+!# Matt @ 01:26:55
+
+He has a lot of jazz references and things I like. [The Magus](https://www.amazon.com/Magus-John-Fowles/dp/0440351626) -
+
+!# Tim @ 01:26:59
+
+I have not read that one.
+
+!# Matt @ 01:27:00
+
+\- was a really good one. I'm working through a few different ones now like Chanteron and [The Untethered Soul](https://www.amazon.com/Untethered-Soul-Journey-Beyond-Yourself/dp/1572245379). I've just been trying to carve out more time for reading. The [Kindle](https://amazon.com/kindle/) is the device that even if I don't use it for a month or two, I'll still keep it in my pack just because it's aspirational. But when I can get in a good flow, I'll read a little bit every day, sometimes first thing in the morning. My whole life is better.
+
+!# Tim @ 01:27:27
+
+You're the one who convinced me to get a [Kindle](https://amazon.com/kindle/). I don't know if you remember. We've gone on a number of trips together, [Thelma and Louise](http://www.mgm.com/#/our-titles/1982/Thelma-&-Louise) style, and attended WordCamps in [Greece](https://en.wikipedia.org/wiki/Greece) and [Turkey](https://en.wikipedia.org/wiki/Turkey). [Vietnam](https://en.wikipedia.org/wiki/Vietnam) was a trip for [Room to Read](http://www.roomtoread.org/), which is a great organization. But I remember in [Greece](https://en.wikipedia.org/wiki/Greece_(disambiguation)) I had this backpack full of 14 books and it was just popping my disks in my spine lugging this damn thing around. And you had your tiny little [Kindle](https://amazon.com/kindle/) Touch and you were like: how's that working out for you? I was like: it's terrible.
+
+!# Matt @ 01:27:59
+
+Although what you would do, while we were waiting, is you would actually lift it like a weight.
+
+!# Tim @ 01:28:03
+
+That's true. I use my backpack - I have a hemp backpack that's reinforced that I can use for exercises and swings and stuff. I remember [Kevin Rose](https://en.wikipedia.org/wiki/Kevin_Rose) once when we were in - we went to [China](https://en.wikipedia.org/wiki/China) on a trip for tea tasting. I would wake up in the morning and I would do exercises. It was so hot there. I would do exercises with this backpack in my tidy whities. They were like [Exoffio](https://www.exofficio.com/tim) underwear. Kevin took a video of me doing a prayer rose in my underwear which I had to confiscate and delete, thankfully. Although I don't think it would do anything bad to my reputation because I don't have one to protect at this point.
+
+!# Matt @ 01:28:42
+
+I think if you looked at a side by side, you have the backpack full of book muscles and I have the [Kindle](https://amaon.com/kindle/) muscles.
+
+!# Tim @ 01:28:48
+
+[Laughs] That's true. Although to your credit, you did get into physical fitness and kettle bells and so on. Has that continued, or has that paused for the moment?
+
+!# Matt @ 01:29:02
+
+It has continued pretty well, actually.
+
+!# Tim @ 01:29:04
+
+You look leaner than the usual - I shouldn't say the usual. That's not fair. Than puffy Matt. And there's a puffy Tim, too. But I haven't seen you puffy in quite awhile.
+
+!# Matt @ 01:29:12
+
+So the thing that I started doing most recently, this most recent summer, was running. And just kind of randomly. Like I was in [Italy](https://en.wikipedia.org/wiki/Italy) and it was really pretty and I thought: oh, let me try going for a run. And it killed me, like I barely made it like half a mile before I had to walk. It just kind of started building up. I think my next run was like a month later. Like it wasn't like I was instantly attached. There's a guy in the company. He calls himself the [crazy running guy](https://crazyrunningguy.com).
+
+!# Tim @ 01:29:40
+
+I think I've met him. Who's this?
+
+!# Matt @ 01:29:42
+
+[Joe Boidstein](https://ma.tt/2014/10/run-better/). And he actually - or Boydston, sorry. Sorry, Joe. He started doing this thing where he'd land at the airport and then run to the word camp from the airport. So 20, 30 - for our grand meet up in [Utah](https://en.wikipedia.org/wiki/Utah_(disambiguation)), he ran from [Salt Lake City](https://en.wikipedia.org/wiki/Salt_Lake_City) to [Park City](https://en.wikipedia.org/wiki/Park_City). It was I think 50 or 60 miles.
+
+!# Tim @ 01:30:01
+
+That's insane.
+
+!# Matt @ 01:30:02
+
+And so at our grand meet up this year which was in Park City, he ran little running workshops every morning. So I went out with him. He was like, "Hey, don't focus on speed. Try to do 180 strides per minute. So smaller steps, even if you run slower. Focus on your heart rate." Like all these sort of different things. And it completely transformed me. Where before, my legs would always be really sore, like my whole body would hurt after I ran even though I loved it, like I was just in too much pain. I just slowed down and then started being able to go much further.
+
+!# Tim @ 01:30:30
+
+There's a really interesting guy named [Dr. Romanov](https://posemethod.com/drromanov/) - I don't know if you've ever come across this name. he founded a method of running called the [Pose Method](https://posemethod.com). He talks a lot about the forward lean and using gravity to assist your money - your money - use gravity - if I could figure that out, that'd be amazing - gravity to assist your running as opposed to heel striking and pushing. There are some really fascinating videos of him running on ice, for instance, by using that forward lean. Very, very cool stuff so you might enjoy -
+
+!# Matt @ 01:31:03
+
+I started with the Vibrams. I switched to just some super thin trail running shoes, but I still run more on the front or the middle of my foot.
+
+!# Tim @ 01:31:12
+
+Yeah, you have to be careful with the minimalist shoes. If you get too aggressive in the beginning, particularly since the - it's not just the impact on the soft tissues of the foot and the connective tissues. Most people who have walked with an elevated heel - even an inch - for a long period of time have chronically shortened [Achilles' tendon](https://en.wikipedia.org/wiki/Achilles_tendon). So suddenly when you stand flat footed and you're leaning forward on top of that, to run you can cause Achilles' [tendonitis](https://en.wikipedia.org/wiki/Tendinitis) or [tendonosis](https://en.wikipedia.org/wiki/Tendinosis).
+
+!# Matt @ 01:31:40
+
+Which is really painful.
+
+!# Tim @ 01:31:41
+
+Really bad. I've done that before.
+
+!# Matt @ 01:31:42
+
+And it's true. For awhile, my right Achilles' was kind of sore. But I had a friend - we were training for a half marathon together and he ended up really injuring his feet which is tough because he's a fireman. He's my best friend in Houston, Rene. You gotta be careful with this. I know you're not a huge fan of running. I know it's high impact and -
+
+!# Tim @ 01:32:01
+
+It's not that I'm not a fan. It's that I choose my exercise based on my objectives. And thus far I have not found running to stack up favorably compared to other things.
+
+!# Matt @ 01:32:18
+
+I can see that.
+
+!# Tim @ 01:32:20
+
+I think that running is much easier to justify as a moving meditation and certainly it's fantastic for travel. But that's why I have my bag that I can use as a weight also. I would like to get better at running due to the [Lyme disease](https://en.wikipedia.org/wiki/Lyme_disease) and everything that I've dealt with, I have partial tears in both [ACL](https://en.wikipedia.org/wiki/ACL)s, both elbows, and both hips. So I'm gonna have to work up to any type of impact. So I'll start with some of the [calisthenics](https://en.wikipedia.org/wiki/Calisthenics) that I'm doing now and then graduate to low impact jumping rope, to really condition the lower legs in particular. I'm doing long walks also. I'm conditioning the feet. I'll do two to three-hour walks very routinely and make phone calls. Batch my phone calls.
+
+!# Matt @ 01:33:08
+
+I love when I'm in a new city and I can do a run. It's a great way to see a city.
+
+!# Tim @ 01:33:12
+
+Oh, definitely.
+
+!# Matt @ 01:33:13
+
+Because you're at just the right speed. I did one in [Washington, D.C.](http://www.dc.gov) a week or two ago and it was just so cool. I felt like I was on an episode of [House of Cards](https://en.wikipedia.org/wiki/House_of_Cards). I'm going past the [Washington Monument](http://www.nps.gov/wamo/) and the [Lincoln Memorial](http://www.nps.gov/linc/) and running around the mall. It was so cool.
+
+!# Tim @ 01:33:25
+
+That's what [Bruce Lee](https://en.wikipedia.org/wiki/Bruce_Lee) used to do. He'd just travel with his running shoes. And when he first landed, he'd go for an orientation run. So one of the first things I do in lieu of the jog or running is bike tours. So I'll do sort of cruiser bike tours in any new city that I want to get acquainted with. I would love to ask a couple of questions that came in through [Twitter](https://twitter.com), specifically. I'm [@tferriss](https://twitter.com/tferriss). You are?
+
+!# Matt @ 01:33:53
+
+[@photomatt](https://twitter.com/photomatt), P-H-O-T-O-M-A-T-T. Also a pun. Remember you used to get your photos done at those.
+
+!# Tim @ 01:34:01
+
+Oh, I never noticed that.
+
+!# Matt @ 01:34:03
+
+Wow, you just realized that.
+
+!# Tim @ 01:34:05
+
+I just noticed that. You are - I forgot you're the pun master. And in Japanese they call those [Speaking Japanese] which is Dad jokes, Dad gags. You do puns all the time. You have as long as I've known you. Okay. I should have known. All right. Photomat. That makes perfect sense. We've covered some of these. Joe Palokowski asked about how you acquire developers. We already talked about that. This is from Andy Vaughn. Would you still bootstrap versus taking angel money, seed money, a software tool like [WordPress](https://wordpress.org) if you were starting over in 2015? Why or why not?
+
+!# Matt @ 01:34:47
+
+That's an interesting question. I'm not sure if he thinks we're totally bootstrapped or that we've raised money. I'll say what we did and then what I would do again. We bootstrapped for the first few months and then I raised about a million dollars.
+
+!# Tim @ 01:35:00
+
+This was [Automattic](http://automattic.com)?
+
+!# Matt @ 01:35:02
+
+This was [Automattic](http://automattic.com). [WordPress](https://wordpress.org) is a whole, separate entity. So for [Automattic](http://automattic.com), we raised about a million dollars in 2006. That was - in hindsight, we didn't need it but I'm glad we did it because I felt responsible for these other lives, the other people who were sort of betting on joining this company that was run by a 20-year-old. So I wanted to have some certainty. I wanted to have some money in the bank that said even if things went to zero, we all have a job for at least a year. So that's why we raised that first money.
+
+2008 we had an acquisition offer for north of $200 million, even though we were just I think 18 people at the time. So we used that to turn into a round. And did about $12 million in our primary capital there. And then we didn't raise money again until last year, 2014. So I was pretty anti-raising money, as you can imagine for those six years that we didn't do it.
+
+!# Tim @ 01:35:55
+
+How much did you - is it public how much you raised last year?
+
+!# Matt @ 01:35:57
+
+We raised $160 million.
+
+!# Tim @ 01:35:58
+
+That's a big number. Is the valuation public?
+
+!# Matt @ 01:36:02
+
+It was over a billion dollars, yeah.
+
+!# Tim @ 01:36:04
+
+That's also a big number. Even bigger number. If you were starting over again developing [WordPress](https://wordpress.org), would you make a for-profit entity like [WordPress.com](https://wordpress.com/) or [Automattic](http://automattic.com) sooner?
+
+!# Matt @ 01:36:16
+
+So it wasn't a matter of nonprofit and for profit. It was just a matter not even thinking about it, loose amalgamation of random people working together. And then a for profit that came later. Nonprofits I'm not as much of a fan of as I used to be. WordPress does have a WordPress foundation. Just the rules around them are mostly designed to prevent people from cheating on their taxes, which we don't care about. And they were stripped, meaning -
+
+!# Tim @ 01:36:41
+
+Meaning you pay your taxes.
+
+!# Matt @ 01:36:42
+
+Yeah. Meaning we pay - yeah. We'll pay taxes 'til the cows come home. So those rules to prevent abuse end up constricting the good an organization can do in a lot of ways. So I don't think I would start another nonprofit. In terms of raising money, one of the things that became very clear to me once I became CEO was the opportunity cost of being as lean and sort of break - managing the company to break even as we were. We couldn't do big acquisitions, we couldn't invest in infrastructure, we couldn't do a lot of things that make a lot of sense now. Like for example, since we raised money we're building out 11 datacenters worldwide.
+
+So for worldwide users of [WordPress](https://wordpress.org), it's going to start getting a lot faster because it'll be closer to you physically. Acquisitions that we wouldn't have considered before, we're doing now. So I would - if you can set expectations correctly with investors and raise money on terms that allow you to stay true to your principles and remain in control of the things you want to be in control of, I think it can be - I would highly recommend it. But those shared expectations are really important.
+
+!# Tim @ 01:37:51
+
+What would be an expectation that's important to you?
+
+!# Matt @ 01:37:55
+
+An expectation that we're not gonna [IPO](https://en.wikipedia.org/wiki/IPO) this year or next year or the year after that. That's not a priority of ours.
+
+!# Tim @ 01:38:01
+
+Got it. Just agreeing on the timeline.
+
+!# Matt @ 01:38:03
+
+An example for us would be that we don't monetize [Jetpack](https://jetpack.com).
+
+!# Tim @ 01:38:08
+
+Can you explain for people what  [Jetpack](https://jetpack.com) is?
+
+!# Matt @ 01:38:11
+
+Oh, sure. So  [Jetpack](https://jetpack.com) is a plug-in for [WordPress](https://wordpress.org). It gives you all the best of the cloud services of [WordPress.com](https://wordpress.com/), things that resize and optimize your images for whatever client is visiting, whether on mobile or desktop. Things that auto post your blog posts to Twitter or [Facebook](https://www.facebook.com/), [Pinterest](http://www.pinterest.com), [Path](https://en.wikipedia.org/wiki/Path), everywhere, stats. This is all the things built into [Jetpack](https://jetpack.com). That, for us, is really about getting more users of WordPress. It's not about charging for some of those features. Now, [Jetpack](https://jetpack.com) has huge amounts of uses. It reaches a very influential audience. An investor looking at the company might say: if you charge a little bit of money for this [Jetpack](https://jetpack.com) thing, you'd make hundreds of millions of dollars. But we need to be on the same page that that's not something that we're planning on.
+
+!# Tim @ 01:38:55
+
+Nice to know you have the option, all the same.
+
+!# Matt @ 01:38:58
+
+[Laughs] It's always good to have an option. But for me, the thing that's been best is just being super transparent and super up front. I think that's true of relationships of anything. If you can set your expectations with your investors, that's what they appreciate. You invest in a lot of things, I invest in a lot of things.
+
+!# Tim @ 01:39:15
+
+I do. I'm an advisor to [Automattic](http://automattic.com) also, which I'm honored to be. It's been really fantastically fun so far.
+
+!# Matt @ 01:39:22
+
+There's an asymmetry to what you do. Because you will hear maybe hundreds of pitches for every company that you have invested in. I find the smartest guys in the world, and when you get to the very top echelon, they have perfect BS detectors. It's much better to say I don't know than to try to make up an answer to something you don't actually know. Which is kind of refreshing, actually, the just honesty and transparency is actually - even when you're raising north of a billion dollars - is the best policy.
+
+!# Tim @ 01:39:51
+
+Such a fascinating landscape. This is a question from Chris Sacca. Ask Matt if he will take you shopping for a bad ass suit. I guess I should say a bad butt suit.
+
+!# Matt @ 01:40:02
+
+[Laughs] It's funny because I actually say bad ass. I just didn't because you did this whole setup.
+
+!# Tim @ 01:40:08
+
+[Laughs] I was trying to set expectations.
+
+!# Matt @ 01:40:12
+
+You have some pretty good suits. I've seen -
+
+!# Tim @ 01:40:16
+
+I do. I have some suits. I like suits because it removes all the decision making. I don't like matching - I don't like picking out outfits that will match, which is why I like suits. So either tee shirt and jeans or suit. I do very little in between.
+
+!# Matt @ 01:40:34
+
+If you are going to go for a suit, [Tom Ford](https://www.tomford.com/) -
+
+!# Tim @ 01:40:36
+
+Tom Ford?
+
+!# Matt @ 01:40:37
+
+- is the way to go. They're pretty amazing.
+
+!# Tim @ 01:40:39
+
+Any particular suit?
+
+!# Matt @ 01:40:40
+
+No. Go into the store. They'll set you up. Your body type's different than mine. They'll find something that makes you look great. Their cut is much younger, much slimmer, much more shaped in a way. I love [Caton](https://en.wikipedia.org/wiki/Caton) or [Loro Piana](http://www.loropiana.com/) or different folks but they tend to be made for older men, to be honest. So I love the materials but I end up tailoring them and re-cutting them.
+
+!# Tim @ 01:41:03
+
+How did you get into clothing and fashion? Because it wasn't always this way.
+
+!# Matt @ 01:41:07
+
+I have no idea. It might have been the influence of my good friend Om, [Om Malek](http://om.co/). He appreciates the finer things in life and I think that for -
+
+!# Tim @ 01:41:20
+
+Who created [GigaOM](http://gigaom.com), for people who don't know.
+
+!# Matt @ 01:41:22
+
+Yeah, [GigaOM](http://gigaom.com). He's a journalist, now VC at [True Ventures](https://trueventures.com/) and one of my best friends. One of the first users of WordPress, too. Of course in anything, like if we're talking about tequilas, if we're talking about class or if we're talking about microfilms, there's a spectrum. And you can go deep on any topic. I find it fascinating when you meet someone. That's one thing I always keep in mind. Everyone is interesting. If you're ever bored in a conversation, the problem's with you, not with the other person.
+
+!# Tim @ 01:41:50
+
+100 percent agreed. That's what any good journalist will tell you, also.
+
+!# Matt @ 01:41:53
+
+Yeah. It's just all about figuring out what someone's really into or what they're passionate about. And then when you find those passions it's just - I find it fascinating to go deep on chicken raising or whatever it is.
+
+!# Tim @ 01:42:03
+
+On purchases, what is the last $100 or less purchase that you made that had a very positive impact on your life?
+
+!# Matt @ 01:42:13
+
+The first thing that comes to mind is quite embarrassing.
+
+!# Tim @ 01:42:17
+
+The gimp suit? Just kidding.
+
+!# Matt @ 01:42:22
+
+I used to make so much fun of [Marin](https://en.wikipedia.org/wiki/Marin) moms who wear [Lululemon](http://www.lululemon.com/) all day. But since I've started running and working out more, it's just that [Lululemon](http://www.lululemon.com/) is friggin' awesome. They make really great stuff. Now, it's kind of expensive. It's definitely one of those - it's like shopping at [Whole Foods](https://wholefoods.com) where you walk out and the check and like whoa, how did that happen? I bought like two tee shirts and some sweat pants. But super high quality. I love how the tags tear out so there's no tags. I love that the shirts are reversible. I found, especially as I travel constantly, some of these sort of long sleeve material shirts will be super soft, super warm, I can run in them, I can sleep in them, I can do whatever.
+
+!# Tim @ 01:43:00
+
+Speaking of packing, I will link to this in the show notes but you recently put up a post about what you have in your carry-on bag. Matt is a genius carry-on bag - I shouldn't say that maybe, since I haven't seen the article, yet. But based on previous experience, you're very methodical. What's the one thing people can do - one or two things - with carry-on luggage that will make the biggest difference, in your opinion?
+
+!# Matt @ 01:43:24
+
+It's a [post about my backpack](https://ma.tt/2015/01/whats-in-my-bag-2014/). So it's about the things that - I brought my backpack here. I carry my backpack almost constantly. Especially being -
+
+!# Tim @ 01:43:32
+
+What type of backpack is that? That is very [Indiana Jones](https://en.wikipedia.org/wiki/Indiana_Jones_\(franchise\)).
+
+!# Matt @ 01:43:36
+
+Thank you. It's from a company called [Hard Graft](http://www.hardgraft.com/products/oldschoolrucksack-heritage). I linked to it in the post. It's leather. It's a little pricey but it's really good. I'll keep that for the next decade. So because I can work from anywhere, sometimes I have to work from everywhere. That's the downside. And you never know when an emergency is going to pop up or anything. I tend to have within sort of a ten to 15 minute radius the tools I need to be productive any place in the world, including if I'm in [Antarctica](https://en.wikipedia.org/wiki/Antarctica), that might be a satellite phone. If I'm in a different country, maybe that's a local MiFi card.
+
+And so I'm just constantly bringing things in and out. I was hesitant to do a post about it. You asked me to do a post about this years ago and I kept putting it off because it kept changing. So every time I'd start, I'd take a picture of my bag and then it would change by the time I wanted to email it.
+
+!# Tim @ 01:44:26
+
+Do you still use - I think it's called - I have one right here. Since I am packing. This is [Grid-it Technology by Cocoon](https://www.cocooninnovations.com/grid.php). Oh, wow, you've got the big boy.
+
+!# Matt @ 01:44:40
+
+I still use it. Yeah. I use a [big Grid-it](https://www.cocooninnovations.com/grid.php).
+
+!# Tim @ 01:44:41
+
+This is a company called [Cocoon](https://www.cocooninnovations.com/), for you people who can't see with clairvoyance what we're looking at. It's basically a sheet - mine is about five inches by ten inches.
+
+!# Matt @ 01:44:53
+
+Mine is eight by ten, I think.
+
+!# Tim @ 01:44:56
+
+Yeah, yours is eight by ten. It's perpendicular straps of elastic that you can stick cables into, iPhones into, batteries into, chap stick into, as opposed to just having a big mess of stuff in 15 pockets.
+
+!# Matt @ 01:45:09
+
+I find my stuff always falls out. Like I just pulled it out and it was like half empty. So things are constantly falling out of it. I don't know if it's the way I walk or whatever. But I always put it back in. So the key for me - I used to lose things all the time. In fact, at one point I would lose my keys so much - I still have an old car so it has a different door key and ignition key. So I made literally 15 copies of my door key and I wrote Photomatt on it and then I gave it to all my friends, and even like some random people I'd meet. Like instead of a business card, I just give them a key to my car. With the idea being when I lost my keys, someone would have the ability - or when I locked my keys in the car...
+
+!# Tim @ 01:45:51
+
+We need to teach you how to jimmy your door. We need to get you some locksmith keys. I'm not sure if that's legal. So within the boundaries of legality in your state or jurisdiction.
+
+!# Matt @ 01:46:05
+
+But yeah. So now I find that I have places where everything goes. So my mouse, for example, always goes in the right front pocket of my backpack. And if anytime something's not there - like I keep a bowl by my front door. The keys always go in there.
+
+!# Tim @ 01:46:22
+
+You keep a what?
+
+!# Matt @ 01:46:23
+
+A bowl.
+
+!# Tim @ 01:46:24
+
+Oh, a bowl. Right.
+
+!# Matt @ 01:46:25
+
+By the front door. Anytime something's not in that place and I see it, it's a bug. So I try to put it in that place as soon as possible because otherwise I know I'll forget. And then I'm coming over - I have a meeting and I spend ten minutes looking for my wallet because I just stuck it someplace. It's in the fridge or something, I don't know. I'm always losing something. Actually, I lost one of our initial investment checks. It was a check for $400,000.
+
+!# Tim @ 01:46:47
+
+That's not good to lose.
+
+!# Matt @ 01:46:48
+
+It was investor Phil Black, who's actually still on the board today. And he wrote a paper check, like the kind you would use at the grocery store or like for normal things. The most money I'd ever seen in my life. I was 20 years old. I was like: what is this? I expected it to be a check like a Publisher's Clearing House, you know? Like the size of a table.
+
+!# Tim @ 01:47:08
+
+Right, that you could surf like a floating carpet from [Aladdin](https://en.wikipedia.org/wiki/Aladdin) down to the bank.
+
+!# Matt @ 01:47:12
+
+So we raised - luckily, the other investors wired their money because I misplaced this check. And I was thinking, oh, my goodness. What do I do in this situation? Because obviously, he could stop the check but then he's just entrusted me with $400,000 and I've lost it. Like what's the most irresponsible thing you can do? Do I tell him? Do I not tell him? Is he going to notice at some point? And months passed. Literally months passed. He doesn't say anything, I don't say anything.
+
+!# Tim @ 01:47:36
+
+Because you didn't want to ask him.
+
+!# Matt @ 01:47:38
+
+I didn't ask him. And I'm going back to [Houston](https://en.wikipedia.org/wiki/Houston) for Thanksgiving, and I open the book I'm reading and I had used it as a bookmark. And it kind of fell out of the book on the plane. I was like: oh, my goodness!
+
+!# Tim @ 01:47:51
+
+That's quite a find. That's better than $20 in the pants you just washed.
+
+!# Matt @ 01:47:55
+
+So first thing I did when I landed, I went to the [Bank of America](https://www.bankofamerica.com/) - also, I expected it to be like when you hit jackpot on a slot machine. You deposit a 400 grand check and bells should go off. They should like give you a glass of champagne or something. But total nonevent at this local branch of [Bank of America.](https://www.bankofamerica.com/) They're just like: here you go. I go: okay.
+
+!# Tim @ 01:48:15
+
+Goodbye.
+
+!# Matt @ 01:48:17
+
+It's the most anticlimactic thing ever.
+
+!# Tim @ 01:48:18
+
+Step aside, sir. You have people behind you.
+
+!# Matt @ 01:48:20
+
+I told him like a year later. And he was like; oh, man, yeah. He just hadn't looked.
+
+!# Tim @ 01:48:25
+
+So speaking of big numbers, how the hell did you end up eating 140 or whatever chicken McNuggets? Why did that happen?
+
+!# Matt @ 01:48:34
+
+104.
+
+!# Tim @ 01:48:35
+
+104.
+
+!# Matt @ 01:48:36
+
+I don't remember how long ago it was. Probably about ten years ago, at this point - 11 years ago. But the [Super Bowl](http://www.superbowl.com/) was in Houston, Texas. I lived like a mile from the [Reliant Stadium](http://www.reliantpark.com/) where they were doing the [Super Bowl](http://www.superbowl.com/). And so I was watching it. For the [Super Bowl](http://www.superbowl.com/), all the [McDonald](https://en.wikipedia.org/wiki/Macdonald)s did a special where you could get 20 [McNugget](https://en.wikipedia.org/wiki/Chicken_McNuggets)s for like $4.00. And I was super broke at the time. So I was like: man, I'm just gonna stock up on these. Like the way you might get cans, or things of Ramen or like cans of Campbell's, which I would do when they went on sale; I'll always buy a bunch of them.
+
+So I just like got a bunch of [McNugget](https://en.wikipedia.org/wiki/Chicken_McNuggets)s and then I - I love [McNugget](https://en.wikipedia.org/wiki/Chicken_McNuggets)s. And I had to kind of like sweet talk the person so they gave me lots of extra of that sweet and sour sauce.
+
+!# Tim @ 01:49:20
+
+Oh, my God.
+
+!# Matt @ 01:49:21
+
+And the McDonalds sweet and sour sauce is not like sweet and sour sauce anywhere else in the world. Like all sweet and sour sauce is red. And for some reason theirs is brown. I don't know why. You might.
+
+!# Tim @ 01:49:30
+
+It's been genetically engineered to be as addictive as possible? I don't know.
+
+!# Matt @ 01:49:34
+
+It's so good. So I just start popping them, and next thing I knew it was 104.
+
+!# Tim @ 01:49:37
+
+So it wasn't even a bet or anything? You just rampaged through 104?
+
+!# Matt @ 01:49:41
+
+While watching the Super Bowl.
+
+!# Tim @ 01:49:43
+
+That's incredible.
+
+!# Matt @ 01:49:44
+
+It was the [Super Bowl where Janet Jackson](https://en.wikipedia.org/wiki/Super_Bowl_XXXVIII_halftime-show_controversy) had the wardrobe malfunction.
+
+!# Tim @ 01:49:48
+
+Yeah, the breast explosion. Sorry I missed that. How was it? Was it gratifying?
+
+!# Matt @ 01:49:53
+
+I was watching it with my family and there was like this moment of silence afterwards, we were like: what just happened? I was completely mortified. I had a laptop and the internet and WiFi at the time. So I was like: I'm gonna like - what just happened? Like I'm gonna go on the internet and see. And it turns out like what happened, happened. Like there was a wardrobe malfunction. A good friend of mine was in the audience about 15 feet away from her and you know, there's all the theories that it was planned.
+
+!# Tim @ 01:50:23
+
+Yeah.
+
+!# Matt @ 01:50:24
+
+And she said she was so pissed off, like looked so angry, she has - it was absolutely not planned.
+
+!# Tim @ 01:50:30
+
+Yeah, I would have bet that it was planned. This reminds me, your shocking moment - your mortified moment with your parents of when I went to the movies with my entire family. I was sitting next to my brother and my parents were sitting on the other side of my brother. We went to see[ The Girl with the Dragon Tattoo](https://en.wikipedia.org/wiki/The_Girl_with_the_Dragon_Tattoo), which I had read. My brother hadn't read it. Those of you who have read the book or seen the movie will know there's one particularly just mortifying scene. A minute or two beforehand, I was like: excuse me, I have to go to the bathroom. And I came back and my brother's like: you fucker. You knew exactly what was gonna happen, didn't you? And I was like: yep, I did. Sorry about that.
+
+!# Matt @ 01:51:12
+
+My identical story was [Titanic](http://www.imdb.com/title/tt0120338/), which was much tamer. But for some reason I went to see [Titanic](http://www.imdb.com/title/tt0120338/) with my mom. I was like; oh, I think it's about to happen. That scene -
+
+!# Tim @ 01:51:20
+
+This is the car scene?
+
+!# Matt @ 01:51:21
+
+The car scene, or where he's drawing her or something. I was like: I'm just gonna leave for a few minutes and I hope it's over by the time I get back.
+
+!# Tim @ 01:51:27
+
+To switch gears a little bit, when you think of the word "successful," who's the first person who comes to mind and why?
+
+!# Matt @ 01:51:34
+
+It's funny because he's getting totally panned in the press right now but I think of [Jeff Bezos](https://en.wikipedia.org/wiki/Jeff_Bezos).
+
+!# Tim @ 01:51:40
+
+Why [Jeff Bezos](https://en.wikipedia.org/wiki/Jeff_Bezos)? Why is he getting panned? This is how I get informed.
+
+!# Matt @ 01:51:48
+
+The [Fire Phone](http://www.amazon.com/firephone) was a complete flop. They were down hundreds of millions of dollars of inventory. Obviously, it didn't sell well. And articles have come out since then saying he micro-managed the whole process and things like that. I'm actually going to do a blog post about this. One of my favorite business books is called [The Halo Effect](https://www.amazon.com/Halo-Effect-Business-Delusions-Managers/dp/1476784035). And the case study they used is [Cisco](https://en.wikipedia.org/wiki/Cisco), in sort of the '98 to 2002 time period. And sort of when they were on the rise and one of the most valuable companies in the world, highest stock. Everyone's saying [John Chambers](https://en.wikipedia.org/wiki/John_Chambers) is genius. They acquisition companies, they don't have to vend everything, they can acquire dozens of companies and integrate them and competitors just can't compete.
+
+And then once they started crashing, again nothing changed about the business but the stock goes down. Sometimes the same writers were saying: oh, it's a mish mash of end fighting; they have all of this technology that doesn't integrate and they can't invent things so they have to acquire it. So literally the same strategy is viewed in a totally different realm. And there's this halo effect. And there's a case study going on right now with [Amazon](https://amazon.com). So a few years ago everyone said how [Amazon](https://amazon.com) makes these big bets. They're willing to lose money for years and years on something like the [Kindle](https://amazon.com/kindle/) and just ruthlessly iterate over and over [Amazon](https://amazon.com) web services.
+
+They go into places where no one says they should go. The [Fire Phone](http://www.amazon.com/firephone) flopped and now everyone's saying: oh, these idiots. The attention to detail becomes micro managing, everything. But ultimately what I admire in the long term is Jeff Bezos has convictions around things. And he's gonna be wrong sometimes. I don't' expect him to be perfect. But I do expect him in my idolized mind to continue making those big bets. And he's probably not taking enough risk if he doesn't super mess it up every couple of years.
+
+!# Tim @ 01:53:28
+
+Oh, I totally agree. Just the story basis - I haven't read [The Everything Store](https://www.amazon.com/Everything-Store-Jeff-Bezos-Amazon/dp/0316219282), I would like to. I don't know if you have.
+
+!# Matt @ 01:53:35
+
+Excellent book, yeah.
+
+!# Tim @ 01:53:36
+
+But it sounds like a good time to buy [Amazon](https://Amazon.com). This is not investment advice; consult your regular attorney and professional wealth advisor. But when those types of sort of capricious judgments are made based on a one-off event, especially in - well, sometimes it's macro related, sometimes it's just a single launch related. God, it's so funny how quickly people are to turn. Although, I will tell you most of the time I don't believe the words as they're written on the page.
+
+I think they're just journalists with a tough job which sometimes I think borders on unethical, which is having to churn out a lot of content continually on an unreasonable schedule, and to come up with insights that are - with rare exception - very, very difficult to produce on demand as aha moments once a day or five times a day or 12 times a day. So they end up regurgitating or rewording things they've written before.
+
+!# Matt @ 01:54:37
+
+And the people with the most knowledge about a given topic don't necessarily have any incentive to write about it.
+
+!# Tim @ 01:54:42
+
+Absolutely not.
+
+!# Matt @ 01:54:44
+
+Do you buy and sell individual stocks?
+
+!# Tim @ 01:54:46
+
+I don't right now. My personality, my intestinal fortitude is not well suited to public stocks. I don't like having the option on a daily basis to buy and sell. I like doing a ton of due diligence, investing in, for instance, a startup and then betting on a seven to nine-year growth curve.
+
+!# Matt @ 01:55:11
+
+Or longer.
+
+!# Tim @ 01:55:12
+
+Or longer.
+
+!# Matt @ 01:55:13
+
+You know [Automattic](http://automattic.com) is coming up on ten.
+
+!# Tim @ 01:55:14
+
+Yeah. That doesn't concern me. It actually consoles me because it forces me to do more homework on the front end.
+
+!# Matt @ 01:55:25
+
+I agree. I use [Wealthfront](http://www.wealthfront.com/). Also an investor.
+
+!# Tim @ 01:55:29
+
+I know we're both an investor in [Wealthfront](http://www.wealthfront.com/).
+
+!# Matt @ 01:55:31
+
+Sometimes I get individual stocks, like [MakerBot](http://www.makerbot.com/) bought and sold a company called [Stratasys](http://www.stratasys.com) so I ended up with a bunch of [Stratasys](http://www.stratasys.com) stock. And it was really annoying to have like this minute to minute number that moves. Like that's the one thing I wouldn't look forward to with being a public company is - raising money is hard, as well. Because basically someone saying your life's work, this is what it's worth. The quantifying it. I can't imagine what it's like with the minute to minute vagaries of the market, the public markets.
+
+!# Tim @ 01:56:01
+
+I'm so continually impressed by people like Nassim Taleb or many of the hedge fund guys out there who are - develop a hypothesis about a particular way to approach a short sale or a short position. So they're looking at the subprime mortgage crisis and they're trying to bet on that happening. Or the Sovereign debt issues in Europe, for instance. And their ability to just bleed for extended periods of time with these sophisticated option positions and function as normal human beings and be okay with that.
+
+!# Matt @ 01:56:40
+
+While losing money every day.
+
+!# Tim @ 01:56:41
+
+While losing money every day. And having people tell you you're an idiot. I can't fathom actually handling that well, personally. So oddly enough, the binary nature of startups suits my psychology well because it's applying a constraint and removing decisions that I might otherwise botch emotionally. So I can be very highly rational on the front end and make a specific type of investment that precludes me from making stupid emotional decisions.
+
+!# Matt @ 01:57:12
+
+And emotionally, you want to buy high and sell low. But that's -
+
+!# Tim @ 01:57:16
+
+Oh, definitely.
+
+!# Matt @ 01:57:17
+
+- if it's dropping, you're like: oh, I gotta get out of this. If it's rising, you're like: oh, it's great. I'm gonna buy some more.
+
+!# Tim @ 01:57:21
+
+Are there any particular books on investing or books that you've read that have helped you think about investing?
+
+!# Matt @ 01:57:28
+
+You said the man, Nassim Taleb.
+
+!# Tim @ 01:57:33
+
+You're the one who introduced me to [The Black Swan](https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X), actually. That was in [Greece](https://en.wikipedia.org/wiki/Greece).
+
+!# Matt @ 01:57:37
+
+I don't recommend that to everyone.
+
+!# Tim @ 01:57:38
+
+I love [The Black Swan](https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X).
+
+!# Matt @ 01:57:40
+
+I love it. [Fooled by Randomness](http://www.fooledbyrandomness.com/), [Anti-frugality](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680). Is latest one, I love his book of [Aphorisms](https://en.wikipedia.org/wiki/Aphorism). Like his writing has been super influential on me, both in and of itself and also in the works that he's pointed me towards. Because he makes a ton of - sometimes annoyingly so - references to other things. He introduced me to [Umberto Eco](http://www.umbertoeco.it/) and other really fantastic authors. He's great, and then reading [Warren Buffet](http://www.berkshirehathaway.com/)'s letters. I know you're a big [Warren Buffet](http://www.berkshirehathaway.com/) friend - fan.
+
+!# Tim @ 01:58:09
+
+I wish I were a big [Warren Buffet](http://www.berkshirehathaway.com/) friend. I am a big [Warren Buffet](http://www.berkshirehathaway.com/) fan and I know that name is bandied about a lot by of course millions of investors. But the annual letters, getting it straight from the horse's mouth as opposed to the second or third-hand interpretations is just phenomenal.
+
+!# Matt @ 01:58:27
+
+You know something I can say, you asked about what we look for for candidates, hiring. Clarity of writing. I think clarity of writing indicates clarity of thinking. Writing is honestly one of the hardest things I do very day. You've written a couple of books, now. I have tried to write a book. I can't. I haven't been able to do it.
+
+!# Tim @ 01:58:44
+
+It's a very masochistic process. I would not want to inflict on anyone unduly.
+
+!# Matt @ 01:58:49
+
+But I love reading about writers and the process of writing. Like [Bird by Bird](https://www.amazon.com/Bird-Some-Instructions-Writing-Life/dp/0385480016), [Anne Lamott](https://en.wikipedia.org/wiki/Anne_Lamott), or [On Writing Well](https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548), [William Zinsser](http://www.williamzinsserwriter.com). The [Ernest Hemingway](https://en.wikipedia.org/wiki/Ernest_Hemingway) I'm reading, which I think I got from this podcast, actually.
+
+!# Tim @ 01:59:01
+
+Yeah, that's a fun one.
+
+!# Matt @ 01:59:03
+
+Because when you can write well, you can think well. Obviously, in [Warren Buffet](http://www.berkshirehathaway.com/)'s letters the thinking is so clear. And so that's something I look for in these random emails we get, or cover letters or resumes: is it well written? If someone's a great writer, they tend to be a great programmer, more efficient or something else. Again, it's not everything but it's a strong indicator.
+
+!# Tim @ 01:59:23
+
+So just a few more questions. The first is from - wow, Valour Thor. That is a fantastic name, sir. What role will WordPress - spelled correctly - play in online content outside of the browser? Example given: mobile apps, APIs, etc., in the near future?
+
+!# Matt @ 01:59:44
+
+It's inside baseball but a very good question. So there's been basically two waves in [WordPress](https://wordpress.org)'s history. We started as just blogging. Literally it was just a blog. And you'd have the rest of your website doing something else and then you'd plug the blog in, your [WordPress](https://wordpress.org). We expanded to be a [CMS](https://en.wikipedia.org/wiki/CMS). That was the second wave of [WordPress](https://wordpress.org). And then it started powering your entire site. And that's been really the past five or six years where we become almost like the dial tone of the web. Like if you're starting a website, you start with [WordPress](https://wordpress.org) and then you plug other things into [WordPress](https://wordpress.org), whether that's ecommerce management, [CRM](https://en.wikipedia.org/wiki/CRM), whatever it is; it's a plug-in for [WordPress](https://wordpress.org).
+
+This third wave that we're going through right now is [WordPress](https://wordpress.org) as an application platform. So people are using the primitives and the things afforded by [WordPress](https://wordpress.org)'s infrastructure, the things that we wrote to write a blog in [CMS](https://en.wikipedia.org/wiki/CMS), to write other things.
+
+!# Tim @ 02:00:34
+
+The primitives are the elements of the infrastructure that were used to create those things in the first place?
+
+!# Matt @ 02:00:39
+
+Yeah. So think of a primitive as a basic building block. So like a social primitive, one that [Kevin Rose](https://en.wikipedia.org/wiki/Kevin_Rose) invented was like this embeddable button that lets you vote on things, the "dig it" button which is now the Like button, the Tweet button, etc. That's a primitive, in some ways. So we have primitives around user authentication, around content types, around caching, around URLs, around lots of things that if you're building something from scratch, you've got to do all this stuff.
+
+So if you can start with [WordPress](https://wordpress.org), it saves you months. Not for everything, not for everyone. But if you know [WordPress](https://wordpress.org), you start -
+
+!# Tim @ 02:01:12
+
+I'm gonna ask a silly question because I like asking silly questions. As a non-programmer, how does - and I know it differs significantly - but how does that differ from, say, a [Ruby on Rails](http://rubyonrails.org) then?
+
+!# Matt @ 02:01:27
+
+Very similar. People are using [WordPress](https://wordpress.org) as a framework. It's a framework which has a lot more things built out than a [Ruby](https://www.ruby-lang.org/) might. So think of it as the thing that [WordPress](https://wordpress.org) does. If what you want to build looks like that, so not a game, not a chat application, not something like that. If it looks like content, we've already managed more content than anyone else in the world at this point. Using our data structures, using our [API](https://en.wikipedia.org/wiki/API)s. That's probably the best way to go about it.
+
+!# Tim @ 02:01:59
+
+What are some of the big companies or publications that use your platform?
+
+!# Matt @ 02:02:04
+
+Pretty much all of them at this point. [Washington Post](https://en.wikipedia.org/wiki/Washington_Post), [Wall Street Journal](http://www.wsj.com), [New York Times](http://www.nytimes.com), international papers, new media so [GigaOM](http://gigaom.com), [Tech Crunch](http://techcrunch.com), [Recode](http://www.recode.net/), all the tech blogs, basically. Yours. I mean it's really -
+
+!# Tim @ 02:02:20
+
+[Laughs] I'm very flattered that you put me in that group next to all those guys. I try.
+
+!# Matt @ 02:02:26
+
+All these things - if you look at [Techmeme](http://techmeme.com), we'll typically power 50 to 70 percent of all the sites that are on [Techmeme](http://techmeme.com) in a given day.
+
+!# Tim @ 02:02:33
+
+[Techmeme](http://techmeme.com), for those people that don't know, would you say it's fair to say that's a roundup of tech news from around the world?
+
+!# Matt @ 02:02:38
+
+It's one of my vices. We talked about vices earlier. So T-E-C-H, M-E-M-E dot com. It's algorithmic and human. It's the best tech newspaper in the world. And it just links you to places. So almost like a [Drudge Report](http://www.drudgereport.com/) but so much better. You go to the primary sources, which sometimes might be not even news, like a tech crunch or a verge, but the actual person, like you or me.
+
+!# Tim @ 02:03:00
+
+Oh, interesting.
+
+!# Matt @ 02:03:01
+
+They'll link to the originals as well, which is really nice.
+
+!# Tim @ 02:03:04
+
+If you had to point a 20-year-old entrepreneur who's looking to start a company - let's just say it's tech, for the time being. What two or three books or resources would you give to them or suggest to them?
+
+!# Matt @ 02:03:22
+
+I'm gonna repeat with [The Effective Executive](https://www.amazon.com/Effective-Executive-Definitive-Harperbusiness-Essentials/dp/0060833459/), or anything from [Peter Drucker](https://en.wikipedia.org/wiki/Peter_Drucker). He actually has one - I think it's called The Art of Entrepreneurship. It's got Entrepreneurship in the title. Super good. Again, these are old, now, like from the '70s or '80s.
+
+!# Tim @ 02:03:36
+
+They're so timeless, though.
+
+!# Matt @ 02:03:37
+
+But they're so good. He's just one of the clearest thinkers about all of these things; about management, about entrepreneurship. When I was getting started, I actually really loved [The Art of the Start](https://www.amazon.com/Art-Start-Time-Tested-Battle-Hardened-Starting/dp/1591840562), by [Guy Kawasaki](https://en.wikipedia.org/wiki/Guy_Kawasaki).
+
+!# Tim @ 02:03:48
+
+That's a good book.
+
+!# Matt @ 02:03:49
+
+I haven't read it since then.
+
+!# Tim @ 02:03:50
+
+It stands up pretty well.
+
+!# Matt @ 02:03:52
+
+It really inspired me. Make sure you read the [4-Hour Workweek](https://fourhourworkweek.com). I'm gonna plug -
+
+!# Tim @ 02:03:57
+
+Thank you, sir.
+
+!# Matt @ 02:03:58
+
+There you go. And a recent one, like a brand new one. I'll say two brand new ones. I'm sorry; you asked for three and you're getting about ten.
+
+!# Tim @ 02:04:04
+
+No, you can keep going.
+
+!# Matt @ 02:04:05
+
+[The Hard Things About Hard Things](https://www.amazon.com/Hard-Thing-About-Things-Building/dp/0062273205/), by [Ben Horowitz](https://en.wikipedia.org/wiki/Ben_Horowitz). Pretty good. Entertaining more than anything. Like I read that book, I was like: I would never work for this guy. But entertaining and some good lessons. And then [Peter Thiel](https://en.wikipedia.org/wiki/Peter_Thiel)'s [Zero to One](https://en.wikipedia.org/wiki/Zero_to_One). That was excellent.
+
+!# Tim @ 02:04:19
+
+[Zero to One](https://en.wikipedia.org/wiki/Zero_to_One) is great and people should definitely, if they find that interesting and they are going into tech, I think try to read the original class notes, as well.
+
+!# Matt @ 02:04:28
+
+Yeah, by Blake Masters, I believe.
+
+!# Tim @ 02:04:30
+
+Exactly. They're really just tremendous.
+
+!# Matt @ 02:04:32
+
+All of these guys, I mean don't take them as Gospel. Like disagree with them. Interpret it in your own way. There are some people who I admire quite a bit, like, say [Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen). When we first pitched him, the whole meeting was about how distributed companies were a terrible idea. And he was like: well what do you know that every other tech company that's been big in history doesn't? The [Facebook](https://www.facebook.com/)s, the [Google](https://en.wikipedia.org/wiki/Google)s, the [Microsoft](https://en.wikipedia.org/wiki/Microsoft)s, the everything. And so why should you do something different?
+
+It turns out - it was a good meeting. I thought it was a terrible meeting. I thought it was the worst meeting of my entire career. Turns out that's his style. He challenges you and sees how you respond. Sometimes going against the Orthodox, doing the things that other people can't do. I think of it like business judo. What can we do that - [Google](https://en.wikipedia.org/wiki/Google) makes tens or hundreds of billions of dollars more than us. What can we do that we can't do? Well, they are set up best to work in an office culture, and we're set up best to work in a non-office culture.
+
+So we can get the smartest people in the world, who sometimes leave [Google](https://en.wikipedia.org/wiki/Google) because they want to live in [Salt Lake City](https://en.wikipedia.org/wiki/Salt_Lake_City) or [Adelaide, Australia](https://en.wikipedia.org/wiki/Adelaide) or someplace else for whatever reason, it doesn't matter. They're just as good as anyone inside the [Mountain View](https://en.wikipedia.org/wiki/Mountain_View) offices but they just don't happen to be in [Mountain View](https://en.wikipedia.org/wiki/Mountain_View).
+
+!# Tim @ 02:05:47
+
+It makes me think of the book, The Starfish and the Spider. Particularly with the open-source component. The open-source WordPress isn't going to die even if Automattic were to cease operations.
+
+!# Matt @ 02:06:01
+
+Even to this day we compete with people ten times our size and ten or 100 times our capitalization. In 2014, one of our competitors, Squarespace, spent north of $45 million on advertising.
+
+!# Tim @ 02:06:17
+
+They did Super Bowl advertising, didn't they?
+
+!# Matt @ 02:06:18
+
+Yeah. They're going to do more this year.
+
+!# Tim @ 02:06:19
+
+That's expensive.
+
+!# Matt @ 02:06:21
+
+They had to, you know? That's the only way they can get customers. Because we have this community, because we have these hundreds of thousands of developers all over the world, because we have the sort of intrinsic - I think - goodness of the software, we don't have to spend on advertising. In 2014, we spent about $1 million on advertising, and that was mostly events.
+
+!# Tim @ 02:06:40
+
+You do love events. I love your events, too. They're very well done.
+
+!# Matt @ 02:06:43
+
+Thank you.
+
+!# Tim @ 02:06:44
+
+Okay, two more questions. If you were sent to a desert island and you could bring one album - I've asked a lot of book questions. I'm trying to come up with something else. One album, and two other items that were non-survival related, what would they be?
+
+!# Matt @ 02:07:07
+
+The album's really tough. There are some really perfect albums out there. Like I think [Radiohead](http://radiohead.com)'s [OK Computer](https://en.wikipedia.org/wiki/OK_Computer). It's like just a perfect album. And it works as an album. The individual songs don't work as well. Or like a [Frank Ocean](http://frankocean.com)'s Mixed Tape, ultra nostalgia. There are some of these that are just so good. Kendrick Lamar's Good Kid, Mad City. You've got to check out Kendrick Lamar. I know that you're not as into the hippity hop.
+
+!# Tim @ 02:07:34
+
+That's not true. If it's break beats or danceable and I like the lyrics, I'm all for it. Like Eric B. & Rakim, that Ilk...
+
+!# Matt @ 02:07:40
+
+How old are you?
+
+!# Tim @ 02:07:42
+
+67.
+
+!# Matt @ 02:07:43
+
+[Laughs] I'm just giving you a hard time. There are some new guys that are super cool, too.
+
+!# Tim @ 02:07:47
+
+There are some good guys. What I don't like is the homogeneity of a lot of the beat structure that has been sort of commoditized for top 40. That stuff makes me insane. But if it has some unique flavor to it, I'm all for it.
+
+!# Matt @ 02:08:02
+
+Yeah, you'd like [Kendrick Lamar](http://www.kendricklamar.com). So probably one of those albums. And if I have to pick one, I'll pick a jazz one. [Sonny Rollins](http://www.sonnyrollins.com/) [Saxophone Colossus](https://en.wikipedia.org/wiki/Saxophone_Colossus). I could listen to that album the rest of my life and learn something new every day. In terms of other non-essential items that aren't books, I'm not going to say a Kindle or an encyclopedia or something. A 50 millimeter 1.4 prime lens is the lens I would take to a deserted island. And I burn easily so probably an umbrella or something.
+
+!# Tim @ 02:08:32
+
+You and I bond over that. I thought I was the only human who didn't tan, but alas. Hark. [Matt Mullenweg](http://ma.tt/). Last question. If you could give your 20-year-old self a piece of advice - one piece of advice - what would it be?
+
+!# Matt @ 02:08:51
+
+Slow down.
+
+!# Tim @ 02:08:52
+
+Slow down. Why?
+
+!# Matt @ 02:08:55
+
+We talked about it with running earlier like slow down to go further. I think a lot of the mistakes of my youth were mistakes of ambition, not mistakes of -
+
+!# Tim @ 02:09:07
+
+Sloth.
+
+!# Matt @ 02:09:08
+
+Sloth. And I think building foundations, building things that last for the long term, obviously some of that's happened but - something I think I rushed through. Education, I definitely kind of squandered, even when I was in high school. They put great books in front of us like [The Great Gatsby](https://en.wikipedia.org/wiki/The_Great_Gatsby) or [Thucydides](https://en.wikipedia.org/wiki/Thucydides) or something. Thucydides is not that great, but like others like [Fitzgerald](https://en.wikipedia.org/wiki/F._Scott_Fitzgerald). I just kind of did the bare minimum to pass the class or pass the test, when now I would kill for the luxury to just like really sit down with one of those books and dive into it and discuss it.
+
+And so just slowing down, whether that's meditating, whether that's taking time for yourself away from screens, whether that's really focusing in on who you're talking to or who you're with.
+
+As I've aged - I know it sounds ridiculous. It's interesting because -
+
+!# Tim @ 02:10:04
+
+I feel like you're living in dog years, though. The amount of experience you compress into each year is unbelievable.
+
+!# Matt @ 02:10:10
+
+I had a lot of success at a young age which is intimidating because you sometimes think: am I ever going to top this, or did I peak at 20 or 21 when I was doing [polyphasic sleep](https://en.wikipedia.org/wiki/Polyphasic_sleep) and writing these new things, and everything since then seems downhill? You wonder about your impact on the world. But ultimately, it's funny that now what I care more about is a lot narrower. It's like the people who you love and the people who love you. And you don't always choose either of those. It's like you can't help who you fall in love with. Life would be so much easier if you could.
+
+!# Tim @ 02:10:45
+
+That's true.
+
+!# Matt @ 02:10:46
+
+And you don't always choose who falls in love with you. But there's a responsibility in both and really focusing on those people I find has contributed more to my happiness, and I won't say anything else.
+
+!# Tim @ 02:10:56
+
+I think that's a great place to end. Matt, where can people learn more about you, find you on the internet?
+
+!# Matt @ 02:11:03
+
+@ma.tt for my main blog on [WordPress](https://wordpress.org). Twitter I'm [@photomatt](https://twitter.com/photomatt) - P-H-O-T-O- M-A-T-T. And I'm on pretty much every network. Follow me on [Spotify](https://www.spotify.com). I share some cool stuff on there.
+
+!# Tim @ 02:11:16
+
+Awesome. All right, sir. Thank you so much and we shall polish this off with another small glass of sipping tequila. Thanks everybody for listening and thanks for coming over, Matt.
+
+!# Matt @ 02:11:25
+
+Cheers.
 
 !# End @ 2:11:26
