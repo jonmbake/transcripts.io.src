@@ -4,8 +4,8 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
 
 
 
-### Amount Transcribed: 22 hrs 47 mins 47 secs
-### Total Runtime: 8 days 13 hrs 44 mins 40 secs
+### Amount Transcribed: 23 hrs 11 mins 0 secs
+### Total Runtime: 8 days 13 hrs 44 mins 47 secs
 ### Percent Complete: 11%
 ## Individual
 <table>
@@ -1156,10 +1156,10 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
           <td><a href="2015-01-26-pavel-tsatsouline.transcript">2015-01-26-pavel-tsatsouline.transcript</a></td>
           <td>Ep 57: Pavel Tsatsouline Answers Your 15 Most Popular Exercise Questions</td>
           <td>Jan 26, 2015</td>
-          <td>0 secs</td>
-          <td>23 mins 6 secs</td>
+          <td>23 mins 13 secs</td>
+          <td>23 mins 13 secs</td>
           
-          <td class="alert-error">0%</td>
+          <td class="alert-success">100%</td>
         </tr>
       
     
