@@ -4,8 +4,8 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
 
 
 
-### Amount Transcribed: 21 hrs 51 mins 8 secs
-### Total Runtime: 8 days 13 hrs 44 mins 39 secs
+### Amount Transcribed: 22 hrs 47 mins 47 secs
+### Total Runtime: 8 days 13 hrs 44 mins 40 secs
 ### Percent Complete: 11%
 ## Individual
 <table>
@@ -1012,10 +1012,10 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
           <td><a href="2015-04-20-triple-h.transcript">2015-04-20-triple-h.transcript</a></td>
           <td>Triple H on Pre-Fight Rituals, Injury Avoidance, and Floyd Mayweather, Jr.</td>
           <td>Apr 20, 2015</td>
-          <td>0 secs</td>
-          <td>56 mins 38 secs</td>
+          <td>56 mins 39 secs</td>
+          <td>56 mins 39 secs</td>
           
-          <td class="alert-error">0%</td>
+          <td class="alert-success">100%</td>
         </tr>
       
     
