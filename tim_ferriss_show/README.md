@@ -4,9 +4,9 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
 
 
 
-### Amount Transcribed: 23 hrs 11 mins 0 secs
-### Total Runtime: 8 days 13 hrs 44 mins 47 secs
-### Percent Complete: 11%
+### Amount Transcribed: 1 day 20 mins 6 secs
+### Total Runtime: 8 days 17 hrs 43 mins 21 secs
+### Percent Complete: 12%
 ## Individual
 <table>
   <thead>
@@ -20,6 +20,30 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
     </tr>
   </thead>
   <tbody>
+    
+      
+        <tr>
+          <td><a href="2016-07-19-nicholas-mccarthy.transcript">2016-07-19-nicholas-mccarthy.transcript</a></td>
+          <td>The One-Handed Concert Pianist, Nicholas McCarthy</td>
+          <td>Jul 19, 2016</td>
+          <td>0 secs</td>
+          <td>1 hr 21 mins 35 secs</td>
+          
+          <td class="alert-error">0%</td>
+        </tr>
+      
+    
+      
+        <tr>
+          <td><a href="2016-07-11-chris-young.transcript">2016-07-11-chris-young.transcript</a></td>
+          <td>Lessons from Geniuses, Billionaires, and Tinkerers</td>
+          <td>Jul 11, 2016</td>
+          <td>0 secs</td>
+          <td>2 hrs 37 mins 0 secs</td>
+          
+          <td class="alert-error">0%</td>
+        </tr>
+      
     
       
         <tr>
@@ -1072,10 +1096,10 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
           <td><a href="2015-03-11-peter-attia.transcript">2015-03-11-peter-attia.transcript</a></td>
           <td>Ep 65: Supplements, Blood Tests, and Near-Death Experiences (Dr. Peter Attia)</td>
           <td>Mar 11, 2015</td>
-          <td>0 secs</td>
-          <td>1 hr 9 mins 7 secs</td>
+          <td>1 hr 9 mins 6 secs</td>
+          <td>1 hr 9 mins 6 secs</td>
           
-          <td class="alert-error">0%</td>
+          <td class="alert-success">100%</td>
         </tr>
       
     
