@@ -4,8 +4,8 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
 
 
 
-### Amount Transcribed: 1 day 20 mins 6 secs
-### Total Runtime: 8 days 17 hrs 43 mins 21 secs
+### Amount Transcribed: 1 day 1 hr 59 mins 23 secs
+### Total Runtime: 8 days 17 hrs 43 mins 20 secs
 ### Percent Complete: 12%
 ## Individual
 <table>
@@ -1384,10 +1384,10 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
           <td><a href="2014-10-21-maria-popova.transcript">2014-10-21-maria-popova.transcript</a></td>
           <td>Ep 39: Maria Popova on Writing, Work Arounds, and Building BrainPickings.org</td>
           <td>Oct 21, 2014</td>
-          <td>0 secs</td>
-          <td>1 hr 39 mins 18 secs</td>
+          <td>1 hr 39 mins 17 secs</td>
+          <td>1 hr 39 mins 17 secs</td>
           
-          <td class="alert-error">0%</td>
+          <td class="alert-success">100%</td>
         </tr>
       
     
