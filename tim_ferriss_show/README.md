@@ -4,9 +4,9 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
 
 
 
-### Amount Transcribed: 1 day 1 hr 59 mins 23 secs
+### Amount Transcribed: 1 day 2 hrs 25 mins 23 secs
 ### Total Runtime: 8 days 17 hrs 43 mins 20 secs
-### Percent Complete: 12%
+### Percent Complete: 13%
 ## Individual
 <table>
   <thead>
@@ -20,6 +20,8 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
     </tr>
   </thead>
   <tbody>
+    
+      
     
       
         <tr>
@@ -376,10 +378,10 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
           <td><a href="2016-02-10-seth-godin.transcript">2016-02-10-seth-godin.transcript</a></td>
           <td>How Seth Godin Manages His Life — Rules, Principles, and Obsessions</td>
           <td>Feb 10, 2016</td>
-          <td>0 secs</td>
+          <td>26 mins 0 secs</td>
           <td>1 hr 57 mins 17 secs</td>
           
-          <td class="alert-error">0%</td>
+          <td class="alert-error">22%</td>
         </tr>
       
     
