@@ -5,8 +5,8 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
 
 
 ### Amount Transcribed: 1 day 2 hrs 25 mins 23 secs
-### Total Runtime: 8 days 17 hrs 43 mins 20 secs
-### Percent Complete: 13%
+### Total Runtime: 8 days 19 hrs 56 mins 18 secs
+### Percent Complete: 12%
 ## Individual
 <table>
   <thead>
@@ -20,6 +20,30 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
     </tr>
   </thead>
   <tbody>
+    
+      
+        <tr>
+          <td><a href="2016-08-03-seth-godin.transcript">2016-08-03-seth-godin.transcript</a></td>
+          <td>Seth Godin on How to Think Small to Go Big</td>
+          <td>Aug 3, 2016</td>
+          <td>0 secs</td>
+          <td>38 mins 41 secs</td>
+          
+          <td class="alert-error">0%</td>
+        </tr>
+      
+    
+      
+        <tr>
+          <td><a href="2016-07-27-mike-birbiglia.transcript">2016-07-27-mike-birbiglia.transcript</a></td>
+          <td>Mike Birbiglia, The Sleepwalking Comedy Giant</td>
+          <td>Jul 27, 2016</td>
+          <td>0 secs</td>
+          <td>1 hr 34 mins 17 secs</td>
+          
+          <td class="alert-error">0%</td>
+        </tr>
+      
     
       
     
