@@ -4,8 +4,8 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
 
 
 
-### Amount Transcribed: 1 day 3 hrs 31 mins 2 secs
-### Total Runtime: 8 days 21 hrs 1 min 57 secs
+### Amount Transcribed: 1 day 4 hrs 31 mins 37 secs
+### Total Runtime: 8 days 22 hrs 2 mins 32 secs
 ### Percent Complete: 13%
 ## Individual
 <table>
@@ -20,6 +20,18 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
     </tr>
   </thead>
   <tbody>
+    
+      
+        <tr>
+          <td><a href="2016-11-24-david-heinemeier-hansson.transcript">2016-11-24-david-heinemeier-hansson.transcript</a></td>
+          <td>#203: David Heinemeier Hansson on Digital Security, Company Culture, and the Value of Schooling</td>
+          <td>Nov 24, 2016</td>
+          <td>1 hr 35 secs</td>
+          <td>1 hr 35 secs</td>
+          
+          <td class="alert-success">100%</td>
+        </tr>
+      
     
       
         <tr>
