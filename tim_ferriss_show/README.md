@@ -4,9 +4,9 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
 
 
 
-### Amount Transcribed: 1 day 4 hrs 31 mins 37 secs
-### Total Runtime: 8 days 22 hrs 2 mins 32 secs
-### Percent Complete: 13%
+### Amount Transcribed: 1 day 5 hrs 20 mins 12 secs
+### Total Runtime: 8 days 22 hrs 51 mins 7 secs
+### Percent Complete: 14%
 ## Individual
 <table>
   <thead>
@@ -20,6 +20,18 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
     </tr>
   </thead>
   <tbody>
+    
+      
+        <tr>
+          <td><a href="2017-03-12-caroline-paul.transcript">2017-03-12-caroline-paul.transcript</a></td>
+          <td>#227: Conquering Fear and Reducing Anxiety - Caroline Paul</td>
+          <td>Mar 12, 2017</td>
+          <td>48 mins 35 secs</td>
+          <td>48 mins 35 secs</td>
+          
+          <td class="alert-success">100%</td>
+        </tr>
+      
     
       
         <tr>
@@ -67,8 +79,6 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
           
           <td class="alert-error">0%</td>
         </tr>
-      
-    
       
     
       
@@ -165,8 +175,6 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
           
           <td class="alert-error">0%</td>
         </tr>
-      
-    
       
     
       
