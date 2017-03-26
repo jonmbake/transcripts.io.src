@@ -4,8 +4,8 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
 
 
 
-### Amount Transcribed: 1 day 5 hrs 20 mins 12 secs
-### Total Runtime: 8 days 22 hrs 51 mins 7 secs
+### Amount Transcribed: 1 day 6 hrs 33 mins 49 secs
+### Total Runtime: 9 days 4 mins 44 secs
 ### Percent Complete: 14%
 ## Individual
 <table>
@@ -40,6 +40,18 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
           <td>Nov 24, 2016</td>
           <td>1 hr 35 secs</td>
           <td>1 hr 35 secs</td>
+          
+          <td class="alert-success">100%</td>
+        </tr>
+      
+    
+      
+        <tr>
+          <td><a href="2016-11-21-jocko-willink.transcript">2016-11-21-jocko-willink.transcript</a></td>
+          <td>#187: Jocko Willink on Discipline, Leadership, and Overcoming Doubt</td>
+          <td>Nov 21, 2016</td>
+          <td>1 hr 13 mins 37 secs</td>
+          <td>1 hr 13 mins 37 secs</td>
           
           <td class="alert-success">100%</td>
         </tr>
