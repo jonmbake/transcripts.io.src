@@ -4,8 +4,8 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
 
 
 
-### Amount Transcribed: 1 day 6 hrs 33 mins 49 secs
-### Total Runtime: 9 days 4 mins 44 secs
+### Amount Transcribed: 1 day 7 hrs 12 mins 22 secs
+### Total Runtime: 9 days 43 mins 17 secs
 ### Percent Complete: 14%
 ## Individual
 <table>
@@ -20,6 +20,18 @@ Generated transcripts can be viewed at [https://www.transcripts.io/tim_ferriss_s
     </tr>
   </thead>
   <tbody>
+    
+      
+        <tr>
+          <td><a href="2017-03-25-debbie-millman.transcript">2017-03-25-debbie-millman.transcript</a></td>
+          <td>#230: The Secrets, Tactics, and Creative Processes of High Performers and Achievers</td>
+          <td>Mar 25, 2017</td>
+          <td>38 mins 33 secs</td>
+          <td>38 mins 33 secs</td>
+          
+          <td class="alert-success">100%</td>
+        </tr>
+      
     
       
         <tr>
