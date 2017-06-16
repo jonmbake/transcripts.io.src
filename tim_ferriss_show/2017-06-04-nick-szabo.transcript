@@ -1,0 +1,2082 @@
+---
+layout: post
+title: "#244: The Quiet Master of Cryptocurrency"
+keywords: 'Nick,Szabo,Naval,Ravikant'
+transcriber: "<a href='https://www.transcripts.io/'>Transcripts.io</a>"
+web_page: "http://tim.blog/2017/06/04/nick-szabo/"
+audio_url: "https://overcast.fm/+BmGV410hM/%{chrono}"
+speakers:
+  - first_name: 'Tim'
+    last_name: 'Ferriss'
+    role: 'host'
+  - first_name: 'Naval'
+    last_name: 'Ravikant'
+    role: 'guest'
+  - first_name: 'Nick'
+    last_name: 'Szabo'
+    role: 'guest'
+---
+
+!# Tim @ 00:03:27
+
+Hello boys and girls, this is Tim Ferriss, and welcome to another episode of The Tim Ferriss Show where it is always my job to tease out the habits, routines, philosophies, favorite books, et cetera, from world class performers so you can test each of those in your own life. And guests range from say those in business, sports, military, all the way to the esoteric and sometimes the very unexpected. This guest checks a lot of boxes.
+
+His name is [Nick Szabo](https://twitter.com/NickSzabo4), that's S-Z-A-B-O. Many of you may not recognize his name, but hopefully by the end you’ll want to know everything that he puts out and read every essay that he puts on the Internet. He’s a polymath, the breadth and depth of his interest and knowledge are truly astounding. I mean jaw-dropping. It’s just beyond belief what this guy can cover. He’s a computer scientist, legal scholar and [cryptographer](https://en.wikipedia.org/wiki/Cryptography) best known for his pioneering research in [digital contracts](http://quickbooks.intuit.com/r/tech-review/7-digital-signing-apps-for-contracts-and-other-agreements/) and [cryptocurrency](). And I have long been fascinated by [cryptocurrency]() but secretly not really understood anything about it or certainly the subtleties.
+
+This episode is really a master class. We go from the very, very basic all the way up to the cutting edge and what the future holds. Nick, for instance, developed the phrase and concept of [smart contracts](https://blockgeeks.com/guides/smart-contracts/) with the goal of bringing what he calls the highly evolved practices of contract law and practice to the design of electronic commerce protocols between strangers on the internet.
+
+Nick also designed [BitGold](https://www.goldmoney.com/bitgold) which many consider the precursor to [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin). This particular conversation is co-hosted by one of my favorite people, [Naval Ravikant](https://angel.co/naval), a mutual friend and one of the most successful investors in Silicon Valley, who also happens to be one of Nick’s biggest admirers. For those who enjoy Naval here, you may also enjoy his [first episode with me from 2015](http://tim.blog/2015/08/18/the-evolutionary-angel-naval-ravikant/), which was voted on Product Hunt the second best podcast episode of the year across all podcasts with the exception of my [Jamie Foxx episode](http://tim.blog/2015/12/06/jamie-foxx/), so you can listen to that if you’d like. It’s called the Evolutionary Angel episode [tim.blog/naval](http://tim.blog/naval), but let’s get back to how much we cover with Nick because it’s a lot.
+
+You need not be intimidated. You don’t need to be a computer scientist. I am not. You don't need to know anything about currency. I know very little but we get into the history of money, we talk about [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), what it is, what [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) are and what problems they solve. We define [social scalability](http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html), what is that and why is it important. What is [Ethereum](https://www.ethereum.org/)? What makes it unique, strengths and weakness, we're talking about different types of [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency). We talk about things ... For instance, [altcoin](http://altcoins.com/), what the hell is that? We get into it.
+
+What are [ICOs](http://www.investopedia.com/terms/i/initial-coin-offering-ico.asp)? [Initial coin offerings](http://www.investopedia.com/terms/i/initial-coin-offering-ico.asp). We talk about who might invest or not invest, and certainly this is not investment advice. It's for informational purposes only so talk to your financial professional before allocating resources or money anywhere. Okay? Cover my ass, good. How will smart contracts actually get adopted or go mainstream? If you think of, say, [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) as something that is very fringe, when will it hit the tipping point, what might the elements be that would lead to that. Blockchain governance, is there any existential risk? Could governments or regulators shut down something like [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)? What is wet code versus dry code? This is a super, super cool distinction that I really enjoyed. What are [Pascal’s scams](http://unenumerated.blogspot.com/2012/07/pascals-scams.html) or Quantum thought?
+
+We dig into all sorts of nooks and crannies, including what Nick might work on in the future, what fields does he want to explore and so on. This was, to me, a really, really fun and mind expanding conversation. You do not need to be technical or an engineer to enjoy it and get a lot out of it because at the core, we are really looking at how two people who are very, very smart, meaning Nick and Naval, process the world, what lenses they use to view the world, and how that dictates their actions and then how they get better results.
+
+If you want more from Nick and we'll talk about this at the very end of the conversation, also, but you have check out the essays on his blog, which is called [Unenumerated](http://unenumerated.blogspot.com/), it’s [unenumerated.blogspot.com.](http://unenumerated.blogspot.com/) That can wait for later and then you will know why many of the thought leaders in Silicon Valley and around the world really pay a lot of attention to Nick. Without further ado, please enjoy this wide ranging conversation with [Nick Szabo](https://twitter.com/NickSzabo4).
+
+!# Tim @ 00:08:04
+
+All right gentlemen I think the hour has arrived. Naval, welcome back.
+
+!# Naval @ 00:08:11
+
+Thank you, it’s good to be back once again.
+
+!# Tim @ 00:08:14
+
+Nick, pleasure to meet you.
+
+!# Nick @ 00:08:15
+
+Nice to meet you.
+
+!# Tim @ 00:08:17
+
+I’m very excited and also intimidated by the conversation we’re about to have. As context for people listening, we’re going to delve into some subjects I have an acute interest in but extreme ignorance of. I will let Naval do a lot of the driving. I figured a place we could start is at the beginning, at least where you guys met. How did you two first connect?
+
+!# Naval @ 00:08:43
+
+Like most of my close relationships these days, I formed them on Twitter. I think of Twitter as the place where I go to, to have a great conversation when I can’t have one locally, which seems to be all the time. The more time that I spend on Twitter, the more I sort of curate this incredible group of very intelligent people that I just get to know purely through the quality of their thoughts.
+
+So I think when I was getting into [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) and [blockchains](https://en.wikipedia.org/wiki/Blockchain), doing my homework on it, I stumbled across a blog called [Unenumerated](http://unenumerated.blogspot.com/) and maybe Nick can go into what the origins of that word are. It was obviously written by a polymath, someone who wrote about everything. I got into the blog and then I started following the author, which was Nick on Twitter, retweeted a few of his tweets and got into little bite-size 160 character conversations, and here we are.
+
+!# Tim @ 00:09:34
+
+How is that relationship developed? In other words, how are we here today? You could take a stab at that. 
+
+!# Naval @ 00:09:39
+
+Yeah. 
+
+!# Tim @ 00:09:40
+
+Nick’s going to do plenty of talking so we'll certainly have him chime in. If you want to lead us to how we ended up here today.
+
+!# Naval @ 00:09:49
+
+Yeah, I mean it was just more and more tweeting back and forth, reading Nick’s articles. There’s one that he put up recently around [social scalability](http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html), which I thought was literally mind blowing. I thought I knew a lot about [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency), but it really just helped me reframe what I knew in a better mental model. You know how [Charlie Munger](https://en.wikipedia.org/wiki/Charlie_Munger) talks about [mental model](https://mentalmodelsblog.wordpress.com/)?
+
+!# Tim @ 00:10:09
+
+Yep. 
+
+!# Naval @ 00:10:10
+
+I’ve actually picked up at least four or five mental models from Nick, which I think is more than I may have from any human being other than [Charlie Munger](https://en.wikipedia.org/wiki/Charlie_Munger). I was tweeting out sections of that article, then somebody said, "Well, Nick and Naval should do a podcast." I was like, “Well, he’d never do a podcast with me.” Then Nick said, “Sure. I’ll do a podcast,” so here we are.
+
+!# Tim @ 00:10:27
+
+Nick, could you maybe help us with some definitions? [Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency), there are a number of other words that are going to come up a lot. These are words that I feel at many dinner parties in, say, Silicon Valley, people will not ask about because they’re afraid they’re the only ones at the table who don’t actually know how to define it. Since I can’t play the part of knowing what I don’t know, in this case, what is [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency)? And how did you become interested in it or start thinking about it?
+
+!# Nick @ 00:10:56
+
+Cryptocurrency, as the name suggests is protected by cryptography and, in particular, the modern cryptocurrency like [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and [Ethereum](https://www.ethereum.org/), and so forth are protected by their integrity, it's protected by [cryptography](https://en.wikipedia.org/wiki/Cryptography), a structure called a [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree) that you can think of it as a fly getting trapped in amber.
+
+If you say I shot JFK and then put it through this process of the [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree) putting in on the [blockchain](https://en.wikipedia.org/wiki/Blockchain), then it’s there and you’ve signed it with your private key. Then you can’t later deny, “Oh I didn’t say that.” That allows you to make a statement. You know, "I’m paying such and such amount of Bitcoin to somebody else," and then put it there after a few cycles called block times which take about 10 minutes each. It gets exponentially more difficult to deny or take back that this transaction took place.
+
+!# Tim @ 00:11:48
+
+How did you first begin thinking about these types of constructs or any of this really? Where did the interest begin?
+
+!# Nick @ 00:11:57
+
+Well, we had a group called the [Cypherpunks](https://en.wikipedia.org/wiki/Cypherpunk) back in the 1990s, Tim May, and Eric Hughes, and John Gilmore, and so forth. Tim May had ... So partly this is political, but Tim May had a vision of [Galt's Gulch](http://www.conservapedia.com/Galt's_Gulch) the cyberspace, if any of your audience or [Ayn Rand](https://www.aynrand.org/) fans, they’ll recognize the reference to [Galt's Gulch](http://www.conservapedia.com/Galt's_Gulch) as this place you can go to get away from things and do your business without outside interference. And in the book that was like a physics fantasy, but Tim goes "Well, we have [strong cryptography](https://en.wikipedia.org/wiki/Strong_cryptography) now so we can do that." And I thought, "Well, yes, but you still want to do things like enforce contracts and protect property and so forth." I started thinking about, and to some extent, some other people started thinking about how to apply computer science to protect your business in cyberspace.
+
+!# Tim @ 00:12:45
+
+This bleeds into... I did just enough reading to hopefully have questions to ask. I didn't want to read so much that I left out basics, fundamentals for people. [Cryptography](https://en.wikipedia.org/wiki/Cryptography), most people think that they hear that word and maybe the exposure they’ve had is watching a movie that involves an enigma machine or something like that. But what is [cryptography](https://en.wikipedia.org/wiki/Cryptography)?
+
+!# Nick @ 00:13:08
+
+The original cryptography is if you saw the movie is keeping secrets, this case in that movie the Nazis failing to keep secrets from the British and [Alan Turing](http://www.turing.org.uk/) because their [cryptography](https://en.wikipedia.org/wiki/Cryptography) wasn’t strong enough but these days, you have really strong [cryptography](https://en.wikipedia.org/wiki/Cryptography) so breaking it in that brute force manner like they broke the Nazi codes is pretty unlikely these days. There are some other things you can do like take people’s [private keys](http://searchsecurity.techtarget.com/definition/private-key) and so forth. The brute force attack doesn’t work anymore. I mean there are some old [ciphers](https://en.wikipedia.org/wiki/Cipher) who were starting to work but as long as you have the latest stuff like [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) does, then you’re fine.
+
+!# Naval @ 00:13:45
+
+Yeah, I would say it’s like basically keeping secrets through mathematics. There are many, many breakthroughs that enable [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) but one of the key things to understanding [cryptography](https://en.wikipedia.org/wiki/Cryptography) is this concept of one way encoding, [one-way hash functions](http://www.aspencrypt.com/crypto101_hash.html). Basically, I can take some data, run it through a mathematical transformation and what comes out of the other side is really hard to undo, it’s really hard to work backwards. It’s kind of a one-way thing.
+
+!# Tim @ 00:14:12
+
+When people send encrypted email through say [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) or something like that, is that an example of that?
+
+!# Naval @ 00:14:17
+
+Yeah, basically, what I’ve done so in the old days if I was encrypting something, we would both have the same key or I would have the key, I would take your key, I would encrypt with your key, send it to you. You have the key. You can decrypt with a key but the problem was how do I figure out what your key is? How do I figure out how to encrypt it because your key can both encrypt and decrypt.
+
+If I had a hold of your key, then I could open the message so it’s very unsafe to transmit that key and so one of the innovations that came along was the idea of splitting the key into a public key and a private key so private key is what you hold on to that can decrypt and encrypt stuff. Your public key on the other hand, other people can encrypt to it for you but they can’t use it to decrypt-
+
+!# Tim @ 00:15:00
+
+I got it, so write only.
+
+!# Naval @ 00:15:01
+
+It’s a write only. Yeah, it’s a one-way kind of thing. This is probably beyond the scope of this discussion but it’s worth digging a little bit into what I call [one-way hash functions](http://www.aspencrypt.com/crypto101_hash.html) and [public keys](https://en.wikipedia.org/wiki/Public-key_cryptography) and [private keys](http://searchsecurity.techtarget.com/definition/private-key) because they underlie a lot of [cryptography](https://en.wikipedia.org/wiki/Cryptography). They seem like complicated concepts but they’re not that complicated.
+
+I would argue this is one of those mental models that you have to figure out to start operating the modern technological world but [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) essentially use these [one-way hash functions](http://www.aspencrypt.com/crypto101_hash.html) to make statements like I gave Tim $10. If I said I gave you $10, normally, we need a central authority to verify that like the bank has to verify that and the central bank has to verify it with the bank.
+
+!# Tim @ 00:15:39
+
+This leads to the question of and I’m not going to interrupt beyond this but why create [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency)? Why is it important? What are the benefits?
+
+!# Naval @ 00:15:47
+
+Yeah, so one huge benefit is we don’t need anymore a trusted third-party to verify that transaction. We can do it in the cloud through a distributed network, which is kind of what the cryptocurrency does. I’ll let Nick talk more about this but he had a great quote that I think is very relevant where he said this is the dawn of trustworthy computing because before this, computers are kind of un-trusted like if I send you money from my computer to your computer, we’re really relying on [Visa](https://usa.visa.com/) and the banks and a bunch of intermediaries just actually say yes the money got to you and the money is no longer mine.
+
+Computers don’t like to operate like that. Computer code especially stuff that’s running in the cloud on its own shouldn’t have to rely on an off-line wet space, meet space institution to enforce that kind of thing so [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) take the concept of money and they take a native into computers where everything is settled with computers and doesn’t require external institutions or trusted third parties to validate things.
+
+!# Tim @ 00:16:54
+
+Just to try to paraphrase that for my own understanding, in other words, you don’t have to say trust a stranger to do something, you don’t have to trust a central authority to be the arbiter of whatever decisions end up being made or implemented. It’s built into the technology itself.
+
+!# Naval @ 00:17:12
+
+Yep.
+
+!# Tim @ 00:17:13
+
+Why is cryptocurrency important to you?
+
+!# Nick @ 00:17:16
+
+So it’s important for I think the partially clinical reason to gain more independence of your life from these institutions. It just creates new capabilities like somebody now in Guatemala can pay somebody in Canada without using an intermediary in New York City or something. That’s just greatly advantageous for global commerce, I think.
+
+!# Naval @ 00:17:39
+
+Yeah, so if I can just dig into that little bit more.
+
+!# Tim @ 00:17:42
+
+Definitely dig in. I also at some point because this word has plagued me for a few years now, [blockchain](https://en.wikipedia.org/wiki/Blockchain) I do not know what it means. I don’t know why it’s called [blockchain](https://en.wikipedia.org/wiki/Blockchain).
+
+!# Naval @ 00:17:50
+
+Actually, Nick’s earlier analogy of a fly getting trapped in amber is brilliant like if you see a fly in amber and it’s got a millimeter of amber around it well that could’ve been done yesterday or a year ago. But if you see the fly is trapped huge block of amber, you know it’s been there for a long, long time. It’s been accumulating so a blockchain is a series of blocks. Each block is a series of computations done by computers all over the using series cryptography in a way that’s very hard to undo.
+
+Each block is like another thin layer of amber and the chain of blocks represents the depth of that Amber, how long that fly has been trapped in and therefore you can trust that honest signal. Anything deep down in the blockchain is mathematically, cryptographically and just economically impossible to undo.
+
+!# Tim @ 00:18:43
+
+Got it.
+
+!# Naval @ 00:18:44
+
+Actually I shouldn’t use words like impossible in cryptography. 
+
+!# Tim @ 00:18:47
+
+It was always improbable. 
+
+!# Naval @ 00:18:48
+
+Highly improbable.
+
+!# Tim @ 00:18:50
+
+What are some other core concepts that people should understand just as the cryptocurrency 101 or currency 101? I mean depending on where you want to go with things.
+
+!# Naval @ 00:19:04
+
+I even want to start with like what is money because we’re throwing around the word currency and money and people talk about gold and store of value. Nick actually created [BitGold](https://www.goldmoney.com/bitgold) which was some would argue a critical foundational predecessor to [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin). [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) had an additional breakthrough or two that would imply that [BitGold](https://www.goldmoney.com/bitgold) did not, but [BitGold](https://www.goldmoney.com/bitgold) was the giant on whose shoulders [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) stands.
+
+Nick also created both the phrase and the concept and the theory behind [smart contracts](https://blockgeeks.com/guides/smart-contracts/), which we're now starting to hear about in the context of other [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) like [Ethereum](https://www.ethereum.org/). I think we should just, this is a complicated enough topic that is worth just starting with what is money. If you ask 10 people in the street what money is, you’d probably get 10 different answers.
+
+!# Tim @ 00:19:47
+
+Sure.
+
+!# Naval @ 00:19:48
+
+I think it's important just be rigorous about that.
+
+!# Nick @ 00:19:50
+
+And if you ask a lawyer, you’ll get an answer that’s radically different than if you ask an economist as well. If you ask a lawyer, they’ll say something like an official government currency so of course [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and gold, you can’t write checks for those because those are not legal official government currencies. That’s the kind of near modern legal definition.
+
+Economists use the definition of medium of exchange, which is a much broader definition of but that also assumes the only important transactions are people exchanging things, which in our modern economy is a good assumption. But if you actually go back to the origins of money, which I’d like to study, you find things like inheritance and compensation for injuries as equivalent to modern lawsuit but not necessarily with governments and courts, more like wars to enforce the verdict and bride wealth, there are certain fitness critical to Darwinian fitness that other animals can't do that humans can.
+
+That form of I like to call it collectibles because now I've extended the definition money far broader than probably an economist would want to that's why I call it collectibles. So it's very similar so the [Yurok Indians](http://www.yuroktribe.org/) for example use shells and they would have tattoo marks on their arm. They are serious about their shells, they would have tattoo marks on their arm to measure the length of shells and that told you the denomination, the value of how valuable that shell was, which corresponds to how scarce it was in nature. They would use these for inheritance for injury compensation, for bride wealth and so forth.
+
+!# Naval @ 00:21:19
+
+Yes, it sounds like so I think the common theory is that humans have only been using money for a few thousand years but I think some of the work you’ve done in origins of money shows that actually it’s hundred thousand years.
+
+!# Nick @ 00:21:32
+
+You can go back from the archeological record and it’s a puzzle for 100,000 years in our Darwinian world the people lived in why people do something so frivolous as adorned themselves with shell necklaces, yet those are among the most common artifacts right up there with axes, practical axes that you can use cut get things in the archeological record.
+
+!# Naval @ 00:21:52
+
+Yeah, on the money thing I've also tried to wrap my head around this and as Nick said economist would say it’s a medium of exchange as the historical record shows, it’s a store of value so even if you’re not exchanging it, you just want to go to store of value, you may not want to store bread or rocks or houses so you store shells.
+
+!# Tim @ 00:22:11
+
+Or they may be impractical to transport.
+
+!# Naval @ 00:22:13
+
+Exactly. Then it’s also a unit of account so in other words like you have to denominate prices in something, I’m not going to tell you how many loaves of bread a car costs so I need to be able to just pick a unit of account to-
+
+!# Tim @ 00:22:25
+
+Don’t judge I only do that occasionally.
+
+!# Naval @ 00:22:27
+
+It is all those things and I think one of the places where people fall down on cryptocurrencies is they say well no one’s using [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) to buy anything right now so it may not be fulfilling the medium of exchange function but it is. It may be fulfilling a different function like store of value. It might be a Swiss bank account in everyone’s pocket or in their mind. It might be the defense against the Cyprus style bank haircut.
+
+!# Tim @ 00:22:47
+
+Or it could be the future that is here but not evenly distributed.
+
+!# Naval @ 00:22:51
+
+Absolutely.
+
+!# Tim @ 00:22:52
+
+You can go to Palo Alto to Coupa Café and buy coffee with Bitcoin right now.
+
+!# Nick @ 00:22:56
+
+Yeah, and within my social circle, there is a large group of people who will take [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) as legal tender like you can go to them and settle bets in [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and they will happily take it.
+
+!# Tim @ 00:23:06
+
+Or if you want to buy say a scientific abstracts or articles from a Russian website, they may only take Bitcoin as well.
+
+!# Naval @ 00:23:15
+
+Yeah, and it does seem a little bubbly which you say, “Well it’s only money because everyone believe it's money,” but one definition I really liked of money is, money is the bubble that never pops. If the tulip bubble had never popped, we’d probably be dealing in tulips today. Now it popped for fairly good reasons, which is tulips make for lousy money, they're hard to store, they are hard to transport, they are hard to subdivide but [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) is actually are the exact opposite end of that scale. They are easier to store, easier to transport, easier to subdivide, cheaper in many ways and more defensible than almost any other form of money or gold or commodity.
+
+!# Tim @ 00:23:56
+
+Now, what makes sense we are talking about money or currency, what makes money valuable. I think this might be interesting to just dig into for a second because you have say at certain points in time paper pegged to gold right and then to reading today because it’s another word that I’m seeing a lot but aside from the car company, I was not sure what [Fiat](https://en.wikipedia.org/wiki/Fiat_money) really meant. So if we’re talking about, don't even know they're still even around anymore. What distinguishes say [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) or makes [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) valuable? Is it the rarity? What are the factors that determine that?
+
+!# Nick @ 00:24:31
+
+Well, I mean the scarcity is an essential part of it. If it starts inflating on you then your share of it goes down so the scarcity is quite essential to it. Other things are you want it to be easy and secure to store and transport. And [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) has an advantage that you can send to people all over the world and store it on the [hardware wallet](https://en.bitcoin.it/wiki/Hardware_wallet), which is a fairly secure way to store it and the most important part of it- 
+
+!# Tim @ 00:24:57
+
+What is a [hardware wallet](https://en.bitcoin.it/wiki/Hardware_wallet)?
+
+!# Nick @ 00:24:59
+
+So a [hardware wallet](https://en.bitcoin.it/wiki/Hardware_wallet), so your normal computers are pretty insecure. That’s one of the stories of [blockchains](https://en.wikipedia.org/wiki/Blockchain) is that this distributed system is a lot more secure than your individual computer so your own computer could have malware, viruses and so forth. So [hardware wallet](https://en.bitcoin.it/wiki/Hardware_wallet) is a separate piece like on USB stick, you plug-in it has its own chip on it. In [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), your private key gets stored on that chip rather than on the computer.
+
+!# Naval @ 00:25:24
+
+There’s a zillion ways to store [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin). You could do it on your computer but then you computer’s connected to the Internet security hole, you could put it in an online exchange, but then you’re just trusting an unregulated bank. You can put it in a [hardware wallet](https://en.bitcoin.it/wiki/Hardware_wallet), which Nick said is a dedicated device. You can put it on a piece of paper and stick it in your bank account.
+
+!# Tim @ 00:25:44
+
+Is that cold storage or-
+
+!# Naval @ 00:25:45
+
+That's cold storage, yeah that's cold storage.
+
+!# Tim @ 00:25:47
+
+I know the words but not what they mean.
+
+!# Naval @ 00:25:49
+
+Yeah, this is one of the crazy things about this concept because money and speech turned out to be the same thing, money information math, they’re the same thing. In a Bitcoin world, I can literally write down my Bitcoin address and keys on a piece of paper and put it in a safety deposit box. It’s basically in cold storage, I could even put it in my head. I can memorize the key phrases and I could cross borders with $1 billion in my brain. It’s a very powerful but mind bending literally concept in that sense.
+
+!# Tim @ 00:26:20
+
+Is this a point where it makes sense to talk about [smart contracts](https://blockgeeks.com/guides/smart-contracts/) or is that a non sequitur? Or is there a good bridge?
+
+!# Naval @ 00:26:26
+
+Yeah, no, I think we should get into it. First, I want to make sure that we understand what [blockchains](https://en.wikipedia.org/wiki/Blockchain) and [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) are. It might be worth going into what are the key innovations that enabled [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin).
+
+!# Tim @ 00:26:38
+
+And I will leave you to dictate when this makes sense or either of you guys, but the article that you sent me about the, I guess, [fat protocol layer](http://www.usv.com/blog/fat-protocols).
+
+!# Naval @ 00:26:47
+
+Right, I’ll get into that later.
+
+!# Tim @ 00:26:48
+
+Okay, we'll get there, that’s a little teaser for folks. I’ll let you lead with them.
+
+!# Naval @ 00:26:54
+
+Yeah. I think it’s worth getting into like what is the [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) computer because there is basically, you can abstract and think of [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) as running on a [blockchain](https://en.wikipedia.org/wiki/Blockchain) computer and maybe Nick can take a stab at defining what it is. By the way, this is one of those things where I think if you ask 10 different people in [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency), what [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) is and what a [blockchain](https://en.wikipedia.org/wiki/Blockchain) is and what a [blockchain computer](https://en.wikipedia.org/wiki/Blockchain) is, you’ll get 10 different answers.
+
+!# Tim @ 00:27:15
+
+Yeah, some people are more qualified than others.
+
+!# Naval @ 00:27:16
+
+It’s also just it’s new. It’s hard to figure out. These are very abstract concepts, ideas being turned into code. [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) is almost to computers what [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics) is to physics. It throws a lot of people in the field off.
+
+!# Tim @ 00:27:32
+
+Well, it’s also like quantum physics because you have a lot of well-intentioned hippies and new agey people who will misappropriate and use it completely incorrectly.
+
+!# Naval @ 00:27:43
+
+Yes. Absolutely.
+
+!# Tim @ 00:27:44
+
+Not to say there are a lot of new agey hippie people getting into [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency). There might be but I think you also have that.
+
+!# Naval @ 00:27:50
+
+Yeah, it’s just layers of understanding like I dunno how to write code for a [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree), I don’t know how to take apart a [Bitcoin block](https://en.bitcoin.it/wiki/Block) and analyze it. In some level, I’m still a new agey hippie trying to figure it out. But I think it’s worth getting into what is the blockchain computer, how does it enable [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin).
+
+!# Nick @ 00:28:09
+
+I guess first of all before I drop into that, another important concept to the architecture that hasn’t been mentioned yet is replication. There’s thousands of copies of these things running on what are called [full nodes](https://en.bitcoin.it/wiki/Full_node) all over the world.
+
+!# Tim @ 00:28:21
+
+And these are servers?
+
+!# Nick @ 00:28:22
+
+Right, right so there are servers that can be laptops or larger machines but there are thousands of them running all over the world. So anybody who has a copy of this, their machine can do a full validation for itself. It’s kind of the most secure way to run a [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency).
+
+!# Naval @ 00:28:38
+
+Sorry to interrupt you, but basically what's going on is if I give Tim $10 and then Tim gives Nick those $10, the way you track of it is through piece of paper or in the old days with the [Yurok Indians](http://www.yuroktribe.org/), it would be a shell of a certain measurement. But now with [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), there’s a ledger. We basically just keep track in a ledger entry that Naval moved this $10 to Tim, Tim moved the $10 to Nick.
+
+Now, the problem is who maintains the sanctity of that ledger. Can you just forge that ledger? So historically, the central bank wouldn’t maintain the sanctity of the ledger or the fact that you have a certain dollar bill with a serial number on it maintains the sanctity of the ledger.
+
+Now, [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) has the craziest answer you can imagine but it turns out to work, which is everybody has a copy of the ledger so everyone in the Bitcoin network who’s running a node keeps a copy of the ledger from the dawn of [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) until now and it is a testament to the computing power and memory that we have available in modern computers that people can do this at home.
+
+You can run a full [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) node where you keep a copy of every single [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) transaction from the dawn of time till now and all these computers running together essentially validate with each other like are our ledgers the same? Are we using the same ledger? Whose ledger is correct in case there’s a disagreement? That’s where kind of all the [blockchain](https://en.wikipedia.org/wiki/Blockchain) comes in, doing all this [cryptography](https://en.wikipedia.org/wiki/Cryptography).
+
+!# Nick @ 00:29:56
+
+Then another thing that’s replicated besides the data and the integrity [cryptography](https://en.wikipedia.org/wiki/Cryptography) we're talking about is code computer programs and the second definition of [smart contracts](https://blockgeeks.com/guides/smart-contracts/), we'll get into the first definition later but the second definition is simply describing this code that’s replicated that's running on all these nodes. That code can do things like enforce on [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), it can do some fairly simple things that add some sophistication or require multiple signatures to do a spend for example so like you can think of [signature authority](https://money.stackexchange.com/questions/29531/what-does-it-mean-to-have-interest-in-or-signature-authority-over-an-account) and offers for multiple people have to sign off on something. You can set up your [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) to do that using one of these [smart contracts](https://blockgeeks.com/guides/smart-contracts/), one of these pieces of code replicated.
+
+!# Tim @ 00:30:40
+
+I might be taking us back or taking us ahead or neither.
+
+!# Naval @ 00:30:44
+
+We're wandering through the [blockchain](https://en.wikipedia.org/wiki/Blockchain), it's complicated.
+
+!# Tim @ 00:30:47
+
+Yeah, [smart contract](https://blockgeeks.com/guides/smart-contracts/) in essence are you taking what would rely on human beings and embedding it into the technology so that there’s, you don’t have to rely on standard set of ethics reliable set of behavior, is that a [smart contract](https://blockgeeks.com/guides/smart-contracts/)?
+
+!# Nick @ 00:31:06
+
+Yeah so to some extent, there are some areas of contracts, some kinds of contractual clauses usually but not always associated with the financial aspects of the contract. They are really logically structured and you can code that into the computer, put it on the [blockchain](https://en.wikipedia.org/wiki/Blockchain) and then it runs in a really high integrity. That means that somebody in Albania can do a [smart contract](https://blockgeeks.com/guides/smart-contracts/) with somebody in Zimbabwe and to the extent that they can formalize their deal mathematically with this logic code, they don’t have to rely on Albanian authorities or the Zimbabwe authorities. They can just do business directly.
+
+!# Tim @ 00:31:45
+
+You had a great term for this, this is getting into the dry versus wet code so dry being computer-based, wet being potentially the legalese and the head of a lawyer in Albania and the legalese and the head of lawyer in Zimbabwe, which is going to be a whole just slew of mess potentially.
+
+!# Nick @ 00:32:05
+
+Right. I’d like to think all that legalese you see the contract as a program that runs on the brains of a lawyer. It doesn’t usually run on the brains of normal people.
+
+!# Tim @ 00:32:14
+
+This is going to, not to try to take us too far field with what we’re talking about but how did you become so interested in contracts?
+
+!# Nick @ 00:32:21
+
+It’s part of I guess libertarian ideology but it’s also a part I went to law school and it’s also a part of law school 101, that property and contract law are kind of the two fundamental building blocks of our commercial society so I was interested in how do you enforce those in cyberspace.
+
+!# Tim @ 00:32:40
+
+I don’t meet many people. I meet people who have say JD MBA or JD PhD. I don’t meet many people who have JD and computer science degree.
+
+!# Naval @ 00:32:51
+
+And libertarian on top of that.
+
+!# Tim @ 00:32:54
+
+And libertarian on top of that. Although, I have heard there are some libertarians running around the bay area. Apparently I’m a libertarian I’ve been told.
+
+!# Nick @ 00:33:00
+
+Relatively to the average person in Silicon Valley.
+
+!# Tim @ 00:33:02
+
+Well I live in San Francisco known guns and they’re like, “You’re a libertarian?” I'm like, “Is that it? Really? It's that easy? I got my card? Okay.” How did you end up doing both of these degrees? I haven’t run into that before.
+
+!# Nick @ 00:33:13
+
+The law degree is in large part based on [smart contracts](https://blockgeeks.com/guides/smart-contracts/) wanting to do a reality check of the stuff I’d thought of as a computer science-
+
+!# Tim @ 00:33:20
+
+I see, so the computer science came first and then the JD was...
+
+!# Nick @ 00:33:25
+
+Right, went to study the wet code.
+
+!# Tim @ 00:33:27
+
+Now that I know how a computer works, let me go look at an abacus and see what that’s like. Okay, very cool.
+
+!# Naval @ 00:33:36
+
+I think some of these [smart contracts](https://blockgeeks.com/guides/smart-contracts/), which by the way I said earlier, Nick created not just a concept but the theory behind it, [smart contracts](https://blockgeeks.com/guides/smart-contracts/) are essentially taking that wet code converting it to dry code and then putting it inside blockchains so it’s immutable after a while, it becomes a fly trapped in amber if we made an agreement. The simplest [smart contract](https://blockgeeks.com/guides/smart-contracts/) by the way is just I gave you money and you got the money. That’s a very, very simple contract that got fulfilled but you can put much more complex...
+
+!# Tim @ 00:34:05
+
+So a contract is promise and fulfillment of promise? Or is there an easier way to think about it? When I think contract, I think of all these clauses, termination, arbitration, term et cetera. I think of all these because I look at way too many contracts.
+
+!# Nick @ 00:34:18
+
+Sure. Now, so you can think of the primordial granddaddy of all [smart contracts](https://blockgeeks.com/guides/smart-contracts/) as the vending machine. A vending machine in contract law terms, it verifies the performance you put in your quarter and it verifies you put in the quarter through its mechanical. I’m talking about old-fashioned vending machines. It has logic in that says, “Okay you put in a quarter, the soda cost a dime and so I’m going to give you a dime and a nickel back and the soda you selected.” So you can of writing this in a contract tediously that if the party of the first puts in a quarter or the party of the second will give them back but of course you want to do this in machine, right.
+
+!# Naval @ 00:35:01
+
+Don’t give the lawyers any ideas.
+
+!# Nick @ 00:35:02
+
+It’s verifying a performance on the one hand, it's observing that somebody did their payment for their other performance of a contractual deal. Then on the other hand it's automating a performance, it’s dispensing the goods.
+
+The codes are kind of the two basic things smart contracts can do. They verify somebody’s performance and they automate performance. Now the third thing is if you have and there's a bunch of stuff that’s inherently wet. Most of the stuff that you can code into smart contracts as those two kinds of things are payments and various financial conditions. You can do a lot of financial stuff like options and collateralized loans and so forth, futures. For things that are inherently wet, nobody’s figured out how to have the computer verify or automate the performance yet. You can invoke an arbitrator, a signature structure like [multisig](https://bitcoinmagazine.com/articles/multisig-future-bitcoin-1394686504/), to have humans approve certain steps.
+
+!# Tim @ 00:35:57
+
+What would be an example of where you or someone else might want [multisigs](https://en.wikipedia.org/wiki/Multisignature) in that universe?
+
+!# Nick @ 00:36:05
+
+If you're doing something with an escrow for example that you have the person or persons responsible for the collateral verifying that the contract was performed then they can free up the collateral.
+
+!# Tim @ 00:36:19
+
+Got it, so if you wanted to buy a house, would have to do inspections and you wanted to use [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) would be a good situation.
+
+!# Naval @ 00:36:25
+
+Yeah, there are things you can do now with [smart contracts](https://blockgeeks.com/guides/smart-contracts/) what you call on chain where you can have all the money and a collateral and the escrow and the data as close to computerized as possible. The stuff that people are starting to do with smart contracts now is pretty mind blowing.
+
+!# Tim @ 00:36:40
+
+Can we talk about the article you sent me? I know it seems like it might not be the right, it’s very helpful to me. Do you want to dig in-
+
+!# Naval @ 00:36:46
+
+Yeah, so there’s this concept of what [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and [Ethereum](https://www.ethereum.org/) and this other [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) are doing is they're the new protocols and what is a protocol? A protocol is kind of like a... God, I'm going to get trapped in definitions... but a protocol is sort of how computers … It's a standard for how computers exchange information. For example, you and I speaking the English language is a form of protocol but then also like...
+
+!# Tim @ 00:37:12
+
+HTTP.
+
+!# Naval @ 00:37:13
+
+Yeah I’m supposed to pause every five seconds and then you’re supposed to get a chance to speak. There that’s part of the protocol. We say hello to each other as a greeting, that’s part of the protocol.
+
+!# Tim @ 00:37:19
+
+So we have verbal packets like TCP/IP.
+
+!# Naval @ 00:37:21
+
+Yeah, exactly.
+
+!# Tim @ 00:37:22
+
+And also another protocol.
+
+!# Nick @ 00:37:24
+
+Yeah and the Internet, these protocols are [TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite), [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol), [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol). Every time your email gets sent from one server to another, it’s using the [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol), simple mail transfer protocol ... These protocols power the Internet.
+
+The assumption that was made in the early days of the Internet was that well bandwidth is cheap, servers are cheap, hardware is cheap so it’s free. If I want to send you a packet it’s free, if you want to receive the packet, it’s free, it doesn’t cost anything but those assumptions are breaking down. We have denial-of-service attacks, which is basically your computer demands resource from my computer that I’m saying no but you’re asking so many times for free that is just overwhelms me.
+
+Spam is another example. I can send you a zillion email at hardly any costs but it cost you a lot of attention so these free protocols are becoming poor assumptions, the worst place for a poor assumption on a protocol is a protocol for exchanging money. If I say, “Tim, I want to give you $10,” that has to be scarce in some way, it can't just be, it can’t be a free transaction because money is exchanging hands.
+
+We need a concept of protocols that underlies scarce resources, that allocates scarce resources. What’s going on is cryptocurrencies and blockchains are creating these what are now being called [fat protocols](http://www.usv.com/blog/fat-protocols) and we'll put an article in the show notes about this but [fat protocols](http://www.usv.com/blog/fat-protocols) are protocols that actually exchange scarce value and to keep data in the protocol. They maintain data.
+
+!# Tim @ 00:38:52
+
+That’s the key piece right, in a way?
+
+!# Nick @ 00:38:54
+
+Yeah, there’s two key pieces one is scarcity, which is regulated by a token so in the [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) protocol, the scarce piece is the [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) itself and the protocol is about the exchange of money and the token is [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and then there’s data that you can put in the [blockchain](https://en.wikipedia.org/wiki/Blockchain) like I could for example take an article that I wrote, I could hash it, the one way crypto hash put it in the [blockchain](https://en.wikipedia.org/wiki/Blockchain) prove that it came from me and then it gets trapped in the amber again like the fly and no one can undo it later and secured by the value of the [blockchain](https://en.wikipedia.org/wiki/Blockchain). These new protocols, these [fat protocols](http://www.usv.com/blog/fat-protocols) are very different, they’re going to enable a new kind of Internet that we did not have before. That’s a thesis of kind of the [fat protocol](http://www.usv.com/blog/fat-protocols) argument.
+
+!# Tim @ 00:39:39
+
+Just for people listening who, like me, we’re trying to find their way through the darkness with a lot of the stuff. When I read that piece which is on the [Union Square ventures website](https://www.usv.com/), hi Fred and guys. I’m blanking on the name of the author but he is very good.
+
+!# Nick @ 00:39:51
+
+[++Joel Monegro++](http://www.usv.com/@jmonegro), yeah.
+
+!# Tim @ 00:39:53
+
+There we go. The before and after example I was given or one of them was you have these thin protocols [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) etc. then you have these services built on top of them that become silos of information whether that’s [Facebook](https://www.facebook.com/), Google, whatever it might be. Then they develop their own means of authentication and so on.
+
+You have these captive stores of information. You have security risks on top of that so now perhaps you’re doing your banking through a web server and conversely when you then have the, I hate to use this word, but sort of democratized data that is built in with the protocol itself say in the case of [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) where now you have all these nodes that have for the purposes of illustration, every transaction start to finish, it’s more secure. You’re less captive and it conforms to the [libertarian](https://www.lp.org/)/[Ayn Rand](https://www.aynrand.org/) ideals that we were talking about earlier.
+
+The illustration that I was given that I thought was fascinating and may or may not hold true for decades was that you have protocols, they are necessary but not valuable. They're like utility to the public. Then you have these billion dollar, multi-billion dollar companies built on top of it, Facebook, Google, et cetera, then you have conversely [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) which has a market cap of X, and I don’t know what it is.
+
+!# Naval @ 00:41:20
+
+25 billion today.
+
+!# Tim @ 00:41:22
+
+Then the company is built on top of it are-
+
+!# Naval @ 00:41:24
+
+Exponentially small.
+
+!# Tim @ 00:41:26
+
+In the tens or hundreds of millions at most so it’s complete flip in terms of
+
+!# Naval @ 00:41:30
+
+Yeah, the value is getting captured by the [fat protocol](http://www.usv.com/blog/fat-protocols). I do recommend this article. It’s actually [++Joel Monegro++](http://www.usv.com/@jmonegro). I got his last name wrong but he wrote a brilliant piece on this but the thesis is that because these protocols are storing your identity and data in the protocol itself, the applications don’t capture you as much. You’re not stuck in the applications and the value is captured by the tokens in the protocol.
+
+!# Tim @ 00:41:56
+
+Does that mean this is just putting on the investor hat for a second, the people are going to be incentivized to just create more and more different types of [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) and then reserve to try to capture that.
+
+!# Naval @ 00:42:09
+
+That’s exactly what’s happening. I wrote a post on this called the [Bitcoin model for crowdfunding](https://genius.com/Naval-ravikant-the-bitcoin-model-for-crowdfunding-annotated). This is a couple years back and I thought these things called appcoins would show up where for every application rather than going raising VC money, you just attach a token to it and you crowd fund it.
+
+That's kind of what’s happening now with what they call ICO’s, [initial coin offerings](http://www.investopedia.com/terms/i/initial-coin-offering-ico.asp). There’s been hundreds and hundreds of these. It’s a little bubbly. In fact, it’s very bubbly. A lot of them are getting bid up out of control. Some of it comes from the fact that a few of these protocols do need their own token. They can use [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) but most of the times, it’s really just developers having the incentive to create a token bolted on and try and capture the value. It’s an interesting model for funding open-source software and protocols that didn’t really exist before.
+
+!# Tim @ 00:42:53
+
+Are bubbles a bad thing? This is something I’ve always been reading about. I don't know if you have any thoughts on this but in many people’s minds, bubbles are a bad thing but I read a counter argument for the first time today, which was after a bubble bursts then you have out of the money investors who are incentivized in regaining the value of what is declined by creating services and applications that are now these sort of thin applications, which then preserves these sort of long-term viability of X, whatever that might be, which I hadn’t really considered before.
+
+!# Nick @ 00:43:29
+
+Well there is a sense in which many bubbles are unavoidable because the future is a genuinely uncertain place.
+
+!# Naval @ 00:43:35
+
+Yeah, especially these are reflexive industries where the notion of reflexivity is my prediction alone changes the potential outcome. The extreme example is like a prediction market predicting the death of somebody. If there’s enough money on that, it turns into an assassination market. Bubbles are inherently I think just a part of any system that involves a network of facts. If I think and money is the ultimate network of fact. I accept US dollars as money because you accept US dollars as money and soon. If we all believe that, if we all believe tomorrow that tulips are valuable again, we’d be trading in tulips.
+
+So if I believe that you are going to accept this as money, then I want to put more money in and you want to put more money and the network effect sort of creates a bubble. As Nick said the future is an uncertain place. Sometimes, we'll be wrong, we have to step back. There will be a little bit of a releasing of the energy. I read something a couple years back that showed that as the stock market is becoming more efficient, it's actually becoming more volatile. It’s not becoming less volatile, it’s becoming more volatile because it’s reacting faster and faster to information changes.
+
+!# Tim @ 00:44:46
+
+That’s like the story you can look at long-term capital management where there are all sorts of high frequency trading you see of not only humans who are increasingly interconnected but you also have computers.
+
+!# Naval @ 00:44:56
+
+Right, now there’s a big train development in China that cause a political change that causes the futures market in China to shift, that causes the US stock market to go down. Computers are getting better and better at absorbing that information, extrapolating out the consequences and so the markets are becoming more and more volatile.
+
+Over time, we should see bubbles form faster, pop more quickly and I think they’ll fall into a power law distribution like there will be ones that will be really large. There will be ones that would be really small but this idea that the future is going to be very smooth and linear and predictable is a human illusion.
+
+!# Tim @ 00:45:34
+
+Yeah, yeah. I think that’s fair assumption. Nick, what are the biggest misconceptions or common misunderstandings related to [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) or [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)? Or like what do smart people get wrong if there’s anything where you’re like God, this X drives me nuts, if I hear one more person who should know better.
+
+!# Nick @ 00:46:00
+
+Well, we could get into the whole block size issue because there’s this parameter, we shouldn’t, but I probably will talk about it a little bit. It’s a technical security parameter. It’s called the [block size](<https://en.wikipedia.org/wiki/Block_size_(cryptography)>). How the general public glommed onto this, I do not know but there is an obsessive group of people who think of this as some kind of artificial barrier to more transactions per second on [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin).
+
+Really its job is it’s a fence preventing people from overwhelming, flooding the network with lots of transactions that the [full nodes](https://en.bitcoin.it/wiki/Full_node) I talked about can't handle. That transaction history keeps building and building.
+
+!# Naval @ 00:46:39
+
+Yeah, at a very simple level if every computer is throwing a copy of every transaction, then you can’t have an infinite number of transactions because the computer will explode. So what you do is if you keep increasing the number of transactions too quickly then you only allow a smaller and smaller shrinking set of computers to run the code, which reduces who’s actually in charge of security.
+
+Before, you might’ve had 1 million computers then you’re down to 100,000 bit computers, then there’s only a few thousand large players then eventually down to five people who can store the entire history then you’re basically back to central banks. The debate is should we keep allowing more and more transactions because what if people, everyone wants to buy [Starbucks](https://www.starbucks.com/) using their [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) or should be only limited to very high value transactions and instead preserve the diversity of people who can run the code.
+
+!# Nick @ 00:47:33
+
+Yeah, I mean this shouldn’t even be a public debate. It’s like the public debating and voting on the graphite reactor set, your graphite thing setting that prevent a nuclear reactor from overheating and melting down.
+
+!# Tim @ 00:47:44
+
+Right, let them debate the bike shed. 
+
+!# Nick @ 00:47:46
+
+Yeah, there are certain things you should let the engineers decide and this is one of them. For some reason there’s just a whole group of people who want to pull out those graphite moderator rods and have it going full steam.
+
+!# Naval @ 00:48:02
+
+Yeah, one of the problems with the [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) is that because a lot of people hold a little bit of [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), everyone has a financial incentive and they’re all talking their own book and they get really emotional about it. Nick had this great tweet that I like too. Best way to destroy your investment in Bitcoin is to gather and Internet mob to go and redesign Bitcoin and that’s a little bit of what’s happening right now.
+
+!# Tim @ 00:48:23
+
+Well you were saying before we started recording that you’ve never seen so many scientists be uncivil towards one another.
+
+!# Naval @ 00:48:31
+
+Yeah. I think the worst Twitter is Trump Twitter where everyone is getting outrage or politics all the time, but the second worse right now is blockchain Twitter where you’ll have PhD’s from Cornell and the University of Maryland, all kinds of credentialed places literally calling each other horrific names online, casting dispersions of other people’s moral character calling them trolls, dragging them through the mud. They each have their little local tribal mob behind them over things like the block size debate, which as Nick says it’s actually in the parameter settings of a nuclear reactor.
+
+!# Tim @ 00:49:04
+
+It makes me think of... there are a bunch of sort of expressions that jump to mind... you're saying you’re talking there on book. So the uninformed ask me very careful about asking a barber if they needed haircut, you need to know what the incentives are. I’m sure people have heard the expression it’s not very flattering, but men is as loyal as his options, might be a scientist or someone who is otherwise civil is as civil as their incentives. Once you have enough to gain or lose.
+
+!# Naval @ 00:49:32
+
+Incentives are everything. It’s like [Charlie Munger](https://en.wikipedia.org/wiki/Charlie_Munger) says if you can be working on incentives, don’t work on anything else. Going back to [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), the [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) design for a second, [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) is brilliantly designed because the underlying [game theory](http://www.gametheory.net/) incentives.
+
+!# Tim @ 00:49:46
+
+Yeah, could we talk just for a second about what is [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin). We talked about [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency), what made [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), what makes [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) unique if we could maybe talk about that.
+
+!# Nick @ 00:49:57
+
+You can think about it in a couple layers the most important and fundamental layers, a computer science layer where we prove that it would take 51% of the computational power the [hash rate](https://bitcoin.org/en/vocabulary) to attack this thing and do things like [double spend](https://en.bitcoin.it/wiki/Double-spending).
+
+!# Naval @ 00:50:12
+
+Basically changing that ledger. You can’t change the ledger. The beauty is the fly in amber analogy, the great one because once you and I have done a transaction the network has agreed on the transaction, going back and then doing it is nearly impossible but while that amber is being laid down, there could still be some mischief so one of the big misconceptions of [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) is that well if 51% of the computers in the network, which are run by people called miners. They’re called miners and now they're digging for gold, they’re digging for [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) but really what they’re doing is they’re laying down that amber.
+
+If 51% of these people collude then does that mean they can go back and change the ledger? No, they can’t change the existing ledger but they can cause mischief with the current transaction, through the current layer that’s being laid down, that’s one of the big misconceptions. So sorry to interrupt.
+
+!# Nick @ 00:50:58
+
+Yeah, so that’s one of the computer science limitations of it. The other one is doing software upgrades, software upgrades kind of change the rules even more so and so those two things end up getting, especially the software upgrades, end up getting very politicized.
+
+!# Naval @ 00:51:16
+
+Yeah, [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) fundamentally, what’s going on so Nick first created [BitGold](https://www.goldmoney.com/bitgold). Do you want to talk about what the innovation in [BitGold](https://www.goldmoney.com/bitgold) was or how the [BitGold](https://www.goldmoney.com/bitgold) system work and then we can layer on [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) as well.
+
+!# Nick @ 00:51:26
+
+Sure, [BitGold](https://www.goldmoney.com/bitgold) was inspired by kind of this origins of money research and how do I and also there’s an error called [private banking](http://www.investopedia.com/terms/p/privatebanking.asp) where you can take your bank note and go up to bank window get gold. The paper money we have today looks very much like these bank notes did. On a thing I called authority resemblance, they're sort of faking and pretending that this is still really valuable stuff. The illusion worked apparently for the most part but they used to work very differently. They used to be able to go up the window and get actual gold for your paper.
+
+!# Naval @ 00:51:56
+
+Now this is tulips, this is green flattened tulips.
+
+!# Nick @ 00:51:59
+
+The paper itself you got to just trust the paper itself and the Federal Reserve. In any case, that was inspired by what people-
+
+!# Tim @ 00:52:07
+
+Which is a [fiat currency](https://en.wikipedia.org/wiki/Fiat_money) I never actually defined- 
+
+!# Naval @ 00:52:09
+
+[Fiat currency](https://en.wikipedia.org/wiki/Fiat_money) is just a paper that’s backed by nothing. So before it was shells then we went to gold and then we went to gold backed paper and now we’re down to just paper.
+
+!# Nick @ 00:52:17
+
+Creating that bank note itself is easy enough to do. That’s basically what [PayPal](https://www.paypal.com/) and the company I was working for called [DigiCash](https://en.wikipedia.org/wiki/DigiCash) with [David Chaum](https://en.wikipedia.org/wiki/David_Chaum) and stuff we’re doing. The trust-based paper note that was issued by some central authority but I became dissatisfied because at the end of the day you want to go to that window and get something else that’s more what I call trust minimized.
+
+So gold is valuable all over the world. If you go back to these more primitive tribes, the gold in the shells and so forth, you can pay them to next tribe and next tribe over, all your neighbors would accept them as well. They wouldn’t accept your IOU because you're not going to trust people you could go to war with tomorrow but they would accept the shells of the copper beads and the gold beads.
+
+The first gold artifact by the way is bead, and the first copper artifact because apparently the most important earliest uses of metal, not knives or weapons or tools or so forth. In any case, I was looking for this trust minimizing like how to do this in cyberspace since I had read stuff I know is not just some magical property of gold that makes it valuable and other things aren’t or something or some intrinsic, it started off you can use it in electrical circuits or so forth.
+
+No, there is something about what I call the unforgeable costliness of it, the scarcity of it, the naturally trust minimized scarcity of it. You don’t have to trust somebody to keep it scarce. I tried to re-create this in cyberspace using proof of work, [Adam Back’s Hashcash](https://en.wikipedia.org/wiki/Hashcash) so basically, the [BitGold](https://www.goldmoney.com/bitgold) design did that and then it used the replication technique, which it originally-
+
+!# Tim @ 00:53:53
+
+Could you explain that, apologies to backtrack but the proof of work, what do you mean by that?
+
+!# Nick @ 00:53:57
+
+Okay, so proof of work is a mathematical puzzle or commutation that the computer does that says okay you have to solve this and we know from computer science, it’ll take so long to solve. We also know from computer science that it’s a kind of a problem that you can improve the hardware, which is why everybody use design specialized hardware for it now because unlike normal cryptography, that’s not even unlike normal cryptography in that way but it’s something that you can do a lot faster if you have hardware.
+
+!# Naval @ 00:54:30
+
+Proof of work is basically you have people here who are basically laying down layer of amber on the fly. They have to basically commit resources to do it. It has to be costly to do that. You need scarcity in the system. That scarcity is created by the costliness of the computing power that you throw at it so basically the more computer power you’re willing to throw at the [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) network, the more seriously the [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) network takes your vote.
+
+We have to know your computing power is dedicated to [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) network. It’s not off surfing the Internet or doing something else so you have to commit it to doing work just for the [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) network and the proof is through mathematical functions so you basically have puzzles to solve, the [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) network, the algorithms give the computers puzzles to solve. If the computers solve the puzzles, they can prove that yes I put economic value, time, heat, power, computation into solving this problem so now I get to vote on what the ledger looks like and I get a chance to be paid in coin. That’s what the miners do. The miners do the work to secure the network using computers. They provide that proof to the network, the network pays them in new coins that is minting.
+
+!# Tim @ 00:55:38
+
+Got it.
+
+!# Nick @ 00:55:39
+
+Anyway so [Satoshi](https://en.wikipedia.org/wiki/Satoshi_Nakamoto) had an innovation where he uses his proof of work as part of the security.
+
+!# Tim @ 00:55:44
+
+And for people who don’t know who is [Satoshi](https://en.wikipedia.org/wiki/Satoshi_Nakamoto)? Who that name?
+
+!# Nick @ 00:55:48
+
+Well, it’s some unknown character out there that has disappeared in our group.
+
+!# Naval @ 00:55:52
+
+Yeah, whoever created [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) obviously built on Nick’s work, built on [Hal Finney](<https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)>)’s work. There are a couple of great computer scientists who did this work but whoever actually built the working implementation because I think Nick you had the theory of [BitGold](https://www.goldmoney.com/bitgold) but you’re not a serious enough programmer to create [BitGold](https://www.goldmoney.com/bitgold).
+
+!# Nick @ 00:56:12
+
+Well, I’m a serious programmer but didn’t get around to programming [BitGold](https://www.goldmoney.com/bitgold), so yeah it was a design.
+
+!# Naval @ 00:56:20
+
+And so whoever created [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), probably a group because it looks like a very sophisticated effort did it so pseudonymously or anonymously and the name that they use was [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto).
+
+!# Nick @ 00:56:32
+
+[BitGold](https://www.goldmoney.com/bitgold) is designed on the theory to use this proof of work as what I call unforgeable costliness or to constrain the supply curve, so you know it’s scarce. Satoshi’s big innovation was to ... Well let me backtrack and describe a little more [BitGold](https://www.goldmoney.com/bitgold).
+
+There’s a protocol design to keep airplanes from crashing as you don’t want your computer to crash an airplane and cause the airplane to crash. Right? You want your computer to be able to crash without the airliner itself going down. What you need is to distribute this around so you have several chips all around the airplane and then they talk to each other and then if they get contradictory information, they do what you might call voting. They’ll take the majority and consider that to be the correct one. That turns out to be they mathematically prove that this is the optimal model given those assumptions. Do you know how many chips there are and so forth and this is called [Byzantine consensus](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance).
+
+I took that and used it for this replication business to replicate the data around, the ledger around with the [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree) for the transaction history and so forth. What [Satoshi](https://en.wikipedia.org/wiki/Satoshi_Nakamoto) did was a really big innovation besides of course actually making software people could use, which I never did. He used the proof of work in security.
+
+On the Internet you can’t count your chips securely. You don’t know I have a chip in the tail, and a chip in the wing and so forth, they are the sock puppet problem. People, one person can pretend to be 100 and where one computer can pretend to be 100. Satoshi based it on proof of work based the security that voting if the preponderance of hash rate tells me that the transactions history has been updated in such and such a way then that’s it. Again, that’s good up to 51%, that’s where the 51% of that comes from.
+
+!# Naval @ 00:58:15
+
+Basically one computation, one vote is the way to think about it.
+
+!# Tim @ 00:58:17
+
+Got it.
+
+!# Naval @ 00:58:19
+
+And actually one of the problems that people have with the [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) network is design. So basically [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), you have all these computers around the world that are joining together to create this shared [blockchain](https://en.wikipedia.org/wiki/Blockchain) computer. They get votes in proportion to how much CPU power they’re allocating. They vote on what the valid transactions are or that then go into this ledger and gets sealed in the amber of the blockchain.
+
+The whole system kind of works but a naive person looking from the outside as you said like the hippies coming the [blockchains](https://en.wikipedia.org/wiki/Blockchain), one of their first objections is you're wasting all this computer power, you’re wasting all this energy. You’re wasting all this network resources because they're constantly chatting with each other in the network, these computers are broadcasting packets to each other all the time and they just say it’s wasteful. I think that was an argument that a lot of people make and even I fell for that one where I was like okay eventually someone will come up with better solution than proof of work and go to proof of stake or a few other kind of ideas that have been thrown around. Then Nick just recently wrote this brilliant piece on [social scalability](http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html) and by the way you got a doctorate recently, an honorary doctorate.
+
+!# Nick @ 00:59:28
+
+Oh yeah, at the University, Universidad Francisco Marroquín in Guatemala.
+
+!# Tim @ 00:59:33
+
+What is your doctorate in?
+
+!# Nick @ 00:59:35
+
+It’s in social sciences and also an honorary professorship. So yeah, it’s great, it's a very-
+
+!# Naval @ 00:59:41
+
+You’re the only social scientist I think that can talk at this level.
+
+!# Nick @ 00:59:45
+
+Well, I mean that’s the kind of honorary doctorate they give. But, yeah, it's a luminary so yeah I’m very honored to have that.
+
+!# Tim @ 00:59:51
+
+They cited your [social scalability](http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html) article. The social scalability argument I thought is a really powerful one. I don't know if you want to try and summarize that for the listeners.
+
+!# Nick @ 01:00:02
+
+Sure. The idea, the basic idea, is that if you look at a graph of human capabilities, it’s basically flat or the same IQs we had except for there’s a small thing called the [Flynn effect](https://en.wikipedia.org/wiki/Flynn_effect) but other than that 100,000 years ago, our brains were roughly the same size as they are today.
+
+Computers on the other hand have been doubling every few years their capabilities in various ways, their memory, their CPU power, network bandwidth and so forth. You can think of this in the future and get into all sorts of speculation about the future. What I like to think of it as is we have this whole surplus we built up of resources and yet we’re still doing things institutionally with armies of bureaucrats and stuff very similar to what we are doing in computers where thousandth of the power they are now or millionth of the power they are now.
+
+!# Tim @ 01:00:51
+
+Or what they’re doing in the [Mongol Empire](https://en.wikipedia.org/wiki/Mongol_Empire).
+
+!# Nick @ 01:00:54
+
+So in any case so can we do substitutions? Can we substitute take advantage of this great surplus so a computer scientist or normally an engineers are normally trained to think optimize the machine, make the machine itself really efficient.
+
+What I’m saying is that you can think the other way. Are there ways to make the machine a lot less efficient and give you some greater capability so that such as for example the ability of somebody in Albania to pay somebody in Zimbabwe without going through a trusted intermediary or human bureaucracy. Ways to do that even if they cost a lot more and look really bad to an engineer that likes to think about efficiency and [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)’s a great example of that. It’s a proof of work as part of its security and in my mind to create that scarcity.
+
+!# Naval @ 01:01:42
+
+Yeah, stepping back for a second, what separates humans from other animals is that we are social across genetic boundaries. So even Neanderthals you can have 150 Neanderthals on a battlefield because they’re all genetically related but you can have 5000 Homo sapiens in the battlefield because they believe in the abstract idea of Christianity and they can communicate that story to each other and so [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) enables a form of [social scalability](http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html) where it allows now humans who don’t know each other, who don’t trust each other, who may never see each other again and don’t even reveal their identities or locations to each other to still transact securely, not just with money but also with contracts, any complex logic they can dream up, that they can code up, they can do it through this very slow and very inefficient computer but it removes all these layers of humans, bureaucrats and poll takers from the operation.
+
+!# Tim @ 01:02:36
+
+Right, so you’re able to exceed the [Dunbar number](https://en.wikipedia.org/wiki/Dunbar%27s_number) right, 150?
+
+!# Naval @ 01:02:39
+
+Exactly. Yeah, the 150 people [Dunbar number](https://en.wikipedia.org/wiki/Dunbar%27s_number) so you’re basically trading computational scalability for social scalability.
+
+!# Tim @ 01:02:48
+
+Just to maybe put it another way. I’d love to be corrected if this isn’t right but there’s another quote of yours, Nick, that I really like. “Trusted third parties are security holes,” I think relates to this very nicely. There’s a bit on [blockchain](https://en.wikipedia.org/wiki/Blockchain) computers that I think is relevant so why make the trade-off? Why allow all this inefficiency? I’m not going to read this entire thing but the [blockchain](https://en.wikipedia.org/wiki/Blockchain) computer, distributed blockchain computer is much slower, more costly than a Web server.
+
+I have one very rough estimate about 10,000 times slower and more costly but since on the blockchain you’re running the portion in an application that needs to be the most reliable and secure or what you call the fiduciary code because the downside risk is so high you can afford to have tons of inefficiency, particularly with hardware that is dropping in cost, and increasing in capability year on year, right?
+
+!# Nick @ 01:03:46
+
+Yeah, we've accumulated this great hardware capacity surplus that we're only starting to take advantage of. You can use that to do the proof of work, the strong security protocols that take some computational effort and also making the copies. We have lots of memory, lots of disk space lots of bandwidth, not vast amounts but enough that you can take a small transaction and replicate it around the world, make thousands of copies. That helped create stuff fly in amber in fact where you can’t deny it later because everybody’s got copies of it.
+
+!# Naval @ 01:04:18
+
+In a way, I think you had a definition of [social scalability](http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html) in your article, it’s not precise but close enough where you basically said one way to estimate how socially scalable a technology is, is by how many people can use it. When it comes to cash today like the US dollar, it’s accepted probably the most widely accepted currency in the world but we’re still talking hundreds of millions to maybe 1 billion people can really use it in their everyday life whereas [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) in theory when it’s adopted can be used by anyone to pay anyone as long as you’re connected to the Internet and everyone is connecting to the Internet. It scales better.
+
+!# Tim @ 01:04:56
+
+I’m going to ask you a question that came up a lot and it’s one that I don’t have any ability to answer. Is it possible to for any government entity to regulate [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) or [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) out of existence? If so, where would you put the likelihood of such a thing happening or being able to be implemented?
+
+!# Nick @ 01:05:17
+
+Because these copies are all over the world, they're never going to get rid of these copies. Somebody’s always going to have the transaction history and can start it up again. That in its sense makes it very difficult to regulate. There are easier parts of it to regulate such as the exchanging of [Fiat currency](https://en.wikipedia.org/wiki/Fiat_money), your local currency to [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and back and forth. Those still happen through centralized exchanges, which both makes them fairly easy to regulate and also makes them insecure. Trusted third parties are security holes so if you want to get in and out of [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), you are usually through these centralized exchanges and that’s where the vast majority of thefts and hacks of [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) have occurred.
+
+!# Naval @ 01:06:00
+
+These exchanges essentially end up like banks. They're honeypots for regulators, they're honeypots for thieves.
+
+!# Tim @ 01:06:06
+
+How do you buy or sell Bitcoin without going through...
+
+!# Naval @ 01:06:09
+
+Today, you do that through an exchange. There’s also sort of local meet ups. There's these sites like [Local Bitcoins](https://localbitcoins.com/) and there’s a few others.  There’s a big one coming up in China now where you sort of coordinate a meet up with somebody in the dark alley and you exchange cash for a [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin).
+
+People can fall back to that. The volume on those kinds of distributive change has gone up a lot. If you look at [bit torrent](http://www.bittorrent.com/), which is the file sharing technology which accounts for ridiculous amounts of Internet traffic. [Bram Cohen](https://en.wikipedia.org/wiki/Bram_Cohen) invented it. That thing on a given day can account for a quarter to half of Internet traffic. You can bet the governments that have been trying to shut that down because right now the governments are overzealous and nothing in so much enforcing copyright law. I mean you want to drive, you want to drop the full weight of the federal government on you, you either engage in terrorist activity or you violate copyright law. They're like roughly equivalent. They drop helicopters in your house in New Zealand, [askkim.com](http://www.askkim.com/) for violating copyright law even if you’d never set foot in the US.
+
+!# Tim @ 01:07:11
+
+He lived such an understated lifestyle too. I don't know how they ever-
+
+!# Naval @ 01:07:15
+
+Yeah, he was so subtle. I don't even know how they caught on to him. But yeah so I don't think governments can really shut it down, not only that but any government that really embraces [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) or any of this [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) doesn’t have to be [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), they could even start up a new one if they wanted to, is this going to benefit so much from really owning the money that’s native to the Internet.
+
+I call [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) the Internet of money because it’s really native to how code works so if you really want to future proof yourself, it’s like imagine if the US crackdown on it and said no more [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency). That would be like saying no more [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol). The country that did adopt [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) and by the way this is [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) of the money would end up so much better off that you'd just shooting yourself in the head. So I think smart people, smart money in the US already recognizes that and so it’s seeping up into the government where they're figuring out like yeah we could be draconian about this. We'll just drive it out of the country.
+
+It’s already happening to some extent. A lot of the [ICOs](http://www.investopedia.com/terms/i/initial-coin-offering-ico.asp) that are happening or happening at Switzerland or Gibraltar. Those teams are leaving the US actually because especially a place like New York come in very heavy-handed in their regulations, so you're just driving out innovation.
+
+!# Tim @ 01:08:28
+
+What is the incentive for, say, New York to be supportive or at least maybe cast a blind eye to development of this type of technology.
+
+!# Naval @ 01:08:41
+
+Just like the Internet took out Hollywood with [Netflix](https://www.netflix.com/) and [Spotify](https://www.spotify.com/) and it took out newspapers with publishing in [Twitter](https://twitter.com/?lang=en) and [Facebook](https://www.facebook.com/) and it’s taken out all kinds of industries, the Internet is going to fundamentally change and possibly take out the finance industry as we know it. The new finance industry is going to settle wherever the home of innovation is for [smart contracts](https://blockgeeks.com/guides/smart-contracts/) and [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency). This is my belief obviously, not investment advice. I think this is Silicon Valley’s replacement of a lot of infrastructure of finance. If New York chooses to drive that out, then New York will no longer be the center of finance. Every time I go to New York I’m actually highly entertained because I see all these huge powers, I see all these peoples in suits and I know that 90% of them will be obsolete within 20 years.
+
+!# Tim @ 01:09:34
+
+Nice horse and buggy pal. I like...
+
+!# Naval @ 01:09:37
+
+Yeah, I would not be thinking about going into investment banking right now because a lot of that job is going to be automated, commercial banking, automated. The bankers were the miners of the last generation, they got paid in the currency to secure the currency when the Fed wants to-
+
+!# Tim @ 01:09:51
+
+Yeah, they weren’t even the miners, they were the traders.
+
+!# Naval @ 01:09:53
+
+Yeah, well the Fed wants to distribute currency, they’d give it to the banks and guess what the banks have sticky fingers and then they allocated out to the rest of us very sparingly. The new bankers are the miners. The new Fed is the cryptographers but really the new owners of the infrastructure are the holders of the coin, which is everybody or could be everybody.
+
+!# Tim @ 01:10:13
+
+Is [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) or let’s say a [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) inversely correlated to any particular other asset classes? For instance when people are fearful of, say, currency devaluation, they might run to gold. You've seen this in places like Argentina, you see it in the US, all over, do you see that also with [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) in any particular pattern?
+
+!# Naval @ 01:10:35
+
+They definitely are store of value because [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) there’s only going to be 21 million ever, the way the protocol is designed, you can't create a single one more and a bunch have been lost because they are hard to secure.
+
+!# Tim @ 01:10:48
+
+Hold on, how did they get lost?
+
+!# Naval @ 01:10:50
+
+Well, you can lose your key. 
+
+!# Tim @ 01:10:51
+
+Oh I see what you’re saying. 
+
+!# Naval @ 01:10:52
+
+You come up with something really complicated. 
+
+!# Tim @ 01:10:53
+
+You forget your goddamn number.
+
+!# Naval @ 01:10:55
+
+Or you’re trying to defend it, you’re trying to hide it from a hacker so you come up with some really elaborate scheme on how to secure it and then you lose it or people have lost the computer that it was on.
+
+!# Tim @ 01:11:04
+
+Have you heard any catastrophic story?
+
+!# Naval @ 01:11:05
+
+Oh sure, there are stories of people like digging through garbage dumps with bulldozers trying to find that old computer which they threw out which had 10,000 Bitcoin on it.
+
+!# Nick @ 01:11:16
+
+You need a good hardware wallet to make encrypted backups so that you’re neither stolen from nor lose your key.
+
+!# Naval @ 01:11:23
+
+Yeah. There’s a finite number of Bitcoin. Bitcoin is electronic gold. There is a generation of kids who will grow up that as long as they’ve been alive like my son, when he is older as long as he’s been alive, there will have been gold and there will have been [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin).
+
+!# Tim @ 01:11:38
+
+You think the likelihood of [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) in any way falling out of reach for people like your son is close to zero?
+
+!# Naval @ 01:11:47
+
+I think [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) itself may suffer because it has governance issues and another currency like we should talk about [Ethereum](https://www.ethereum.org/) and some of the others that are coming up might take its place but the idea that [blockchain](https://en.wikipedia.org/wiki/Blockchain) computers are going to go away is ridiculous. That's like saying the Internet is going to go away.
+
+It’s just too fundamental of a technology. Barring a total mathematical breakthrough that obsoletes all encryption, which would also be the end of the commercial internet as we know it. I think that some kind of [blockchain](https://en.wikipedia.org/wiki/Blockchain) computer will dominate currency, store of value, contract law and any kind of financial instrument, prediction markets, all kinds of things in the future. To my kids, they will choose electronic gold. They will choose [BitGold](https://www.goldmoney.com/bitgold) and its successors over real gold.
+
+!# Tim @ 01:12:36
+
+Nick, what is ... This is another one of these words that comes up at dinner parties and the various conversations and I kind of nod along because I’m embarrassed to ask questions fearing I’m the only one at the party. Kind of everybody goes to summer camp and they all missed their mom but no one wants to talk about it and admit. [Ethereum](https://www.ethereum.org/), what is [Ethereum](https://www.ethereum.org/)?
+
+!# Nick @ 01:12:56
+
+So we talk about the [blockchain](https://en.wikipedia.org/wiki/Blockchain) computers. So [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), I don’t know if your audience can harken back to the beginning of [Apple](https://www.apple.com/), Apple Computer where [Steve Wozniak](http://www.woz.org/) was working at Hewlett-Packard on a scientific calculator and had a certain limited scripting language that specialized for... that it wasn’t a full-fledged general-purpose language that you could do a lot with... but what he did was he got excited that his circuitry chips were getting cheap enough that you could do the full-fledged what they call Turing machine after Alan Turing because he’s one of the inventors of it... a full-fledged general-purpose machine that can do any mathematically feasible computation and so [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) is like a restricted computer.
+
+It does certain things specialize like the [multisig](https://bitcoinmagazine.com/articles/multisig-future-bitcoin-1394686504/) I talked about and certain other things it can do but [Ethereum](https://www.ethereum.org/) is a much more general purpose computer and it also stores long term state better, which is it's a technical thing and an important difference.
+
+So basically [Ethereum](https://www.ethereum.org/) has great potential for this reason. It has potential to do [smart contracts](https://blockgeeks.com/guides/smart-contracts/) much better than [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) does. The drawback going to this is it also increases the attack surface if what [Ethereum](https://www.ethereum.org/)’s doing is riskier.
+
+!# Tim @ 01:14:10
+
+The attack surface?
+
+!# Nick @ 01:14:11
+
+The attack surface. So you can think of your house as having an attack surface, there’s windows and doors and places where people can get in. The [Ethereum](https://www.ethereum.org/) thing has more surfaces that people could potentially get in because people are doing more things.
+
+!# Tim @ 01:14:26
+
+Got it, just more vulnerabilities that correlate to more functionality.
+
+!# Nick @ 01:14:30
+
+Right.
+
+!# Naval @ 01:14:31
+
+It’s a much more flexible computer because they can talk to it in many, many more ways so you can inject bad code in and you can hack it in many, many more ways.
+
+!# Nick @ 01:14:38
+
+Another thing that makes it risky is that it's newer, it’s not much more advanced than were in terms of its maturity in getting out all the bugs and stuff as [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) was when people are paying 10,000 [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) for a pizza. And yet what's the [Ethereum](https://www.ethereum.org/) market cap now?
+
+!# Naval @ 01:14:57
+
+I think it’s crossed like eight or nine billion today. The market caps are fuzzy because if you calculate it properly based on the future issues of the coin, it might actually be approaching [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)’s market cap. It might be in the 20 billion range once we take inflation into account.
+
+!# Nick @ 01:15:10
+
+Anyway, even with just the 10 millions out there or eight billions out there now, that’s a lot more money than [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) had at the same stage of maturity. I definitely say it’s at a riskier state, it’s also a much greater potential.
+
+!# Naval @ 01:15:22
+
+Yeah, I mean this is so now I think we’ve done a lot of back grounding. I think what people really want to hear from Nick about is a little bit more of the advanced stuff because he did [BitGold](https://www.goldmoney.com/bitgold), he did [smart contracts](https://blockgeeks.com/guides/smart-contracts/) so they kind of want to know where you think the future is headed and I know the future is impossible to predict and again it's not investment advice, but really generically what platforms are you most excited about? Where would you spend your time if you are like a young fresh person walking into this space?
+
+!# Nick @ 01:15:48
+
+I am excited about [Ethereum](https://www.ethereum.org/) and [Ethereum Classic](https://ethereumclassic.github.io/) and there’s what’s called a side chain for [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) called [Rootstock](http://www.rootstock.com/) that they hope to combine together the best of [Ethereum](https://www.ethereum.org/) with [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) on the chain so you can trade the [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) currency but do the [Turing complete](https://en.wikipedia.org/wiki/Turing_completeness) full-fledged [smart contracts](https://blockgeeks.com/guides/smart-contracts/).
+
+The potential there is that and there very well could be other … I mean there’s a few other [Turing complete](https://en.wikipedia.org/wiki/Turing_completeness) ones out there and probably quite a bit more in the works as well. Anyway, the potential for this stuff is that doing cross borders things and other things where you’re crossing a trust boundary and you don’t necessarily have access good affordable legal counsel for financial contracts especially as a low hanging fruit because those are usually very well-defined and bureaucrats like to make complications and add all sorts of epicycles to them but really an option in the future and stuff, they’re logically and temporarily pretty simple things to do.
+
+Once you get more of the underlying assets, you can do your options and futures as for example exchanging [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) for [Ethereum](https://www.ethereum.org/) it and you’re getting all these other tokens that are going to be on these [blockchains](https://en.wikipedia.org/wiki/Blockchain), you’ll be able to include in that. Now if you go off [blockchain](https://en.wikipedia.org/wiki/Blockchain), you got to kind of take a different tact.
+
+!# Naval @ 01:17:09
+
+In other words if you’re connecting your [smart contract](https://blockgeeks.com/guides/smart-contracts/) to the real world, you need to know what happened in the real world and decide whether or not to execute your smart-.
+
+!# Nick @ 01:17:15
+
+Right, so if you’re doing an [Apple](https://www.apple.com/) stock for example because that’s a traditionally defined thing that depends on traditional systems to make it work. Incentivize [Apple](https://www.apple.com/) to pay the dividends and do what they do. In any case, if you want to do that then all of a sudden you’re back in the traditional financial world and the traditional financial people know that right now there's a cultural disconnect.
+
+The [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) people have a really cool technology but they hate the people in the financial community, don’t want to talk to them, don’t want to learn from them. The same to some extent with the [Ethereum](https://www.ethereum.org/) people as well.
+
+On the other hand the financial community people hate and don’t understand [blockchains](https://en.wikipedia.org/wiki/Blockchain) and [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency). In fact there was this whole bunch of very dubious startups that raised a bunch of money to do things they call [blockchains](https://en.wikipedia.org/wiki/Blockchain). They didn’t have blocks, they didn’t have chains, didn’t have the security I was talking about but the marketing people the one that call them [blockchains](https://en.wikipedia.org/wiki/Blockchain), they could pretend to be like [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)  with the price going way up.
+
+!# Tim @ 01:18:12
+
+$50 million in financing later.
+
+!# Naval @ 01:18:15
+
+Yeah, are these like the most the private [blockchain](https://en.wikipedia.org/wiki/Blockchain) companies?
+
+!# Nick @ 01:18:17
+
+Yeah, I’m not going to name names but, yeah. So the financial people don’t understand that and they’ve gotten burned by some of these companies so they hate it, but really I think for the entrepreneurial opportunity and if some of your listeners are looking for entrepreneurial opportunity is to marry these two so take the best of traditional finance, take the best of the [blockchains](https://en.wikipedia.org/wiki/Blockchain) [Ethereum](https://www.ethereum.org/) if you’re doing sophisticated [smart contracts](https://blockgeeks.com/guides/smart-contracts/) and willing to take some risks and [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) if your main thing is cross border payments, take these and marry them together, figure out ways to securely reflect assets on the [blockchain](https://en.wikipedia.org/wiki/Blockchain) using both traditional financial controls and bureaucracy and taking advantage of technology. I think that’s the opportunity people haven’t done yet because of this cultural disconnect.
+
+!# Tim @ 01:19:06
+
+What would you say are some of the most important or valuable components of the traditional finance world? Where would you start?
+
+!# Nick @ 01:19:13
+
+The traditional paper world is really good. It had a thing called [separation of duties](http://www.sans.edu/cyber-research/security-laboratory/article/it-separation-duties) where as we’re talking about multiple people signing off on things and looking things, you have to go through multiple stages. If you get an order, the sales process has to give the order to the accounting department and they have to give the order to the manufacturing people and everybody records it so it’s like a little mini paper [blockchain](https://en.wikipedia.org/wiki/Blockchain) that people used to have.
+
+With computers that’s kind of gotten messed up and hackers who know what they’re doing can take advantage that these systems don’t work as well now. To a great extent, you can make them work and people do make them work with stock clearing, settlement, issuance and so forth. Anyway there are experts in the financial community that do that. If you can make them love instead of hate [blockchains](https://en.wikipedia.org/wiki/Blockchain) then you’ll have a great skill set combination if you can get the [blockchain](https://en.wikipedia.org/wiki/Blockchain) people and those guys together.
+
+!# Naval @ 01:20:08
+
+Yeah, you’re interesting one because you combine law and computer science to do unusual things. You’re basically saying is you can combine traditional finance and now computer science to do unusual things. Somewhere in that intersection set, you can take a process that’s entirely paper and move the part of it that belongs in the [blockchain](https://en.wikipedia.org/wiki/Blockchain) on the [blockchain](https://en.wikipedia.org/wiki/Blockchain) while plugging in the paper part.
+
+!# Nick @ 01:20:29
+
+Or it used to be paper and somebody just naïvely ported it in some naïve and secure fashion to computers and now you can use [blockchains](https://en.wikipedia.org/wiki/Blockchain) to make it much more secure and [trust minimized](https://elaineou.com/2016/02/11/trust-minimized-property-control-with-jellybeans-and-ethereum/).
+
+!# Tim @ 01:20:40
+
+On the side of educating oneself so let’s say there are people and I’m sure there are listening who are part of the traditional finance world who said, “That sounds like a great idea, I want to learn how to love [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency). I want to learn about this.” How would you suggest they choose reliable sources of information? Because as we’ve noted before, it’s a bit of the Wild Wild West in some respects. You don’t have, not everyone is making disclosures about what their own portfolio might look like. There are a lot of barbers telling you should get a haircut and how would you suggest think about that?
+
+!# Nick @ 01:21:21
+
+I mean if you’re technical and want to dive into the engineering and the technology of it, the [Bitcoin white paper](https://bitcoin.org/bitcoin.pdf) is still by far the best place to start and [Vitalik Buterin's Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper) also.
+
+!# Tim @ 01:21:34
+
+What was that name again?
+
+!# Nick @ 01:21:35
+
+[Vitalik Buterin](https://twitter.com/vitalikbuterin?lang=en).
+
+!# Naval @ 01:21:37
+
+He’s a guy who created or he’s the lead developer on [Ethereum](https://www.ethereum.org/). He’s actually an interesting guy, young prodigy probably like 20 or 21 now started it when he was 18, absolutely brilliant.
+
+!# Nick @ 01:21:48
+
+There is a guy named [Aviv Zohar](http://www.cs.huji.ac.il/~avivz/) who has written some great papers, one of them is on ghost, which is what [Ethereum](https://www.ethereum.org/) is based on and he’s got a follow-up to that, his name escapes me. He’s also co-authored a great paper on attacks against [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) from the underlying network so he’s one of the experts in the security of [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), which is a skill and knowledge set in scarce supply. 
+
+!# Naval @ 01:22:11
+
+Yeah, one of the problems and opportunities here is that going back to earlier thing is about money being the bubble that never pops, [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) is kind of a Ponzi scheme that starts with smart people so the smartest people understand it first then they sell it to the people who need the [cryptography](https://en.wikipedia.org/wiki/Cryptography) explained to them like me and then we sell it to the people who need the next level down.
+
+The whole thing could pop and end badly so I’m not saying go put all your money in [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) but I think to understand [blockchain](https://en.wikipedia.org/wiki/Blockchain) computer, you sort of have to get into the math and the code and the hard stuff but if you wait to figure it out, by the time every one could figure it out with the same tools it will kind of be too late from an investment or earning perspective.
+
+!# Tim @ 01:22:55
+
+It will be too late from an investment perspective but not from the utilization standpoint.
+
+!# Nick @ 01:22:58
+
+No of course.
+
+!# Tim @ 01:22:29
+
+You’ll be able to use money just as we use dollars but you’re not going to be investing in something that is going hockey stick.
+
+!# Naval @ 01:23:06
+
+Yeah, the challenge for the industry is that today, [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) has all these advantages over gold. It’s more easily transmissible, it’s more sub divisible, it’s more easily stored. It can be communicated by computers but to the average person, that means nothing. What they need to experience is they need to receive some [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) in a transaction and then send some [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) transaction, have the experience be so much better than every other experience they’ve had with money or with gold.
+
+The tools just aren’t there yet like right now securing your [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) for yourself is still difficult. The [hardware wallets](https://en.bitcoin.it/wiki/Hardware_wallet) are getting better. It’s still kind of a nightmare. I think the industry still has a decade of work to do to make [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) live up to their potential and the idea space is so large and there are all these companies working on it, but every year it gets a little easier to use, it has a few more use cases, it gets a little easier to store and the [smart contracts](https://blockgeeks.com/guides/smart-contracts/) that are built on it become a little more interesting. That is a process and eventually, you'll be able to use [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) without knowing anything about it just like you can use US dollars without knowing how the federal reserve open market committee works and does lending and issues, treasury, bills and all that stuff, there’s only a few geeks who need to know that in the world of finance and you can just use the money like it’s money.
+
+!# Tim @ 01:24:21
+
+Just to clarify one thing you said, you said money is the bubble that never pops, you’re talking about the concept of money?
+
+!# Naval @ 01:24:26
+
+Yeah, the concept of money. 
+
+!# Tim @ 01:24:26
+
+Because individual currencies certainly- 
+
+!# Naval @ 01:24:29
+
+Sure. I mean tomorrow-
+
+!# Tim @ 01:24:30
+
+I lived in Argentina in 2000-
+
+!# Naval @ 01:24:32
+
+Yeah, if tomorrow we all believe that the US dollar is a green piece of paper and I can’t eat it, I can’t do anything with it or if aliens came and took over the world and we offer them the little green pieces of paper we're just using to start a bonfire or something so the money is a concept. We have to agree on what that scarce element is.
+
+Today, that scarcity is enforced by governments with guns and central banks, breaks down national borders and the people who secure that money for you take a huge tax roughly a third of the economy in exchange for it. Eventually it will be a distributed network of computers acting in self-interest who are going to secure that scarcity of money and hopefully their tax is going to be a lot lower.
+
+!# Tim @ 01:25:15
+
+What else would ... You’re obviously much more on the pulse of this but what other topics, it could be beyond my pay grade, it probably is but should we explore with Nick?
+
+!# Naval @ 01:25:25
+
+Yeah, I think just talking about [blockchains](https://en.wikipedia.org/wiki/Blockchain) in general so we started with [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), the [blockchain](https://en.wikipedia.org/wiki/Blockchain) which is around transferring money. There’s [Ethereum](https://www.ethereum.org/) blockchain and others like it which are about computation and running very slow but very [trust minimize reliable contracts](https://www.negotiations.com/questions/trust-negotiation/), what other uses can you see for [blockchains](https://en.wikipedia.org/wiki/Blockchain) coming up that you think may be a little far-fetched, maybe 10 years out but what's the possibility space?
+
+!# Nick @ 01:25:55
+
+One of the possibilities that I’m really excited about the cross border thing to have say grandmothers in India and teenagers in somebody's basement in Indiana doing what people formally thought were sophisticated financial contracts such as options, futures etc. through this online vending machine in the cloud, that’s [blockchain](https://en.wikipedia.org/wiki/Blockchain) so that’s an exciting and probably to many people disturbing possibility that I think is going to be coming up in the next 10 to 20 years.
+
+!# Naval @ 01:26:26
+
+Yeah, I mean so you could have like people loaning each other money or creating credit instruments or engaging in prediction markets and things like that.
+
+!# Tim @ 01:26:33
+
+What do you mean by prediction markets?
+
+!# Nick @ 01:26:35
+
+I’ll talk about one that the insurance people are working on which is related which is [parametric contracts.](https://docs.racket-lang.org/reference/parametric-contracts.html) So normally an insurance will pay out if you get damages from a flood and have to come estimate your damages which is basically a wet human exercise in eyeballing how moldy your wall is, and how much you got flooded and stuff. But a dryer way to do this is called [parametric contracts](https://docs.racket-lang.org/reference/parametric-contracts.html) where like if you’re a hotel in an area, you got hit by a hurricane, you can measure how much business you lost on your accounting books.
+
+You can parametrize that and basically have your [smart contracts](https://blockgeeks.com/guides/smart-contracts/) pay off if your books go below a certain time or pay you more as the farther your books go down. That insures kind of what you really wanted to insure, the hotel really wanted to insure, which is their business and it’s also dryer, it can be done by software verifying what the books are so you can make a [smart contract](https://blockgeeks.com/guides/smart-contracts/) out of that. There are other parametrize contracts as well based on other things that computers can sense and measure.
+
+!# Naval @ 01:27:37
+
+And prediction markets are people can actually make predictions and get paid if their predictions are correct or lose money if their predictions are wrong and then this prediction markets can also serve as arbiters of truth and pricing into the [smart contracts](https://blockgeeks.com/guides/smart-contracts/).
+
+For example, in Nick’s case, Nick’s example you tie in directly to the hotel’s books. The hotels lost revenue so you know whether or not to pay the hotel but if there’s a flood I want to say was the hotel in the affected area, was the hotel itself affected? You need now what’s called an Oracle. You need someone who’s basically going to go in there and say yes this happened, no they didn’t and prediction markets through very sophisticated engineering which I think is beyond the scope of this conversation basically try and pay that person for telling the truth in a reliable way and so you can use that to cross the divide between the wet space and the dry space or from the real world into computers to have them do these things.
+
+You could see the insurance market’s being completely overhauled by [blockchain](https://en.wikipedia.org/wiki/Blockchain) computers and insurance is a huge industry.
+
+!# Tim @ 01:28:42
+
+It's gigantic.
+
+!# Naval @ 01:28:44
+
+A lot of it just belongs in the [blockchain](https://en.wikipedia.org/wiki/Blockchain), I don’t think you’re going to have like bankers in Bermuda doing this 20 years from now.
+
+!# Tim @ 01:28:51
+
+You do not think?
+
+!# Naval @ 01:28:52
+
+I don’t think, yeah.
+
+!# Tim @ 01:28:53
+
+Because of the technical barriers to understanding or challenges let’s say lead I think the space to be susceptible to say charlatans for smart who can fool people who don’t understand technical aspects.
+
+!# Naval @ 01:29:08
+
+There’s a lot of scams in the space.
+
+!# Tim @ 01:29:10
+
+What are the characteristics of charlatans or scams in this space?
+
+!# Naval @ 01:29:16
+
+It used to be easier to spot, the louder they talk, the scammier they were. Now I think the scammers have gotten really sophisticated. Some of these scammers are like version five of their scam so they’ll be selling some coin and they’ll be talking about how it enabled some functionality when in reality, the code doesn’t or they have some back door where they’re selling you a scarce coin but they can print a lot of them. In that sense there’s a couple of coins that are sort of in the top set that are regarded as top-flight that are legit.
+
+!# Tim @ 01:29:46
+
+What are those?
+
+!# Naval @ 01:29:48
+
+[Bitcoin,](https://en.wikipedia.org/wiki/Bitcoin) [Ethereum](https://www.ethereum.org/) are kind of the best known ones then there’s sort of a second tier contender list of [Zcash](https://z.cash/), [Monero](https://getmonero.org/), [Litecoin](https://litecoin.org/) et cetera, there’s some new ones coming up like [Tezos](https://www.tezos.com/), they seem more legit but you have to know your stuff and do your homework. It’s not something where I recommend you just run out and buy. Then there’s a long tail of coins were there’s a diamond in the rough here or there but there’s a lot of junk too but what's attracting people is just how much money you can make in the space.
+
+[Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) has basically doubled in value every year since its founding. You do that for eight, 10 years, and you end up with a very, very steep curve. Something like [Ethereum](https://www.ethereum.org/) if you bought when it was sold in original presale today and just a few years later you’d be sitting on hundreds and hundreds of times your money and you’d be fully liquid but this is not unrecognized, the spaces increase in value so much. The market capital, all the [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) has more than doubled just in the last quarter so there’s a lot of hot money flowing in. Will it flow back out? Possibly. Are we in a bubbly environment? Probably. Will this bubble pop? Nobody knows. Will it pop across the board? Will it pop selectively?
+
+!# Tim @ 01:30:56
+
+Or will it pop later than a different pop so it won’t matter because there will be a flight of money from one asset class to another?
+
+!# Naval @ 01:31:01
+
+Exactly or will the value switch from [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) to [Ethereum](https://www.ethereum.org/). Will [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) fork in the two competing coins because people are arguing over whether the [block size](<https://en.wikipedia.org/wiki/Block_size_(cryptography)>) should be increased or not. There’s so much craziness.
+
+!# Tim @ 01:31:13
+
+Just to pause on that word because this when I was attempting to educate myself and doing a pretty mediocre job of it, this word fork came up over and over again and so in my mind, I’m envisioning because I’ve been reading a lot about sort of the making of the modern world and [Genghis Khan](https://en.wikipedia.org/wiki/Genghis_Khan) and all this stuff, [Temujin](https://en.wikipedia.org/wiki/Genghis_Khan), and anyway, thanks [Dan Carlin](http://www.dancarlin.com/) for the hard-core history, you would have these internal factions that would then split off as two or more separate groups, in this context what does fork mean and how should I think about it in a coherent way?
+
+!# Naval @ 01:31:48
+
+This is open source code so I can take [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), I can create a copy tomorrow and I can change it so all the benefits go to Naval. That’s a fork of [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) that I’ll call Naval coin. Now, in reality people hopefully do more interesting forks so there’s a fork of [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) cold like [Litecoin](https://litecoin.org/) which use a different mining algorithm, a different way to authenticate the miners. There’s another fork called [Zcash](https://z.cash/) which uses different privacy routines to basically allow for private transactions so other people can’t look in the ledger and know who spoke and who got it.
+
+!# Tim @ 01:32:20
+
+Got it. So not every node has a full ledger.
+
+!# Naval @ 01:32:23
+
+Correct. Every node has a full ledger but it’s cryptographically hidden so you can't tell who sent who how much money.
+
+!# Nick @ 01:32:30
+
+Now, on the forks you just talked about [Zcash](https://z.cash/) and [Litecoin](https://litecoin.org/), they started from scratch. They started their own transaction history from scratch. There’s another more troublesome kind of fork where you don’t start from scratch, you’re just upgrading the current software with the ongoing transaction history. You’re trying to convince people to follow. It’s become a very political process. You're fighting over the people to … And since [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) has the 20 plus billion dollar value, people would much rather put their favorite idea into [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) than go off and start their own [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) from scratch.
+
+!# Tim @ 01:33:11
+
+It’s like [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), only better.
+
+!# Nick @ 01:33:12
+
+Yeah. There’s tremendous political fights over upgrades in this space.
+
+!# Naval @ 01:33:19
+
+There’s a huge debate right now in the Bitcoin world where they are fighting over and the basic question is do you increase the size of the ledger. It's the block size debate. Do you increase the size of the blocks to hold more transactions so then you can bring down the cost of each transactions so that I can go and buy coffee in [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) or do you leave [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) alone and treat it more like a Swiss bank where you only move around the money rarely in large quantities.
+
+The smaller transactions are done on another layer on top where you create another software layer on top, they call it like [lightning network](https://lightning.network/) is an example of that layer which can be used for very small, very fast transactions[, micropayments](https://en.wikipedia.org/wiki/Micropayment) or not even micro but even like paying $5 at [Starbucks](https://www.starbucks.com/) because [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) literally every time you do a transaction, there are thousands, tens of thousands of computers all over the world that are recording that replicating that and storing that for all time. That’s a lot of work. Whereas you could probably run all of [Visa](https://usa.visa.com/)’s computational power on a single iPad today. Centralized systems are much more efficient, but they’re much less secure. That’s kind of the trade-off.
+
+!# Nick @ 01:34:26
+
+Yeah. I mean the first choice isn’t for the blockchain itself, really a viable choice in terms of scaling as it scales from 10 times the value of transactions value per second of transactions as today. Because the capacity is limited, there these full nodes that are running that require certain bandwidth. They have to talk a lot of people, make a lot of copies to replicate this stuff for them.
+
+There’s a second layer Naval was talking about that really the people buying the coffee are going to have to transition to and this cause a lot of friction because people are going to have to transition for the small everyday purchases from [Bitcoin,](https://en.wikipedia.org/wiki/Bitcoin) to the blockchain itself, to the second layer. There’s competing designs for the second layer and so forth. There’s plenty of things to call as political friction.
+
+!# Naval @ 01:35:18
+
+Yeah, going back to the money definition, the debate is is [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) really a store of value or is it a medium of exchange? And so Nick I know you don’t want to get into the middle of the politics of it but just from your computer science perspective like if you are redesigning [BitGold](https://www.goldmoney.com/bitgold) today and you wanted to incorporate some of these learnings, where would you fall in on? Would you go for larger blocks? Would you go for a second layer?
+
+!# Nick @ 01:35:41
+
+Oh no I definitely go for a second layer. I mean I designed [BitGold](https://www.goldmoney.com/bitgold) with two layers because-
+
+!# Tim @ 01:35:45
+
+Can you explain just... I must have lost something... just what that second layer is one more time?
+
+!# Nick @ 01:35:51
+
+The first layer is the [blockchain](https://en.wikipedia.org/wiki/Blockchain) itself the [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) we call the capital B blockchain doing the secure transactions. The ones you can do from Albania to Zimbabwe without a trusted third-party going through the blockchain. The second layer and the ability to grow the transactions per second on that is very limited. You can grow the value per transaction quite substantially, but the ability to grow transaction per second is limited because those have a certain size and you have to make copies of them around and so forth.
+
+!# Tim @ 01:36:24
+
+I see, so the second layer would be for the coffee, and the pizza.
+
+!# Nick @ 01:36:27
+
+Yeah, and so as this grows, as more and more people start using this, they're competing for that limited block space and the fees are going up. If you want to have a cup of coffee without having to pay as much fee as you paid for the coffee, in two or three or four years from now, you’re going to have to use one of these side chain or what I call peripheral financial network that it's collateralized on the blockchain. It’s almost as [trust minimized](https://elaineou.com/2016/02/11/trust-minimized-property-control-with-jellybeans-and-ethereum/) as the [blockchain](https://en.wikipedia.org/wiki/Blockchain) itself but it is for lower value transactions, it only periodically settle on the blockchain.
+
+!# Tim @ 01:37:00
+
+We talked a little bit about the I supposed third-party tools of the application layer exchanges and so on, the user experience being suboptimal currently. If you could wave a magic wand and make certain things happen, make certain people invest in say [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), what would be required to help [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) cross the chasm, to become much more mainstream.
+
+Maybe it’s just inevitable and it’s a matter of time, that could be it, but if you wanted to accelerate the process and it was like okay you can wave a magic wand and you can choose any group of people to invest say $10 billion into [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) or whatever the number is and then fix X, Y and Z that would help mass adoption and the crossing of the chasm. What are the things that come to mind?
+
+!# Nick @ 01:37:45
+
+Well, I mean, currency is traditionally been associated with governments because especially in the modern time, they are the largest creditor and the largest debtor. They have the plurality of the say in what is the money other people are going to use. So right now [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) is being used for its niche purposes, where the fiat system which is a very permission system so blacklist... I've met people at Bitcoin conferences, they’ve got plenty of money and stuff but they’ve been blacklisted. They can’t open bank accounts and so forth.
+
+!# Naval @ 01:38:20
+
+Actually, the hardest thing-
+
+!# Nick @ 01:38:23
+
+No, not necessarily. It could be just they’re suspected of something or the money laundering laws are such that if somebody does something that looks suspicious, you have to block it. There’s a lot of that kind of very erroneous error-prone permissioning that goes on with the bank system that doesn’t go on in [Bitcoin](https://bitcoin.org/).
+
+!# Tim @ 01:38:45
+
+Yeah or [PayPal](https://www.paypal.com/), I was just thinking a friend from New Zealand for a host of coincidental factors just had a huge, huge nightmare and it took months to resolve.
+
+!# Naval @ 01:38:55
+
+The way I participate in [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) investing these days because I don’t want to have to worry about how do you procure it, how do you secure it or even what to buy is I invest in hedge funds in the space and I’ve actually joined one loosely as a venture partner. The biggest problem they have is getting back accounts because the regulators is digging too much if you’re sending money in and out of [Bitcoin](https://bitcoin.org/) or [Ethereum](https://www.ethereum.org/) exchanges, it's just something they haven’t seen. They don’t want to deal with it because banks don’t, they don’t have a system to charge you more for new weird stuff so just plugging into the existing banking infrastructure is hard and that’s probably where if countries do crackdowns, it will probably happen in that area.
+
+!# Tim @ 01:39:38
+
+How do you fix it? If you had closed infinite resources and could just make certain things happen to facilitate good things or prevent bad things.
+
+!# Naval @ 01:39:50
+
+First, I would plug them into the existing banking system in a much better way. The existing banks should accept that if there’s a legitimate player here, they’re only working with currencies that aren’t scams. Maybe they have some bonded collateral or something like that and they are legit actors. They should be part of the banking system because this is the future of the banking system.
+
+!# Tim @ 01:40:12
+
+There must be banks because banks are all-
+
+!# Naval @ 01:40:14
+
+They do exist. They do exist. It’s just they're much harder to find that you would think and they're more-
+
+!# Tim @ 01:40:21
+
+In Romania down the street from 20 Western Unions.
+
+!# Naval @ 01:40:23
+
+They're warming up to it. The forward-looking ones are warming up to it but we’re talking about going from one bank in the country to 10 banks in the country or five. It’s still not a large set. These are small banks generally.
+
+!# Tim @ 01:40:33
+
+I feel like Singapore should get on that. It's a good test case.
+
+!# Naval @ 01:40:36
+
+This is why some of these companies are going to Singapore actually. Actually the worrying trend that I'm seeing is a lot of the more interesting development teams and companies are all locating overseas.
+
+!# Tim @ 01:40:46
+
+Yeah, fleeing overseas.
+
+!# Nick @ 01:40:48
+
+One thing is that [Bitcoin](https://bitcoin.org/) and the other [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency), they offer it under such different principles than the banking system that people in the banking system, they look at these debates about block size and the people calling each other names and basically low-level of trust that exists because it can exist in the [Bitcoin](https://bitcoin.org/) community and they’re horrified because you couldn’t run a bank that way. You have to be much more polite and careful.
+
+!# Tim @ 01:41:14
+
+Because they're wet...
+
+!# Nick @ 01:41:15
+
+Right, because it’s a wet social system rather than based primarily on dry computer science.
+
+!# Naval @ 01:41:20
+
+Yeah, you have a system here that allows anonymous trolls to engage in complex financial transactions so they can scream at each other and call each other names while still doing business.
+
+!# Nick @ 01:41:30
+
+Exactly.
+
+!# Naval @ 01:41:31
+
+That’s the power of the system. It looks horrific to anyone else from the outside.
+
+!# Nick @ 01:41:36
+
+That’s why you have this cultural gap is people in the banking system look at this and then go this terrible, it can't possibly work.
+
+!# Naval @ 01:41:42
+
+To actually answer your question is like what infrastructure needs to exist to make the space happen. Security is a big issue. I think your average person today if they buy coin, they don’t know how to do with what’s called custody which is how do you hold on to it in a way if you don’t go overboard in security, you’ll get hacked and if you go overboard on security, you’re going to forget your password or lose the private key.
+
+!# Tim @ 01:42:04
+
+You're going to be bulldozing.
+
+!# Naval @ 01:42:05
+
+You got to bulldoze through a garbage dump or your kids playing with the computer and wipes out your wallet file, there’s no way to get it back. I think the custody has to be solved and as Nick mentioned earlier, there are a [hardware wallets](https://en.bitcoin.it/wiki/Hardware_wallet) that are out there that are starting to get pretty good. They’re getting good enough now that the sophisticated people can use them but eventually they’ll have to get so good that the average person can just use them without having to think too much.
+
+One of the interesting things here is that Nick’s blog is called [Unenumerated](http://unenumerated.blogspot.com/). I’m going to let him explain what that means.
+
+!# Nick @ 01:42:41
+
+So the tagline is an endless variety of topics. It’s going to come to an end someday but I don’t limit myself basically is what it means on the topic. If I think of something, it will probably be relevant somehow but it doesn’t necessarily have to be. I don’t want to peg myself into a certain subject matter basically is what it means.
+
+!# Naval @ 01:43:04
+
+Yeah, and so I think it’s a larger point where Nick doesn’t pigeonhole himself in his interests or his identity and so that allows him to be more free and explore a wide range of intellectual topics. And so that’s why I really enjoyed reading the blog. That gives me sort of the next set of questions which are all around just random things in your blog that I've read or things that I have heard you talk about which may not necessarily relate to [Bitcoin](https://bitcoin.org/) or blockchains. Now you were the first to really convincingly argue and this goes way back about why micro-transactions in the Internet were much less likely that people thought because when I was growing up in the Internet in the late 90s, everyone thought micro-transactions were just around the corner.
+
+!# Tim @ 01:43:45
+
+What would be an example of a micro-transaction?
+
+!# Naval @ 01:43:47
+
+It’s like every time I hit a webpage with an article, I paid $.10 to read that webpage or every time I listen to a song, I pay a penny to listen to that song.
+
+!# Nick @ 01:43:56
+
+Well, it goes to a distinction I made earlier that computational costs versus our mental cost and the computational costs had gotten a lot cheaper and our brain is still the same size. When you’re doing a transaction, you’re doing a thought in your brain about is it worth it. That thought itself is costly. It’s as costly now as it’s ever been. Modulo, you get a few extra market prices and some more information but our brain is still the same size. Just because computer scientist were thinking well because we’ve reduced the cost so much now we can do these really tiny, tiny things because we can do things much tinier than a penny but trouble is our brains can’t handle it. Computer’s could but our brains can’t. That’s what the idea of mental transaction cost.
+
+!# Tim @ 01:44:44
+
+It’s the mental burden.
+
+!# Nick @ 01:44:45
+
+Right.
+
+!# Tim @ 01:44:46
+
+There’s a quote that I really enjoyed and I’m going to try to not take us too off-track but there is no track, that’s the good news, right? This is [Alfred North Whitehead](https://en.wikipedia.org/wiki/Alfred_North_Whitehead), so, “It is a profoundly erroneous truism repeated by all copy-books and by eminent people when they’re making speeches, that we should cultivate the habit of thinking about what we’re doing. The precise opposite is the case. Civilization advances by extending the number of important operations which we can perform without thinking about them.” Is this implied to elsewhere in your life, outside of [blockchain](https://en.wikipedia.org/wiki/Blockchain) I’m thinking about code and so on. I mean are there ways that you minimize cognitive burden in other ways in your life?
+
+!# Nick @ 01:45:33
+
+Minimize cognitive burden in other ways.
+
+!# Tim @ 01:45:34
+
+Or just making these small decisions, sort of cognitive micro-transactions.
+
+!# Nick @ 01:45:39
+
+Yeah, I would have to think about that for other things. I know what I was thinking there also, he was being quoted by [Frederick Hayek](https://en.wikipedia.org/wiki/Friedrich_Hayek) who was talking about how knowledge is distributed in markets and so markets have traditionally been a tool where you can communicate what we want and how much we have for it and stuff. That really economize. We’re only accumulating or only using a few numbers instead of going on and on about what we want, how much we need and how much we did more, deserve it more than the other guy and so forth. So that right there is a tool of social scalability because it reduces what could be a long and drawn out argument to a few numbers.
+
+!# Tim @ 01:46:17
+
+I was asking we obviously don’t have to get in to it because there may not be a ready answer but because I was with a friend very, very successful investor, a close buddy of mine, we are walking through the airport just having a conversation and he said no I realized that I optimize now, I used to optimize everything, he said now I optimize one or two things and for everything else, it's just good enough. I basically de-optimize everything else and it’s made me in his mind incredibly more effective by actively de-optimizing which I find an interesting concept.
+
+!# Naval @ 01:46:51
+
+Yeah, I mean you just can’t focus on everything like [Charlie Munger](https://en.wikipedia.org/wiki/Charlie_Munger) is a famously bad driver. He’s probably a menace on the road. He probably takes [Uber](https://www.uber.com/) now hopefully but what's the point of being a good driver today especially if you have some other scope in your life where you can add unique value. Yeah, in fact so reading your blog, there are all these other gems that I’ve found that...
+
+!# Tim @ 01:47:16
+
+Can we go back to word or name origin for one second?
+
+!# Nick @ 01:47:19
+
+Sure.
+
+!# Tim @ 01:47:20
+
+Does [Unenumerated](http://unenumerated.blogspot.com/), have anything to do with [ninth amendment of the United States Constitution](https://en.wikipedia.org/wiki/Ninth_Amendment_to_the_United_States_Constitution)?
+
+!# Nick @ 01:47:25
+
+It does relate to that too because [Unenumerated](http://unenumerated.blogspot.com/) rights meaning there’s new things going to happen with technology and other unexpected things in the future and you need to find rights around those and so you don’t want to limit yourself to just that old list of we have the right to a free printing press but we don’t have a right to speak freely on [Facebook](https://www.facebook.com/) or [Twitter](https://twitter.com/?lang=en) and so forth. You have to adapt old ideas to the future.
+
+!# Naval @ 01:47:56
+
+Yeah, so basically just because the right is not explicitly listed there doesn’t mean you don’t have it. In fact, all the other unenumerated rights you have by default and it’s only the ones that are actually restricted are the ones that are restricted. That’s something that I think our government and Constitution scholars of the day just completely forget as shown by the whole surveillance debate.
+
+I mean, it shouldn’t even be a debate. The right to privacy is very clear and even if it’s not explicitly spelled out, our phones are private and our computers are private and our conversations are private. Ways of thinking, the process of thought itself is kind of interesting. After a while, you get introspective enough. You’re like how am I doing on my thinking itself?
+
+One of the things that we run into online a lot is people jump on any little contradiction. If I say something on [Twitter](https://twitter.com/?lang=en) and if I said something different a year ago or maybe out of context in a different conversation, people jump on me and say well that’s not what you said and so and so. It’s a big gotcha so I think we have this false consistency that we all try and throw up when the reality is we’re always changing our minds. I forget who said it, somebody said, “When the facts change, I change my mind. What do you do?” I have gotten okay with this concept of contradicting myself. [Walt Whitman](https://en.wikipedia.org/wiki/Walt_Whitman) said like, “I contradict myself. Very well then, I contradict myself, I am vast. I contain multitudes.” I’ve gotten used to that but then I encountered a concept in your writing Nick that I like which is called quantum thought. I don’t know if you even remember this. Do you remember what I’m talking about?
+
+!# Nick @ 01:49:33
+
+Sure. That comes from law school. Law school, they teach a very different way of thinking in that you need to take both the defendant and the plaintiff’s side of the issue, both sides of the issue and run down the arguments as if each one of them is true, they contradict each other of course, at least the conclusions and some of the sub arguments contradict each other. I compare this to [Schrodinger's cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat) maybe it’s alive, maybe it’s dead, maybe the defendant is guilty, maybe they are not. You have to keep both of these in your mind at once.
+
+!# Naval @ 01:50:11
+
+Yeah, this is not how we are socially taught to think. Socially, we are taught you have to have a point of view, you have to have an answer. You have to pick a side, pick your tribe, fit in and then defend it and be consistent. The reality is really complicated and so if you're really smart, and you're operating on the edge of any field, you’re trying to figure out anything new, you probably need to have quantum thought. You probably have to hold both states in your head and constantly weigh the probabilities and if you’re not shifting back and forth then either you’re not doing something cutting-edge or you’re not being actually honest with yourself.
+
+!# Tim @ 01:50:47
+
+I have a question for you about this and also start with just an anecdote which was I was at a friend’s house recently and it was a gathering of 20 people or so. There were some structure to the weekend and people were broken out into groups to have various discussions. Everyone there, very intelligent, normally highly rational and politics was the topic of the day.
+
+It just devolved into as ass spinning and craziness almost immediately with the exception of one session and the reason that session was different is that the moderator said before we get started, I want to go around the room and everyone needs to pick one piece, it could be a tiny piece of the opposite side, the person I disagree with and just argue for its validity for even 60 seconds and go around the room and did that.
+
+It took 10 minutes and then everyone was much more open-minded and patient and productive in the conversations so my question for you leading off of that is how have you trained yourself to practice quantum thought or how would you recommend someone develop that because it’s not something that most folks think about certainly something historically, I didn't dedicate a lot of time thinking about. I was always more concerned with defending whatever position I had.
+
+!# Naval @ 01:52:15
+
+I feel like everyone else should be engaging in it. I actually stick to my positions, those are correct.
+
+!# Nick @ 01:52:21
+
+No, I mean it’s good. It took quite a few law ... It takes a few law school tests to get used to it so one thing you can do is take the first year of law school and learn how to do this. But imagining that you’re the other person certainly going through their arguments and you might even imagine it as a courtroom and you trade places. You argue for one side and the other so you can think of it as a courtroom in your mind. I think it might help some people.
+
+!# Tim @ 01:52:47
+
+Seems like people who have either self-selected by gravitating towards debate or taking debate or they’re forced to take opposite positions and arguments is helpful as well.
+
+!# Naval @ 01:52:58
+
+Yeah, this is classic [Socrates](https://en.wikipedia.org/wiki/Socrates) right. He would always just keep digging and arguing the point. You could never pin him down on his beliefs because he was always exploring the thought space.
+
+!# Tim @ 01:53:10
+
+Also, I mean this practice just people were like, "I don't want to be open-minded," but okay they’re not going to explicitly say that but if you want to be maximally persuasive, [Charles Darwin](https://en.wikipedia.org/wiki/Charles_Darwin) actually did this very, very well what about say in [Origin of Species](https://en.wikipedia.org/wiki/On_the_Origin_of_Species) is instead of Straw Manning and I think [Sam Harris](https://www.samharris.org/) used this expression, Steel Manning. In other words he would try to anticipate the objections that people would have and then he would not take the sort of weak and flimsy version of their argument. He would build it up and make it as compelling as possible before he would counter in his own writing.
+
+!# Naval @ 01:53:48
+
+That’s the intellectual, the honest way to do it which is-
+
+!# Tim @ 01:53:51
+
+The honest way, it’s also the very, very effective way.
+
+!# Naval @ 01:53:53
+
+Right, because then then you’re actually arguing on the real merits, not on the anecdote you picked or a piece of it that you pick to attack.
+
+!# Tim @ 01:54:03
+
+[Neil Strauss](http://www.neilstrauss.com/) is an eight time New York Times best-selling author. He’s been on the podcast but he said every time he edits his own work first he edits for himself, he wants to keep it interesting for himself, second he edits for his fans, make sure everything is clear then he edits for his haters so that he can still man and bulletproof things to the extent possible.
+
+!# Naval @ 01:54:21
+
+[Twitter](https://twitter.com/?lang=en)’s taught me that. You’ve got 160 characters. Everything you say 140 most of the time, everything you say will be taken out of context and used to attack you so you really just have to boil it down, you have to hone it. I tweet mainly because it helps me clarify my own thinking.
+
+!# Nick @ 01:54:39
+
+It is quite the exercise actually.
+
+!# Naval @ 01:54:43
+
+Yeah, I think they would be accidental limit from text messaging days turn out to be a huge bonus for [Twitter.](https://twitter.com/?lang=en) Yeah, so just kind of moving on a little bit, there are these other little phrases you coined that help me crystallize my own thoughts. There’s a class of things that people seem to worry a lot about these days whether it’s an asteroid hitting the earth or apocalyptic scenarios, floods.
+
+!# Tim @ 01:55:12
+
+Skynet.
+
+!# Naval @ 01:55:13
+
+Skynet, AI. Let’s just say even like near-term climate change predictions. I think we’re all supposed to be underwater by 2020 or something but there is definitely a class of people who will take anything on the Internet and blow it out of proportion. Sometimes it can be a warning, sometimes it can be good, sometimes it can be bad like the general AI thing is another one of these and you summarize this whole class of statements under what I felt was a brilliant little moniker [Pascal’s scams](http://unenumerated.blogspot.com/2012/07/pascals-scams.html). Where does that come from?
+
+!# Nick @ 01:55:45
+
+That comes from [Pascal’s Wager](https://en.wikipedia.org/wiki/Pascal%27s_Wager). It can be applied to any claim that there is an infinite or very large reward or punishment or outcome of positive or negative nature. The argument goes that even if it’s very improbable because this reward or outcome is so large, you should pay attention to it.
+
+!# Naval @ 01:56:09
+
+Pascal originally basically said you have to believe in God just in case because if you’re wrong, you’re screwed for eternity.
+
+!# Tim @ 01:56:15
+
+God doesn’t exist, who cares. If God does exist, you don’t believe- 
+
+!# Naval @ 01:56:17
+
+Exactly so you should believe. Yeah, that was the argument.
+
+!# Nick @ 01:56:21
+
+The basic flaw in this kind of thing is there is an infinite number of infinite outcomes. If you expand your space to infinity, there’s an infinite number of things that can happen. The odds of any one of them happening are infinitesimal. You don’t get a large expected value when you multiply by infinitesimal. It’s some undefined thing you can’t really reason about.
+
+!# Naval @ 01:56:47
+
+But people do anyway.
+
+!# Nick @ 01:56:49
+
+But people try anyway so they say well even so this precautionary principle kind of stuff, you can only take it so far. The other problem with improbable thing is there are air bars on the probability, you don’t know if it’s one in a billion, or one in quadrillion or something so right there that changes your expected value many orders of magnitude. Usually people are trying to get attention and so forth. They have a job that depends on scaring you and they’re trying to make you believe the probability is higher.
+
+!# Naval @ 01:57:24
+
+Yeah, it’s used in the [Nassim Taleb](http://www.fooledbyrandomness.com/)’s language. You should definitely get him on the podcast at some point by the way.
+
+!# Tim @ 01:57:30
+
+That I can do. That should happen, I've had dinner with him a few times.
+
+!# Naval @ 01:57:35
+
+I think that would be highly entertaining.
+
+!# Tim @ 01:57:36
+
+Oh yes.
+
+!# Naval @ 01:57:38
+
+I want a front-row seat on that one.
+
+!# Tim @ 01:57:39
+
+Oh yes you would get it.
+
+!# Naval @ 01:57:40
+
+To use Taleb’s language, some black swan is likely to happen but any particular black swan is very unlikely to happen. People are just trying to scare you with the particular black swan because it can end your world even infinitesimal probability has to be taken seriously and you can waste your entire life worrying about these things whether it’s suitcase nukes or another financial crisis or the world exploding or imploding or cooling-off or whatever.
+
+!# Tim @ 01:58:06
+
+Now, just to touch back on the black swan though, Nasim and I first met if you can imagine the circumstances the day that Lehman Brothers officially sort of imploded, highly improbable at least if you’re looking back so a few years prior. He has done very, very well financially by not betting on all black swans but betting on a few select black swans and bleeding in small chips for long periods of time before occasionally having some type of windfall like that.
+
+When you’re considering some of these improbable events, how do you decide which to hedge by certain behaviors or not. For instance, in San Francisco, I really went deep and did training with the police department and the fire department for disaster response looking at the potential consequences of say a high magnitude earthquake and like okay it probably makes sense for me to spend 100 bucks on [Instacart](https://www.instacart.com/) and just get- 
+
+!# Naval @ 01:59:12
+
+When in reality, put a strip on your stairwell and bump your head. 
+
+!# Tim @ 01:59:15
+
+No, no, no that’s more likely but the point I’m making is most people have a fire extinguisher in their kitchen that they will never use. You wear your seatbelt but you’ve probably never been on a high impact collision so there are certain classes that are low-cost very easy in terms of preventative. So how do you think about, how do you personally think about this?
+
+!# Nick @ 01:59:33
+
+Highly improbable but something that happens to a lot of people.
+
+!# Tim @ 01:59:38
+
+That's not an asteroid destroying the planet.
+
+!# Naval @ 01:59:40
+
+It’s a probability thing. Where is it on a probability spectrum if it’s one out of 10,000, you should probably worry about it, or at least take basic precautions. If it has never happened yet, but could happen and would wipe out all of humanity or like once a generation then it's sort of in the sphere where you just can't think about it or you just go insane.
+
+!# Tim @ 02:00:02
+
+A lot of people do go insane.
+
+!# Nick @ 02:00:03
+
+Taking a personal precaution on a magnitude 10 quake in San Francisco, could happen. The odds are low but it could happen. You could keep that fire extinguisher around, you can add some water. You can add some things. The building you're in will just collapse on you anyway.
+
+!# Tim @ 02:00:16
+
+Well yeah I mean there's- 
+
+!# Naval @ 02:00:19
+
+Well the extreme example of this, the one that a lot of people in our social circle are constantly peddling is the singularity example. It’s a very seductive one. Even Elon Musk who’s otherwise absolutely brilliant seems to be taken in by it. I give him credit for worrying about it and thinking it through and so on but it’s just another one of these [Pascal’s scams](http://unenumerated.blogspot.com/2012/07/pascals-scams.html) it seems like.
+
+!# Tim @ 02:00:42
+
+Can I come back to that just because I know we’re going to we're about to really smack the piñata with this.
+
+!# Naval @ 02:00:49
+
+Hornets’ nest.
+
+!# Tim @ 02:00:51
+
+Yeah, exactly, it’s not full of candy, it depends I guess in how you go about it but before we get there, Nick, is there anything that you worry about that many other people don’t worry about?
+
+!# Nick @ 02:01:02
+
+Things I worry about that many other people don’t. I don't know, people worry about so many things. I mean people worry about privacy but that seems to be going the wrong direction anyway. You talked about the singularity. I heard somebody coined the phrase I forgot who it was, creepularity that we're, slowly life is getting creepier and creepier as more strangers are appearing in more personal parts of our lives, so I worry about that.
+
+!# Tim @ 02:01:27
+
+Got it.
+
+!# Naval @ 02:01:29
+
+The podcast won't help.
+
+!# Tim @ 02:01:31
+
+Do you take preventative, any particular preventative measures that other people might find helpful?
+
+!# Nick @ 02:01:37
+
+I do but a lot of them are security through obscurity so I can’t...
+
+!# Tim @ 02:01:41
+
+I got it. Understood. All right so singularity, lead the way Naval.
+
+!# Naval @ 02:01:48
+
+Actually before get into that, I feel the privacy issue’s really interesting one because physical privacy is being utterly destroyed. I don't know if people realize the extent to which it's going away because cameras are essentially ubiquitous and face detect and everyone can track everything except privacy is possible in one realm but it wasn’t possible before which is digital privacy and that’s encryption. That’s a story blockchains and blockchain computers.
+
+Blockchain computers can enable digital privacy to a level that you just couldn't get otherwise. One of the sets of things we didn’t talk about is things like [Zcash](https://z.cash/) and [Monero](https://getmonero.org/) and other blockchains that are all about privacy. I don't if you want to touch on that at all.
+
+!# Nick @ 02:02:30
+
+Yeah, there are a couple. You can achieve because [Bitcoin](https://bitcoin.org/) doesn’t require identity, you can achieve some amount of privacy but once they track, go to the again the [Bitcoin Fiat exchange](http://www.coindesk.com/bitcoin-exchange-kraken-launches-new-fiat-funding-options/), they can tie the address to an identity that way and trace it back.
+
+!# Naval @ 02:02:50
+
+Basically if you buy on an exchange, they’ll know what account the money was sent to or the coins were sent to and then everything the coins move, someone can analyze the blockchain because they have a copy too. These could say it went from account X to account Y, account Y to account Z and they might lose track of you somewhere along the way but I even heard someone say that law enforcement is starting to refer to [Bitcoin](https://bitcoin.org/) as prosecution futures. Sometime in the future, they’ll be able to unwind that transaction.
+
+!# Tim @ 02:03:19
+
+It will be like analyzing Lance Armstrong’s blood 10 years later. We do have that.
+
+!# Naval @ 02:03:25
+
+We still have a copy now the technology has gotten better.
+
+!# Tim @ 02:03:27
+
+Prosecution futures.
+
+!# Nick @ 02:03:29
+
+A guy named [David Chaum](https://en.wikipedia.org/wiki/David_Chaum) invented mixes and applying mixing and blinding, and applying this technique to money towards a version of applying it to communications but applying this to money so you can do a little bit of mixing or tumbling in [Bitcoin](https://bitcoin.org/) but [Monero](https://getmonero.org/), you can do it quite a bit better and then [Zcash](https://z.cash/) has an even more advanced privacy features.
+
+!# Naval @ 02:03:53
+
+Yeah, essentially the [Monero](https://getmonero.org/) community is very acidic, and they fight the [Zcash](https://z.cash/) community so they get to battle with each other but there are different approaches. One approach is I’m doing a transaction and there are five other people doing transaction. We all pull our transactions together and then so someone who is trying to analyze a [blockchain](https://en.wikipedia.org/wiki/Blockchain) will just see that five transactions were done and these are five participants but they can’t tell what went to whom and something like [Zcash](https://z.cash/) takes it a step further and just the entire ledger is opaque.
+
+It’s all cryptographically protected. You can’t tell who exchange what and there are these crazy complicated proofs that go into proving who still has what money and in theory, [Zcash](https://z.cash/) is very private. It's sort of the extreme edge of privacy but it’s computationally extremely expensive and it’s brand-new [cryptography](https://en.wikipedia.org/wiki/Cryptography) which hasn’t yet withstood the test of time.
+
+!# Tim @ 02:04:51
+
+What makes a particular currency appreciate in value? I know this is probably a stupid sounding question because on one hand you have these nuanced sort of technological features. Someone might focus or a particular currency might focus more on privacy and then another might focus more on X, Y and Z. Then you have supply and demand. If Kim Kardashian gets up tomorrow morning and decides that she’s read a lot about [Bitcoin](https://bitcoin.org/) and wants to [Instagram](https://www.instagram.com/?hl=en) about it for the next 10 days straight, I would imagine that would have an impact on prices.
+
+!# Naval @ 02:05:29
+
+I think you can look at a framework of you can say first of all is this doing something novel and useful. Like first of all is this useful? Is privacy useful? Is computation useful? Is exchanging money useful? Then you can say is this the right technology solution because there’s probably 20 other blockchains competing for it. Then is it being adopted? Is there a network effect to people have in their wallets? Does the infrastructure exist, are they using it?
+
+Then supply and demand. That gets gained a lot. Sometimes the developers of these coins are pumping out more coins in the background you don’t know or they reserve the right to read the source code to figure it out. That’s why investing in some of these extreme so called [Altcoins](http://altcoins.com/) or [appcoins](https://coincenter.org/entry/what-are-appcoins) is very scary.
+
+There are other applications coming up that are really interesting so there’s one coming out called the [file coin](https://filecoin.io/) where I’m a small investor so a disclaimer but there are others, there’s Storage A and others, I like that also that are basically trying to create a network of distributed computers that will do storage for you so instead of uploading your file to [Dropbox](https://www.dropbox.com/login) or [Amazon](https://www.amazon.com/), you can upload massive files into these distributed storage networks that will take your data, encrypt it, split it across thousands of machines and then they’ll test to make sure your file is still available in the network if you ever need it back then you’ll pay people in the coin and so people who you don’t know, grandmothers in India might be holding a piece of your file and waiting to serve it back to you when you need it as a backup or just for storage or serving and you’ll be paying them fully anonymously and from far away and the whole transaction’s handled to the network.
+
+There’s another one called [Blockstack](https://blockstack.org/) which is building an infrastructure for the decentralized Internet including domain names, name serving done in distributive fashion. Today, all the name servers are controlled by [ICANN](https://www.icann.org/) and [Verisign](https://www.verisign.com/) and so on.
+
+What if you could split that out amongst the distributed network of computers, you could pay people in coin on the network for doing that. These kinds of applications are coming up. For each one of these, is it novel, is it useful? What’s the competition? Is the code secure? Are developers scammers? Are there back doors? What's the supply and demand? So it’s still completely Wild West which is both the opportunity and the terror of it. I mean I think the average person who’s investing in coins on most of them is probably going to lose their shirts over a long enough period of time because the scammers are really sophisticated but I think the really smart people who know what they’re doing and maybe get a little bit luckier than to make generational fortunes.
+
+!# Tim @ 02:07:58
+
+Nick, what are your thoughts on singularity?
+
+!# Nick @ 02:08:00
+
+Getting back to Pascal’s-
+
+!# Tim @ 02:08:04
+
+I was going to try to do something clever with generations but I was like you know what...
+
+!# Naval @ 02:08:07
+
+I can do this. A lot of the [ICOs](https://techcrunch.com/2017/05/23/wtf-is-an-ico/) are scams and [Pascal’s scams](http://unenumerated.blogspot.com/2012/07/pascals-scams.html) are these big scams where like you can't calculate the probabilities because you're dealing with infinities and the most recent of the [Pascal’s scams](http://unenumerated.blogspot.com/2012/07/pascals-scams.html) that's making the rounds is the singularly movement.
+
+!# Nick @ 02:08:21
+
+Yeah, I mean the idea of the singularities I've seen is exponential growth in computer resources and the fact that computers are outstripping humans and then they sort of impute from that and you can also see computers take over, things that used to be considered a sign of intelligence to be able to add, and subtract quickly and now computers can do that billions of times faster than humans and the gap keeps growing and growing.
+
+Once your computer can do something, the gap is just going to keep growing and growing but the idea of the singularity tends to be that you get a journal intelligence. At some point computers can do everything humans can do. All of a sudden very quickly they can do it faster and faster and faster. They start designing improved versions of themselves and it’s a runaway effect and human soon become obsolete-
+
+!# Tim @ 02:09:08
+
+Or prey for terminators.
+
+!# Nick @ 02:09:10
+
+One of the conceits is the idea that no longer we’ll be able to predict the future, the thing is that’s basically true today for a lot of things. The stock markets is an ongoing running singularity you can’t predict day-to-day. If you could, you can make a fortune.
+
+!# Naval @ 02:09:28
+
+Yeah, you hit a lot of arguments against it. I mean another one is what is this general intelligence thing like humans are highly adept to specialized machines and every other animal that’s around today including the cockroaches just as involved as we are, just different fitness functions and so it has a different concept of intelligence and it needs to survive. Machine intelligence that we've developed so far is extremely specialized so there probably is no such thing as general intelligence. Instead what we have is machines that are brilliant at calculation but terrible at other things. Now they’re getting brilliant face recognition. That doesn’t mean they’re going to be really great at me solving my next debate with my wife.
+
+!# Tim @ 02:10:04
+
+And something else you touched on that I appreciated and as a non-scientist, non-engineer who sometimes pretends to do such physical performance and whatnot quote there is as Feynman said, it’s Richard Feynman, everybody should read [Surely You’re Joking Mr. Feynman](https://www.amazon.com/Surely-Feynman-Adventures-Curious-Character/dp/0393316041) but I digress, there is as Feynman said, “’Plenty of room at the bottom’ but it is by no means infinite given actual demonstrated physics. That means all growth curves that look exponential or more on the short run turnover and become S curves or similar in the long run unless we discover physics that we do not now know as information data processing under physics as we know it are limited by the number of particles we have access too. That in turn can only increase in the long run by at most a cubic polynomial and probably much less than that since space is mostly empty. It seems underlying that singularity is the assumption that exponential continues to be exponential indefinitely.
+
+!# Nick @ 02:11:00
+
+Right, and we’ve had exponential growth for computers for most last century and so we have this vast resources that I have already talked about to take advantage of but the future, you’re going to face these physics limits, limits on the heat that your circuits give out. They turn into toasters and so forth, so yeah and it’s the limits set by quantum mechanics. We’ve reached that in some I don't think [Moore's law](https://en.wikipedia.org/wiki/Moore%27s_law) really applies to transistors necessarily anymore. The original [Moore's law](https://en.wikipedia.org/wiki/Moore%27s_law) about the number of transistors I think that’s already.
+
+!# Naval @ 02:11:36
+
+Yeah, but the physical limits of how far transistors can go then there’s the question of are transistors even the right medium like maybe to exhibit our kind, our variation of specialized intelligence, it needs to be on wetware like it needs to be on tissue. We have not yet gotten the growing brain tissue and then programming it, that’s a long ways off then you deal with the fact that our brains evolve or our intelligence evolves in reaction to our environment and even genetic algorithms evolve in reaction to fitness functions.
+
+Not only would you have to create a computer that could run on our tissue to exhibit our kind of intelligence but then you would also have to put it in our kind of environment and its riddled learning would be limited by what inputs our environment can provide. If you’re going to go do all that work, then just have a baby. It takes nine months and we already know how to do it. I'd save yourself a lot of time.
+
+!# Tim @ 02:12:24
+
+Well, on that point related to environment and you’ve written quite a bit on this but I underlined one portion, “So these evolutionary techniques and other machine learning techniques are often interesting and useful but the severely limited ability of computers to simulate most real-world phenomenon means that no runway is in store, just potentially much more incremental improvements which will be much greater in singular arenas and much smaller in others. The most slowly improved is the accuracy and completeness of our simulation slowly improves just to underscore what you just said. You need access to the environment or the ability to create.
+
+!# Naval @ 02:13:01
+
+There’s also a probabilistic argument against general intelligence which is the universe is so vast and so large. It’s the same people who make the general intelligence argument also make the we’re living in a simulation argument. Well they kind of both can’t be true because if we're living in a simulation then that means that at some point we already invented a general intelligence like when you get the technological capability to invent a simulation of this complexity, probabilistically and you believe general intelligence that are possible through the mechanism described in singularity then we probably already hit that along the way.
+
+That means that whatever that general AI is already exists and we’re just living inside its SIM, so why do we have to worry about it suddenly emerging here then killing us all. So the people who are both holding the simulation hypothesis in their head and the singularity being on the corner in their head are sort of at a deep level contradicting themselves.
+
+!# Tim @ 02:13:56
+
+Well particularly if I guess the ... So the simulation I wish we had [Sam Harris](https://www.samharris.org/) here to talk about. I don't know why I've mentioned him so many times just talking about free will. He’s interesting to talk to about that but the idea that something would come to be that is a thousand, a million times, a billion times more generalizability intelligent than we are in their priority would be killing us? It's just like my directive in life being running around killing cockroaches it’s like no, they're cockroaches. I don’t really care so much about them but seems odd that that would...
+
+!# Naval @ 02:14:29
+
+Yeah I think that that movie [Her](http://www.imdb.com/title/tt1798709/) actually did it pretty well which is when the general AI evolved in that movie, it just left. It didn't care about this world at all.
+
+!# Tim @ 02:14:40
+
+So Naval you’ve mentioned a bunch of things you're not worried about. I'm curious to ask you the same question I asked Nick which is what are the things that occupy your mind more than perhaps other folks or many other people?
+
+!# Naval @ 02:14:53
+
+I try to keep a very low level of mental surface activity for anything other than whatever I’m directly dealing with in the moment. One of the ways I'm trying to do that is by stripping away layers of identity. I don’t want to only identify as Indian or American or libertarian or Democrat or any of those kinds of things because, one that sort of keeps me from actually engaging in thinking as I need to, it’s all preconceived beliefs. It makes me more defensive.
+
+The reason you can’t talk about politics to anybody is because it attacks our identity at the core level. Every tweet I put out, I now know that even if I attack a general class of activity, all the people who are engaged in that activity will respond so like I put out a tweet about how you wanted value investing and venture investing or both long-term investing and trading is a get rich quick scheme which doesn’t work and so of course all the people who got really angry about that, I just click through their bio and sure enough they are traders. That’s what they do. They trade all the time. For Wall Street, that’s how they make a living.
+
+If you attack someone’s identity, you shut down all conversation with them. That’s why political conversations don’t work so conversely if you want to be rational and open-minded, you should not have an identity and the less of an identity you can adopt the better.
+
+!# Tim @ 02:16:12
+
+How do you train yourself to identify less as Indian, as X, as Y?
+
+!# Naval @ 02:16:18
+
+[Human consistency bias](https://en.wikipedia.org/wiki/List_of_memory_biases) is a powerful thing so just when someone asks you are you libertarian, just say I’m not anything. If they say religious, don't say anything. [Christian Murdy](https://en.wikipedia.org/wiki/Jiddu_Krishnamurti) is one of my favorite philosophers when he met the Pope, the Pope said to him I'm Pope blah blah blah from this lineage and so on. Who are you? [Christian Murdy](https://en.wikipedia.org/wiki/Jiddu_Krishnamurti) said, “I’m nobody.But he was being serious like I don’t even know what I am. I’m just this thing that’s here right now in this environment reacting to the inputs from the environment according to my conditioning and I’m trying to be as unconditioned as possible. That’s why my [Twitter](https://twitter.com/?lang=en) avatar is like a sketch of a human face. This remind me to be unconditioned. You don’t want to be over conditioned and you don’t want to be overly strong with your identity.
+
+!# Tim @ 02:17:08
+
+You guys mentioned [Twitter](https://twitter.com/?lang=en) earlier so one of things that you may have noticed I do this but I routinely put out things on [Twitter](https://twitter.com/?lang=en) and [Facebook](https://www.facebook.com/) that I used to call my audience of hypersensitive people or that I know will just kick the hornets’ nest enough to force people to self select one way or the other. I have to be careful not to then accidentally create a group where they all have...
+
+!# Naval @ 02:17:37
+
+You want to prune the trees in the forest.
+
+!# Tim @ 02:17:41
+
+I want to prune the trees a little bit but also what that does is it gives me more... I perceive having more freedom of speech or willingness to speak my mind because I’m progressively creating less and less of a reputation to protect. Is that making sense?
+
+!# Naval @ 02:17:59
+
+That’s right. I do the exact same thing, which is I would say every couple of months, my tweet stream gets a little edgier as if I've pushed out the people who can’t deal with what I’m saying and I've muted them or blocked them or just they’ve unfollowed me or what have you. I didn’t used to block but now I had to. There’s always somebody who will straw man whatever you’re saying, get outrage and try and start a fire and assemble a mob around it to like burn you at the stake.
+
+Unfortunately a lot of the best people in [Twitter](https://twitter.com/?lang=en) have left because of that issue like [@pmarca](https://twitter.com/pmarca?lang=en) probably being the most famous. You can put out 100 tweets a day and you see one thing wrong in one of them and they’ll try to bring you at the stake.
+
+!# Nick @ 02:18:39
+
+It’s always the most controversial ones of mine that get put on Reddit and spread beyond Twitter.
+
+!# Naval @ 02:18:43
+
+Absolutely.
+
+!# Tim @ 02:18:44
+
+Yeah [pmarca](https://twitter.com/pmarca?lang=en) for those interested. That's Marc Andreessen.
+
+!# Naval @ 02:18:48
+
+I think this is a general phenomenon where society has not yet figured out how to deal with social media. I think in like my kids’ generation, they’ll be seeing all kinds of crazy things on Twitter and nobody will care. Nobody will lose a job over it. Nobody will get worked up over it. Everybody will say everything crazy all the time but right now we're transitioning from a world of our thoughts being private to our thoughts being public, people are still getting outrage. To me, the people who get outrage are sort of the most anachronistic, least intelligent members of society. I’m happy to leave them behind. The more easily outraged you are the less I want to have to deal with you. Begone. If you think words can hurt you, you’re going to live in a world of misery and pain your entire life.
+
+!# Tim @ 02:19:28
+
+So on that note, I’d like to wrap ... Just kidding. I want to gearshift for a second and ask a few questions of you Nick that are not directly related to, they might be, we might edge into it but not directly related to [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency). The first is if people want to explore your blog and you have some very extensive writing, where might you suggest they start? Is there a particular piece or a few pieces that might be a good diving in point for people?
+
+!# Nick @ 02:20:01
+
+Yeah, so for blockchains and [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) and [smart contracts](https://blockgeeks.com/guides/smart-contracts/), probably the two best ones, [Money, blockchains, and social scalability](http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html) is a recent blog post of mine and then in a somewhat older blog post called [Dawn of trustworthy computing](http://unenumerated.blogspot.com/2014/12/the-dawn-of-trustworthy-computing.html).
+
+!# Tim @ 02:20:20
+
+What are some of the subjects that you enjoy exploring outside of the ones that we’ve already heard about in terms of... We understand the fascination with money, currency, law. What are other interests that might not be immediately evident to people if they’re reading your blog?
+
+!# Nick @ 02:20:38
+
+Yeah, we also mentioned the origins of money, big interest in related interest money and history in general, I read a lot of history.
+
+!# Tim @ 02:20:45
+
+Any particular?
+
+!# Nick @ 02:20:46
+
+Economic and legal history mostly.
+
+!# Tim @ 02:20:49
+
+Are there any particular resources or books that you’ve enjoyed in that area?
+
+!# Nick @ 02:20:57
+
+[Alfred Crosby's The Columbian Exchange](https://www.gilderlehrman.org/history-by-era/american-indians/essays/columbian-exchange) which is basically what [Jared Diamond](https://en.wikipedia.org/wiki/Jared_Diamond) ripped off when he wrote his book. [Alfred Crosby](https://en.wikipedia.org/wiki/Alfred_W._Crosby) wrote the original better version.
+
+!# Naval @ 02:21:09
+
+Oh no, you just ruined [Jared Diamond](https://en.wikipedia.org/wiki/Jared_Diamond) for me. Turns out he was so popularized.
+
+!# Tim @ 02:21:14
+
+Yeah, [Jared Diamond](https://en.wikipedia.org/wiki/Jared_Diamond)’s hypothesis on what happened on Easter Island also turned out not hugely supported.
+
+!# Naval @ 02:21:20
+
+That’s right, I heard.
+
+!# Tim @ 02:21:21
+
+We all make our mistakes. One of the questions I ask guests in the podcasts often times is what books have you gifted the most other people and I don't know if you have any that come to mind.
+
+!# Nick @ 02:21:36
+
+So [Richard Dawkins’ The Selfish Gene](https://en.wikipedia.org/wiki/The_Selfish_Gene) is sort of on my essential everybody should read this list.
+
+!# Naval @ 02:21:42
+
+Yeah, definitely one of the classics. Although Dawkins is getting outrage in the Internet a lot these days. Not the same kind of outrage.
+
+!# Tim @ 02:21:51
+
+Oh my God, I saw public talk of his in Los Angeles not too long ago. It was fantastic but I was just like every given second I'm like, “I wonder if this room is going to explode?” Not with outrage or applause like literally explode. Any other books that come to mind?
+
+!# Nick @ 02:22:11
+
+[Matt Ridley](http://www.mattridley.co.uk/)’s written several good books on evolution, social evolution and a couple in genetic evolution as well.
+
+!# Tim @ 02:22:18
+
+How do you spell his last name?
+
+!# Nick @ 02:22:20
+
+Matt R-I-D-L-E-Y.
+
+!# Tim @ 02:22:22
+
+Oh, Ridley. Okay, got it.
+
+!# Naval @ 02:22:23
+
+Yeah, I think three or four of my top 20 books of all time are all Ridley’s, [Rational Optimist](https://www.amazon.com/Rational-Optimist-Prosperity-Evolves-P-S/dp/0061452068), [Genome](https://www.amazon.com/Genome-Autobiography-Species-23-Chapters/dp/0060894083), [Red Queen](https://www.harpercollins.com/9780062310637/red-queen), [Origins of Virtue](https://www.amazon.com/Origins-Virtue-Instincts-Evolution-Cooperation/dp/0140264450).
+
+!# Tim @ 02:22:31
+
+Which is your favorite of all if you had to recommend or one if you had to recommend one?
+
+!# Naval @ 02:22:35
+
+[Rational Optimist](https://www.amazon.com/Rational-Optimist-Prosperity-Evolves-P-S/dp/0061452068). He has [Evolution of Everything](https://www.amazon.com/Evolution-Everything-How-Ideas-Emerge/dp/0062296000) which I haven’t read yet.
+
+!# Tim @ 02:22:41
+
+If you were teaching a, this is for you Nick, if you were teaching let’s call it a high school freshman class or seminar, could be on any topic, what would you teach?
+
+!# Nick @ 02:22:54
+
+I just gave some lectures at my honorary doctorate University on related lectures on the origins of money and [blockchains](https://en.wikipedia.org/wiki/Blockchain) and [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency). To me those are three closely related topics that I like to...
+
+!# Tim @ 02:23:10
+
+Over what period of time did you teach that class? Or was it a handful of-
+
+!# Nick @ 02:23:16
+
+An hour, hour long lecture so I try to cram way too much.
+
+!# Tim @ 02:23:19
+
+What would you hope people would take from those lectures if they only remembered two or three things, are there any core critical takeaways you could help them?
+
+!# Nick @ 02:23:30
+
+So money is not arbitrary if you look at history origins of money, you see all sorts of different things, textiles and yap stones and this and that and so forth. But indeed it’s not arbitrary. They’re very consistent things like unforgeable costliness, the demand for scarce supply and the durability, people choosing durable objects. That sort of realizing that by reading that is partly what helped me figure out yeah you could do this in cyberspace as well.
+
+!# Tim @ 02:23:59
+
+In your life what does money buy you? I know that may sound like an odd question.
+
+!# Nick @ 02:24:06
+
+In my life and-
+
+!# Tim @ 02:24:07
+
+Yeah, yeah.
+
+!# Nick @ 02:24:08
+
+Not as much as one would have thought because I find myself I’m consuming time to do things that I would like to substitute money for but can’t. I have to take the time to do them anyway.
+
+!# Tim @ 02:24:25
+
+What drives you to write as much as you do?
+
+!# Nick @ 02:24:28
+
+Well partly that’s what I want to do in life.
+
+!# Tim @ 02:24:30
+
+So you enjoy the process?
+
+!# Nick @ 02:24:32
+
+I like the freedom of thought and stuff. I’d much rather sit at home thinking my own stuff than thinking what my boss wants me to think.
+
+!# Tim @ 02:24:41
+
+What are things you’d like to write about that you haven’t had a chance to explore yet, or that you have on deck?
+
+!# Nick @ 02:24:48
+
+So I’ve written some things about the industrial revolution that I have some unique thoughts on but I’m so busy with other things I’ll probably never get to, and on what I call exploration explosion, how Europeans were able to go around the globe and take over the world’s trade routes and so forth after Columbus. There’s all sorts of … Those are two of my favorites but there’s plenty of others as well I never had time to do.
+
+!# Tim @ 02:25:16
+
+Can you give any teaser, snippets or concepts from the industrial revolution?
+
+!# Nick @ 02:25:24
+
+Well I don’t know if this made it on the recording but the hourglass as mentioned earlier is underrated, you mentioned this humble glass thing with sand in it. Europe invented the mechanical clock and which most people would recognize that as an important invention but they also at the same time and not coincidentally that it happened at the same time, they invented the hourglass.
+
+The hourglass keeps time between one hour and another and then the clock which at the beginning was only in the bell tower. It chimes in the hour for the whole city. The hourglass that people would time their activities with and so forth. Professors would time their lectures and people would agree to meet at certain times and just that temporal coordination was happening quite a bit more in Europe than anywhere else.
+
+They also turned it into a navigational technique called the [dead reckoning](https://en.wikipedia.org/wiki/Dead_reckoning) where you would look at you’re knot slipping through the water then you'd use the hourglass to measure the time. Then you would also use that hourglass to record the time, record when you made the measurement and so you’d keep track just [dead reckoning](https://en.wikipedia.org/wiki/Dead_reckoning) of how far you’re going. That’s a technique Columbus used and Magellan used and so forth. That hourglass was used in all that stuff.
+
+!# Tim @ 02:26:40
+
+Underappreciated.
+
+!# Nick @ 02:26:41
+
+Underappreciated, yeah.
+
+!# Naval @ 02:26:43
+
+There’s some poor guy’s job it was to flip it every hour exactly on the hour.
+
+!# Tim @ 02:26:47
+
+If you had a gigantic billboard to put anything on, just a message to get out to millions of people or more, what would you potentially put on that? Anything come to mind?
+
+!# Nick @ 02:27:00
+
+A gigantic billboard, the phrase Naval quoted me earlier, “Trusted third parties are security holes,” anybody in the blockchain space, I would like to get that in their head. That’s basically the key to the whole design, why the whole design is like this and so forth.
+
+!# Tim @ 02:27:15
+
+Naval, do you have any other questions before I wrap up with a few?
+
+!# Naval @ 02:27:18
+
+No. I would just really encourage people to go read Nick’s blog. He’s a true polymath. He’s written about stuff as he mentioned ranging from hourglasses and clocks, the industrial revolution to blockchains, to law and policy and privacy and rights and singularity and freedoms. I just learn something every time I go to his blog. I probably now finished about half the pieces on there and they're always highly inspirational and educational.
+
+!# Tim @ 02:27:49
+
+Yeah, people often ask me and listeners ask me a question related to the maxim that you hear in Silicon Valley a lot which is you're the average of the five people that you associate with most, what do I do if I don’t have access to five people I want to be the average of? The answer or one of the answers is read, choose your reading sources very wisely. I would agree the depth and breadth of what you cover is really, really astonishing.
+
+!# Naval @ 02:28:12
+
+My smartest teachers, mentors, peers these days are all on twitter and blogs. They’re mostly autodidacts like they might have a … They are self-taught, fancy word, but they might have degrees in whatever but the reality is they're curious people and the Internet is the myth of the [Library of Alexandria](https://en.wikipedia.org/wiki/Library_of_Alexandria) at large like you can find anything and everything. You can become an expert in anything, you can talk to anybody. I used to feel guilty about spending so much time on the Internet, but now I don’t as long as I’m reading interesting things from the people that I think are really smart. What’s the downside?
+
+!# Tim @ 02:28:51
+
+Agreed. On Twitter, where can people say hello? What is your twitter-
+
+!# Nick @ 02:28:56
+
+Yeah, my twitter handle is [@NickSzabo4](https://twitter.com/nickszabo4?lang=en).
+
+!# Tim @ 02:29:00
+
+Okay and that’s N-I-C-K.
+
+!# Nick @ 02:29:03
+
+Mm-hmm (affirmative).
+
+!# Tim @ 02:29:04
+
+S-Z.
+
+!# Nick @ 02:29:05
+
+Yes.
+
+!# Tim @ 02:29:06
+
+A-B-O, the number 4.
+
+!# Nick @ 02:29:07
+
+Number 4, yeah.
+
+!# Tim @ 02:29:08
+
+Very cool. Well that I think about covers it for a first gathering at Casa Naval. You can get a 25% discount on Naval coin if you go to tim.blog/ … No, I’m kidding. And prices are going up. But wait, that’s not all. We'll have hopefully more for you guys soon. This was a real blast. Thanks so much for the time, Nick.
+
+!# Nick @ 02:29:33
+
+Thank you.
+
+!# Tim @ 02:29:34
+
+This is really fun and Naval, always a pleasure. Thank you for helping put this together.
+
+!# Naval @ 02:29:39
+
+Thank you for having us. It’s fantastic.
+
+!# Tim @ 02:29:41
+
+And to everybody listening, we will have [show notes](http://tim.blog/2017/06/04/nick-szabo/), links to everything we mentioned, Nick’s blog, books, as many resources as we can think up, probably cryptocurrency 101, a handful of articles will recommend in sequence as well in the show notes. You can find those at [tim.blog/podcast](http://tim.blog/podcast/). That will take you to show notes for every other episode as well and until next time as always, thank you for listening.
+
+!# End @ 02:30:07
