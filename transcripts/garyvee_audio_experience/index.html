@@ -1,0 +1,38 @@
+---
+layout: default
+title: Transcripts - The GaryVee Audio Experience
+description: Transcripts for the The GaryVee Audio Experience.
+keywords: Social,Transcribed,Transcripts,Indexed,Searchable,Gary,Vee,Vaynerchuk,Podcast,VaynerMedia
+---
+<h1><a class="page-link" href="{{ '/transcripts/' | prepend: site.baseurl }}">Transcripts</a> &gt; {{ 'garyvee_audio_experience'| category_name }}</h1>
+<div class="social-links">
+    Share:
+    <a href="https://twitter.com/intent/tweet?text={{ page.description | truncate: 115 | url_encode }}&url={{ site.url | url_encode }}{{ page.url | url_encode }}&related={{ site.twitter_username | url_encode }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i> Twitter</a> -
+    <a href="https://facebook.com/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i> Facebook</a> -
+    <a href="https://plus.google.com/share?url={{ site.url | url_encode }}{{ page.url | url_encode }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="fa fa-google-plus"></i> Google+</a>
+</div>
+<div class="pure-form pure-form-stacked well">
+  <fieldset>
+    <div class="form-group">
+      <label for="filter-input">Filter Transcripts</label>
+      <input id="filter-input" name="filter-input" class="pure-input-1" type="text" placeholder="Filter by Title">
+    </div>
+  </fieldset>
+</div>
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% if post.categories[-2] == 'transcripts' and post.categories[-1] == 'garyvee_audio_experience' %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+<script src="/js/vendor/jquery.min.js"></script>
+<script src='/js/filter.js' type="text/javascript"></script>
+  
