@@ -9,7 +9,7 @@ keywords: Social,Transcribed,Transcripts,Indexed,Searchable,List
   <ul class="group-list">
     {% for cm in site.categories_meta %}
     <li>
-      <a href="{{ cm.url }}"><img alt="{{ cm.name }} thumbnail" src="/{{ cm.thumbnail_url }}" /> <h3>{{ cm.name }}</h3></a>
+      <a href="{{ cm.url }}"><img alt="{{ cm.name }} thumbnail" src="/images/{{ cm.url }}/thumbnail.jpg" /> <h3>{{ cm.name }}</h3></a>
     </li>
     {% endfor %}
   </ul>
